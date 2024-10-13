@@ -1,8 +1,8 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://marcomartorana.it/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 languageCode = "en-us"
-title = "Lightbi"
+title = "Marco Martorana"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"

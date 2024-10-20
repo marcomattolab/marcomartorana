@@ -2,7 +2,7 @@
 title: Angular Best Practice 2023 
 date: 2024-04-02
 tags: ["angular","best-practice"]
-image : "/img/posts/img-3.jpg"
+image : "/img/posts/angular-20-rules.png"
 Description  : "In the article 20 rules related to Angular Best practices, covering the ‘**what**’ (the rule itself), ‘**why**’ (its importance), and ‘**how**’ (implementing it)."
 featured: true
 ---

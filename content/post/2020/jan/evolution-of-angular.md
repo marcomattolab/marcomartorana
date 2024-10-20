@@ -66,10 +66,7 @@ Last but not least, Angular with these versions introduced also standalone. Stan
 
 And so, the story of Angular continues with each chapter unveiling new possibilities and setting the stage for the future of frontend development. I think that we have another revolution with the modern Angular (an Angular 3.0) with the aim of returning to the top of the most used frontend frameworks.
 
-
 ![Angular Versions](/img/posts/angular-version.png)
-
-
 
 
 ### Tips: Upgrade Angular version

@@ -7,9 +7,6 @@ Description  : "In the article 20 Angular Best practices covering the What, Why 
 featured: true
 ---
 
-![Marco Martorana](https://miro.medium.com/v2/resize:fill:88:88/1*pOsuDHZGeo6_xn6VS3cUVw.jpeg)
-[Marco Martorana](https://medium.com/@marcomatto)
-
 **_Angular_**, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .
 
 It is a structured framework not a simple library such as _React_, so developers have to “_think_” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules

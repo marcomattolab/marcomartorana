@@ -35,11 +35,3 @@ For questions please contact us at [marcomatto@gmail.com](mailto:marcomatto@gmai
 Thank you for visiting my official website repository!
 
 
-## Usefull resources:
-- https://urltomarkdown.com/
-- https://marcomattolab.github.io/marcomartorana-web/
-- https://www.youtube.com/@MarcoMartorana
-- https://www.linkedin.com/in/marcomartorana/
-- https://www.instagram.com/marcomartorana/
-- https://www.instagram.com/marcomartorana.lab/
-

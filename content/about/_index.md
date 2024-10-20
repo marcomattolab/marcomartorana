@@ -22,8 +22,8 @@ I specialize in development, teaching, and **agile methodologies** like SCRUM. M
 
 - **Languages**: Java, Python, SQL, JavaScript, TypeScript, HTML/CSS
 - **Frameworks**: Spring, Angular
-- **Tools & Platforms**: Docker, Kubernetes, Jenkins, AWS
-- **Methodologies**: Agile, SCRUM, DevOps, Test-Driven Development
+- **Tools & Platforms**: Docker, Kubernetes, Jenkins
+- **Methodologies**: Agile, SCRUM, DevOps
 - **Sectors**: Healthcare, Finance, Gambling, Energy, Research & Development
 
 

@@ -18,13 +18,40 @@ I specialize in development, teaching, and **agile methodologies** like SCRUM. M
 
 ---
 
-### Skills & Expertise
+### Skills
 
-- **Languages**: Java, C#, Python, SQL, JavaScript, TypeScript, HTML/CSS
-- **Frameworks**: Spring, Angular, React, .NET
-- **Tools & Platforms**: Docker, Kubernetes, Jenkins, AWS, Azure
+- **Languages**: Java, Python, SQL, JavaScript, TypeScript, HTML/CSS
+- **Frameworks**: Spring, Angular
+- **Tools & Platforms**: Docker, Kubernetes, Jenkins, AWS
 - **Methodologies**: Agile, SCRUM, DevOps, Test-Driven Development
 - **Sectors**: Healthcare, Finance, Gambling, Energy, Research & Development
+
+
+| ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) | ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=white) |
+|---|---|---|---|
+| ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) | ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) |
+
+
+---
+
+### Expertise
+
+- **Java** ★★★★☆
+- **JavaScript** ★★★★☆
+- **TypeScript** ★★★★☆
+- **SQL** ★★★★☆
+- **HTML/CSS** ★★★★☆
+
+#### Frameworks:
+
+- **Spring**  ★★★★☆
+- **Angular** ★★★★★
+
+#### Tools & Methodologies:
+
+- **Docker** ★★★★☆
+- **Agile**  ★★★★☆
+
 
 ---
 
@@ -36,8 +63,6 @@ If you want to know more about my professional journey, feel free to download my
 |--------------|---------|---------|
 | *English*      | [Download PDF](../download/CV-Martorana-EN.pdf) | [Download DOC](../download/CV-Martorana-EN.docx) |
 | *Italian*      | [Scarica PDF](../download/CV-Martorana-IT.pdf) | [Scarica DOC](../download/CV-Martorana-IT.docx) |
-
-
 
 ---
 

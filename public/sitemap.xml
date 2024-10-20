@@ -37,12 +37,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/informatics/2023/collections/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/2023/collections2/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/informatics/2023/collections2/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/2023/collections3/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/informatics/2023/collections3/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -58,6 +73,16 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/collections/2023/collections6/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/informatics/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/informatics/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

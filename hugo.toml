@@ -1,7 +1,7 @@
 baseURL = "https://marcomartorana.it/"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
-languageCode = "en-us"
+languageCode = "it"
 title = "Marco Martorana"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
@@ -42,7 +42,7 @@ previewCardImagePlacement = "bottom"
 [Params.Author]
   name = "Marco Martorana"
   website = "https://www.marcomartorana.it/"
-  authorInfo = "Software Engineer | IT Teacher"
+  authorInfo = "Software Engineer | Computer Science Teacher"
   authorPostImage = "/img/author-post-img.jpg"
 
 [Author]
@@ -99,9 +99,14 @@ previewCardImagePlacement = "bottom"
     weight = 4
 
 [[menu.main]]
+    name = "Informatics"
+    url = "/informatics/"
+    weight = 5
+
+[[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 
 [sitemap]

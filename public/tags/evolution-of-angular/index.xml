@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evolution-of-Angular on Marco Martorana</title>
+    <link>http://localhost:1313/tags/evolution-of-angular/</link>
+    <description>Recent content in Evolution-of-Angular on Marco Martorana</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/evolution-of-angular/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Angular</title>
+      <link>http://localhost:1313/post/2020/jan/evolution-of-angular/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2020/jan/evolution-of-angular/</guid>
+      <description>&lt;p&gt;Once upon a time, in the vast world of web development, there was a tool that promised to bring structure and efficiency to the chaotic realm of JavaScript. This tool was AngularJS, the first version of the Angular framework. As a young developer setting foot into the industry, I witnessed the birth of AngularJS and its transformative impact on frontend development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

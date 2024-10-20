@@ -108,7 +108,6 @@ previewCardImagePlacement = "bottom"
     url = "/about/"
     weight = 6
 
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

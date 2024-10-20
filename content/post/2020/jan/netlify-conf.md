@@ -43,4 +43,4 @@ Add the below netlify.toml in the root folder.
 
 And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.
 
-<!--Photo by Robert Katzki on Unsplash-->
+<!--Photo by Marco Martorana -->

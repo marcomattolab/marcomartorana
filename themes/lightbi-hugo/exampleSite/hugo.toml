@@ -40,14 +40,14 @@ description="Your can add your website description here."
 previewCardImagePlacement = "bottom"
 
 [Params.Author]
-  name = "Bino Kochumol Varghese"
-  website = "https://www.binovarghese.com/"
-  authorInfo = ""Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts.""
+  name = "Marco Martorana"
+  website = "https://www.marcomartorana.it/"
+  authorInfo = ""Live your life.""
   authorPostImage = "/img/author-post-img.jpg"
 
 [Author]
-  name = "Bino Kochumol Varghese"
-  website = "https://binovarghese.com"
+  name = "Marco Martorana"
+  website = "https://www.marcomartorana.it/"
   email = "sample@gmail.com"
   facebook = "username"
   instagram = "username"

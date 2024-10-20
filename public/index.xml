@@ -6,8 +6,15 @@
     <description>Recent content on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Manage Priorities in Project Management</title>
+      <link>http://localhost:1313/post/2020/jan/pmp-priority/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2020/jan/pmp-priority/</guid>
+      <description>&lt;p&gt;In the world of &lt;em&gt;project management&lt;/em&gt;, effectively &lt;strong&gt;&lt;em&gt;managing priorities&lt;/em&gt;&lt;/strong&gt; is crucial for the &lt;strong&gt;success&lt;/strong&gt; of any project.&lt;/p&gt;&#xA;&lt;p&gt;Whether launching a new software product, implementing a marketing campaign, or coordinating a large corporate initiative, knowing how to correctly set priorities can make the difference between &lt;strong&gt;&lt;em&gt;success&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;failure&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Collections No.1</title>
       <link>http://localhost:1313/collections/2023/collections/</link>
@@ -112,13 +119,6 @@
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2020/jan/netlify-conf/</guid>
       <description>&lt;p&gt;You can host your static website wth zero cost in &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Add the below netlify.toml in the root folder.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[build]&#xA;publish = &amp;quot;public&amp;quot;&#xA;command = &amp;quot;hugo --gc --minify&amp;quot;&#xA;&#xA;[context.production.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&#xA;[context.split1]&#xA;command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;&#xA;&#xA;[context.split1.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;&#xA;[context.deploy-preview]&#xA;command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.deploy-preview.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.branch-deploy]&#xA;command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.branch-deploy.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.next.environment]&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chet Gpt?!</title>
-      <link>http://localhost:1313/post/2020/jan/chat-gpt/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020/jan/chat-gpt/</guid>
-      <description>&lt;p&gt;Chet Gpt?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Who am I ?!</title>

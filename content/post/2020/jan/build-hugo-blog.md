@@ -17,4 +17,4 @@ Okay, Now let’s start. the below section shows how to install Hugo in Windows 
 
 If you want to know hwo to instal hugo and make a blog in it [click here](https://binovarghese.com/blog/build-your-first-hugo-blog/).
 
-<!--Photo by Robert Katzki on Unsplash-->
+<!--Photo by Marco Martorana -->

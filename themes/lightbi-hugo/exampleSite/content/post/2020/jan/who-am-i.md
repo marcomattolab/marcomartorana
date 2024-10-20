@@ -22,4 +22,4 @@ I do not know, some questions take time to answer. The meaning of a single word 
 Those who ask the same questions go up the steps of consciousness and seem to be enlightened and insane. What will I become at the end of this question? !! Buddha or mad !! Anyone should have a small smile left at the end. The smile of recognition.
 
 Who am I, let the question continue. 
-<!--Photo by Robert Katzki on Unsplash-->
+<!--Photo by Marco Martorana -->

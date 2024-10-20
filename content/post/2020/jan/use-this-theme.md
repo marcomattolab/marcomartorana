@@ -23,4 +23,4 @@ hugo server
 
 In the command prompt you can see that your website has started to build and it will normally available at 'http://localhost:1313/'.
 
-<!--Photo by Robert Katzki on Unsplash-->
+<!--Photo by Marco Martorana -->

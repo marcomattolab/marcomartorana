@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Build a Hugo Blog - Marco Martorana</title>
-<meta name="description" content="It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub...">
+<title>JavaScript tips for developers - Marco Martorana</title>
+<meta name="description" content="JavaScript tips for developers">
 
 <meta name="author" content="Marco Martorana"><script type="application/ld+json">
 {
@@ -46,7 +46,7 @@
         "position": 3,
         "item": {
           "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/build-hugo-blog\/",
-          "name": "Build a hugo blog"
+          "name": "Java script tips for developers"
         }
     }]
 }
@@ -57,10 +57,10 @@
   "author": {
     "name" : "Marco Martorana"
   },
-  "headline": "Build a Hugo Blog",
-  "description" : "It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub...",
+  "headline": "JavaScript tips for developers",
+  "description" : "JavaScript tips for developers",
   "inLanguage" : "it",
-  "wordCount":  118 ,
+  "wordCount":  1608 ,
   "datePublished" : "2021-01-31T00:00:00",
   "dateModified" : "2021-01-31T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -79,8 +79,8 @@
 }
 </script>
 
-<meta property="og:title" content="Build a Hugo Blog" />
-<meta property="og:description" content="It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub...">
+<meta property="og:title" content="JavaScript tips for developers" />
+<meta property="og:description" content="JavaScript tips for developers">
 <meta property="og:image" content="http://localhost:1313/img/posts/img-2.jpg" />
 <meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/build-hugo-blog/" />
 <meta property="og:type" content="website" />
@@ -298,7 +298,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                Build a Hugo Blog
+                JavaScript tips for developers
                 
               </h1>
               
@@ -357,12 +357,207 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <h3 id="hugo">Hugo?</h3>
-<p>It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.</p>
-<p>First I started to use Hugo is for my Malayalam write up a blog wizbi tales (Malayalam is a language spoken in Kerala, India), After the initial learning curves, I loved it for simplicity and performance. And when I started this blog itself I didn’t think twice.</p>
-<p>Okay, Now let’s start. the below section shows how to install Hugo in Windows and develop a blog in it.</p>
-<p>If you want to know hwo to instal hugo and make a blog in it <a href="https://binovarghese.com/blog/build-your-first-hugo-blog/">click here</a>.</p>
-<!-- raw HTML omitted -->
+        <h3 id="in-this-article-a-collection-of-javascript-tips-for-frontend-developers">In this article a collection of JavaScript tips for frontend developers</h3>
+<p><strong>Javascript</strong>, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here <strong><em>tips</em></strong> and <em>techniques</em> to use daily for amplifying productivity during development of our code.</p>
+<p>For this reason I’ve written <strong>4</strong> <strong><em>tips for developers</em></strong>. Each of these tips is explained thoroughly, covering the ‘<strong>what</strong>’ (the tip itself), ‘<strong>why</strong>’ (its importance), and ‘<strong>how</strong>’ (implementing it).</p>
+<p>For a visual representation, check out this picture featuring a <em>superhero</em>, to grasp these concepts visually and make them as powerful as a superhero’s abilities. Let’s delve into the enchanting world of a frontend developer with super powers !!</p>
+<h2 id="1-loop-objects">1. Loop objects</h2>
+<p><strong>What</strong>: starting to define an object as a a data structure, always we need to store and manage objects in our systems. Often we need to loop these objects by iterating over theirs properties. Below just an example of an object «myTeam» and its properties ( name, membersCount …):</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> myTeam<span style="font-weight:bold">=</span> { 
+</span></span><span style="display:flex;"><span>  name:<span style="color:#a61717;background-color:#e3d2d2">’</span>awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>  membersCount: <span style="color:#099">12</span> , 
+</span></span><span style="display:flex;"><span>  membersActive:[<span style="color:#a61717;background-color:#e3d2d2">‘</span>namel<span style="color:#a61717;background-color:#e3d2d2">’</span>,<span style="color:#a61717;background-color:#e3d2d2">’</span>name2<span style="color:#b84">&#39;,’name3&#39;</span>], 
+</span></span><span style="display:flex;"><span>  rank:<span style="color:#a61717;background-color:#e3d2d2">’</span><span style="color:#998;font-style:italic">#1&#39;,</span>
+</span></span><span style="display:flex;"><span>  description:<span style="color:#a61717;background-color:#e3d2d2">’</span>helloworld<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Why</strong>: To implement complex logic and operations efficiently a developer needs to iterate over properties of the object. This loop iterates over all enumerable properties of the object obj, getting and using each key-value pair to develop some specific tasks.</p>
+<p><strong>How</strong>: In JavaScript there are the following 4 ways to loop objects:</p>
+<ul>
+<li>‘<em>Traditional’ for loop</em></li>
+<li><em>Object.keys()</em></li>
+<li><em>Object.values()</em></li>
+<li><em>Object.entries()</em></li>
+</ul>
+<p><strong>Traditional for loop</strong>: we can loop over the keys and access their values by referencing the object itself with the given key</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> myTeam<span style="font-weight:bold">=</span> { 
+</span></span><span style="display:flex;"><span>  name:<span style="color:#a61717;background-color:#e3d2d2">’</span>awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>  membersCount: <span style="color:#099">12</span> , 
+</span></span><span style="display:flex;"><span>  membersActive:[<span style="color:#a61717;background-color:#e3d2d2">‘</span>namel<span style="color:#a61717;background-color:#e3d2d2">’</span>,<span style="color:#a61717;background-color:#e3d2d2">’</span>name2<span style="color:#b84">&#39;,’name3&#39;</span>], 
+</span></span><span style="display:flex;"><span>  rank:<span style="color:#a61717;background-color:#e3d2d2">’</span><span style="color:#998;font-style:italic">#1&#39;,</span>
+</span></span><span style="display:flex;"><span>  description:<span style="color:#a61717;background-color:#e3d2d2">’</span>helloworld<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span>(<span style="font-weight:bold">const</span> key <span style="font-weight:bold">in</span> myTeam)<span style="color:#a61717;background-color:#e3d2d2">‹</span>
+</span></span><span style="display:flex;"><span>   console<span style="font-weight:bold">.</span>log(<span style="color:#a61717;background-color:#e3d2d2">‘</span>key:<span style="font-weight:bold">$</span>{key},value:<span style="font-weight:bold">$</span>{myTeam[key]}<span style="color:#a61717;background-color:#e3d2d2">’</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>key:name,value:awesometeam
+</span></span><span style="display:flex;"><span>key:membersCount, value : <span style="color:#099">12</span>
+</span></span><span style="display:flex;"><span>key:membersActive, value : namel, name, name3 
+</span></span><span style="display:flex;"><span>key:rank, value:<span style="color:#998;font-style:italic">#1 </span>
+</span></span><span style="display:flex;"><span>key:description,value:helloworld
+</span></span></code></pre></div><p><strong>Object.keys():</strong> Another way is to use Object.keys and passing the object itself as a parameter, in return we’ll receive all the keys in an array through which we can iterate.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> myTeam<span style="font-weight:bold">=</span> { 
+</span></span><span style="display:flex;"><span>  name:<span style="color:#a61717;background-color:#e3d2d2">’</span>awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>  membersCount: <span style="color:#099">1</span> <span style="color:#099">2</span> ,
+</span></span><span style="display:flex;"><span>  membersActive: [<span style="color:#a61717;background-color:#e3d2d2">‘</span>namel<span style="color:#a61717;background-color:#e3d2d2">’</span>, <span style="color:#a61717;background-color:#e3d2d2">‘</span>name2<span style="color:#b84">&#39;, ‘name’], </span>
+</span></span><span style="display:flex;"><span>  rank:<span style="color:#a61717;background-color:#e3d2d2">’</span><span style="color:#998;font-style:italic">#1&#39;,</span>
+</span></span><span style="display:flex;"><span>  description:<span style="color:#a61717;background-color:#e3d2d2">’</span>helloworld<span style="color:#a61717;background-color:#e3d2d2">’</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>keys(myTeam));
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>keys(myTeam)<span style="font-weight:bold">.</span>forEach(key<span style="font-weight:bold">=</span> <span style="font-weight:bold">&gt;</span>{
+</span></span><span style="display:flex;"><span>  console<span style="font-weight:bold">.</span>log(<span style="color:#a61717;background-color:#e3d2d2">‘</span>key: <span style="font-weight:bold">$</span>{key}, value: <span style="font-weight:bold">$</span>(myTeam [key]}<span style="color:#a61717;background-color:#e3d2d2">’</span>);
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>( <span style="color:#099">5</span> ) [ <span style="color:#a61717;background-color:#e3d2d2">‘</span> name<span style="color:#a61717;background-color:#e3d2d2">’</span>, <span style="color:#b84">&#34;membersCount’,&#34;</span>membersActive<span style="color:#a61717;background-color:#e3d2d2">’</span>, <span style="color:#a61717;background-color:#e3d2d2">‘</span> r a n k <span style="color:#a61717;background-color:#e3d2d2">‘</span> , <span style="color:#a61717;background-color:#e3d2d2">‘</span>description<span style="color:#a61717;background-color:#e3d2d2">’</span>] key:name,value:awesometeam
+</span></span><span style="display:flex;"><span>key:membersCount,value:<span style="color:#099">12</span>
+</span></span><span style="display:flex;"><span>key:membersActive, value: namel, name2, name3 
+</span></span><span style="display:flex;"><span>key:rank,value:<span style="color:#998;font-style:italic">#1 </span>
+</span></span><span style="display:flex;"><span>key:description,value:helloworld
+</span></span></code></pre></div><p><strong>Object.values():</strong> Similar to Object.keys but it returns an array of values insteadofkeys. We can loop through this values array to see for example if there is any array (special type of object) stored inside of it.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> myTeam<span style="font-weight:bold">=</span> { 
+</span></span><span style="display:flex;"><span>  name:<span style="color:#a61717;background-color:#e3d2d2">’</span>awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>  membersCount: <span style="color:#099">12</span>,
+</span></span><span style="display:flex;"><span>  membersActive: [<span style="color:#a61717;background-color:#e3d2d2">‘</span>namel<span style="color:#a61717;background-color:#e3d2d2">’</span>,<span style="color:#a61717;background-color:#e3d2d2">’</span>name2<span style="color:#a61717;background-color:#e3d2d2">‘</span> , <span style="color:#a61717;background-color:#e3d2d2">‘</span>name3<span style="color:#b84">&#39;], </span>
+</span></span><span style="display:flex;"><span>  rank:<span style="color:#a61717;background-color:#e3d2d2">’</span><span style="color:#998;font-style:italic">#1&#39;</span>
+</span></span><span style="display:flex;"><span>  description: <span style="color:#a61717;background-color:#e3d2d2">‘</span>hello world<span style="color:#a61717;background-color:#e3d2d2">’</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>values(myTeam));
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>values(myTeam)<span style="font-weight:bold">.</span>forEach(val<span style="font-weight:bold">=&gt;</span> {
+</span></span><span style="display:flex;"><span>    console<span style="font-weight:bold">.</span>log(value: <span style="font-weight:bold">$</span>{val} type: <span style="font-weight:bold">$</span>{<span style="color:#999">typeof</span> val}<span style="color:#a61717;background-color:#e3d2d2">’</span>)
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> check <span style="font-weight:bold">if</span> any object is <span style="font-weight:bold">in</span> the values
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> res<span style="font-weight:bold">=</span> <span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>values(myTeam)<span style="font-weight:bold">.</span>some(el<span style="font-weight:bold">=&gt;</span><span style="color:#999">typeof</span> el<span style="font-weight:bold">===</span><span style="color:#a61717;background-color:#e3d2d2">’</span>object<span style="color:#a61717;background-color:#e3d2d2">’</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(res);
+</span></span><span style="display:flex;"><span>(<span style="color:#099">5</span>)[<span style="color:#a61717;background-color:#e3d2d2">‘</span>awesometeam<span style="color:#b84">&#34;, 12,Array(3),’#1&#39;,’helloworld’] </span>
+</span></span><span style="display:flex;"><span>value:awesometeamtype:string
+</span></span><span style="display:flex;"><span>value:<span style="color:#099">1</span> <span style="color:#099">2</span>type:number
+</span></span><span style="display:flex;"><span>value:namel,name2,name3type:object 
+</span></span><span style="display:flex;"><span>value:<span style="color:#998;font-style:italic"># 1type:string </span>
+</span></span><span style="display:flex;"><span>value:helloworldtype:string
+</span></span><span style="display:flex;"><span>true
+</span></span></code></pre></div><p><strong>Object.entries():</strong> For many cases probably the most convenient solution since this method returns in an array of key value pairs.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> myTeam<span style="font-weight:bold">=</span> { 
+</span></span><span style="display:flex;"><span>  name:<span style="color:#a61717;background-color:#e3d2d2">’</span>awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>,
+</span></span><span style="display:flex;"><span>  membersCount: <span style="color:#099">1</span> <span style="color:#099">2</span> ,
+</span></span><span style="display:flex;"><span>  membersActive: [<span style="color:#a61717;background-color:#e3d2d2">‘</span>namel<span style="color:#a61717;background-color:#e3d2d2">’</span>, <span style="color:#a61717;background-color:#e3d2d2">‘</span>name2<span style="color:#b84">&#39;, ‘name3&#39;</span>], 
+</span></span><span style="display:flex;"><span>  rank:<span style="color:#a61717;background-color:#e3d2d2">’</span><span style="color:#998;font-style:italic">#1&#39;,</span>
+</span></span><span style="display:flex;"><span>  description:<span style="color:#a61717;background-color:#e3d2d2">’</span>helloworld<span style="color:#a61717;background-color:#e3d2d2">’</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>entries(myTeam));
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>entries(myTeam)[<span style="color:#099">0</span>];<span style="font-weight:bold">//</span>first element key,value
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span>(<span style="font-weight:bold">const</span> [key,value] of <span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>entries(myTeam)){ 
+</span></span><span style="display:flex;"><span>   console<span style="font-weight:bold">.</span>log (<span style="color:#a61717;background-color:#e3d2d2">‘</span>key: <span style="font-weight:bold">$</span>{key}, value: <span style="font-weight:bold">$</span>{value)<span style="color:#a61717;background-color:#e3d2d2">’</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>(<span style="color:#099">5</span>) [<span style="color:#900;font-weight:bold">Array</span>(<span style="color:#099">2</span>), <span style="color:#900;font-weight:bold">Array</span>(<span style="color:#099">2</span>), <span style="color:#900;font-weight:bold">Array</span>(<span style="color:#099">2</span>), <span style="color:#900;font-weight:bold">Array</span>(<span style="color:#099">2</span>), <span style="color:#900;font-weight:bold">Array</span>(<span style="color:#099">2</span>)] (<span style="color:#099">2</span>)[<span style="color:#a61717;background-color:#e3d2d2">‘</span>name<span style="color:#a61717;background-color:#e3d2d2">’</span>,<span style="color:#a61717;background-color:#e3d2d2">’</span> awesometeam<span style="color:#a61717;background-color:#e3d2d2">’</span>]
+</span></span><span style="display:flex;"><span>key:name,value:awesometeam 
+</span></span><span style="display:flex;"><span>key:membersCount,value:<span style="color:#099">12</span>
+</span></span><span style="display:flex;"><span>key:membersActive, value: name, name2, name3 
+</span></span><span style="display:flex;"><span>key:rank,value:<span style="color:#998;font-style:italic">#1 </span>
+</span></span><span style="display:flex;"><span>key:description,value:helloworld
+</span></span></code></pre></div><h2 id="2-search-inside-an-array">2. Search inside an array</h2>
+<p><strong>What</strong>: A developer needs to search one of more elements inside an array.</p>
+<p><strong>Why</strong>: To implement complex logic and operations efficiently and write its algorithms.</p>
+<p><strong>How</strong>: In JavaScript there are the following methods to search elements inside an array:</p>
+<ul>
+<li><em>filter</em></li>
+<li><em>find</em></li>
+<li><em>includes</em></li>
+<li><em>indexOf</em></li>
+</ul>
+<p><strong>filter:</strong> Returns a new array with elements that pass a condition given by a callback function.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>, <span style="color:#099">6</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Using filter to get all even numbers
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> evenNumbers <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>filter(num <span style="font-weight:bold">=&gt;</span> num <span style="font-weight:bold">%</span> <span style="color:#099">2</span> <span style="font-weight:bold">===</span> <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;Even Numbers:&#39;</span>, evenNumbers); <span style="font-weight:bold">//</span> [<span style="color:#099">2</span>, <span style="color:#099">4</span>, <span style="color:#099">6</span>]
+</span></span></code></pre></div><p><strong>find</strong>: Returns the first element that passes the condition given by a callback function. If no element match returns undefined.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>, <span style="color:#099">6</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Using find to get the first number greater than <span style="color:#099">3</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> firstGreaterThanThree <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>find(num <span style="font-weight:bold">=&gt;</span> num <span style="font-weight:bold">&gt;</span> <span style="color:#099">3</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;First number greater than 3:&#39;</span>, firstGreaterThanThree); <span style="font-weight:bold">//</span> <span style="color:#099">4</span>
+</span></span></code></pre></div><p><strong>includes</strong>: Returns true if an array contains a value otherwise return false.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>, <span style="color:#099">6</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Using includes to check <span style="font-weight:bold">if</span> number <span style="color:#099">5</span> is <span style="font-weight:bold">in</span> the array
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> includesFive <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>includes(<span style="color:#099">5</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;Array includes 5:&#39;</span>, includesFive); <span style="font-weight:bold">//</span> true
+</span></span></code></pre></div><p><strong>indexOf</strong>: Find the first element that matches a value and return the index of that element. If not elements match return -1</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>, <span style="color:#099">6</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Using indexOf to find the index of number <span style="color:#099">4</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> indexOfFour <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>indexOf(<span style="color:#099">4</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;Index of 4:&#39;</span>, indexOfFour); <span style="font-weight:bold">//</span> <span style="color:#099">3</span>
+</span></span></code></pre></div><h2 id="3-fetch-api-with-promises">3. Fetch API with Promises</h2>
+<p><strong>What</strong>: The Fetch API provides a more powerful and flexible feature set for making HTTP requests.</p>
+<p><strong>Why</strong>: To get and manipulate data making HTTP requests. showcasing below shows how to make an HTTP GET request, handle the response, and manage errors appropriately.</p>
+<p><strong>How</strong>: directly deve into an example of fetching data from a public API and handling the response.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// Fetching data from an API
+</span></span><span style="display:flex;"><span>fetch(&#39;https://jsonplaceholder.typicode.com/posts/1&#39;)
+</span></span><span style="display:flex;"><span>  .then(response =&gt; {
+</span></span><span style="display:flex;"><span>    // Check if the response is successful
+</span></span><span style="display:flex;"><span>    if (!response.ok) {
+</span></span><span style="display:flex;"><span>      throw new Error(&#39;Network response was not ok &#39; + response.statusText);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    return response.json(); // Parse the JSON from the response
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  .then(data =&gt; {
+</span></span><span style="display:flex;"><span>    // Handle the parsed JSON data
+</span></span><span style="display:flex;"><span>    console.log(&#39;Post Title:&#39;, data.title);
+</span></span><span style="display:flex;"><span>    console.log(&#39;Post Body:&#39;, data.body);
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  .catch(error =&gt; {
+</span></span><span style="display:flex;"><span>    // Handle any errors that occurred during the fetch
+</span></span><span style="display:flex;"><span>    console.error(&#39;There has been a problem with your fetch operation:&#39;, error);
+</span></span><span style="display:flex;"><span>  });
+</span></span></code></pre></div><p><strong>Explanation</strong></p>
+<ul>
+<li><strong><em>Fetch Request</em></strong>: The fetch function initiates a request to the specified URL and returns a Promise that resolves to the Response object representing the response to the request.</li>
+<li>**<em>Response Handling: .</em>**then(response =&gt; {…}): The first .then is used to handle the Response object. It checks if the response was successful using response.ok. If not, it throws an error.</li>
+<li>then(data =&gt; {…}): The second .then handles the parsed JSON data. Here, we log the title and body of the post to the console.</li>
+<li><strong><em>Error Handling</em></strong>: The .catch method is used to handle any errors that occur during the fetch operation, whether it’s a network error or an issue with parsing the response.</li>
+</ul>
+<h2 id="4cloning-an-object">4.Cloning an Object</h2>
+<p><strong>What</strong>: Often we need to duplicate an object with its properties. This operation in JavaScript is known as cloning. Mainly we have 2 diverse cloning types: <strong>shallow clone</strong> and <strong>deep clone</strong>.</p>
+<p>A <strong>deep copy</strong> creates a new object and recursively copies all objects found in the original. This means that the new object and its contained objects are entirely independent of the original.</p>
+<p>A <strong>shallow copy</strong> creates a new object, but inserts references into it to the objects found in the original. This means that the new object is a new container populated with references to the same elements contained in the original.</p>
+<p><strong>Why</strong>: As developers we need to clone an object and work with the cloned one to don’t change original object.</p>
+<p><strong>How</strong>: Cloning an object can be done in several ways in JavaScript, each with its own trade-offs.</p>
+<ul>
+<li><strong><em>Shallow clone with Object.assign</em></strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj1 <span style="font-weight:bold">=</span> { a: <span style="color:#099">1</span>, b: <span style="color:#099">2</span> };
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj2 <span style="font-weight:bold">=</span> <span style="color:#900;font-weight:bold">Object</span><span style="font-weight:bold">.</span>assign({}, obj1);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(obj2); <span style="font-weight:bold">//</span> Output: { a: <span style="color:#099">1</span>, b: <span style="color:#099">2</span> }
+</span></span></code></pre></div><ul>
+<li><strong><em>Shallow Clone with Spread Operator</em></strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj1 <span style="font-weight:bold">=</span> { a: <span style="color:#099">1</span>, b: <span style="color:#099">2</span> };
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj2 <span style="font-weight:bold">=</span> { <span style="font-weight:bold">...</span>obj1 };
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(obj2); <span style="font-weight:bold">//</span> Output: { a: <span style="color:#099">1</span>, b: <span style="color:#099">2</span> }
+</span></span></code></pre></div><ul>
+<li><strong><em>Deep Clone with JSON</em></strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj1 <span style="font-weight:bold">=</span> { a: <span style="color:#099">1</span>, b: { c: <span style="color:#099">2</span> } };
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> obj2 <span style="font-weight:bold">=</span> JSON<span style="font-weight:bold">.</span>parse(JSON<span style="font-weight:bold">.</span>stringify(obj1));
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(obj2); <span style="font-weight:bold">//</span> Output: { a: <span style="color:#099">1</span>, b: { c: <span style="color:#099">2</span> } }
+</span></span></code></pre></div><h2 id="5-map-and-reduce-in-javascript">5. Map and Reduce in JavaScript</h2>
+<p><strong>Map</strong> and <strong>reduce</strong> are powerful array methods in JavaScript that allow you to process and transform data efficiently. Let’s dive into what they are, why you should use them, and how to implement them with code snippets.</p>
+<p><strong>What</strong>: The <strong>map</strong> method creates a new array populated with the results of calling a provided function on every element in the calling array.</p>
+<p><strong>Why</strong>: <strong>map</strong> is useful for transforming data without mutating the original array. It’s perfect for scenarios where you need to apply a consistent operation to all items in an array.</p>
+<p><strong>How</strong>: Here’s a simple example of how to use map to convert an array of numbers to their squares. In this example, map takes a function that squares each number and applies it to every element in the numbers array, producing a new array squares.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> squares <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>map(num <span style="font-weight:bold">=&gt;</span> num <span style="font-weight:bold">*</span> num);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(squares); <span style="font-weight:bold">//</span> Output: [<span style="color:#099">1</span>, <span style="color:#099">4</span>, <span style="color:#099">9</span>, <span style="color:#099">16</span>, <span style="color:#099">25</span>]
+</span></span></code></pre></div><p><strong>What</strong>: The <strong>reduce</strong> method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.</p>
+<p><strong>Why</strong>: <strong>reduce</strong> is ideal for aggregating or summarizing the data in an array. It’s commonly used for tasks like summing numbers, finding averages, or concatenating strings.</p>
+<p><strong>How</strong>: In this example, reduce processes the numbers array, adding each element to the accumulator, starting from an initial value of 0. The final result is the sum of all numbers in the array.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> sum <span style="font-weight:bold">=</span> numbers<span style="font-weight:bold">.</span>reduce((accumulator, currentValue) <span style="font-weight:bold">=&gt;</span> accumulator <span style="font-weight:bold">+</span> currentValue, <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(sum); <span style="font-weight:bold">//</span> Output: <span style="color:#099">15</span>
+</span></span></code></pre></div><p><strong>Combining Map and Reduce</strong></p>
+<p>You can combine map and reduce to perform complex data transformations and aggregations in a concise manner.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> doubledSum <span style="font-weight:bold">=</span> numbers
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">.</span>map(num <span style="font-weight:bold">=&gt;</span> num <span style="font-weight:bold">*</span> <span style="color:#099">2</span>)
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">.</span>reduce((accumulator, currentValue) <span style="font-weight:bold">=&gt;</span> accumulator <span style="font-weight:bold">+</span> currentValue, <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(doubledSum); <span style="font-weight:bold">//</span> Output: <span style="color:#099">30</span>
+</span></span></code></pre></div><p>Combining these methods allows for powerful data processing pipelines, making code more readable and maintainable.</p>
+<p>Above an example where we first double the numbers in an array using map, and then sum the doubled values using reduce.</p>
 
       </article>
     </div>
@@ -407,7 +602,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;text=Build%20a%20Hugo%20Blog&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;text=JavaScript%20tips%20for%20developers&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -419,7 +614,7 @@
 
     
     <li>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;title=Build%20a%20Hugo%20Blog"
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;title=JavaScript%20tips%20for%20developers"
         target="_blank" title="Share on LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -429,8 +624,8 @@
     </li>
 
     <li>
-      <a target="_blank" rel="noopener noreferrer" aria-label="share Build a Hugo Blog on reddit"
-        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&title=Build%20a%20Hugo%20Blog">
+      <a target="_blank" rel="noopener noreferrer" aria-label="share JavaScript tips for developers on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&title=JavaScript%20tips%20for%20developers">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
           viewBox="0 0 16 16">
           <path
@@ -447,7 +642,7 @@
 
     
     <li>
-      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;description=Build%20a%20Hugo%20Blog" target="_blank" rel="noopener"
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fbuild-hugo-blog%2f&amp;description=JavaScript%20tips%20for%20developers" target="_blank" rel="noopener"
         title="Share on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
           <path
@@ -516,8 +711,8 @@
 
         
         <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/use-this-theme/"
-            data-toggle="tooltip" data-placement="top" title="How to use this Hugo theme ?">Articolo successivo
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/"
+            data-toggle="tooltip" data-placement="top" title="Angular Best Practice 2023">Articolo successivo
             &rarr;</a>
         </li>
         
@@ -547,59 +742,6 @@
       </div>
 
       
-      
-
-      
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/use-this-theme/">
-        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">How to use this Hugo theme ?</h3>
-                
-
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  02 February 2021
-
-  
-
-  
-
-  
-
-  
-</span>
-
-                </p>
-                
-
-                <div class="post-entry">
-                    
-                    After downloding the theme, uzip the file and go to the&#39;lightbi-hugo-master&#39; folder. Open the folder in you editor...
-
-                    
-                </div>
-
-                <div class="read-more-section">
-                    
-                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-
-            
-            <img src="/marcomattolab/marcomartorana/img/posts/img-3_hu1957996897991282565.jpg" alt="/img/posts/img-3.jpg"
-                class="card-img-bottom img-fluid lazyload">
-            
-
-            
-        </div>
-    </a>
-</div>
-
-
       
 
       

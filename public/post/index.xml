@@ -23,25 +23,25 @@
       <description>&lt;p&gt;Once upon a time, in the vast world of web development, there was a tool that promised to bring structure and efficiency to the chaotic realm of JavaScript. This tool was AngularJS, the first version of the Angular framework. As a young developer setting foot into the industry, I witnessed the birth of AngularJS and its transformative impact on frontend development.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to use this Hugo theme ?</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/use-this-theme/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/use-this-theme/</guid>
-      <description>&lt;p&gt;After downloding the theme, uzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme.&#xA;To check the website you can run the below command,&lt;/p&gt;</description>
+      <title>Angular Best Practice 2023</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Angular&lt;/em&gt;&lt;/strong&gt;, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .&lt;/p&gt;&#xA;&lt;p&gt;It is a structured framework not a simple library such as &lt;em&gt;React&lt;/em&gt;, so developers have to “&lt;em&gt;think&lt;/em&gt;” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Build a Hugo Blog</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/build-hugo-blog/</link>
+      <title>JavaScript tips for developers</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/build-hugo-blog/</guid>
-      <description>&lt;h3 id=&#34;hugo&#34;&gt;Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
+      <description>&lt;h3 id=&#34;javascript-tips-for-developers&#34;&gt;JavaScript tips for developers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here &lt;strong&gt;&lt;em&gt;tips&lt;/em&gt;&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; to use daily for amplifying productivity during development of our code.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What is Markdown ?</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/markdown/</link>
+      <title>Visualizing Algorithms</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/markdown/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;What is Markdown?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
+      <description>&lt;h3 id=&#34;visualizing-algorithms-key-tools-and-techniques-for-enhanced-understanding&#34;&gt;Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding&lt;/h3&gt;&#xA;&lt;p&gt;Visualizing how an &lt;strong&gt;algorithm&lt;/strong&gt; works can significantly enhance comprehension and facilitate the &lt;strong&gt;&lt;em&gt;learning process&lt;/em&gt;&lt;/strong&gt;. Several &lt;strong&gt;tools&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; are available to help both &lt;em&gt;beginners&lt;/em&gt; and &lt;em&gt;experts&lt;/em&gt; understand algorithms through visual representation. Here are a few notable tools:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic Syntax</title>

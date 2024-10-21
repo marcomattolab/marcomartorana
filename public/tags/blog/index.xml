@@ -6,8 +6,22 @@
     <description>Recent content in Blog on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing Algorithms</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
+      <description>&lt;h3 id=&#34;visualizing-algorithms-key-tools-and-techniques-for-enhanced-understanding&#34;&gt;Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding&lt;/h3&gt;&#xA;&lt;p&gt;Visualizing how an &lt;strong&gt;algorithm&lt;/strong&gt; works can significantly enhance comprehension and facilitate the &lt;strong&gt;&lt;em&gt;learning process&lt;/em&gt;&lt;/strong&gt;. Several &lt;strong&gt;tools&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; are available to help both &lt;em&gt;beginners&lt;/em&gt; and &lt;em&gt;experts&lt;/em&gt; understand algorithms through visual representation. Here are a few notable tools:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frontend Mastery</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
+      <description>&lt;h1 id=&#34;10-javascript-hacks-to-speedup-development&#34;&gt;10 Javascript hacks to speedup development&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Javascript&lt;/em&gt;&lt;/strong&gt;, an omnipresent force in modern web development, empowers developers with its versatility. At the same time as developers, our perpetual quest for ingenious tips and techniques to use for amplifying our productivity and for crafting efficient code is a constant.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JavaScript tips for developers</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>

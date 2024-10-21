@@ -2,7 +2,7 @@
 title: JavaScript tips for developers
 date: 2021-01-31
 tags: ["javascript","blog", "programming"]
-image : "/img/posts/javascript-tips-001.jpg"
+image : "/img/posts/spriderman-02.jpg"
 Description  : "In this article a collection of JavaScript tips for frontend developers..."
 featured: true
 ---

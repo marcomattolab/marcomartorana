@@ -30,10 +30,24 @@
       <description></description>
     </item>
     <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/blog/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Best-Practice</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/best-practice/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/best-practice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
@@ -48,34 +62,6 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/blog/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/markdown/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/syntax/</link>
-      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/syntax/</guid>
       <description></description>
     </item>
     <item>

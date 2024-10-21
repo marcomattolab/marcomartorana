@@ -1,8 +1,8 @@
 ---
 title: Visualizing Algorithms
-date: 2020-01-27
-tags: ["programming"]
-image : "/img/posts/visualize-algorithm-001.jpg"
+date: 2024-04-21
+tags: ["programming", "blog"]
+image : "/img/posts/visualize-algorithm-01.jpg"
 Description  : "Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding..."
 ---
 
@@ -80,7 +80,7 @@ There are numerous **_educational apps_** designed to teach algorithms through v
 *   [Mozilla Developer Network (MDN) Web Docs](https://developer.mozilla.org/en-US/): A comprehensive resource for web developers, offering documentation, tutorials, and guides on web technologies such as HTML, CSS, JavaScript, and web APIs. It’s a valuable reference for both beginners and experienced developers.
 
 
-![Visualize Algorithm](/img/posts/visualize-algorithm-001.jpg)
+![Visualize Algorithm](/img/posts/visualize-algorithm-001.jpg "Just an Image")
 
 
 Conclusion

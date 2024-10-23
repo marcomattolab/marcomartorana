@@ -4,7 +4,7 @@ Welcome to my official website repository.
 
 ## Description
 
-My official website is designed to provide visitors with comprehensive information about me, including our mission, vision, services/products, contact information, and more. 
+My official website is designed to provide visitors with comprehensive information about me, including my mission, vision, training courses, contact information, and more. 
 It serves as a platform to showcase my brand identity and engage with my audience.
 
 
@@ -22,7 +22,7 @@ To run the project locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine using `git clone`.
 2. Navigate to the project directory
-3. Open the main file index.html
+3. Open command prompt >> hugo server
 
 ## License
 

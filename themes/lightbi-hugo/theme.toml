@@ -9,6 +9,7 @@ homepage = "https://github.com/binokochumolvarghese/lightbi-hugo"
 demosite = "https://lightbi-hugo-theme.netlify.app/"
 tags = [
   "blog", 
+  "school",
   "bootstrap",
   "bootstrap icons",
   "company",

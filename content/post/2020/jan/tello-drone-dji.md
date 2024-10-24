@@ -1,7 +1,7 @@
 ---
 title: Drone Tello DJI
 date: 2020-01-20
-tags: ["python","drone"]
+tags: ["python","drone", "school"]
 image : "/img/posts/tello-drone.jpg"
 Description  : 'Drone Tello DJI programmable in Python'
 featured: true

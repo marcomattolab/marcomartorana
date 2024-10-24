@@ -1,7 +1,7 @@
 ---
 title: Visualizing Algorithms
 date: 2024-04-21
-tags: ["programming", "blog"]
+tags: ["programming", "school"]
 image : "/img/posts/visualize-algorithm-01.jpg"
 Description  : "Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding..."
 ---

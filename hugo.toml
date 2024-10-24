@@ -89,8 +89,8 @@ previewCardImagePlacement = "bottom"
     weight = 2
 
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/blog/"
+    name = "School"
+    url = "/tags/school/"
     weight = 3
 
 [[menu.main]]

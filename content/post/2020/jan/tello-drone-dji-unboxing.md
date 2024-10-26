@@ -3,11 +3,11 @@ title: Drone Tello DJI
 date: 2020-01-20
 tags: ["python","drone", "school"]
 image : "/img/posts/tello-drone.jpg"
-Description  : 'Drone Tello DJI programmable in Python'
+Description  : 'Drone Tello DJI programmable in Python (unboxing)'
 featured: true
 ---
 
-## Introduction to the DJI Tello Drone
+## Introduction to the DJI Tello Drone ( My Unboxing )
 
 The **DJI Tello** is a compact, affordable, and beginner-friendly drone developed by **Ryze Tech** in collaboration with **DJI**. Designed for both fun and educational purposes, the Tello is perfect for newcomers to drone flying as well as those looking to explore drone programming. 
 

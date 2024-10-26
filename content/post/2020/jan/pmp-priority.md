@@ -61,7 +61,7 @@ It’s essential to manage **_stakeholder expectations_**. This includes not onl
 
 More specifically I describe below techniques for individual priority management used ideally in the daily work-life not only by a project manager.
 
-![How to set priority!?](/img/posts/pmp-priority-01.png "Show how to set priority")
+![How to set priority!?](/marcomattolab/marcomartorana/img/posts/pmp-priority-01.png)
 
 
 1.  **Eisenhower Matrix**

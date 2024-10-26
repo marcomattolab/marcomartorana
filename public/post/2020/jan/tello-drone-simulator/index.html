@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>How to Manage Priorities in Project Management - Marco Martorana</title>
-<meta name="description" content="How to Manage Priorities in Project Management: Essential Guidelines">
+<title>Drone Tello DJI - Marco Martorana</title>
+<meta name="description" content="Drone Tello DJI programmable in Python (unboxing)">
 
 <meta name="author" content="Marco Martorana"><script type="application/ld+json">
 {
@@ -45,8 +45,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/pmp-priority\/",
-          "name": "How to manage priorities in project management"
+          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/tello-drone-simulator\/",
+          "name": "Drone tello dji"
         }
     }]
 }
@@ -57,15 +57,15 @@
   "author": {
     "name" : "Marco Martorana"
   },
-  "headline": "How to Manage Priorities in Project Management",
-  "description" : "How to Manage Priorities in Project Management: Essential Guidelines",
+  "headline": "Drone Tello DJI",
+  "description" : "Drone Tello DJI programmable in Python (unboxing)",
   "inLanguage" : "it",
-  "wordCount":  1014 ,
-  "datePublished" : "2024-06-01T00:00:00",
-  "dateModified" : "2024-06-01T00:00:00",
+  "wordCount":  847 ,
+  "datePublished" : "2020-01-20T00:00:00",
+  "dateModified" : "2020-01-20T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
-  "keywords" : [ "project-management" ],
-  "mainEntityOfPage" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/pmp-priority\/",
+  "keywords" : [ "Tello DJI, python, drone, school" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/tello-drone-simulator\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -79,10 +79,10 @@
 }
 </script>
 
-<meta property="og:title" content="How to Manage Priorities in Project Management" />
-<meta property="og:description" content="How to Manage Priorities in Project Management: Essential Guidelines">
-<meta property="og:image" content="http://localhost:1313/img/posts/pmp-priority-00.png" />
-<meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/" />
+<meta property="og:title" content="Drone Tello DJI" />
+<meta property="og:description" content="Drone Tello DJI programmable in Python (unboxing)">
+<meta property="og:image" content="http://localhost:1313/img/posts/tello-drone.jpg" />
+<meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/tello-drone-simulator/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Marco Martorana" />
 <link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/marcomattolab/marcomartorana/favicon/apple-touch-icon.png">
@@ -307,7 +307,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                How to Manage Priorities in Project Management
+                Drone Tello DJI
                 
               </h1>
               
@@ -320,7 +320,7 @@
               <span class="post-meta">
   
   
-  &nbsp;01 June 2024
+  &nbsp;20 January 2020
 
   
 
@@ -355,7 +355,7 @@
         
         
           
-            <img src="/marcomattolab/marcomartorana/img/posts/pmp-priority-00.png" alt="/img/posts/pmp-priority-00.png" class="card-img-bottom rounded img-fluid lazyload">
+            <img src="/marcomattolab/marcomartorana/img/posts/tello-drone.jpg" alt="/img/posts/tello-drone.jpg" class="card-img-bottom rounded img-fluid lazyload">
           
         
 
@@ -366,146 +366,73 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <p>In the world of <em>project management</em>, effectively <strong><em>managing priorities</em></strong> is crucial for the <strong>success</strong> of any project.</p>
-<p>Whether launching a new software product, implementing a marketing campaign, or coordinating a large corporate initiative, knowing how to correctly set priorities can make the difference between <strong><em>success</em></strong> and <strong><em>failure</em></strong>.</p>
-<p>In this article, we will explore some fundamental guidelines for managing project priorities, based on <em>key project management principles</em>.</p>
-<p><strong>Define Key Project Objectives</strong></p>
-<p>First and foremost, it’s crucial to have a clear understanding of the project’s objectives. This means knowing exactly what you want to achieve, the expected outcomes, and how these contribute to the organization’s strategic goals.</p>
-<blockquote>
-<p>Objectives should be <strong>SMART</strong>: <em>Specific</em>, <em>Measurable</em>, <em>Achievable</em>, <em>Realistic</em>, and <em>Time-bound</em>.</p>
-</blockquote>
-<p>Once these objectives are established, it will be easier to align priorities and ensure that every activity contributes to achieving these goals.</p>
-<p><strong>Evaluate and Classify Activities</strong></p>
-<p>Once <em>objectives</em> are defined, it’s necessary to <strong>list all the activities</strong> required to achieve them. This step involves a detailed <strong><em>breakdown</em></strong> of the <em>project</em> into specific tasks. Subsequently, each activity must be evaluated and classified based on its <strong><em>importance</em></strong> and <strong><em>urgency</em></strong>. A useful method for this is the <em>Eisenhower Matrix</em>, which divides tasks into four categories:</p>
+        <h1 id="programming-the-dji-tello-drone-with-python">Programming the DJI Tello Drone with Python</h1>
+<p>The DJI Tello is a compact, affordable, and programmable drone ideal for beginners and educators looking to explore the world of drone technology and coding. Equipped with a camera, it offers a variety of features, including video transmission, precise hovering, and basic tricks. Its compatibility with Python enables developers and enthusiasts to create custom behaviors and flight paths, making it an excellent tool for both learning and experimentation.</p>
+<p>In this article, we’ll dive into how you can get started with programming the DJI Tello in Python, explore available simulators to test code safely, and discuss an advanced topic on matrix drone shows using Tello drones.</p>
+<h2 id="equipment-and-setup">Equipment and Setup</h2>
+<p>To program a DJI Tello drone in Python, you’ll need:</p>
 <ul>
-<li><strong>Important</strong> and <strong>Urgent</strong>: To be done immediately.</li>
-<li><strong>Important</strong> but <em>Not Urgent</em>: To be scheduled.</li>
-<li><em>Not Important</em> but <strong>Urgent</strong>: To be delegated.</li>
-<li><em>Not Important</em> and <em>Not Urgent</em>: To be eliminated.</li>
+<li><strong>A DJI Tello drone</strong> (standard or Tello EDU version)</li>
+<li><strong>Python installed on your computer</strong> (version 3.6+ recommended)</li>
+<li><strong>Tello SDK</strong> to access Tello&rsquo;s programmable features</li>
+<li><strong>A compatible device</strong> (PC, Mac, or mobile device)</li>
+<li><strong>Wi-Fi connection</strong> to connect to the Tello drone</li>
 </ul>
-<p><strong>Create a Detailed Project Plan</strong></p>
-<p>With a list of prioritized activities, the next step is to create a detailed project plan. This plan should include <strong>timelines</strong>, <strong>required resources</strong>, and the <em>roles and responsibilities of team members</em>.</p>
-<blockquote>
-<p>Tools like Gantt charts or project management software (e.g., Trello, or Microsoft Project) can be extremely useful for visualizing and tracking project progress.</p>
-</blockquote>
-<p><strong>Allocate Resources Strategically</strong></p>
-<p>Resource management is a key element in priority management. It’s crucial to ensure that resources – both human and material – are allocated effectively. This means assigning the right resources to the right tasks at the right time, avoiding work overloads and bottlenecks. Resource management should be flexible to adapt to changes and emergencies that may arise during the project.</p>
-<p><strong>Monitor and Reevaluate Priorities</strong></p>
-<p>Task priorities can change over the course of the project. Therefore, it’s important to continuously monitor progress and be ready to reevaluate and reorganize priorities based on new information or changes in the project context.</p>
-<blockquote>
-<p>Regular update meetings and project status reviews are essential to keep the team aligned and to make necessary adjustments.</p>
-</blockquote>
-<p><strong>Effective Communication</strong></p>
-<p><em>Clear and continuous communication</em> is vital for managing priorities. All team members need to be <strong>aware</strong> of the project’s <em>priorities</em> and <strong><em>how</em></strong> their individual tasks fit into the overall picture.</p>
-<blockquote>
-<p>Using internal communication tools like Slack or Microsoft Teams and holding regular meetings can help ensure that everyone is informed and aligned.</p>
-</blockquote>
-<p><strong>Manage Stakeholder Expectations</strong></p>
-<p>It’s essential to manage <strong><em>stakeholder expectations</em></strong>. This includes not only informing stakeholders about project progress but also ensuring they are aware of priorities and any changes.</p>
-<blockquote>
-<p>Proactive management of expectations can prevent misunderstandings and ensure continuous stakeholder support throughout the project lifecycle.</p>
-</blockquote>
-<h1 id="techniques-for-individual-priority-management">Techniques for Individual Priority Management</h1>
-<p>More specifically I describe below techniques for individual priority management used ideally in the daily work-life not only by a project manager.</p>
-<p><img src="/marcomattolab/marcomartorana/img/posts/pmp-priority-01.png" alt="How to set priority!?"></p>
+<p>Setting up your programming environment involves installing Python, configuring the SDK, and ensuring your device can communicate with the drone over Wi-Fi.</p>
+<h2 id="programming-the-tello-in-python">Programming the Tello in Python</h2>
+<p>With Python, programming the DJI Tello is straightforward thanks to the Tello SDK, which provides a range of commands for movement, rotations, flips, and even camera control. The SDK is compatible with various Python libraries that allow you to establish a connection, send commands, and receive feedback from the drone.</p>
+<p>For a simple example, here’s how you can control your Tello with Python:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">socket</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">time</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Tello&#39;s IP and Port</span>
+</span></span><span style="display:flex;"><span>TELLO_IP <span style="font-weight:bold">=</span> <span style="color:#b84">&#34;192.168.10.1&#34;</span>
+</span></span><span style="display:flex;"><span>TELLO_PORT <span style="font-weight:bold">=</span> <span style="color:#099">8889</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Connect to Tello</span>
+</span></span><span style="display:flex;"><span>sock <span style="font-weight:bold">=</span> socket<span style="font-weight:bold">.</span>socket(socket<span style="font-weight:bold">.</span>AF_INET, socket<span style="font-weight:bold">.</span>SOCK_DGRAM)
+</span></span><span style="display:flex;"><span>sock<span style="font-weight:bold">.</span>bind((<span style="color:#b84">&#39;&#39;</span>, <span style="color:#099">9000</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">send_command</span>(command):
+</span></span><span style="display:flex;"><span>    sock<span style="font-weight:bold">.</span>sendto(command<span style="font-weight:bold">.</span>encode(<span style="color:#b84">&#39;utf-8&#39;</span>), (TELLO_IP, TELLO_PORT))
+</span></span><span style="display:flex;"><span>    <span style="color:#999">print</span>(<span style="color:#b84">f</span><span style="color:#b84">&#34;Sent: </span><span style="color:#b84">{</span>command<span style="color:#b84">}</span><span style="color:#b84">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;command&#34;</span>)   <span style="color:#998;font-style:italic"># Initiate SDK mode</span>
+</span></span><span style="display:flex;"><span>time<span style="font-weight:bold">.</span>sleep(<span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;takeoff&#34;</span>)   <span style="color:#998;font-style:italic"># Take off</span>
+</span></span><span style="display:flex;"><span>time<span style="font-weight:bold">.</span>sleep(<span style="color:#099">5</span>)
+</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;land&#34;</span>)      <span style="color:#998;font-style:italic"># Land</span>
+</span></span></code></pre></div><p>This code initiates SDK mode, takes off, hovers for a few seconds, and then lands.</p>
+<h2 id="drone-simulators-for-safe-development">Drone Simulators for Safe Development</h2>
+<p>Developing with a real drone has inherent risks, especially in indoor environments. Luckily, simulators allow us to test and iterate on our code safely before using it with an actual Tello.</p>
+<h3 id="droneblocks-coding-simulator">DroneBlocks Coding Simulator</h3>
+<p>The <strong>DroneBlocks Coding Simulator</strong> is an excellent online tool to practice programming a Tello without any hardware. Available at <a href="https://coding-sim.droneblocks.io/">DroneBlocks Coding Simulator</a>, it provides a visual interface where you can test code by simulating movements, rotations, and simple flight paths in a virtual environment. The simulator supports block-based coding, making it especially beginner-friendly for those just getting started with drone programming.</p>
+<h3 id="droneblocks-tello-simulator">DroneBlocks Tello Simulator</h3>
+<p>For a Python-based simulation, the <strong>DroneBlocks Tello Simulator</strong> provides a Tello flight simulator that can be run locally. Installable via <a href="https://pypi.org/project/DroneBlocksTelloSimulator/">PyPI</a>, it allows developers to programmatically control a virtual Tello in Python. This is especially useful for those who wish to work directly with Python scripts and Tello SDK commands in a simulated environment that mimics the behavior of a real Tello.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install DroneBlocksTelloSimulator
+</span></span></code></pre></div><p>After installation, you can run Python commands in this environment, providing a safe way to refine your code.</p>
+<h2 id="advanced-topic-matrix-drone-shows">Advanced Topic: Matrix Drone Shows</h2>
+<p>An exciting application of DJI Tello drones is the creation of <strong>matrix drone shows</strong>, where multiple drones perform coordinated movements to create intricate patterns and displays. This requires advanced programming techniques, such as automatic path generation, collision avoidance, and synchronization of multiple drones.</p>
+<p>A recent study titled <a href="https://www.researchgate.net/publication/367059528_Implementation_of_Matrix_Drone_Show_Using_Automatic_Path_Generator_with_DJI_Tello_Drones">&ldquo;Implementation of Matrix Drone Show Using Automatic Path Generator with DJI Tello Drones&rdquo;</a> explores an automatic path generator that allows for creating these synchronized drone shows. By calculating optimal paths and timings, developers can ensure each drone follows a specific route, avoiding mid-air collisions while achieving complex formations.</p>
+<p>To implement a matrix drone show, you would need to:</p>
 <ol>
-<li><strong>Eisenhower Matrix</strong></li>
+<li>Define the formation pattern and set the starting positions for each drone.</li>
+<li>Generate unique paths for each drone, taking into account speed, distance, and synchronization.</li>
+<li>Use the Tello SDK to send commands to each drone in real time, monitoring progress to maintain the formation.</li>
 </ol>
-<p>The <strong>Eisenhower Matrix</strong> used for deciding what to do and when to do it, it has been described above but here we divided the same four tasks into diverse categories to focus on the appropriate action.</p>
-<ul>
-<li>Important and Urgent: <strong>Do it immediately</strong>.</li>
-<li>Important but Not Urgent: <strong><em>Schedule it.</em></strong></li>
-<li>Not Important but Urgent: <em>Delegate it.</em></li>
-<li>Not Important and Not Urgent: <em>Eliminate it.</em></li>
-</ul>
-<blockquote>
-<p>This technique helps focus on tasks that truly matter, minimizing distractions.</p>
-</blockquote>
-<p><strong>2. 3–3–3 Method</strong></p>
-<p>Proposed by Oliver Burkeman, this method involves planning the day to include:</p>
-<ul>
-<li>3 hours of deep work on an important project.</li>
-<li>3 urgent tasks like crucial meetings, emails, and to-dos.</li>
-<li>3 maintenance tasks for a smoother life.</li>
-</ul>
-<blockquote>
-<p>This approach balances the need for deep concentration and the management of daily tasks.</p>
-</blockquote>
-<p>3. <strong>Time Blocking</strong></p>
-<p>Suggested by Cal Newport and Nir Eyal, Time Blocking involves:</p>
-<ul>
-<li>Dividing your calendar into specific time blocks.</li>
-<li>Scheduling specific tasks within these blocks.</li>
-<li>Focusing only on one task during the assigned block.</li>
-</ul>
-<p><strong>Techniques for Team Priority Management</strong></p>
-<ol>
-<li><strong>ABCDE Method</strong></li>
-</ol>
-<p>This method suggests classifying team tasks based on the consequences of not doing them:</p>
-<ul>
-<li>A: Highest priority, severe consequences if not done.</li>
-<li>B: Important but minor consequences.</li>
-<li>C: Nice to do, no consequences if undone.</li>
-<li>D: Delegate if possible.</li>
-<li>E: Eliminate entirely.</li>
-</ul>
-<blockquote>
-<p>This approach ensures that critical tasks receive the necessary attention.</p>
-</blockquote>
-<p>2. <strong>MoSCoW Method</strong></p>
-<p>The <strong>MoSCoW</strong> method categorizes tasks into:</p>
-<ul>
-<li>Must Have: Crucial for success.</li>
-<li>Should Have: Important but not vital.</li>
-<li>Could Have: Nice to have but not essential.</li>
-<li>Won’t Have: Out of scope.</li>
-</ul>
-<blockquote>
-<p>This technique helps focus resources on essential tasks for the project.</p>
-</blockquote>
-<p>3. <strong>Kanban Board</strong></p>
-<p>Kanban is a visual method for managing workflow. It involves organizing tasks into three columns:</p>
-<ul>
-<li>To Do</li>
-<li>Doing</li>
-<li>Done</li>
-</ul>
-<blockquote>
-<p>This visualization facilitates prioritization coordination and enhances team collaboration.</p>
-</blockquote>
-<p><strong>Techniques for Leadership Priority Management</strong></p>
-<ol>
-<li><strong>Warren Buffett 25/5 Rule</strong></li>
-</ol>
-<p>Warren Buffett suggests:</p>
-<p>Making a list of your top 25 initiatives.</p>
-<ul>
-<li><em>Ranking them by importance.</em></li>
-<li><em>Focusing on the top 5.</em></li>
-<li><em>Ignoring the rest.</em></li>
-</ul>
-<blockquote>
-<p>This method ensures that attention is dedicated to the most important initiatives.</p>
-</blockquote>
-<p><strong>2. Pareto Principle</strong></p>
-<p>The <strong>Pareto Principle</strong>, or the <em>80/20 rule</em>, indicates that 80% of results come from 20% of efforts.</p>
-<blockquote>
-<p>By identifying and focusing on this 20%, leaders can maximize impact with less effort.</p>
-</blockquote>
-<p><strong>3. Theory of Constraints</strong></p>
-<p>This theory involves:</p>
-<ul>
-<li>Identifying system constraints.</li>
-<li>Optimizing them.</li>
-<li>Synchronizing the rest of the system around these constraints.</li>
-</ul>
-<blockquote>
-<p>For continuous improvement it is recommended to repeat this process to achieve new better results.</p>
-</blockquote>
-<h1 id="conclusion">Conclusion</h1>
-<p>Setting and managing priorities effectively is a crucial skill not only for a project manager but also for each team member. By following these <strong><em>guidelines</em></strong>, you can ensure that resources are used optimally, critical tasks are addressed promptly, and the project progresses smoothly towards achieving its objectives.</p>
-<p>The key is to maintain a <strong>flexible approach</strong>, <strong>communicate clearly</strong>, and <strong>continuously monitor progress</strong>, <em>adapting to changes</em> and <em>new challenges</em> along the way.</p>
+<p>Here’s an example of how a basic path coordination might look:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Assume each Tello has a unique IP address and can be controlled individually</span>
+</span></span><span style="display:flex;"><span>drones <span style="font-weight:bold">=</span> [(<span style="color:#b84">&#34;192.168.10.1&#34;</span>, <span style="color:#099">8889</span>), (<span style="color:#b84">&#34;192.168.10.2&#34;</span>, <span style="color:#099">8889</span>), (<span style="color:#b84">&#34;192.168.10.3&#34;</span>, <span style="color:#099">8889</span>)]
+</span></span><span style="display:flex;"><span>commands <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;up 50&#34;</span>, <span style="color:#b84">&#34;forward 100&#34;</span>, <span style="color:#b84">&#34;cw 90&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Send commands to all drones</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> drone <span style="font-weight:bold">in</span> drones:
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> command <span style="font-weight:bold">in</span> commands:
+</span></span><span style="display:flex;"><span>        send_command(drone, command)
+</span></span></code></pre></div><p>This code could be expanded to allow more complex and simultaneous movements. The research presents a robust approach to coordinate multiple drones, paving the way for impressive aerial displays.</p>
+<h2 id="final-considerations">Final Considerations</h2>
+<p>Programming the DJI Tello with Python is a rewarding experience, offering insights into both coding and robotics. Whether you’re learning basic controls or experimenting with coordinated multi-drone shows, the Tello is a flexible platform with ample support for developers of all levels. By leveraging simulators, you can practice and refine your code safely. Advanced applications, like drone shows, showcase the potential of using autonomous drones for synchronized performances and illustrate the future of automated drone displays.</p>
+<p>The DJI Tello opens doors to creativity and learning, making it a great tool for anyone interested in exploring robotics, automation, or the art of drone programming.</p>
 
       </article>
     </div>
@@ -520,7 +447,13 @@
       
       <div class="blog-tags">
         
-        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/">project-management</a>
+        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/tello-dji/">Tello DJI</a>
+        
+        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/python/">python</a>
+        
+        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/drone/">drone</a>
+        
+        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/school/">school</a>
         
       </div>
       
@@ -539,7 +472,7 @@
   <ul class="share">
     
     <li>
-      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fpmp-priority%2f" target="_blank" title="Share on Facebook">
+      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ftello-drone-simulator%2f" target="_blank" title="Share on Facebook">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
           <path
             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -548,7 +481,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fpmp-priority%2f&amp;text=How%20to%20Manage%20Priorities%20in%20Project%20Management&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ftello-drone-simulator%2f&amp;text=Drone%20Tello%20DJI&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -560,7 +493,7 @@
 
     
     <li>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fpmp-priority%2f&amp;title=How%20to%20Manage%20Priorities%20in%20Project%20Management"
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ftello-drone-simulator%2f&amp;title=Drone%20Tello%20DJI"
         target="_blank" title="Share on LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -570,8 +503,8 @@
     </li>
 
     <li>
-      <a target="_blank" rel="noopener noreferrer" aria-label="share How to Manage Priorities in Project Management on reddit"
-        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fpmp-priority%2f&title=How%20to%20Manage%20Priorities%20in%20Project%20Management">
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Drone Tello DJI on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ftello-drone-simulator%2f&title=Drone%20Tello%20DJI">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
           viewBox="0 0 16 16">
           <path
@@ -588,7 +521,7 @@
 
     
     <li>
-      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fpmp-priority%2f&amp;description=How%20to%20Manage%20Priorities%20in%20Project%20Management" target="_blank" rel="noopener"
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ftello-drone-simulator%2f&amp;description=Drone%20Tello%20DJI" target="_blank" rel="noopener"
         title="Share on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
           <path
@@ -648,8 +581,8 @@
         
         <li class="list-group-item b-0 p-0">
 
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/"
-            data-toggle="tooltip" data-placement="top" title="The Evolution of Angular">&larr;
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/rich-content/"
+            data-toggle="tooltip" data-placement="top" title="Rich Content">&larr;
             Articolo precedente</a>
         </li>
         
@@ -657,8 +590,8 @@
 
         
         <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/"
-            data-toggle="tooltip" data-placement="top" title="Alternatives to ChatGPT">Articolo successivo
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/tello-drone-dji-unboxing/"
+            data-toggle="tooltip" data-placement="top" title="Drone Tello DJI">Articolo successivo
             &rarr;</a>
         </li>
         
@@ -676,7 +609,180 @@
   
   
   
+  
+  
 
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Leggi</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Alternatives to ChatGPT</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  24 October 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Is ChatGPT Obsolete? Discover the Top 10 Free AI Alternatives
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/posts/alternative-to-chatgpt_hu14921898270875831163.jpeg" alt="/img/posts/alternative-to-chatgpt.jpeg"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Visualizing Algorithms</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  21 April 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding...
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/posts/visualize-algorithm-01_hu12205278322967255450.jpg" alt="/img/posts/visualize-algorithm-01.jpg"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">JavaScript tips for developers</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  31 January 2021
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    In this article a collection of JavaScript tips for frontend developers...
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/posts/spriderman-02_hu15826498574113416844.jpg" alt="/img/posts/spriderman-02.jpg"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+    </div>
+  </div>
   
   
 

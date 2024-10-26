@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chat-Gpt</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>School</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Angular</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</link>
@@ -27,13 +55,6 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>School</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</guid>
       <description></description>
     </item>
     <item>
@@ -72,20 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chat-Gpt</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Drone</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/drone/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
@@ -111,6 +118,13 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/shortcodes/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tello DJI</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/tello-dji/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/tello-dji/</guid>
       <description></description>
     </item>
     <item>

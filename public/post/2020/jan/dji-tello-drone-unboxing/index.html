@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Programming the DJI Tello Drone with Python (Episode 2) - Marco Martorana</title>
-<meta name="description" content="Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...">
+<title>Drone Tello DJI unboxing (Episode 1) - Marco Martorana</title>
+<meta name="description" content="Drone Tello DJI programmable in Python (unboxing)">
 
 <meta name="author" content="Marco Martorana"><script type="application/ld+json">
 {
@@ -45,8 +45,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/dji_tello_drone_programming\/",
-          "name": "Programming the dji tello drone with python ( episode 2)"
+          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/dji-tello-drone-unboxing\/",
+          "name": "Drone tello dji unboxing ( episode 1)"
         }
     }]
 }
@@ -57,15 +57,15 @@
   "author": {
     "name" : "Marco Martorana"
   },
-  "headline": "Programming the DJI Tello Drone with Python (Episode 2)",
-  "description" : "Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...",
+  "headline": "Drone Tello DJI unboxing (Episode 1)",
+  "description" : "Drone Tello DJI programmable in Python (unboxing)",
   "inLanguage" : "it",
-  "wordCount":  1446 ,
-  "datePublished" : "2024-10-23T00:00:00",
-  "dateModified" : "2024-10-23T00:00:00",
+  "wordCount":  167 ,
+  "datePublished" : "2024-10-22T00:00:00",
+  "dateModified" : "2024-10-22T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
   "keywords" : [ "python, drone, school" ],
-  "mainEntityOfPage" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/dji_tello_drone_programming\/",
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/post\/2020\/jan\/dji-tello-drone-unboxing\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -79,10 +79,10 @@
 }
 </script>
 
-<meta property="og:title" content="Programming the DJI Tello Drone with Python (Episode 2)" />
-<meta property="og:description" content="Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...">
-<meta property="og:image" content="http://localhost:1313/img/posts/dji-tello-drone-programming-02.png" />
-<meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji_tello_drone_programming/" />
+<meta property="og:title" content="Drone Tello DJI unboxing (Episode 1)" />
+<meta property="og:description" content="Drone Tello DJI programmable in Python (unboxing)">
+<meta property="og:image" content="http://localhost:1313/img/posts/tello-drone.jpg" />
+<meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Marco Martorana" />
 <link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/marcomattolab/marcomartorana/favicon/apple-touch-icon.png">
@@ -307,7 +307,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                Programming the DJI Tello Drone with Python (Episode 2)
+                Drone Tello DJI unboxing (Episode 1)
                 
               </h1>
               
@@ -320,7 +320,7 @@
               <span class="post-meta">
   
   
-  &nbsp;23 October 2024
+  &nbsp;22 October 2024
 
   
 
@@ -355,6 +355,8 @@
         
         
           
+            <img src="/marcomattolab/marcomartorana/img/posts/tello-drone.jpg" alt="/img/posts/tello-drone.jpg" class="card-img-bottom rounded img-fluid lazyload">
+          
         
 
 
@@ -364,117 +366,26 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <h1 id="programming-the-dji-tello-drone-with-python">Programming the DJI Tello Drone with Python</h1>
-<p>The DJI Tello is a compact, affordable, and programmable drone ideal for beginners and educators looking to explore the world of drone technology and coding. Equipped with a camera, it offers a variety of features, including video transmission, precise hovering, and basic tricks. Its compatibility with Python enables developers and enthusiasts to create custom behaviors and flight paths, making it an excellent tool for both learning and experimentation.</p>
-<p>In this article, we’ll dive into how you can get started with programming the DJI Tello in Python, explore available simulators to test code safely, and discuss an advanced topic on matrix drone shows using Tello drones.</p>
-<h2 id="equipment-and-setup">Equipment and Setup</h2>
-<p>To program a DJI Tello drone in Python, you’ll need:</p>
-<ul>
-<li><strong>A DJI Tello drone</strong> (standard or Tello EDU version)</li>
-<li><strong>Python installed on your computer</strong> (version 3.6+ recommended)</li>
-<li><strong>Tello SDK</strong> to access Tello&rsquo;s programmable features</li>
-<li><strong>A compatible device</strong> (PC, Mac, or mobile device)</li>
-<li><strong>Wi-Fi connection</strong> to connect to the Tello drone</li>
-</ul>
-<p>Setting up your programming environment involves installing Python, configuring the SDK, and ensuring your device can communicate with the drone over Wi-Fi.</p>
-<h2 id="programming-the-tello-in-python">Programming the Tello in Python</h2>
-<p>With Python, programming the DJI Tello is straightforward thanks to the Tello SDK, which provides a range of commands for movement, rotations, flips, and even camera control. The SDK is compatible with various Python libraries that allow you to establish a connection, send commands, and receive feedback from the drone.</p>
-<p>For a simple example, here’s how you can control your Tello with Python:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">socket</span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">time</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Tello&#39;s IP and Port</span>
-</span></span><span style="display:flex;"><span>TELLO_IP <span style="font-weight:bold">=</span> <span style="color:#b84">&#34;192.168.10.1&#34;</span>
-</span></span><span style="display:flex;"><span>TELLO_PORT <span style="font-weight:bold">=</span> <span style="color:#099">8889</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Connect to Tello</span>
-</span></span><span style="display:flex;"><span>sock <span style="font-weight:bold">=</span> socket<span style="font-weight:bold">.</span>socket(socket<span style="font-weight:bold">.</span>AF_INET, socket<span style="font-weight:bold">.</span>SOCK_DGRAM)
-</span></span><span style="display:flex;"><span>sock<span style="font-weight:bold">.</span>bind((<span style="color:#b84">&#39;&#39;</span>, <span style="color:#099">9000</span>))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">send_command</span>(command):
-</span></span><span style="display:flex;"><span>    sock<span style="font-weight:bold">.</span>sendto(command<span style="font-weight:bold">.</span>encode(<span style="color:#b84">&#39;utf-8&#39;</span>), (TELLO_IP, TELLO_PORT))
-</span></span><span style="display:flex;"><span>    <span style="color:#999">print</span>(<span style="color:#b84">f</span><span style="color:#b84">&#34;Sent: </span><span style="color:#b84">{</span>command<span style="color:#b84">}</span><span style="color:#b84">&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;command&#34;</span>)   <span style="color:#998;font-style:italic"># Initiate SDK mode</span>
-</span></span><span style="display:flex;"><span>time<span style="font-weight:bold">.</span>sleep(<span style="color:#099">1</span>)
-</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;takeoff&#34;</span>)   <span style="color:#998;font-style:italic"># Take off</span>
-</span></span><span style="display:flex;"><span>time<span style="font-weight:bold">.</span>sleep(<span style="color:#099">5</span>)
-</span></span><span style="display:flex;"><span>send_command(<span style="color:#b84">&#34;land&#34;</span>)      <span style="color:#998;font-style:italic"># Land</span>
-</span></span></code></pre></div><p>This code initiates SDK mode, takes off, hovers for a few seconds, and then lands.</p>
-<h2 id="drone-simulators-for-safe-development">Drone Simulators for Safe Development</h2>
-<p>Developing with a real drone has inherent risks, especially in indoor environments. Luckily, simulators allow us to test and iterate on our code safely before using it with an actual Tello.</p>
-<h3 id="droneblocks-coding-simulator">DroneBlocks Coding Simulator</h3>
-<p>The <strong>DroneBlocks Coding Simulator</strong> is an excellent online tool to practice programming a Tello without any hardware. Available at <a href="https://coding-sim.droneblocks.io/">DroneBlocks Coding Simulator</a>, it provides a visual interface where you can test code by simulating movements, rotations, and simple flight paths in a virtual environment. The simulator supports block-based coding, making it especially beginner-friendly for those just getting started with drone programming.</p>
-<h3 id="droneblocks-tello-simulator">DroneBlocks Tello Simulator</h3>
-<p>For a Python-based simulation, the <strong>DroneBlocks Tello Simulator</strong> provides a Tello flight simulator that can be run locally. Installable via <a href="https://pypi.org/project/DroneBlocksTelloSimulator/">PyPI</a>, it allows developers to programmatically control a virtual Tello in Python. This is especially useful for those who wish to work directly with Python scripts and Tello SDK commands in a simulated environment that mimics the behavior of a real Tello.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install DroneBlocksTelloSimulator
-</span></span></code></pre></div><p>After installation, you can run Python commands in this environment, providing a safe way to refine your code.</p>
-<h2 id="advanced-topic-matrix-drone-shows">Advanced Topic: Matrix Drone Shows</h2>
-<p>An exciting application of DJI Tello drones is the creation of <strong>matrix drone shows</strong>, where multiple drones perform coordinated movements to create intricate patterns and displays. This requires advanced programming techniques, such as automatic path generation, collision avoidance, and synchronization of multiple drones.</p>
-<p>A recent study titled <a href="https://www.researchgate.net/publication/367059528_Implementation_of_Matrix_Drone_Show_Using_Automatic_Path_Generator_with_DJI_Tello_Drones">&ldquo;Implementation of Matrix Drone Show Using Automatic Path Generator with DJI Tello Drones&rdquo;</a> explores an automatic path generator that allows for creating these synchronized drone shows. By calculating optimal paths and timings, developers can ensure each drone follows a specific route, avoiding mid-air collisions while achieving complex formations.</p>
-<p>To implement a matrix drone show, you would need to:</p>
-<ol>
-<li>Define the formation pattern and set the starting positions for each drone.</li>
-<li>Generate unique paths for each drone, taking into account speed, distance, and synchronization.</li>
-<li>Use the Tello SDK to send commands to each drone in real time, monitoring progress to maintain the formation.</li>
-</ol>
-<p>Here’s an example of how a basic path coordination might look:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Assume each Tello has a unique IP address and can be controlled individually</span>
-</span></span><span style="display:flex;"><span>drones <span style="font-weight:bold">=</span> [(<span style="color:#b84">&#34;192.168.10.1&#34;</span>, <span style="color:#099">8889</span>), (<span style="color:#b84">&#34;192.168.10.2&#34;</span>, <span style="color:#099">8889</span>), (<span style="color:#b84">&#34;192.168.10.3&#34;</span>, <span style="color:#099">8889</span>)]
-</span></span><span style="display:flex;"><span>commands <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;up 50&#34;</span>, <span style="color:#b84">&#34;forward 100&#34;</span>, <span style="color:#b84">&#34;cw 90&#34;</span>]
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Send commands to all drones</span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> drone <span style="font-weight:bold">in</span> drones:
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> command <span style="font-weight:bold">in</span> commands:
-</span></span><span style="display:flex;"><span>        send_command(drone, command)
-</span></span></code></pre></div><p>This code could be expanded to allow more complex and simultaneous movements. The research presents a robust approach to coordinate multiple drones, paving the way for impressive aerial displays.</p>
-<p><img src="/img/posts/dji-tello-drone-programming-02.png" alt="DJI Tello Drone Programming"></p>
-<h2 id="final-considerations">Final Considerations</h2>
-<p>Programming the DJI Tello with Python is a rewarding experience, offering insights into both coding and robotics. Whether you’re learning basic controls or experimenting with coordinated multi-drone shows, the Tello is a flexible platform with ample support for developers of all levels. By leveraging simulators, you can practice and refine your code safely. Advanced applications, like drone shows, showcase the potential of using autonomous drones for synchronized performances and illustrate the future of automated drone displays.</p>
-<p>The DJI Tello opens doors to creativity and learning, making it a great tool for anyone interested in exploring robotics, automation, or the art of drone programming.</p>
-<hr>
-<h2 id="next-development-enhancing-the-matrix-drone-system-for-automatic-path-generation">Next Development: Enhancing the Matrix Drone System for Automatic Path Generation</h2>
-<p>Download Paper: <a href="/img/posts/matrix_drone_research_paper.pdf">Implementation_of_Matrix_Drone_URI</a></p>
-<p>The advancement of drone technology continues to unfold, particularly in control engineering and design. The Matrix Drone system utilizes the DJI Tello EDU as a cornerstone for further innovations. As previously discussed, the drones are organized into four groups of 25 drones each, connected to a wireless access point, enabling individual command execution for displaying letters or words. The focus now shifts towards enhancing the Automatic Drone Path Generator and optimizing the operational efficiency of the swarm drones.</p>
-<p>See Reserch Gate <a href="https://www.researchgate.net/publication/367059528_Implementation_of_Matrix_Drone_Show_Using_Automatic_Path_Generator_with_DJI_Tello_Drones">Implementation_of_Matrix_Drone_URI</a></p>
-<p><strong>Automatic drone path generator</strong>
-The need for an efficient and reliable path generation algorithm is paramount for the successful operation of the Matrix Drone system. This section explores the development of an automatic drone path generator designed to enhance the flight coordination and minimize the risk of collisions. The algorithm will utilize data from the onboard inertial measurement unit and camera for real-time adjustments during flight.</p>
-<ul>
-<li>
-<p>A. Implementation using Python
-The path generation algorithm will be implemented using Python, leveraging libraries such as NumPy for numerical calculations and OpenCV for image processing. The drones will continuously communicate their positions and status to the Mission Control Computer (MCC), allowing for dynamic adjustments to their flight paths based on real-time data.</p>
-</li>
-<li>
-<p>B. Enhanced Swarm Coordination**
-To further improve swarm coordination, we will integrate swarm intelligence principles into the path generation process. Each drone will have the capability to assess its surroundings and communicate with neighboring drones, allowing them to adapt their paths collectively. This approach not only optimizes the overall flight performance but also enhances the stability of the swarm in challenging conditions such as strong winds or low light.</p>
-</li>
-</ul>
-<p><strong>Advancements in matrix drone system desygn</strong>
-The design of the Matrix Drone system will undergo significant enhancements to accommodate the new path generation capabilities.</p>
-<ul>
-<li>
-<p>A. Updated Multi Drone Configuration
-As outlined in the previous design, the MCC will maintain its connection to the drones via the same network. However, with the integration of the automatic path generator, the configuration will evolve to include advanced networking protocols that facilitate more robust communication between the drones and the MCC.</p>
-</li>
-<li>
-<p>B. Flight Simulation Enhancements
-To ensure the new system&rsquo;s reliability, extensive simulations will be conducted. These simulations will test the drones&rsquo; ability to execute complex flight patterns and respond to dynamic environmental factors. The results will provide valuable insights into potential issues and areas for improvement before real-world implementation.</p>
-</li>
-</ul>
-<p><strong>Testing and validation</strong>
-Before deploying the enhanced Matrix Drone system, rigorous testing will be essential to validate the functionality of the automatic path generator and the new swarm coordination strategies. Key testing phases will include:</p>
-<ul>
-<li>
-<p>A. Single Drone Flight Trials
-Initial tests will involve single drones executing the newly developed path generation algorithm, ensuring that each drone can accurately follow designated paths without external intervention.</p>
-</li>
-<li>
-<p>B. Group Flight Simulations
-Subsequent tests will expand to include group flight simulations, where multiple drones will operate simultaneously, demonstrating the effectiveness of the swarm coordination and path generation in real-time scenarios.</p>
-</li>
-</ul>
-<p><strong>Conslusion</strong>
-The next phase of development for the Matrix Drone system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.</p>
+        <h2 id="introduction-to-the-dji-tello-drone--my-unboxing-">Introduction to the DJI Tello Drone ( My Unboxing )</h2>
+<p>The <strong>DJI Tello</strong> is a compact, affordable, and beginner-friendly drone developed by <strong>Ryze Tech</strong> in collaboration with <strong>DJI</strong>. Designed for both fun and educational purposes, the Tello is perfect for newcomers to drone flying as well as those looking to explore drone programming.</p>
+<p>With features like a <strong>5MP camera</strong> that captures <strong>720p HD video</strong>, up to <strong>13 minutes of flight time</strong>, and intuitive smartphone controls, the Tello offers an easy entry into the world of drones. Its lightweight design and intelligent flight systems provide stability and ease of use, making it an ideal drone for learning, capturing aerial footage, and experimenting with coding through <strong>Scratch</strong>.</p>
+<p>Whether you&rsquo;re a hobbyist or an educator, the DJI Tello offers an enjoyable and accessible drone experience.</p>
+<h2 id="youtube-privacy-enhanced-shortcode">YouTube privacy enhanced shortcode</h2>
+<p>The youtube shortcode embeds a responsive video player for YouTube videos. Only the ID of the video is required, e.g.:</p>
+<p><em>YouTube URL:</em></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>https://www.youtube.com/watch?v=1xW4HJxnTDM
+</span></span></code></pre></div><p>Shortcode:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; youtube 1xW4HJxnTDM &gt;}}
+</span></span></code></pre></div><p>Rendered output:
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1xW4HJxnTDM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
+<p><a href="https://www.youtube.com/watch?v=1xW4HJxnTDM">https://www.youtube.com/watch?v=1xW4HJxnTDM</a></p>
 
       </article>
     </div>
@@ -512,7 +423,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
   <ul class="share">
     
     <li>
-      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji_tello_drone_programming%2f" target="_blank" title="Share on Facebook">
+      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji-tello-drone-unboxing%2f" target="_blank" title="Share on Facebook">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
           <path
             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -521,7 +432,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji_tello_drone_programming%2f&amp;text=Programming%20the%20DJI%20Tello%20Drone%20with%20Python%20%28Episode%202%29&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji-tello-drone-unboxing%2f&amp;text=Drone%20Tello%20DJI%20unboxing%20%28Episode%201%29&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -533,7 +444,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
 
     
     <li>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji_tello_drone_programming%2f&amp;title=Programming%20the%20DJI%20Tello%20Drone%20with%20Python%20%28Episode%202%29"
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji-tello-drone-unboxing%2f&amp;title=Drone%20Tello%20DJI%20unboxing%20%28Episode%201%29"
         target="_blank" title="Share on LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -543,8 +454,8 @@ The next phase of development for the Matrix Drone system promises to enhance th
     </li>
 
     <li>
-      <a target="_blank" rel="noopener noreferrer" aria-label="share Programming the DJI Tello Drone with Python (Episode 2) on reddit"
-        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji_tello_drone_programming%2f&title=Programming%20the%20DJI%20Tello%20Drone%20with%20Python%20%28Episode%202%29">
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Drone Tello DJI unboxing (Episode 1) on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji-tello-drone-unboxing%2f&title=Drone%20Tello%20DJI%20unboxing%20%28Episode%201%29">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
           viewBox="0 0 16 16">
           <path
@@ -561,7 +472,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
 
     
     <li>
-      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji_tello_drone_programming%2f&amp;description=Programming%20the%20DJI%20Tello%20Drone%20with%20Python%20%28Episode%202%29" target="_blank" rel="noopener"
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fdji-tello-drone-unboxing%2f&amp;description=Drone%20Tello%20DJI%20unboxing%20%28Episode%201%29" target="_blank" rel="noopener"
         title="Share on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
           <path
@@ -621,8 +532,8 @@ The next phase of development for the Matrix Drone system promises to enhance th
         
         <li class="list-group-item b-0 p-0">
 
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/"
-            data-toggle="tooltip" data-placement="top" title="Drone Tello DJI unboxing (Episode 1)">&larr;
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/"
+            data-toggle="tooltip" data-placement="top" title="How to Manage Priorities in Project Management">&larr;
             Articolo precedente</a>
         </li>
         
@@ -630,8 +541,8 @@ The next phase of development for the Matrix Drone system promises to enhance th
 
         
         <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/"
-            data-toggle="tooltip" data-placement="top" title="Alternatives to ChatGPT">Articolo successivo
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/"
+            data-toggle="tooltip" data-placement="top" title="Programming the DJI Tello Drone with Python (Episode 2)">Articolo successivo
             &rarr;</a>
         </li>
         
@@ -665,10 +576,10 @@ The next phase of development for the Matrix Drone system promises to enhance th
 
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/">
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
             <div class="card-body">
-                <h3 class="fw-medium post-title">Drone Tello DJI unboxing (Episode 1)</h3>
+                <h3 class="fw-medium post-title">Programming the DJI Tello Drone with Python (Episode 2)</h3>
                 
 
                 <p class="post-meta">
@@ -676,7 +587,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
   
   
 
-  22 October 2024
+  23 October 2024
 
   
 
@@ -692,7 +603,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
 
                 <div class="post-entry">
                     
-                    Drone Tello DJI programmable in Python (unboxing)
+                    Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...
 
                     
                 </div>
@@ -704,7 +615,7 @@ The next phase of development for the Matrix Drone system promises to enhance th
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/tello-drone_hu6993401064715829764.jpg" alt="/img/posts/tello-drone.jpg"
+            <img src="/marcomattolab/marcomartorana/img/posts/dji-tello-drone-programming-02_hu6846090820019164728.png" alt="/img/posts/dji-tello-drone-programming-02.png"
                 class="card-img-bottom img-fluid lazyload">
             
 

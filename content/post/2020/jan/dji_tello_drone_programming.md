@@ -1,12 +1,11 @@
 ---
 title: Programming the DJI Tello Drone with Python
-date: 2024-10-27
-tags: ["Tello DJI", "python", "drone", "school"]
+date: 2024-10-23
+tags: ["python", "drone", "school"]
 image : "/img/posts/dji-tello-drone-programming-02.png"
-Description  : 'Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones.'
+Description  : 'Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...'
 featured: true
 ---
-
 
 # Programming the DJI Tello Drone with Python
 

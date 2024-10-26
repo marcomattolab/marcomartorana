@@ -22,7 +22,10 @@ To run the project locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine using `git clone`.
 2. Navigate to the project directory
-3. Open command prompt >> hugo server
+3. Open command prompt:
+> >> hugo server
+> >> hugo server --buildDrafts
+> >> hugo server --disableFastRender
 
 ## License
 

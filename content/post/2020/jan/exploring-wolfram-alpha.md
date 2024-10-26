@@ -9,7 +9,7 @@ featured: true
 
 ## Introduction
 
-In the realm of computer science and information and communication technology (ICT), tools that enhance our ability to compute and retrieve information play a crucial role. One such powerful tool is ![Wolfram Alpha](https://www.wolframalpha.com/), a computational knowledge engine that has transformed the way we access and interpret data.
+In the realm of computer science and information and communication technology (ICT), tools that enhance our ability to compute and retrieve information play a crucial role. One such powerful tool is [Wolfram Alpha](https://www.wolframalpha.com) , a computational knowledge engine that has transformed the way we access and interpret data.
 
 ## What is Wolfram Alpha?
 

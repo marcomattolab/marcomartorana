@@ -1,7 +1,7 @@
 ---
 title: Alternatives to ChatGPT
 date: 2024-10-24
-tags: ["ai","llm","chat-gpt", "school"]
+tags: ["ai","llm","chat-gpt"]
 image : "/img/posts/alternative-to-chatgpt.jpeg"
 Description  : 'Is ChatGPT Obsolete? Discover the Top 10 Free AI Alternatives'
 featured: true

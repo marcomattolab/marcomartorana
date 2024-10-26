@@ -6,15 +6,8 @@
     <description>Recent content in School on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/school/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Alternatives to ChatGPT</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
-      <description>&lt;h1 id=&#34;alternatives-to-chatgpt&#34;&gt;Alternatives to ChatGPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;10-ai-tools-to-try-right-now&#34;&gt;10 AI Tools to Try Right Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Which AI chatbots are the best to replace ChatGPT?&lt;/strong&gt; Answering this question requires considering a few factors. ChatGPT is an exceptionally capable AI that can handle a wide range of tasks—from planning vacations to translating text—and is very user-friendly, a definite advantage.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Programming the DJI Tello Drone with Python</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji_tello_drone_programming/</link>
@@ -35,13 +28,6 @@
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
       <description>&lt;h3 id=&#34;visualizing-algorithms-key-tools-and-techniques-for-enhanced-understanding&#34;&gt;Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding&lt;/h3&gt;&#xA;&lt;p&gt;Visualizing how an &lt;strong&gt;algorithm&lt;/strong&gt; works can significantly enhance comprehension and facilitate the &lt;strong&gt;&lt;em&gt;learning process&lt;/em&gt;&lt;/strong&gt;. Several &lt;strong&gt;tools&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; are available to help both &lt;em&gt;beginners&lt;/em&gt; and &lt;em&gt;experts&lt;/em&gt; understand algorithms through visual representation. Here are a few notable tools:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript tips for developers</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
-      <description>&lt;h3 id=&#34;javascript-tips-for-developers&#34;&gt;JavaScript tips for developers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here &lt;strong&gt;&lt;em&gt;tips&lt;/em&gt;&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; to use daily for amplifying productivity during development of our code.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

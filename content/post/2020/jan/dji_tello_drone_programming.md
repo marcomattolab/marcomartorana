@@ -1,6 +1,6 @@
 ---
 title: Drone Tello DJI
-date: 2020-01-20
+date: 2024-10-27
 tags: ["Tello DJI", "python", "drone", "school"]
 image : "/img/posts/dji-tello-drone-programming-01.png"
 Description  : 'Drone Tello DJI programmable in Python (unboxing)'
@@ -100,7 +100,7 @@ This code could be expanded to allow more complex and simultaneous movements. Th
 
 
 
-![DJI Tello Drone Programming](dji-tello-drone-programming-02.png)
+![DJI Tello Drone Programming](/marcomattolab/marcomartorana/dji-tello-drone-programming-02.png)
 
 
 ## Final Considerations

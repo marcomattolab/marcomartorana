@@ -92,7 +92,7 @@ Currently available in eight languages, HeyGen is mostly subscription-based, wit
 ---
 
 
-![Large Language Model](/marcomattolab/marcomartorana/img/posts/chat-gpt-vision.jpeg)
+![Large Language Model](/img/posts/chat-gpt-vision.jpeg)
 
 
 

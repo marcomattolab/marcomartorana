@@ -99,7 +99,7 @@ This code could be expanded to allow more complex and simultaneous movements. Th
 
 
 
-![DJI Tello Drone Programming](/marcomattolab/marcomartorana/img/posts/dji-tello-drone-programming-02.png)
+![DJI Tello Drone Programming](/img/posts/dji-tello-drone-programming-02.png)
 
 
 ## Final Considerations
@@ -148,4 +148,6 @@ Subsequent tests will expand to include group flight simulations, where multiple
 **Conslusion**
 The next phase of development for the Matrix Drone system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.
 
-<iframe src="/img/posts/Matrix_Drone_Research_Paper.pdf" width="100%" height="600px"></iframe>
+<iframe src="/img/posts/Matrix_Drone_Research_Paper.pdf" width="100%" height="600px">
+FRAME PDF
+</iframe>

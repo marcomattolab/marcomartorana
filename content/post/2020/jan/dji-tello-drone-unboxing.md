@@ -1,8 +1,8 @@
 ---
-title: Drone Tello DJI unboxing (Episode 1)
+title: Drone Tello DJI unboxing (ep. 1)
 date: 2024-10-22
 tags: ["python","drone", "school"]
-image : "/img/posts/tello-drone.jpg"
+image : "/img/posts/dji-tello-drone-unboxing-02.jpeg"
 Description  : 'Drone Tello DJI programmable in Python (unboxing)'
 featured: true
 ---

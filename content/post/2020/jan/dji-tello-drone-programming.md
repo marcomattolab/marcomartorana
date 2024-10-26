@@ -1,5 +1,5 @@
 ---
-title: Programming the DJI Tello Drone with Python (Episode 2)
+title: Programming the DJI Tello Drone with Python (ep. 2)
 date: 2024-10-23
 tags: ["python", "drone", "school"]
 image : "/img/posts/dji-tello-drone-programming-02.png"

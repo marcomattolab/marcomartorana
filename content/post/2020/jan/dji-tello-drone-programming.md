@@ -108,8 +108,19 @@ Programming the DJI Tello with Python is a rewarding experience, offering insigh
 
 The DJI Tello opens doors to creativity and learning, making it a great tool for anyone interested in exploring robotics, automation, or the art of drone programming.
 
+
 ---
-## Next Development: Enhancing the Matrix Drone System for Automatic Path Generation
+## Next Development: Face recognition with Open CV  (AI and machine learning)
+
+This repository demonstrates using OpenCV with the TelloEDU mini drone or a computer's web camera to perform facial detection and keep track of the number of faces detected at a given time.
+
+This **repository showcases** how to utilize **OpenCV** for *real-time facial detection* using the TelloEDU mini drone's camera or a computer's webcam. 
+- It detects faces in the camera stream and draws rectangles around them, along with counting the number of faces detected.
+- The code available on this repository on github ![Face recognition with Open CV](https://github.com/Jacob-Pitsenberger/Face-Detection-over-Webcam-or-Tello-Drone-Video-Stream-Python-OpenCV) . The repository includes a simple GUI for displaying the video feed and the number of faces detected.
+
+
+---
+## Next Development: Enhancing the Matrix Drone System for Automatic Path Generation (Experimental Paper)
 
 Download Paper: [Implementation_of_Matrix_Drone_URI](/img/posts/matrix_drone_research_paper.pdf)
 

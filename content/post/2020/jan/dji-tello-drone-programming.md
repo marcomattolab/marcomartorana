@@ -127,7 +127,7 @@ This **repository showcases** how to utilize **OpenCV** for *real-time facial de
 Download Paper: [Implementation_of_Matrix_Drone_URI](/img/posts/matrix_drone_research_paper.pdf)
 
 ->
-{{< pdfReader "/img/posts/matrix_drone_research_paper.pdf" >}}
+{{< embed-pdf url="./img/posts/matrix_drone_research_paper.pdf" >}}
 
 The advancement of drone technology continues to unfold, particularly in control engineering and design. The Matrix Drone system utilizes the DJI Tello EDU as a cornerstone for further innovations. As previously discussed, the drones are organized into four groups of 25 drones each, connected to a wireless access point, enabling individual command execution for displaying letters or words. The focus now shifts towards enhancing the Automatic Drone Path Generator and optimizing the operational efficiency of the swarm drones.
 
@@ -162,4 +162,4 @@ Initial tests will involve single drones executing the newly developed path gene
 Subsequent tests will expand to include group flight simulations, where multiple drones will operate simultaneously, demonstrating the effectiveness of the swarm coordination and path generation in real-time scenarios.
 
 **Conslusion**
-The next phase of development for the Matrix Drone system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.
+The next phase of development for the **Matrix Drone** system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.

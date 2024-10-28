@@ -15,6 +15,8 @@ The website is built using the following technologies:
 - HTML5
 - CSS3
 - HUGO
+- HUGO PLUGINS
+    - HUGO SHORTCODES: https://github.com/anvithks/hugo-embed-pdf-shortcode
 
 ## Installation
 
@@ -27,6 +29,7 @@ To run the project locally on your machine, follow these steps:
 > >> hugo server --buildDrafts
 > >> hugo server --disableFastRender
 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -36,5 +39,7 @@ This project is licensed under the [MIT License](LICENSE).
 For questions please contact us at [marcomatto@gmail.com](mailto:marcomatto@gmail).
 
 Thank you for visiting my official website repository!!
+
+
 
 

@@ -110,9 +110,11 @@ The DJI Tello opens doors to creativity and learning, making it a great tool for
 
 
 ---
+
 ## Next Development: Face recognition with Open CV  (AI and machine learning)
 
 This repository demonstrates using OpenCV with the TelloEDU mini drone or a computer's web camera to perform facial detection and keep track of the number of faces detected at a given time.
+
 
 This **repository showcases** how to utilize **OpenCV** for *real-time facial detection* using the TelloEDU mini drone's camera or a computer's webcam. 
 - It detects faces in the camera stream and draws rectangles around them, along with counting the number of faces detected.

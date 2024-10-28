@@ -60,7 +60,7 @@
   "headline": "Programming the DJI Tello Drone with Python (ep. 2)",
   "description" : "Programming the DJI Tello in Python, explore available simulators to test code safely using Tello drones...",
   "inLanguage" : "it",
-  "wordCount":  1446 ,
+  "wordCount":  1574 ,
   "datePublished" : "2024-10-23T00:00:00",
   "dateModified" : "2024-10-23T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -433,8 +433,264 @@
 <p>Programming the DJI Tello with Python is a rewarding experience, offering insights into both coding and robotics. Whether you’re learning basic controls or experimenting with coordinated multi-drone shows, the Tello is a flexible platform with ample support for developers of all levels. By leveraging simulators, you can practice and refine your code safely. Advanced applications, like drone shows, showcase the potential of using autonomous drones for synchronized performances and illustrate the future of automated drone displays.</p>
 <p>The DJI Tello opens doors to creativity and learning, making it a great tool for anyone interested in exploring robotics, automation, or the art of drone programming.</p>
 <hr>
-<h2 id="next-development-enhancing-the-matrix-drone-system-for-automatic-path-generation">Next Development: Enhancing the Matrix Drone System for Automatic Path Generation</h2>
+<h2 id="next-development-face-recognition-with-open-cv--ai-and-machine-learning">Next Development: Face recognition with Open CV  (AI and machine learning)</h2>
+<p>This repository demonstrates using OpenCV with the TelloEDU mini drone or a computer&rsquo;s web camera to perform facial detection and keep track of the number of faces detected at a given time.</p>
+<p>This <strong>repository showcases</strong> how to utilize <strong>OpenCV</strong> for <em>real-time facial detection</em> using the TelloEDU mini drone&rsquo;s camera or a computer&rsquo;s webcam.</p>
+<ul>
+<li>It detects faces in the camera stream and draws rectangles around them, along with counting the number of faces detected.</li>
+<li>The code available on this repository on github <a href="https://github.com/Jacob-Pitsenberger/Face-Detection-over-Webcam-or-Tello-Drone-Video-Stream-Python-OpenCV">Face recognition with Open CV</a> . The repository includes a simple GUI for displaying the video feed and the number of faces detected.</li>
+</ul>
+<hr>
+<h2 id="next-development-enhancing-the-matrix-drone-system-for-automatic-path-generation-experimental-paper">Next Development: Enhancing the Matrix Drone System for Automatic Path Generation (Experimental Paper)</h2>
 <p>Download Paper: <a href="/img/posts/matrix_drone_research_paper.pdf">Implementation_of_Matrix_Drone_URI</a></p>
+<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+
+<style>
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  </style><div class="embed-pdf-container" id="embed-pdf-container-2045579f">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-2045579f">
+        <div class="pdf-loading" id="pdf-loading-2045579f"></div>
+    </div>
+    <div id="overlayText">
+      <a href="/img/posts/matrix_drone_research_paper.pdf" aria-label="Download" download>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+        </svg>
+      </a>
+    </div>
+    <canvas class="pdf-canvas" id="pdf-canvas-2045579f"></canvas>
+</div>
+
+<div class="pdf-paginator" id="pdf-paginator-2045579f">
+    <button id="pdf-prev-2045579f">Previous</button>
+    <button id="pdf-next-2045579f">Next</button> &nbsp; &nbsp;
+    <span>
+      <span class="pdf-pagenum" id="pdf-pagenum-2045579f"></span> / <span class="pdf-pagecount" id="pdf-pagecount-2045579f"></span>
+    </span>
+    <a class="pdf-source" id="pdf-source-2045579f" href="/img/posts/matrix_drone_research_paper.pdf">[pdf]</a>
+</div>
+
+<noscript>
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-2045579f" href="/img/posts/matrix_drone_research_paper.pdf">here</a>.
+</noscript>
+
+<script type="text/javascript">
+    (function(){
+    var url = '\/img\/posts\/matrix_drone_research_paper.pdf';
+
+    var hidePaginator = "" === "true";
+    var hideLoader = "" === "true";
+    var selectedPageNum = parseInt("") || 1;
+
+    
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/" + 'js/pdf-js/build/pdf.worker.js';
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById('pdf-canvas-2045579f'),
+        ctx = canvas.getContext('2d'),
+        paginator = document.getElementById("pdf-paginator-2045579f"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-2045579f');
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById('pdf-pagenum-2045579f').textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = 'none';
+      canvas.style.display = 'block';
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = 'flex';
+      canvas.style.display = 'none';
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = 'block';
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-prev-2045579f').addEventListener('click', onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-next-2045579f').addEventListener('click', onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById('pdf-pagecount-2045579f').textContent = numPages;
+
+      
+      if(pageNum > numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+</script>
+
 <p>The advancement of drone technology continues to unfold, particularly in control engineering and design. The Matrix Drone system utilizes the DJI Tello EDU as a cornerstone for further innovations. As previously discussed, the drones are organized into four groups of 25 drones each, connected to a wireless access point, enabling individual command execution for displaying letters or words. The focus now shifts towards enhancing the Automatic Drone Path Generator and optimizing the operational efficiency of the swarm drones.</p>
 <p>See Reserch Gate <a href="https://www.researchgate.net/publication/367059528_Implementation_of_Matrix_Drone_Show_Using_Automatic_Path_Generator_with_DJI_Tello_Drones">Implementation_of_Matrix_Drone_URI</a></p>
 <p><strong>Automatic drone path generator</strong>
@@ -474,7 +730,7 @@ Subsequent tests will expand to include group flight simulations, where multiple
 </li>
 </ul>
 <p><strong>Conslusion</strong>
-The next phase of development for the Matrix Drone system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.</p>
+The next phase of development for the <strong>Matrix Drone</strong> system promises to enhance the capabilities of swarm drones through the introduction of an automatic drone path generator and improved swarm coordination strategies. These advancements aim to elevate the operational efficiency of the drones while ensuring a higher level of safety during flight operations. Continuous research and testing will be critical as we strive to realize the full potential of this innovative drone system. We extend our gratitude to our technical team for their support in pushing the boundaries of drone technology.</p>
 
       </article>
     </div>

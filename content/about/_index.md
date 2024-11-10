@@ -26,11 +26,9 @@ I specialize in development, teaching, and **agile methodologies** like SCRUM. M
 - **Methodologies**: Agile, SCRUM, DevOps
 - **Sectors**: Healthcare, Finance, Gambling, Energy, Research & Development
 
-
-| ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) | ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=white) |
-|---|---|---|---|
-| ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) | ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) |
-
+| ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)   | ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) | ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=white)       |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)             | ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)          | ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) |
 
 ---
 
@@ -52,17 +50,16 @@ I specialize in development, teaching, and **agile methodologies** like SCRUM. M
 - **Docker** ★★★★☆
 - **Agile**  ★★★★☆
 
-
 ---
 
 ### Download My CV
 
 If you want to know more about my professional journey, feel free to download my CV in your preferred language and format:
 
-| **Language** | **PDF** | **DOC** |
-|--------------|---------|---------|
-| *English*      | [Download PDF](../download/CV-Martorana-EN.pdf) | [Download DOC](../download/CV-Martorana-EN.docx) |
-| *Italian*      | [Scarica PDF](../download/CV-Martorana-IT.pdf) | [Scarica DOC](../download/CV-Martorana-IT.docx) |
+| **Language** | **PDF**                                         | **DOC**                                          |
+| ------------ | ----------------------------------------------- | ------------------------------------------------ |
+| *English*    | [Download PDF](../download/CV-Martorana-EN.pdf) | [Download DOC](../download/CV-Martorana-EN.doc) |
+| *Italian*    | [Scarica PDF](../download/CV-Martorana-IT.pdf)  | [Scarica DOC](../download/CV-Martorana-IT.doc)  |
 
 ---
 
@@ -75,3 +72,4 @@ Connect with me on social media for updates on my professional work and insights
 ---
 
 Feel free to get in touch for **collaboration opportunities**, **training sessions**, or just to discuss the latest trends in **technology and software development**!
+

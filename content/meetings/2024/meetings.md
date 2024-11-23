@@ -1,7 +1,7 @@
 ---
 Title: Meeting No.3
 Subtitle: ""
-Date: 2024-12-31
+Date: 2025-03-31
 Tags: ["newsletter"]
 image : "/img/collections/collections3.jpg"
 Description: "Articles about learning in public, brag document and free stuffs."

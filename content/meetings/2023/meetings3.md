@@ -1,9 +1,9 @@
 ---
-Title: Collections No.2
+Title: Meeting No.3
 Subtitle: ""
-Date: 2023-01-01
+Date: 2024-12-31
 Tags: ["newsletter"]
-image : "/img/collections/collections2.jpg"
+image : "/img/collections/collections3.jpg"
 Description: "Articles about learning in public, brag document and free stuffs."
 Draft: 
 ---

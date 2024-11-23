@@ -6,8 +6,71 @@
     <description>Recent content in Tags on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ELCA</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/elca/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/elca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDGPalermo</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GenAI</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/genai/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/genai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovazione</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/innovazione/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/innovazione/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/kubernetes/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newsletter</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palermo</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/palermo/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/palermo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sviluppo</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/sviluppo/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/sviluppo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Computer Science</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/computer-science/</link>
@@ -72,13 +135,6 @@
       <description></description>
     </item>
     <item>
-      <title>Angular</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Programming</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/programming/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
@@ -118,13 +174,6 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/informatics/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/informatics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Newsletter</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</guid>
       <description></description>
     </item>
     <item>

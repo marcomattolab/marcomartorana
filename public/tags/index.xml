@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Angular</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
@@ -27,13 +34,6 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GenAI</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/genai/</link>
-      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/genai/</guid>
       <description></description>
     </item>
     <item>
@@ -93,13 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Chat-Gpt</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
@@ -132,6 +125,41 @@
       <link>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</link>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDG</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/gdg/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/gdg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gela</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/gela/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/gela/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ImprenditoriaDigitale</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/imprenditoriadigitale/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/imprenditoriadigitale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mazzarino</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/mazzarino/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/mazzarino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RealtaAumentata</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/tags/realtaaumentata/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/tags/realtaaumentata/</guid>
       <description></description>
     </item>
     <item>

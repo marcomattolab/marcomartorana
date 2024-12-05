@@ -25,9 +25,9 @@ To run the project locally on your machine, follow these steps:
 1. Clone this repository to your local machine using `git clone`.
 2. Navigate to the project directory
 3. Open command prompt:
-> >> hugo server
-> >> hugo server --buildDrafts
-> >> hugo server --disableFastRender
+   - hugo server
+   - hugo server --buildDrafts
+   - hugo server --disableFastRender
 
 
 ## License
@@ -39,6 +39,8 @@ This project is licensed under the [MIT License](LICENSE).
 For questions please contact us at [marcomatto@gmail.com](mailto:marcomatto@gmail).
 
 Thank you for visiting my official website repository!!
+
+
 
 
 

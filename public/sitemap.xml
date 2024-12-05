@@ -27,11 +27,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -43,6 +38,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/kubernetes/</loc>
+    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -3,7 +3,7 @@ Title: "My presentation at GDG Palermo about Angular🚀"
 Subtitle: ""
 Date: 2024-12-01
 Tags: ["newsletter", "GDGPalermo", "Innovazione", "ELCA", "Angular", "AI", "Kubernetes", "Sviluppo", "Palermo"]
-image : "/img/meetings/meetings1.png"
+image : "/img/meetings/meetings5.png"
 Description: "My presentation about frontend development with Angular, highlighting the powerful new Signals API. Asort of Back to the Future trip talking about the evolution of this framework during the event organized by GDG in Palermo on December 4th 2024."
 Draft: 
 ---
@@ -143,3 +143,10 @@ export class CounterComponent {
 ---
 **Slide of the meeting:**
 {{< pdfReader "https://marcomartorana.it/download/GDG-Pa-Angular-Signals.pdf" >}}
+
+---
+**Pictures about the meeting**
+![Picture 1](https://marcomartorana.it/img/meetings/gdg-palermo/photo_1.jpg "Picture 1")
+![Picture 2](https://marcomartorana.it/img/meetings/gdg-palermo/photo_2.jpg "Picture 2")
+![Picture 3](https://marcomartorana.it/img/meetings/gdg-palermo/photo_3.jpg "Picture 3")
+![Picture 4](https://marcomartorana.it/img/meetings/gdg-palermo/photo_4.png "Picture 4")

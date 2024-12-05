@@ -17,6 +17,7 @@ The website is built using the following technologies:
 - HUGO
 - HUGO PLUGINS
     - HUGO SHORTCODES: https://github.com/anvithks/hugo-embed-pdf-shortcode
+    - PDF READER: https://bugdrivendevelopment.net/it/pdf-reader-hugo-sites/
 
 ## Installation
 

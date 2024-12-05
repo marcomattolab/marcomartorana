@@ -1,10 +1,10 @@
 ---
-Title: "GDG Palermo! 🚀 - Frontend Development with Angular"
+Title: "My presentation at GDG Palermo about Angular🚀"
 Subtitle: ""
 Date: 2024-12-01
 Tags: ["newsletter", "GDGPalermo", "Innovazione", "ELCA", "Angular", "AI", "Kubernetes", "Sviluppo", "Palermo"]
 image : "/img/meetings/meetings1.png"
-Description: "In person Event GDG in Palermo December 2024. GDG is a community-driven event that brings the latest innovations from Google I/O directly to developers worldwide."
+Description: "My presentation about frontend development with Angular, highlighting the powerful new Signals API. Asort of Back to the Future trip talking about the evolution of this framework during the event organized by GDG in Palermo on December 4th 2024."
 Draft: 
 ---
 
@@ -140,5 +140,6 @@ export class CounterComponent {
 - **AI in Development:** Utilize AI tools cautiously for repetitive tasks.  
 - **Tool Selection:** Adapt tools and frameworks to specific project requirements.
 
-More information:
+---
+**Slide of the meeting:**
 {{< pdfReader "https://marcomartorana.it/download/GDG-Pa-Angular-Signals.pdf" >}}

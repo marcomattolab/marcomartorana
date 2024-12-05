@@ -6,8 +6,15 @@
     <description>Recent content in Sviluppo on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/sviluppo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDG Palermo! 🚀 - Frontend Development with Angular</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
+      <description>&lt;h1 id=&#34;frontend-development-with-angular-2024--&#34;&gt;Frontend Development with Angular (2024) ! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marco Martorana, Senior Software Developer at ELCA&lt;br&gt;&#xA;&lt;strong&gt;Event:&lt;/strong&gt; GDG Palermo, December 4, 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Overview:&lt;/strong&gt; Retrospective of Angular framework evolution with personal recommendations and lessons learned.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus:&lt;/strong&gt; Simplifying state management with Angular Signals introduced in Angular 16.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;evolution-of-angular&#34;&gt;&lt;strong&gt;Evolution of Angular&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;angular-milestones&#34;&gt;Angular Milestones&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Angular @2010&lt;/strong&gt; - The 1st Revolution&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Evento GDG a Palermo! 🚀</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>

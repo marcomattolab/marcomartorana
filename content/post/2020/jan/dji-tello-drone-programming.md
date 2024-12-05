@@ -124,10 +124,11 @@ This **repository showcases** how to utilize **OpenCV** for *real-time facial de
 ---
 ## Next Development: Enhancing the Matrix Drone System for Automatic Path Generation (Experimental Paper)
 
-Download Paper: [Implementation_of_Matrix_Drone_URI](/img/posts/matrix_drone_research_paper.pdf)
+Download Paper: [Implementation_of_Matrix_Drone_URI](https://marcomartorana.it/download/matrix_drone_research_paper.pdf)
 
 
-{{< embed-pdf url="/img/posts/matrix_drone_research_paper.pdf" >}}
+
+{{< pdfReader "https://marcomartorana.it/download/Matrix_Drone_Research_Paper.pdf" >}}
 
 The advancement of drone technology continues to unfold, particularly in control engineering and design. The Matrix Drone system utilizes the DJI Tello EDU as a cornerstone for further innovations. As previously discussed, the drones are organized into four groups of 25 drones each, connected to a wireless access point, enabling individual command execution for displaying letters or words. The focus now shifts towards enhancing the Automatic Drone Path Generator and optimizing the operational efficiency of the swarm drones.
 

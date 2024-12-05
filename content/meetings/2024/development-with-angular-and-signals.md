@@ -23,17 +23,16 @@ Draft:
 
 ### Angular Milestones
 
-1. **Angular @2010** - The 1st Revolution
-   - **Key Features:** Single Page Applications (SPAs) introduced with client-side rendering.
-   - Replaced traditional server-side rendering.
-   - Challenges addressed: manual synchronization, boilerplate code, and tight coupling.
+1. **Angular @2010** - The I Revolution
+    - Introduction of Binding
+    - Single Page Applications (SPAs) introduced with client-side rendering
+    - Challenges addressed: manual synchronization, boilerplate code, and tight coupling.
 
-2. **Angular @2016** - The 2nd Revolution
-   - **Key Features:** 
-     - Rewritten in TypeScript.
-     - Integration with Reactive Programming using RxJS.
+2. **Angular @2016** - The II Revolution
+    - Rewritten in TypeScript.
+    - Integration with Reactive Programming using RxJS.
 
-3. **Modern Angular (2023/2024)**
+3. **Modern Angular @2023** - The III Revolution
    - **Key Features:** 
      - Simplification with standalone components.
      - Introduction of *Signals*, improved server-side rendering (SSR), and lazy loading with `@defer`.
@@ -56,24 +55,22 @@ Draft:
   - Reduced boilerplate code.
   - Native responsiveness without subscriptions.
 
-- **Introduced in Angular 16** as the recommended approach for state management.
-
 ### Code Example: Signals vs RxJS
 
 #### Using RxJS for Component State
 
-\`\`\`typescript
+```typescript
 import { Component } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-counter',
-  template: \`
+  template: `
     <h1>Counter: {{ count$ | async }}</h1>
     <button (click)="increment()">Increment</button>
     <button (click)="decrement()">Decrement</button>
     <button (click)="reset()">Reset</button>
-  \`
+  `
 })
 export class CounterComponent {
   private countSubject = new BehaviorSubject<number>(0);
@@ -91,24 +88,24 @@ export class CounterComponent {
     this.countSubject.next(0);
   }
 }
-\`\`\`
+```
 
 #### Using Signals for Component State
 
-\`\`\`typescript
+```typescript
 import { Component, signal, computed } from '@angular/core';
 
 @Component({
   selector: 'app-counter',
-  template: \`
+  template: `
     <h1>Counter: {{ count() }}</h1>
     <button (click)="increment()">Increment</button>
     <button (click)="decrement()">Decrement</button>
     <button (click)="reset()">Reset</button>
-  \`
+  `
 })
 export class CounterComponent {
-  count = signal(0);
+  count = signal<number>(0);
   parityMessage = computed(() => this.count() % 2 === 0 ? 'Even' : 'Odd');
 
   increment() {
@@ -123,7 +120,7 @@ export class CounterComponent {
     this.count.set(0);
   }
 }
-\`\`\`
+```
 
 
 ## **Best Practices for Modern Angular**
@@ -143,14 +140,5 @@ export class CounterComponent {
 - **AI in Development:** Utilize AI tools cautiously for repetitive tasks.  
 - **Tool Selection:** Adapt tools and frameworks to specific project requirements.
 
----
-
-## **Resources**
-
-- [Angular Official Documentation](https://angular.dev/)
-- [Angular Signals Guide](https://angular.dev/guide/signals)
-- [Marco Martorana's Website](https://marcomartorana.it)
-- [GDG Palermo Event Details](https://www.gdgp.it/)
-
----
-
+More information:
+{{< pdfReader "https://marcomartorana.it/download/GDG-Pa-Angular-Signals.pdf" >}}

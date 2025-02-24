@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/angular/</link>
     <description>Recent content in Angular on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My presentation at GDG Palermo about Angular🚀</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
       <description>&lt;h1 id=&#34;frontend-development-with-angular-2024--&#34;&gt;Frontend Development with Angular (2024) ! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marco Martorana, Senior Software Developer at ELCA&lt;br&gt;&#xA;&lt;strong&gt;Event:&lt;/strong&gt; GDG Palermo, December 4, 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Overview:&lt;/strong&gt; Retrospective of Angular framework evolution with personal recommendations and lessons learned.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus:&lt;/strong&gt; Simplifying state management with Angular Signals introduced in Angular 16.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;evolution-of-angular&#34;&gt;&lt;strong&gt;Evolution of Angular&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;angular-milestones&#34;&gt;Angular Milestones&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Angular @2010&lt;/strong&gt; - The I Revolution&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evento GDG a Palermo! 🚀</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid>
       <description>&lt;h1 id=&#34;evento-gdg-a-palermo-&#34;&gt;Evento GDG a Palermo! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;Il &lt;strong&gt;4 dicembre&lt;/strong&gt; non perderti un evento unico dedicato al futuro dello sviluppo con &lt;strong&gt;#Angular&lt;/strong&gt;, &lt;strong&gt;#GenAI&lt;/strong&gt; e &lt;strong&gt;#Kubernetes&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-dettagli-evento&#34;&gt;📅 Dettagli evento&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quando:&lt;/strong&gt; Mercoledì 4 dicembre 2024, ore 18:00 - 21:00&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dove:&lt;/strong&gt; Sede BIP di Palermo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-speaker-e-sessioni&#34;&gt;🎤 Speaker e sessioni&lt;/h2&gt;&#xA;&lt;p&gt;Tra i relatori, ci sarò anche io, Marco Martorana, per &lt;a href=&#34;https://www.elca.ch/en&#34;&gt;&lt;strong&gt;ELCA Group&lt;/strong&gt;&lt;/a&gt; con una sessione dal titolo:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google I/O Extended (Mazzarino - Gela)</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
       <description>&lt;h1 id=&#34;evento-gdg-gela-2024-&#34;&gt;Evento GDG Gela 2024 🌐&lt;/h1&gt;&#xA;&lt;p&gt;Siamo entusiasti di annunciare un evento straordinario organizzato da &lt;strong&gt;Google Developer Group Gela&lt;/strong&gt;, che si terrà il &lt;strong&gt;2 agosto 2024&lt;/strong&gt; presso lo storico &lt;strong&gt;Palazzo Tortorici&lt;/strong&gt; a Mazzarino. Una giornata dedicata a esplorare le frontiere dello sviluppo tecnologico e dell’innovazione digitale.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Evolution of Angular</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
       <description>&lt;p&gt;Once upon a time, in the vast world of web development, there was a tool that promised to bring structure and efficiency to the chaotic realm of JavaScript. This tool was AngularJS, the first version of the Angular framework. As a young developer setting foot into the industry, I witnessed the birth of AngularJS and its transformative impact on frontend development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angular Best Practice 2023</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Angular&lt;/em&gt;&lt;/strong&gt;, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .&lt;/p&gt;&#xA;&lt;p&gt;It is a structured framework not a simple library such as &lt;em&gt;React&lt;/em&gt;, so developers have to “&lt;em&gt;think&lt;/em&gt;” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules&lt;/p&gt;</description>
     </item>
   </channel>

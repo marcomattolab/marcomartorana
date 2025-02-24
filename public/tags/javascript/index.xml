@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/javascript/</link>
     <description>Recent content in Javascript on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frontend Mastery</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
       <description>&lt;h1 id=&#34;10-javascript-hacks-to-speedup-development&#34;&gt;10 Javascript hacks to speedup development&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Javascript&lt;/em&gt;&lt;/strong&gt;, an omnipresent force in modern web development, empowers developers with its versatility. At the same time as developers, our perpetual quest for ingenious tips and techniques to use for amplifying our productivity and for crafting efficient code is a constant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript tips for developers</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
       <description>&lt;h3 id=&#34;javascript-tips-for-developers&#34;&gt;JavaScript tips for developers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here &lt;strong&gt;&lt;em&gt;tips&lt;/em&gt;&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; to use daily for amplifying productivity during development of our code.&lt;/p&gt;</description>
     </item>
   </channel>

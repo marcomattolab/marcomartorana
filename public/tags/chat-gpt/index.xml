@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chat-Gpt on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/chat-gpt/</link>
     <description>Recent content in Chat-Gpt on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/chat-gpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alternatives to ChatGPT</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
       <description>&lt;h1 id=&#34;alternatives-to-chatgpt&#34;&gt;Alternatives to ChatGPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;10-ai-tools-to-try-right-now&#34;&gt;10 AI Tools to Try Right Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Which AI chatbots are the best to replace ChatGPT?&lt;/strong&gt; Answering this question requires considering a few factors. ChatGPT is an exceptionally capable AI that can handle a wide range of tasks—from planning vacations to translating text—and is very user-friendly, a definite advantage.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,301 +2,301 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/meetings/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/ai/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/angular/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/angular/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/elca/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/elca/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/gdgpalermo/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/gdgpalermo/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/innovazione/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/innovazione/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/kubernetes/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/kubernetes/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/newsletter/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/newsletter/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/palermo/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/palermo/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/sviluppo/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/sviluppo/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/computer-science/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/computer-science/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/ict/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/ict/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/wolfram-alpha/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/wolfram-alpha/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/chat-gpt/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/chat-gpt/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/llm/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/drone/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/drone/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/python/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/python/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/school/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/school/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</loc>
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/gdg/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/gdg/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/gela/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/gela/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/imprenditoriadigitale/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/imprenditoriadigitale/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/mazzarino/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/mazzarino/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/realtaaumentata/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/realtaaumentata/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/programming/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/programming/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/project-management/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</loc>
     <lastmod>2024-04-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/best-practice/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/best-practice/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/blog/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/blog/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/javascript/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/javascript/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections2/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/informatics/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/informatics/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/informatics/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections3/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change2/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change3/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change3/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/notes/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/hugo/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/hugo/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/rich-content/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/rich-content/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/shortcodes/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/shortcodes/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/netlify/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/tags/netlify/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/about/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/categories/</loc>
+    <loc>http://localhost:50104/marcomattolab/marcomartorana/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

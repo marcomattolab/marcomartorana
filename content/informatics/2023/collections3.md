@@ -1,54 +1,124 @@
 ---
-Title: Collections No.3
+Title: Progetto Drone Show
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections3.jpg"
-Description: "Articles about learning in public, brag document and free stuffs."
+Description: "Progetto Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time"
 Draft: 
 ---
 
-Articles about learn in public, brag document and free stuffs.
+Progetto PCTO: "Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time"
+
+Siamo entusiasti di condividere il nostro nuovo progetto PCTO (Percorsi per le Competenze Trasversali e l'Orientamento), realizzato dalla classe 4B Informatica e Telecomunicazioni! Questo ambizioso progetto unisce tecnologia, creatività e innovazione, portando la nostra scuola all'avanguardia nella sperimentazione di sistemi avanzati.
+
+🎯 Obiettivo del Progetto
+
+L'obiettivo principale è sviluppare un sistema di spettacoli coreografici con droni in sciame e implementare un avanzato sistema di riconoscimento facciale in tempo reale. Gli studenti, guidati da tutor esperti, hanno avuto l'opportunità di applicare le loro conoscenze teoriche a casi d'uso reali, migliorando le loro competenze tecniche e trasversali.
+
+📊 Dettagli del Progetto
+
+Classe: 4B Informatica e Telecomunicazioni
+Periodo: Settembre 2024 - Giugno 2025
+Tutor: Prof. Martorana
+Coordinatore: Prof.ssa JFK
+
+👨‍🎓 Json 
+```
+array_dati =[
+   {
+      "data_compilazione":"01/06/2025",
+      "tutor":"Prof. MMA",
+      "coordinatore":"Prof.ssa JFK",
+      "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
+      "nome":"Name",
+      "cognome":"Surname",
+      "corso":"Informatica",
+      "azienda":"-",
+      "inizio":"Settembre 2024",
+      "fine":"Giugno 2025",
+      "progetto":"Droni: Spettacoli coreografici in sciame e sistema di riconoscimento facciale in real-time"
+   },
+   {
+      "data_compilazione":"02/06/2025",
+      "tutor":"Prof. MMA",
+      "coordinatore":"Prof.ssa JFK",
+      "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
+      "nome":"Nome",
+      "cognome":"Cognome",
+      "corso":"Informatica",
+      "azienda":"-",
+      "inizio":"Settembre 2024",
+      "fine":"Giugno 2025",
+      "progetto":"Droni: Spettacoli coreografici in sciame e sistema di riconoscimento facciale in real-time"
+   }]
+```
+
+💡 Codice Python
 
 
-### Learn In Public
-> If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.  
-> A habit of creating learning exhaust:
->   - Write blogs and tutorials and cheatsheets.
->   - Speak at meetups and conferences.
->   - Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they’re not public.
->   - Make Youtube videos or Twitch streams.
->   - Start a newsletter.
->   - Draw cartoons.    
-[Link](https://www.swyx.io/learn-in-public/)
 
-### Make Free Stuff
+```
+!pip install python-docx
+from docx import Document
 
-> The best growth hack is still to build something people enjoy, then attaching no strings to it. You’d be surprised how far that can get you.  
-> Make free stuff! The web is still for everyone.  
-[Link](https://mxb.dev/blog/make-free-stuff/)
+def compila_template(template_path, output_path, dati):
+    """
+    Legge un template Word e lo compila con i dati forniti.
+    """
+    # Apri il documento
+    doc = Document(template_path)
 
-### How to hone your new superpower: teaching
+    # Sostituisci i segnaposto con i dati forniti
+    for paragrafo in doc.paragraphs:
+        for chiave, valore in dati.items():
+            if f"{{{{{chiave}}}}}" in paragrafo.text:  # Segnaposto formato {{chiave}}
+                paragrafo.text = paragrafo.text.replace(f"{{{{{chiave}}}}}", valore)
 
-> I learned early in my developer journey that teaching others is an effective way to quickly deepen my understanding of a new concept or technology. I’ve found that needing to articulate a particular concept to others causes me to revisit my assumptions and leads me to do additional research to fill any knowledge gaps.  
-[Link](https://github.com/readme/guides/public-documentation)
+    # Salva il documento compilato
+    doc.save(output_path)
 
-### Your future self will thank you: Building your personal documentation.
+# Esempio di utilizzo
+def main():
+    template_path = "/content/SchedaValutazionePCTO-DR.11-PR.-7.5.1.docx"  # Percorso del template Word
+    output_path = "SchedaValutazionePCTO-DR.11-PR.-7.5.1.docx"  # Percorso del file compilato
 
-> Developers can take a DRY approach to how they search for answers to questions they encounter multiple times. By relying on an internal database (or “second brain”) they can reduce their reliance on external search engines.  
-[Link](https://github.com/readme/guides/private-documentation)
+    # Array di dati da inserire nel documento
+    array_dati = [
+   {
+      "data_compilazione":"01/06/2025",
+      "tutor":"Prof. Marco Martorana",
+      "coordinatore":"Prof.ssa jfk",
+      "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
+      "nome":"Samuel",
+      "cognome":"Jhons",
+      "corso":"Informatica",
+      "azienda":"-",
+      "inizio":"Settembre 2024",
+      "fine":"Giugno 2025",
+      "progetto":"Droni: Spettacoli coreografici in sciame e sistema di riconoscimento facciale in real-time"
+   },
+   {
+      "data_compilazione":"01/06/2025",
+      "tutor":"Prof. Marco Martorana",
+      "coordinatore":"Prof.ssa JFK",
+      "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
+      "nome":"Jeff",
+      "cognome":"Zend",
+      "corso":"Informatica",
+      "azienda":"-",
+      "inizio":"Settembre 2024",
+      "fine":"Giugno 2025",
+      "progetto":"Droni: Spettacoli coreografici in sciame e sistema di riconoscimento facciale in real-time"
+   }
+]
 
-### Brag now, remember later: Document your accomplishments
+    for i, dati in enumerate(array_dati):
+        output_file = output_path.replace(".docx", f"_{i+1}.docx")
+        compila_template(template_path, output_file, dati)
+        print(f"Documento compilato salvato in: {output_file}")
 
-> Given five minutes notice to summarize your recent professional and personal accomplishments and wins, how detailed would your response be? Would that be enough time for you to sufficiently capture some of the things you’re most proud of from the past few months or years?  
-[Link](https://github.com/readme/guides/document-success)
+if __name__ == "__main__":
+    main()
 
-
-### The most successful developers share more than they take
-> One of the questions I always ask successful bloggers is: what motivated you to start? The answer is always the same: I did it for myself. Whatever your work, you should embrace the philosophy of “public by default”.
-
-> Public-by-default means this: everytime you create something, learn something, or just notice something’s interesting, do it in public. This may seem daunting—writing blog posts, helping the community and transforming ideas from thoughts into words all takes time. But sharing is like a muscle, and by committing to a regular schedule, you become much more efficient. This consistency of volume is also key to reaping the benefits of sharing.
-
->To truly embrace public-by-default, it’s not enough to share your successful projects and knowledge, but additionally to bring the humility to share your learning and failures.  
-[Link](https://stackoverflow.blog/2020/05/14/the-most-successful-developers-share-more-than-they-take/)
-
+```

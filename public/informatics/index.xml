@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatics on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/</link>
     <description>Recent content in Informatics on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/informatics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/informatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collections No.1</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections/</guid>
       <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collections No.2</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections2/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections2/</guid>
       <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Collections No.3</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</link>
+      <title>Progetto Drone Show</title>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections3/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</guid>
-      <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections3/</guid>
+      <description>&lt;p&gt;Progetto PCTO: &amp;ldquo;Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Siamo entusiasti di condividere il nostro nuovo progetto PCTO (Percorsi per le Competenze Trasversali e l&amp;rsquo;Orientamento), realizzato dalla classe 4B Informatica e Telecomunicazioni! Questo ambizioso progetto unisce tecnologia, creatività e innovazione, portando la nostra scuola all&amp;rsquo;avanguardia nella sperimentazione di sistemi avanzati.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

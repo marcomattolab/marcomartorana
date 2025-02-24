@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best-Practice on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/best-practice/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/best-practice/</link>
     <description>Recent content in Best-Practice on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/best-practice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/best-practice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Angular Best Practice 2023</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Angular&lt;/em&gt;&lt;/strong&gt;, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .&lt;/p&gt;&#xA;&lt;p&gt;It is a structured framework not a simple library such as &lt;em&gt;React&lt;/em&gt;, so developers have to “&lt;em&gt;think&lt;/em&gt;” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules&lt;/p&gt;</description>
     </item>
   </channel>

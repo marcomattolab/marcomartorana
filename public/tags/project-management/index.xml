@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project-Management on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/</link>
+    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/project-management/</link>
     <description>Recent content in Project-Management on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Manage Priorities in Project Management</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</link>
+      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</guid>
+      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</guid>
       <description>&lt;p&gt;In the world of &lt;em&gt;project management&lt;/em&gt;, effectively &lt;strong&gt;&lt;em&gt;managing priorities&lt;/em&gt;&lt;/strong&gt; is crucial for the &lt;strong&gt;success&lt;/strong&gt; of any project.&lt;/p&gt;&#xA;&lt;p&gt;Whether launching a new software product, implementing a marketing campaign, or coordinating a large corporate initiative, knowing how to correctly set priorities can make the difference between &lt;strong&gt;&lt;em&gt;success&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;failure&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

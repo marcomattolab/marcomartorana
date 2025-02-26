@@ -146,7 +146,7 @@ public class TicTacToe {
 
 Ecco uno screenshot durante una partita in corso:
 
-![Visualize Algorithm](https://marcomartorana.it/img/collections/tic-tac-toe.jpg "Tic Tac Toe")
+![Visualize Algorithm](https://marcomartorana.it/img/collections/tic-tac-toe.png "Tic Tac Toe")
 
 
 Stay tuned!

@@ -1,54 +1,151 @@
 ---
-Title: Collections No.1
+Title: Gioco del Tris in Java
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections1.jpg"
-Description: "Articles about learning in public, brag document and free stuffs."
+Description: "Gioco del Tris (Tic-Tac-Toe) in Java con descrizione soluzione"
 Draft: 
 ---
 
-Articles about learn in public, brag document and free stuffs.
+# 🕹️ Gioco del Tris (Tic-Tac-Toe) in Java
+
+## 🎯 Obiettivo:
+Creare un programma in Java che permetta a due giocatori di sfidarsi a Tris (0 X).
+
+Il gioco si svolge su una griglia 3x3 e i giocatori, a turno, inseriscono il loro simbolo (X o O). Vince chi riesce a posizionare tre simboli consecutivi in orizzontale, verticale o diagonale.
+
+## 📋 Requisiti:
+
+Struttura del gioco:
+- Usare un array bidimensionale per rappresentare la griglia 3x3.
+- Mostrare il tabellone di gioco aggiornato dopo ogni mossa.
+
+Regole del gioco:
+- Due giocatori si alternano inserendo X o O.
+- Validare l'input affinché:
+- Le coordinate inserite siano comprese tra 1 e 3.
+- La casella scelta sia vuota (non già occupata).
+
+Terminare il gioco quando:
+- Un giocatore ha vinto (tre simboli consecutivi).
+- La griglia è piena (pareggio).
+
+Metodi richiesti:
+- stampaGriglia() – Mostra la griglia aggiornata.
+- mossaValida() – Controlla se una mossa è valida.
+- verificaVittoria() – Controlla se un giocatore ha vinto.
+- gioca() – Gestisce il ciclo principale del gioco.
+
+## 🧑‍💻 Codice Java:
 
 
-### Learn In Public
-> If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.  
-> A habit of creating learning exhaust:
->   - Write blogs and tutorials and cheatsheets.
->   - Speak at meetups and conferences.
->   - Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they’re not public.
->   - Make Youtube videos or Twitch streams.
->   - Start a newsletter.
->   - Draw cartoons.    
-[Link](https://www.swyx.io/learn-in-public/)
+```
+import java.util.Scanner;
 
-### Make Free Stuff
+public class TicTacToe {
 
-> The best growth hack is still to build something people enjoy, then attaching no strings to it. You’d be surprised how far that can get you.  
-> Make free stuff! The web is still for everyone.  
-[Link](https://mxb.dev/blog/make-free-stuff/)
+    public static void main(String[] args) {
+        char[][] griglia = new char[3][3];
+        inizializzaGriglia(griglia);
+        gioca(griglia);
+    }
 
-### How to hone your new superpower: teaching
+    public static void inizializzaGriglia(char[][] griglia) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                griglia[i][j] = ' ';
+            }
+        }
+    }
 
-> I learned early in my developer journey that teaching others is an effective way to quickly deepen my understanding of a new concept or technology. I’ve found that needing to articulate a particular concept to others causes me to revisit my assumptions and leads me to do additional research to fill any knowledge gaps.  
-[Link](https://github.com/readme/guides/public-documentation)
+    public static void stampaGriglia(char[][] griglia) {
+        System.out.println("  1 | 2 | 3 ");
+        System.out.println(" -----------");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("  " + griglia[i][j]);
+                if (j < 2) System.out.print(" | ");
+            }
+            System.out.println();
+            if (i < 2) System.out.println(" -----------");
+        }
+    }
 
-### Your future self will thank you: Building your personal documentation.
+    public static void gioca(char[][] griglia) {
+        Scanner scanner = new Scanner(System.in);
+        char giocatoreCorrente = 'X';
+        boolean partitaInCorso = true;
 
-> Developers can take a DRY approach to how they search for answers to questions they encounter multiple times. By relying on an internal database (or “second brain”) they can reduce their reliance on external search engines.  
-[Link](https://github.com/readme/guides/private-documentation)
+        while (partitaInCorso) {
+            stampaGriglia(griglia);
+            System.out.println("Giocatore " + giocatoreCorrente + ", inserisci riga e colonna (1-3): ");
 
-### Brag now, remember later: Document your accomplishments
+            int riga, colonna;
 
-> Given five minutes notice to summarize your recent professional and personal accomplishments and wins, how detailed would your response be? Would that be enough time for you to sufficiently capture some of the things you’re most proud of from the past few months or years?  
-[Link](https://github.com/readme/guides/document-success)
+            while (true) {
+                riga = scanner.nextInt() - 1;
+                colonna = scanner.nextInt() - 1;
+
+                if (mossaValida(griglia, riga, colonna)) {
+                    griglia[riga][colonna] = giocatoreCorrente;
+                    break;
+                } else {
+                    System.out.println("Mossa non valida. Riprova.");
+                }
+            }
+
+            if (verificaVittoria(griglia, giocatoreCorrente)) {
+                stampaGriglia(griglia);
+                System.out.println("Il giocatore " + giocatoreCorrente + " ha vinto!");
+                partitaInCorso = false;
+            } else if (grigliaPiena(griglia)) {
+                stampaGriglia(griglia);
+                System.out.println("Pareggio! La griglia è piena.");
+                partitaInCorso = false;
+            } else {
+                giocatoreCorrente = (giocatoreCorrente == 'X') ? 'O' : 'X';
+            }
+        }
+
+        scanner.close();
+    }
+
+    public static boolean mossaValida(char[][] griglia, int riga, int colonna) {
+        return (riga >= 0 && riga < 3 && colonna >= 0 && colonna < 3 && griglia[riga][colonna] == ' ');
+    }
+
+    public static boolean verificaVittoria(char[][] griglia, char giocatore) {
+        for (int i = 0; i < 3; i++) {
+            if ((griglia[i][0] == giocatore && griglia[i][1] == giocatore && griglia[i][2] == giocatore) ||
+                (griglia[0][i] == giocatore && griglia[1][i] == giocatore && griglia[2][i] == giocatore)) {
+                return true;
+            }
+        }
+
+        return (griglia[0][0] == giocatore && griglia[1][1] == giocatore && griglia[2][2] == giocatore) ||
+               (griglia[0][2] == giocatore && griglia[1][1] == giocatore && griglia[2][0] == giocatore);
+    }
+
+    public static boolean grigliaPiena(char[][] griglia) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (griglia[i][j] == ' ') {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}
+
+```
 
 
-### The most successful developers share more than they take
-> One of the questions I always ask successful bloggers is: what motivated you to start? The answer is always the same: I did it for myself. Whatever your work, you should embrace the philosophy of “public by default”.
+## 📸 Prova del programma:
 
-> Public-by-default means this: everytime you create something, learn something, or just notice something’s interesting, do it in public. This may seem daunting—writing blog posts, helping the community and transforming ideas from thoughts into words all takes time. But sharing is like a muscle, and by committing to a regular schedule, you become much more efficient. This consistency of volume is also key to reaping the benefits of sharing.
+Ecco due screenshot durante una partita in corso:
 
->To truly embrace public-by-default, it’s not enough to share your successful projects and knowledge, but additionally to bring the humility to share your learning and failures.  
-[Link](https://stackoverflow.blog/2020/05/14/the-most-successful-developers-share-more-than-they-take/)
 
+
+Stay tuned!

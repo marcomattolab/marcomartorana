@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Martorana</title>
-    <link>http://localhost:50104/marcomattolab/marcomartorana/</link>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/</link>
     <description>Recent content on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My presentation at GDG Palermo about Angular🚀</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
       <description>&lt;h1 id=&#34;frontend-development-with-angular-2024--&#34;&gt;Frontend Development with Angular (2024) ! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marco Martorana, Senior Software Developer at ELCA&lt;br&gt;&#xA;&lt;strong&gt;Event:&lt;/strong&gt; GDG Palermo, December 4, 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Overview:&lt;/strong&gt; Retrospective of Angular framework evolution with personal recommendations and lessons learned.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus:&lt;/strong&gt; Simplifying state management with Angular Signals introduced in Angular 16.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;evolution-of-angular&#34;&gt;&lt;strong&gt;Evolution of Angular&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;angular-milestones&#34;&gt;Angular Milestones&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Angular @2010&lt;/strong&gt; - The I Revolution&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evento GDG a Palermo! 🚀</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid>
       <description>&lt;h1 id=&#34;evento-gdg-a-palermo-&#34;&gt;Evento GDG a Palermo! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;Il &lt;strong&gt;4 dicembre&lt;/strong&gt; non perderti un evento unico dedicato al futuro dello sviluppo con &lt;strong&gt;#Angular&lt;/strong&gt;, &lt;strong&gt;#GenAI&lt;/strong&gt; e &lt;strong&gt;#Kubernetes&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-dettagli-evento&#34;&gt;📅 Dettagli evento&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quando:&lt;/strong&gt; Mercoledì 4 dicembre 2024, ore 18:00 - 21:00&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dove:&lt;/strong&gt; Sede BIP di Palermo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-speaker-e-sessioni&#34;&gt;🎤 Speaker e sessioni&lt;/h2&gt;&#xA;&lt;p&gt;Tra i relatori, ci sarò anche io, Marco Martorana, per &lt;a href=&#34;https://www.elca.ch/en&#34;&gt;&lt;strong&gt;ELCA Group&lt;/strong&gt;&lt;/a&gt; con una sessione dal titolo:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploring Wolfram Alpha, A Computational Knowledge Engine</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/exploring-wolfram-alpha/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In the realm of computer science and information and communication technology (ICT), tools that enhance our ability to compute and retrieve information play a crucial role. One such powerful tool is &lt;a href=&#34;https://www.wolframalpha.com&#34;&gt;Wolfram Alpha&lt;/a&gt; , a computational knowledge engine that has transformed the way we access and interpret data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternatives to ChatGPT</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
       <description>&lt;h1 id=&#34;alternatives-to-chatgpt&#34;&gt;Alternatives to ChatGPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;10-ai-tools-to-try-right-now&#34;&gt;10 AI Tools to Try Right Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Which AI chatbots are the best to replace ChatGPT?&lt;/strong&gt; Answering this question requires considering a few factors. ChatGPT is an exceptionally capable AI that can handle a wide range of tasks—from planning vacations to translating text—and is very user-friendly, a definite advantage.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Programming the DJI Tello Drone with Python (ep. 2)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</link>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</guid>
       <description>&lt;h1 id=&#34;programming-the-dji-tello-drone-with-python&#34;&gt;Programming the DJI Tello Drone with Python&lt;/h1&gt;&#xA;&lt;p&gt;The DJI Tello is a compact, affordable, and programmable drone ideal for beginners and educators looking to explore the world of drone technology and coding. Equipped with a camera, it offers a variety of features, including video transmission, precise hovering, and basic tricks. Its compatibility with Python enables developers and enthusiasts to create custom behaviors and flight paths, making it an excellent tool for both learning and experimentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Drone Tello DJI unboxing (ep. 1)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</link>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</guid>
       <description>&lt;h2 id=&#34;introduction-to-the-dji-tello-drone--my-unboxing-&#34;&gt;Introduction to the DJI Tello Drone ( My Unboxing )&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;strong&gt;DJI Tello&lt;/strong&gt; is a compact, affordable, and beginner-friendly drone developed by &lt;strong&gt;Ryze Tech&lt;/strong&gt; in collaboration with &lt;strong&gt;DJI&lt;/strong&gt;. Designed for both fun and educational purposes, the Tello is perfect for newcomers to drone flying as well as those looking to explore drone programming.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google I/O Extended (Mazzarino - Gela)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
       <description>&lt;h1 id=&#34;evento-gdg-gela-2024-&#34;&gt;Evento GDG Gela 2024 🌐&lt;/h1&gt;&#xA;&lt;p&gt;Siamo entusiasti di annunciare un evento straordinario organizzato da &lt;strong&gt;Google Developer Group Gela&lt;/strong&gt;, che si terrà il &lt;strong&gt;2 agosto 2024&lt;/strong&gt; presso lo storico &lt;strong&gt;Palazzo Tortorici&lt;/strong&gt; a Mazzarino. Una giornata dedicata a esplorare le frontiere dello sviluppo tecnologico e dell’innovazione digitale.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Manage Priorities in Project Management</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/pmp-priority/</guid>
       <description>&lt;p&gt;In the world of &lt;em&gt;project management&lt;/em&gt;, effectively &lt;strong&gt;&lt;em&gt;managing priorities&lt;/em&gt;&lt;/strong&gt; is crucial for the &lt;strong&gt;success&lt;/strong&gt; of any project.&lt;/p&gt;&#xA;&lt;p&gt;Whether launching a new software product, implementing a marketing campaign, or coordinating a large corporate initiative, knowing how to correctly set priorities can make the difference between &lt;strong&gt;&lt;em&gt;success&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;failure&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Evolution of Angular</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
       <description>&lt;p&gt;Once upon a time, in the vast world of web development, there was a tool that promised to bring structure and efficiency to the chaotic realm of JavaScript. This tool was AngularJS, the first version of the Angular framework. As a young developer setting foot into the industry, I witnessed the birth of AngularJS and its transformative impact on frontend development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visualizing Algorithms</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
       <description>&lt;h3 id=&#34;visualizing-algorithms-key-tools-and-techniques-for-enhanced-understanding&#34;&gt;Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding&lt;/h3&gt;&#xA;&lt;p&gt;Visualizing how an &lt;strong&gt;algorithm&lt;/strong&gt; works can significantly enhance comprehension and facilitate the &lt;strong&gt;&lt;em&gt;learning process&lt;/em&gt;&lt;/strong&gt;. Several &lt;strong&gt;tools&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; are available to help both &lt;em&gt;beginners&lt;/em&gt; and &lt;em&gt;experts&lt;/em&gt; understand algorithms through visual representation. Here are a few notable tools:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angular Best Practice 2023</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Angular&lt;/em&gt;&lt;/strong&gt;, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .&lt;/p&gt;&#xA;&lt;p&gt;It is a structured framework not a simple library such as &lt;em&gt;React&lt;/em&gt;, so developers have to “&lt;em&gt;think&lt;/em&gt;” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frontend Mastery</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
       <description>&lt;h1 id=&#34;10-javascript-hacks-to-speedup-development&#34;&gt;10 Javascript hacks to speedup development&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Javascript&lt;/em&gt;&lt;/strong&gt;, an omnipresent force in modern web development, empowers developers with its versatility. At the same time as developers, our perpetual quest for ingenious tips and techniques to use for amplifying our productivity and for crafting efficient code is a constant.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Collections No.1</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections/</link>
+      <title>Automatizziamo la generazione dei documenti del PCTO</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections/</guid>
-      <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</guid>
+      <description>&lt;p&gt;🎯 Generare automaticamente documenti word su un progetto PCTO&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab&#xA;per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time&#xA;per ciscuno studente della classe composta da circa una ventina di alunni ma in modo automatizzato.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collections No.2</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections2/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections2/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</guid>
       <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Progetto Drone Show</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections3/</link>
+      <title>Gioco del Tris in Java</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/informatics/2023/collections3/</guid>
-      <description>&lt;p&gt;Progetto PCTO: &amp;ldquo;Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Siamo entusiasti di condividere il nostro nuovo progetto PCTO (Percorsi per le Competenze Trasversali e l&amp;rsquo;Orientamento), realizzato dalla classe 4B Informatica e Telecomunicazioni! Questo ambizioso progetto unisce tecnologia, creatività e innovazione, portando la nostra scuola all&amp;rsquo;avanguardia nella sperimentazione di sistemi avanzati.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</guid>
+      <description>&lt;h1 id=&#34;-gioco-del-tris-tic-tac-toe-in-java&#34;&gt;🕹️ Gioco del Tris (Tic-Tac-Toe) in Java&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-obiettivo&#34;&gt;🎯 Obiettivo:&lt;/h2&gt;&#xA;&lt;p&gt;Creare un programma in Java che permetta a due giocatori di sfidarsi a Tris (0 X).&lt;/p&gt;&#xA;&lt;p&gt;Il gioco si svolge su una griglia 3x3 e i giocatori, a turno, inseriscono il loro simbolo (X o O). Vince chi riesce a posizionare tre simboli consecutivi in orizzontale, verticale o diagonale.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript tips for developers</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
       <description>&lt;h3 id=&#34;javascript-tips-for-developers&#34;&gt;JavaScript tips for developers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here &lt;strong&gt;&lt;em&gt;tips&lt;/em&gt;&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; to use daily for amplifying productivity during development of our code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Note 1</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change/</guid>
       <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Note 2</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change2/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change2/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/</guid>
       <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Note 3</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change3/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change3/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/notes/2020/change3/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change3/</guid>
       <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/rich-content/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/rich-content/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/rich-content/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Host in Netlify</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/netlify-conf/</guid>
       <description>&lt;p&gt;You can host your static website wth zero cost in &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Add the below netlify.toml in the root folder.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[build]&#xA;publish = &amp;quot;public&amp;quot;&#xA;command = &amp;quot;hugo --gc --minify&amp;quot;&#xA;&#xA;[context.production.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&#xA;[context.split1]&#xA;command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;&#xA;&#xA;[context.split1.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;&#xA;[context.deploy-preview]&#xA;command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.deploy-preview.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.branch-deploy]&#xA;command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.branch-deploy.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.next.environment]&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GDG on Marco Martorana</title>
-    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/gdg/</link>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/gdg/</link>
     <description>Recent content in GDG on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/gdg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/gdg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google I/O Extended (Mazzarino - Gela)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
       <description>&lt;h1 id=&#34;evento-gdg-gela-2024-&#34;&gt;Evento GDG Gela 2024 🌐&lt;/h1&gt;&#xA;&lt;p&gt;Siamo entusiasti di annunciare un evento straordinario organizzato da &lt;strong&gt;Google Developer Group Gela&lt;/strong&gt;, che si terrà il &lt;strong&gt;2 agosto 2024&lt;/strong&gt; presso lo storico &lt;strong&gt;Palazzo Tortorici&lt;/strong&gt; a Mazzarino. Una giornata dedicata a esplorare le frontiere dello sviluppo tecnologico e dell’innovazione digitale.&lt;/p&gt;</description>
     </item>
   </channel>

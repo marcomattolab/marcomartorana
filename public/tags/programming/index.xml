@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Marco Martorana</title>
-    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/programming/</link>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/programming/</link>
     <description>Recent content in Programming on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Evolution of Angular</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/evolution-of-angular/</guid>
       <description>&lt;p&gt;Once upon a time, in the vast world of web development, there was a tool that promised to bring structure and efficiency to the chaotic realm of JavaScript. This tool was AngularJS, the first version of the Angular framework. As a young developer setting foot into the industry, I witnessed the birth of AngularJS and its transformative impact on frontend development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visualizing Algorithms</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/visualize-algorithms/</guid>
       <description>&lt;h3 id=&#34;visualizing-algorithms-key-tools-and-techniques-for-enhanced-understanding&#34;&gt;Visualizing Algorithms: Key Tools and Techniques for Enhanced Understanding&lt;/h3&gt;&#xA;&lt;p&gt;Visualizing how an &lt;strong&gt;algorithm&lt;/strong&gt; works can significantly enhance comprehension and facilitate the &lt;strong&gt;&lt;em&gt;learning process&lt;/em&gt;&lt;/strong&gt;. Several &lt;strong&gt;tools&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; are available to help both &lt;em&gt;beginners&lt;/em&gt; and &lt;em&gt;experts&lt;/em&gt; understand algorithms through visual representation. Here are a few notable tools:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angular Best Practice 2023</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/angular-best-practices/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Angular&lt;/em&gt;&lt;/strong&gt;, developed by Google, is a powerful framework for dynamic programming of Single Page Application based on TypeScript .&lt;/p&gt;&#xA;&lt;p&gt;It is a structured framework not a simple library such as &lt;em&gt;React&lt;/em&gt;, so developers have to “&lt;em&gt;think&lt;/em&gt;” like Angular. Behind the scene, it uses a lot of building blocks: modules, components, data binding, services, directives, and more. This story want to highlight Angular’s best practices for optimal implementation following simple rules&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frontend Mastery</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/frontend-mastery/</guid>
       <description>&lt;h1 id=&#34;10-javascript-hacks-to-speedup-development&#34;&gt;10 Javascript hacks to speedup development&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Javascript&lt;/em&gt;&lt;/strong&gt;, an omnipresent force in modern web development, empowers developers with its versatility. At the same time as developers, our perpetual quest for ingenious tips and techniques to use for amplifying our productivity and for crafting efficient code is a constant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript tips for developers</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/javascript-tips-for-developers/</guid>
       <description>&lt;h3 id=&#34;javascript-tips-for-developers&#34;&gt;JavaScript tips for developers&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;, is a must to have in the modern web development, empowers developers with its versatility. As developers, we placed here &lt;strong&gt;&lt;em&gt;tips&lt;/em&gt;&lt;/strong&gt; and &lt;em&gt;techniques&lt;/em&gt; to use daily for amplifying productivity during development of our code.&lt;/p&gt;</description>
     </item>
   </channel>

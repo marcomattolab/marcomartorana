@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drone on Marco Martorana</title>
-    <link>http://localhost:50104/marcomattolab/marcomartorana/tags/drone/</link>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/drone/</link>
     <description>Recent content in Drone on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
     <lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50104/marcomattolab/marcomartorana/tags/drone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/drone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming the DJI Tello Drone with Python (ep. 2)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</link>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-programming/</guid>
       <description>&lt;h1 id=&#34;programming-the-dji-tello-drone-with-python&#34;&gt;Programming the DJI Tello Drone with Python&lt;/h1&gt;&#xA;&lt;p&gt;The DJI Tello is a compact, affordable, and programmable drone ideal for beginners and educators looking to explore the world of drone technology and coding. Equipped with a camera, it offers a variety of features, including video transmission, precise hovering, and basic tricks. Its compatibility with Python enables developers and enthusiasts to create custom behaviors and flight paths, making it an excellent tool for both learning and experimentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Drone Tello DJI unboxing (ep. 1)</title>
-      <link>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</link>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50104/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/dji-tello-drone-unboxing/</guid>
       <description>&lt;h2 id=&#34;introduction-to-the-dji-tello-drone--my-unboxing-&#34;&gt;Introduction to the DJI Tello Drone ( My Unboxing )&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;strong&gt;DJI Tello&lt;/strong&gt; is a compact, affordable, and beginner-friendly drone developed by &lt;strong&gt;Ryze Tech&lt;/strong&gt; in collaboration with &lt;strong&gt;DJI&lt;/strong&gt;. Designed for both fun and educational purposes, the Tello is perfect for newcomers to drone flying as well as those looking to explore drone programming.&lt;/p&gt;</description>
     </item>
   </channel>

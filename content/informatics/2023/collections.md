@@ -144,8 +144,9 @@ public class TicTacToe {
 
 ## 📸 Prova del programma:
 
-Ecco due screenshot durante una partita in corso:
+Ecco uno screenshot durante una partita in corso:
 
+![Visualize Algorithm](https://marcomartorana.it/img/collections/tic-tac-toe.jpg "Tic Tac Toe")
 
 
 Stay tuned!

@@ -1,38 +1,53 @@
 ---
-Title: Progetto Drone Show
+Title: Automatizziamo la generazione dei documenti del PCTO
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections3.jpg"
-Description: "Progetto Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time"
+Description: "Generare automaticamente documenti word per N alunni su un progetto PCTO"
 Draft: 
 ---
 
-Progetto PCTO: "Droni - Spettacoli Coreografici e Riconoscimento Facciale in Real-Time"
+🎯 Generare automaticamente documenti word su un progetto PCTO
 
-Siamo entusiasti di condividere il nostro nuovo progetto PCTO (Percorsi per le Competenze Trasversali e l'Orientamento), realizzato dalla classe 4B Informatica e Telecomunicazioni! Questo ambizioso progetto unisce tecnologia, creatività e innovazione, portando la nostra scuola all'avanguardia nella sperimentazione di sistemi avanzati.
-
-🎯 Obiettivo del Progetto
-
-L'obiettivo principale è sviluppare un sistema di spettacoli coreografici con droni in sciame e implementare un avanzato sistema di riconoscimento facciale in tempo reale. Gli studenti, guidati da tutor esperti, hanno avuto l'opportunità di applicare le loro conoscenze teoriche a casi d'uso reali, migliorando le loro competenze tecniche e trasversali.
+L'obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab
+per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time
+per ciscuno studente della classe composta da circa una ventina di alunni ma in modo automatizzato.
 
 📊 Dettagli del Progetto
 
 Classe: 4B Informatica e Telecomunicazioni
 Periodo: Settembre 2024 - Giugno 2025
-Tutor: Prof. Martorana
-Coordinatore: Prof.ssa JFK
+Tutor: Prof. MMA
+Coordinatore: Prof. MMA
+Prerequisiti: Caricare su Colab sotto la cartella 'content' un documento word denominato "SchedaValutazionePCTO-DR.11-PR.-7.5.1.docx" che contiene i segnaposti che devono essere valorizzari.
+Il documento word deve essere compilato con i seguenti SEGNAPOSTO (ogni segnaposto ha una coppia di parentesi graffe).
 
+Esempio:
+      {data_compilazione} -> 01/06/2025
+      {tutor} -> Prof. MMA
+      {coordinatore} -> Prof. MMA
+      {denominazione-corso} -> 4B Informatica e telecomunicazioni Progetto Drone
+      {nome} -> Name
+      {cognome} -> Surname
+      {corso} -> Informatica
+      {azienda} -> -
+      {inizio} -> Settembre 2024
+      {fine} -> Giugno 2025
+      {progetto} -> Droni: Spettacoli coreografici in sciame e sistema di riconoscimento facciale
+
+
+Ecco il contenuto dello file JSON che conterrà l'elenco degli alunni:
 👨‍🎓 Json 
 ```
 array_dati =[
    {
       "data_compilazione":"01/06/2025",
       "tutor":"Prof. MMA",
-      "coordinatore":"Prof.ssa JFK",
+      "coordinatore":"Prof. MMA",
       "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
-      "nome":"Name",
-      "cognome":"Surname",
+      "nome":"Nome1",
+      "cognome":"Cognome1",
       "corso":"Informatica",
       "azienda":"-",
       "inizio":"Settembre 2024",
@@ -42,10 +57,10 @@ array_dati =[
    {
       "data_compilazione":"02/06/2025",
       "tutor":"Prof. MMA",
-      "coordinatore":"Prof.ssa JFK",
+      "coordinatore":"Prof. MMA",
       "denominazione-corso":" 4B Informatica e telecomunicazioni Progetto Drone",
-      "nome":"Nome",
-      "cognome":"Cognome",
+      "nome":"Nome2",
+      "cognome":"Cognome2",
       "corso":"Informatica",
       "azienda":"-",
       "inizio":"Settembre 2024",
@@ -122,3 +137,11 @@ if __name__ == "__main__":
     main()
 
 ```
+
+
+
+💡 Ecco fatto: 
+Eseguendo lo script verrà generato un documento word per ciascuno studente e 
+verranno sostituiti i segnaposti con gli opportuni valori del file JSON.
+
+Stay Tuned!

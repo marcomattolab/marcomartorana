@@ -193,6 +193,65 @@ Thread.sleep() simula una pausa casuale per rappresentare la velocità variabile
 Vince il corridore che stampa "ha terminato la corsa!" per primo.
 
 
+## 🎮 Esempio: Gara tra Thread con Grafica
+
+Ecco un semplice programma che simula una corsa tra tre thread con una semplice interfaccia grafica:
+
+Codice java:
+
+```
+import javax.swing.*;
+import java.awt.*;
+
+class Gara extends JFrame implements Runnable {
+    private JPanel pista;
+    private JLabel corridore;
+    private int posizione = 0;
+
+    public Gara(String nome, int y) {
+        setTitle("Gara tra Thread");
+        setSize(600, 300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(null);
+
+        pista = new JPanel();
+        pista.setBounds(10, y, 560, 50);
+        pista.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        add(pista);
+
+        corridore = new JLabel(nome);
+        corridore.setBounds(10, 10, 100, 30);
+        pista.add(corridore);
+
+        setVisible(true);
+    }
+
+    public void run() {
+        while (posizione < 450) {
+            posizione += (int) (Math.random() * 10);
+            corridore.setLocation(posizione, 10);
+            try {
+                Thread.sleep((int) (Math.random() * 100));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println(corridore.getText() + " ha terminato la corsa!");
+    }
+
+    public static void main(String[] args) {
+        Gara g1 = new Gara("Corridore 1", 30);
+        Gara g2 = new Gara("Corridore 2", 100);
+        Gara g3 = new Gara("Corridore 3", 170);
+
+        new Thread(g1).start();
+        new Thread(g2).start();
+        new Thread(g3).start();
+    }
+}
+```
+
+
 ## 📌 Consigli pratici
 
 - Usa ExecutorService per una gestione avanzata dei thread.

@@ -1,54 +1,174 @@
 ---
-Title: Collections No.2
+Title: Thread in Java
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections2.jpg"
-Description: "Articles about learning in public, brag document and free stuffs."
+Description: "Guida sui Thread in Java"
 Draft: 
 ---
 
-Articles about learn in public, brag document and free stuffs.
+# Guida ai Thread in Java
 
+## 🧵 Cos'è un Thread?
 
-### Learn In Public
-> If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.  
-> A habit of creating learning exhaust:
->   - Write blogs and tutorials and cheatsheets.
->   - Speak at meetups and conferences.
->   - Ask and answer things on Stackoverflow or Reddit. Avoid the walled gardens like Slack and Discord, they’re not public.
->   - Make Youtube videos or Twitch streams.
->   - Start a newsletter.
->   - Draw cartoons.    
-[Link](https://www.swyx.io/learn-in-public/)
+Un thread è un singolo flusso di esecuzione di un programma. In Java, ogni programma ha almeno un thread principale (chiamato main thread). L'uso dei thread permette di eseguire più compiti contemporaneamente (programmazione concorrente).
 
-### Make Free Stuff
+## 📝 Perché usare i Thread?
 
-> The best growth hack is still to build something people enjoy, then attaching no strings to it. You’d be surprised how far that can get you.  
-> Make free stuff! The web is still for everyone.  
-[Link](https://mxb.dev/blog/make-free-stuff/)
+Migliorare le prestazioni: eseguire più operazioni in parallelo.
+Reattività: mantenere un'interfaccia utente fluida.
+Gestione di compiti asincroni: come il download di file o il caricamento di dati.
 
-### How to hone your new superpower: teaching
+## 🛠️ Creare un Thread in Java
 
-> I learned early in my developer journey that teaching others is an effective way to quickly deepen my understanding of a new concept or technology. I’ve found that needing to articulate a particular concept to others causes me to revisit my assumptions and leads me to do additional research to fill any knowledge gaps.  
-[Link](https://github.com/readme/guides/public-documentation)
+In Java ci sono due modi principali per creare un thread:
 
-### Your future self will thank you: Building your personal documentation.
+1. Estendere la classe Thread
 
-> Developers can take a DRY approach to how they search for answers to questions they encounter multiple times. By relying on an internal database (or “second brain”) they can reduce their reliance on external search engines.  
-[Link](https://github.com/readme/guides/private-documentation)
+```
+class MioThread extends Thread {
+    public void run() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Esecuzione del thread: " + i);
+            try {
+                Thread.sleep(1000); // Pausa di 1 secondo
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
-### Brag now, remember later: Document your accomplishments
+    public static void main(String[] args) {
+        MioThread t = new MioThread();
+        t.start(); // Avvia il thread
+    }
+}
+```
 
-> Given five minutes notice to summarize your recent professional and personal accomplishments and wins, how detailed would your response be? Would that be enough time for you to sufficiently capture some of the things you’re most proud of from the past few months or years?  
-[Link](https://github.com/readme/guides/document-success)
+## 👉 Spiegazione:
 
+- run(): contiene il codice eseguito dal thread.
+- start(): avvia il thread, eseguendo run() in parallelo.
+- sleep(): sospende temporaneamente l'esecuzione del thread.
 
-### The most successful developers share more than they take
-> One of the questions I always ask successful bloggers is: what motivated you to start? The answer is always the same: I did it for myself. Whatever your work, you should embrace the philosophy of “public by default”.
+2. Implementare l'interfaccia Runnable
 
-> Public-by-default means this: everytime you create something, learn something, or just notice something’s interesting, do it in public. This may seem daunting—writing blog posts, helping the community and transforming ideas from thoughts into words all takes time. But sharing is like a muscle, and by committing to a regular schedule, you become much more efficient. This consistency of volume is also key to reaping the benefits of sharing.
+```
+class MioRunnable implements Runnable {
+    public void run() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Esecuzione Runnable: " + i);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
->To truly embrace public-by-default, it’s not enough to share your successful projects and knowledge, but additionally to bring the humility to share your learning and failures.  
-[Link](https://stackoverflow.blog/2020/05/14/the-most-successful-developers-share-more-than-they-take/)
+    public static void main(String[] args) {
+        Thread t = new Thread(new MioRunnable());
+        t.start();
+    }
+}
 
+```
+
+## 👉 Differenze principali:
+
+- Estendere Thread: Più semplice ma meno flessibile (non puoi estendere altre classi).
+- Implementare Runnable: Più modulare e compatibile con l'ereditarietà.
+
+## 🔄 Sincronizzazione dei Thread
+
+Quando più thread accedono a una risorsa condivisa, possono verificarsi condizioni di gara. Per evitarle si usa la parola chiave synchronized.
+
+Esempio con sincronizzazione
+
+```
+class Contatore {
+    private int valore = 0;
+
+    public synchronized void incrementa() {
+        valore++;
+    }
+
+    public int getValore() {
+        return valore;
+    }
+}
+
+class MioThread extends Thread {
+    private Contatore contatore;
+
+    public MioThread(Contatore contatore) {
+        this.contatore = contatore;
+    }
+
+    public void run() {
+        for (int i = 0; i < 1000; i++) {
+            contatore.incrementa();
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        Contatore c = new Contatore();
+
+        MioThread t1 = new MioThread(c);
+        MioThread t2 = new MioThread(c);
+
+        t1.start();
+        t2.start();
+
+        t1.join();
+        t2.join();
+
+        System.out.println("Valore finale: " + c.getValore());
+    }
+}
+```
+
+## 👉 Cosa succede qui?
+
+- synchronized: garantisce che solo un thread alla volta esegua il metodo incrementa().
+
+- join(): fa attendere il thread principale finché t1 e t2 terminano.
+
+## 📊 Stato di un Thread
+
+Un thread in Java può essere in diversi stati:
+
+Stato
+
+Descrizione
+
+NEW
+
+Creato ma non ancora avviato
+
+RUNNABLE
+
+In esecuzione o pronto per eseguire
+
+BLOCKED
+
+In attesa di un lock
+
+WAITING
+
+In attesa indefinita di un segnale
+
+TIMED_WAITING
+
+In attesa per un periodo definito
+
+TERMINATED
+
+Ha completato l'esecuzione
+
+## 📌 Consigli pratici
+
+- Usa ExecutorService per una gestione avanzata dei thread.
+- Evita race condition usando synchronized, Lock o Atomic.
+- Usa Thread.sleep() con attenzione: non blocca altri thread, ma rallenta l'esecuzione del thread corrente.

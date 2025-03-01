@@ -148,8 +148,56 @@ Un thread in Java può essere in diversi stati:
 | **TIMED_WAITING**| In attesa per un periodo definito     |
 | **TERMINATED**   | Ha completato l'esecuzione   
 
+
+
+## 🎮 Esempio: Gara tra Thread
+
+Ecco un semplice programma che simula una corsa tra tre thread:
+
+```
+class Corridore extends Thread {
+    private String nome;
+
+    public Corridore(String nome) {
+        this.nome = nome;
+    }
+
+    public void run() {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(nome + " ha percorso " + i + " metri");
+            try {
+                Thread.sleep((int) (Math.random() * 500));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println(nome + " ha terminato la corsa!");
+    }
+
+    public static void main(String[] args) {
+        Corridore c1 = new Corridore("Corridore 1");
+        Corridore c2 = new Corridore("Corridore 2");
+        Corridore c3 = new Corridore("Corridore 3");
+
+        c1.start();
+        c2.start();
+        c3.start();
+    }
+}
+```
+
+## 👉 Come funziona?
+
+Ogni thread rappresenta un corridore che percorre 10 metri.
+Thread.sleep() simula una pausa casuale per rappresentare la velocità variabile.
+Vince il corridore che stampa "ha terminato la corsa!" per primo.
+
+
 ## 📌 Consigli pratici
 
 - Usa ExecutorService per una gestione avanzata dei thread.
 - Evita race condition usando synchronized, Lock o Atomic.
 - Usa Thread.sleep() con attenzione: non blocca altri thread, ma rallenta l'esecuzione del thread corrente.
+
+
+## 🚀 Buona programmazione con i thread in Java!

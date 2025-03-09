@@ -1,14 +1,14 @@
 ---
-Title: Automatizziamo la generazione dei documenti del PCTO
+Title: Automatizziamo la generazione dei documenti del PCTO con Python
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections3.jpg"
-Description: "Generare automaticamente documenti word per N alunni su un progetto PCTO"
+Description: "Generare automaticamente documenti word per N alunni su un progetto PCTO con Python Colab"
 Draft: 
 ---
 
-🎯 Generare automaticamente documenti word su un progetto PCTO con python
+🎯 Generare automaticamente documenti word su un progetto PCTO con Python
 
 L'obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab
 per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time

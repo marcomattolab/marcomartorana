@@ -28,7 +28,7 @@ Il BMI (Body Mass Index) è una misura che mette in relazione il peso e l'altezz
 - Obesità: BMI ≥ 30
 
 
-# 🧮 Calcolatore di BMI con Interazione Utente
+## 🧮 Calcolatore di BMI con Interazione Utente
 
 Questo script calcola il BMI (Body Mass Index) con funzionalità innovative
 

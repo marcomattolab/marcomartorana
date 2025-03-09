@@ -30,7 +30,7 @@ Il BMI (Body Mass Index) è una misura che mette in relazione il peso e l'altezz
 
 ## 🧮 Calcolatore di BMI con Interazione Utente
 
-Questo script calcola il BMI (Body Mass Index) con funzionalità innovative
+Questo script calcola il BMI (Body Mass Index)
 
 🧑‍💻 Codice Completo in Python
 

@@ -3,7 +3,7 @@ Title: Thread in Java
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
-image : "/img/collections/collections2.jpg"
+image : "/img/collections/collections3.jpg"
 Description: "Guida sui Thread in Java"
 Draft: 
 ---

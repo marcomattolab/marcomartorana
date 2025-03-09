@@ -1,9 +1,9 @@
 ---
-Title: Automatizziamo la generazione dei documenti del PCTO con Python
+Title: Automatizziamo la generazione dei documenti
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
-image : "/img/collections/collections3.jpg"
+image : "/img/collections/collections2.png"
 Description: "Generare automaticamente documenti word per N alunni su un progetto PCTO con Python Colab"
 Draft: 
 ---

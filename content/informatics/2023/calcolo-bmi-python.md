@@ -28,11 +28,12 @@ Il BMI (Body Mass Index) è una misura che mette in relazione il peso e l'altezz
 - Obesità: BMI ≥ 30
 
 
-## 🧑‍💻 Codice Completo in Python
-
 # 🧮 Calcolatore di BMI con Interazione Utente
 
-# Questo script calcola il BMI (Body Mass Index) con funzionalità innovative
+Questo script calcola il BMI (Body Mass Index) con funzionalità innovative
+
+🧑‍💻 Codice Completo in Python
+
 
 ```
 def calcola_bmi(peso, altezza):
@@ -97,19 +98,22 @@ if __name__ == "__main__":
 
 ## 🧰 Come Funziona il Codice?
 
-Input Validato: L'utente inserisce peso e altezza con controlli per evitare errori.
+- Input Validato: L'utente inserisce peso e altezza con controlli per evitare errori.
 
-Calcolo BMI: Viene calcolato usando la formula ufficiale.
+- Calcolo BMI: Viene calcolato usando la formula ufficiale.
 
-Classificazione BMI: Il BMI viene categorizzato in sottopeso, normopeso, sovrappeso o obesità.
+- Classificazione BMI: Il BMI viene categorizzato in sottopeso, normopeso, sovrappeso o obesità.
 
-Suggerimenti Personalizzati: In base al risultato, l'utente riceve un consiglio specifico per migliorare la salute.
+- Suggerimenti Personalizzati: In base al risultato, l'utente riceve un consiglio specifico per migliorare la salute.
 
 ##  🚀 Come Eseguire il Programma
 
-Assicurati di avere Python installato sul tuo sistema. Esegui il seguente comando:
+Assicurati di avere Python installato sul tuo sistema. 
 
+Esegui il seguente comando:
+```
 python nome_del_file.py
+```
 
 ## 📣 Condividi con i Tuoi Amici!
 

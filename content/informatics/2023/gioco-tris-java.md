@@ -4,7 +4,7 @@ Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections1.jpg"
-Description: "Gioco del Tris (Tic-Tac-Toe) in Java con descrizione soluzione"
+Description: "Gioco del Tris (Tic-Tac-Toe) in Java con descrizione della soluzione. Guida passo passo per sviluppare il gioco in Java."
 Draft: 
 ---
 

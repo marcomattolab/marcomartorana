@@ -8,7 +8,7 @@ Description: "Generare automaticamente documenti word per N alunni su un progett
 Draft: 
 ---
 
-🎯 Generare automaticamente documenti word su un progetto PCTO
+🎯 Generare automaticamente documenti word su un progetto PCTO con python
 
 L'obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab
 per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time

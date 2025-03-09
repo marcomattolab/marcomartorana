@@ -4,7 +4,15 @@ Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections3.jpg"
-Description: "Guida sui Thread in Java"
+Description: "Guida ai Thread in Java - Una guida essenziale per comprendere e utilizzare i thread in Java. Impara a creare, gestire e sincronizzare i thread.
+
+
+
+
+
+
+
+"
 Draft: 
 ---
 

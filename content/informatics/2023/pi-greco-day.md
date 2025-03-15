@@ -9,6 +9,7 @@ Draft:
 ---
 
 # Pi Greco: Storia, Applicazioni e Curiosità
+Pi Greco! Un numero magico che da millenni affascina l'umanità. Scopriamo insieme la sua storia, le sue applicazioni e le sue curiosità!
 
 ## 1. Cos’è il Pi Greco (π)?
 Il Pi Greco (π) è una costante matematica che rappresenta il rapporto tra la circonferenza di un cerchio e il suo diametro. È un numero irrazionale e trascendente, con infinite cifre decimali non periodiche.

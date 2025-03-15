@@ -3,7 +3,7 @@ Title: Pi Greco day
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
-image : "/img/collections/collections3.jpg"
+image : "/img/collections/pi-greco.jpeg"
 Description: "Pi Greco Day"
 Draft: 
 ---

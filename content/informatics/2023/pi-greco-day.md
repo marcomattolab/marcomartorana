@@ -20,29 +20,32 @@ Antichità: Già 4.000 anni fa, le civiltà babilonese ed egizia stimavano il Pi
 Archimede di Siracusa (III secolo a.C.): Fu il primo a calcolare π con estrema precisione usando poligoni inscritti e circoscritti.
 Simbolo π: Introdotto nel 1706 dal matematico gallese William Jones e reso popolare da Eulero.
 Oggi: Con i computer moderni, abbiamo calcolato miliardi di cifre decimali di π.
+
 3. Formule Famosissime con il Pi Greco
 Circonferenza di un cerchio:  C=2πr
 Area del cerchio: A=πrr
 Formula di Eulero (tra le più belle della matematica):
 
 4. Applicazioni del Pi Greco
-Geometria e Trigonometria: Calcolo di aree e volumi.
-Fisica Quantistica: Compare nel Principio di Indeterminazione di Heisenberg:
 
-​ 
-Informatica: Usato negli algoritmi di compressione e generazione di numeri casuali.
-Finanza: Compare nella formula di Black-Scholes per il calcolo delle opzioni.
+- Geometria e Trigonometria: Calcolo di aree e volumi.
+- Fisica Quantistica: Compare nel Principio di Indeterminazione di Heisenberg:
+- Grafico della distribuzione normale (Gaussiana) con π nella formula.
+- Informatica: Usato negli algoritmi di compressione e generazione di numeri casuali
+- Finanza: Compare nella formula di Black-Scholes per il calcolo delle opzioni.
 
 
 5. Curiosità sul Pi Greco
+
 Pi Greco Day: Si celebra il 14 marzo (3/14), data che ricorda le prime tre cifre di π. È anche il compleanno di Albert Einstein!
 Record di memorizzazione: Il record mondiale di cifre ricordate a memoria è di oltre 70.000 cifre!
+
 Infinità e casualità: Si pensa che tutte le sequenze numeriche possano apparire da qualche parte nel Pi Greco.
 
 6. Pi Greco nella Cultura Pop
-Cinema: Protagonista del film "Vita di Pi".
-Letteratura: Compare nel romanzo "Il teorema del pappagallo".
-Tecnologia: La NASA utilizza π nei calcoli per le missioni spaziali.
+- Cinema: Protagonista del film "Vita di Pi".
+- Letteratura: Compare nel romanzo "Il teorema del pappagallo".
+- Tecnologia: La NASA utilizza π nei calcoli per le missioni spaziali.
 
 
 7. Curiosità ed Immagini

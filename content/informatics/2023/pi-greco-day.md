@@ -40,7 +40,15 @@ Record di memorizzazione: Il record mondiale di cifre ricordate a memoria è di 
 Infinità e casualità: Si pensa che tutte le sequenze numeriche possano apparire da qualche parte nel Pi Greco.
 
 6. Pi Greco nella Cultura Pop
-È protagonista del film "Vita di Pi".
-Compare in opere come il romanzo "Il teorema del pappagallo".
-La NASA utilizza π nei calcoli per le missioni spaziali.
+Cinema: Protagonista del film "Vita di Pi".
+Letteratura: Compare nel romanzo "Il teorema del pappagallo".
+Tecnologia: La NASA utilizza π nei calcoli per le missioni spaziali.
 
+
+7. Curiosità ed Immagini
+Simbolo π grande e stilizzato.
+Rappresentazione geometrica di cerchi e sfere con formule.
+Archimede che calcola π con poligoni.
+Rappresentazione visiva della sequenza infinita di cifre di π.
+Stilizzazione di Albert Einstein per celebrare il Pi Greco Day.
+Grafico della distribuzione normale (Gaussiana) con π nella formula.

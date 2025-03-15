@@ -18,8 +18,8 @@ Il Pi Greco (π) è una costante matematica che rappresenta il rapporto tra la c
 
 ## 2. La Storia del Pi Greco
 Antichità: Già 4.000 anni fa, le civiltà babilonese ed egizia stimavano il Pi Greco con una buona approssimazione.
-Archimede di Siracusa (III secolo a.C.): Fu il primo a calcolare π con estrema precisione usando poligoni inscritti e circoscritti.
-Simbolo π: Introdotto nel 1706 dal matematico gallese William Jones e reso popolare da Eulero.
+*Archimede* di Siracusa (III secolo a.C.) fu il primo a calcolare π con estrema precisione usando poligoni inscritti e circoscritti.
+Il simbolo π è stato introdotto nel 1706 dal matematico gallese *William Jones* e reso popolare da **Eulero**.
 Oggi: Con i computer moderni, abbiamo calcolato miliardi di cifre decimali di π.
 
 
@@ -46,7 +46,7 @@ Oggi: Con i computer moderni, abbiamo calcolato miliardi di cifre decimali di π
 
 ## 5. Curiosità sul Pi Greco
 
-Pi Greco Day: Si celebra il 14 marzo (3/14), data che ricorda le prime tre cifre di π. È anche il compleanno di Albert Einstein!
+**Pi Greco Day**: Si celebra il 14 marzo (3/14), data che ricorda le prime tre cifre di π. È anche il compleanno di Albert Einstein!
 
 Record di memorizzazione: Il record mondiale di cifre ricordate a memoria è di oltre 70.000 cifre!
 
@@ -54,6 +54,8 @@ Infinità e casualità: Si pensa che tutte le sequenze numeriche possano apparir
 
 
 ## 6. Pi Greco nella Cultura Pop
+Ecco un pò di esempi nella cultura pop in varie discpline:
+
 - Cinema: Protagonista del film "Vita di Pi".
 - Letteratura: Compare nel romanzo "Il teorema del pappagallo".
 - Tecnologia: La NASA utilizza π nei calcoli per le missioni spaziali.

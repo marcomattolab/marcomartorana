@@ -1,41 +1,46 @@
 ---
-Title: Pi Greco e Costante Aurea
+Title: Pi Greco day
 Subtitle: ""
 Date: 2023-01-01
 Tags: ["informatics"]
 image : "/img/collections/collections3.jpg"
-Description: "Pi Greco e Costante Aurea"
+Description: "Pi Greco Day"
 Draft: 
 ---
 
-# Lezione: La Sezione Aurea e Pi Greco
+# Pi Greco: Storia, Applicazioni e Curiosità
 
-## Introduzione
-La matematica ci offre alcune costanti fondamentali, come la sezione aurea (φ ≈ 1,618) e pi greco (π ≈ 3,14), che hanno un ruolo cruciale nella comprensione del mondo naturale e nella creazione artistica.
+1. Cos’è il Pi Greco (π)?
+Il Pi Greco (π) è una costante matematica che rappresenta il rapporto tra la circonferenza di un cerchio e il suo diametro. È un numero irrazionale e trascendente, con infinite cifre decimali non periodiche.
 
-## La Sezione Aurea
+Valore approssimato:  π≈3,14159
 
-## Applicazioni in Natura
-Esempi significativi della sezione aurea in natura includono la geometria delle foglie, delle infiorescenze e delle conchiglie. Ad esempio, la conchiglia del Nautilus, un mollusco marino, segue la spirale aurea, una forma generata da un rettangolo diviso secondo il rapporto aureo.
+2. La Storia del Pi Greco
+Antichità: Già 4.000 anni fa, le civiltà babilonese ed egizia stimavano il Pi Greco con una buona approssimazione.
+Archimede di Siracusa (III secolo a.C.): Fu il primo a calcolare π con estrema precisione usando poligoni inscritti e circoscritti.
+Simbolo π: Introdotto nel 1706 dal matematico gallese William Jones e reso popolare da Eulero.
+Oggi: Con i computer moderni, abbiamo calcolato miliardi di cifre decimali di π.
+3. Formule Famosissime con il Pi Greco
+Circonferenza di un cerchio:  C=2πr
+Area del cerchio: A=πrr
+Formula di Eulero (tra le più belle della matematica):
 
-## Storia e Significato
-La sezione aurea è un numero irrazionale, approssimato a 1,618, con un numero infinito di cifre decimali che non si ripetono. Si trova nei testi di Babilonesi, Egizi e Greci, i quali la usavano nelle costruzioni architettoniche e nelle opere d'arte per rispettare principi di proporzionalità e bellezza. Il suo legame con l’armonia e l’estetica ne ha garantito l’uso in vari campi fino ai giorni nostri.
+4. Applicazioni del Pi Greco
+Geometria e Trigonometria: Calcolo di aree e volumi.
+Fisica Quantistica: Compare nel Principio di Indeterminazione di Heisenberg:
 
-## Pi Greco (π)
-Definizione
-Pi greco è una delle costanti più conosciute in matematica, pari al rapporto tra la circonferenza di un cerchio e il suo diametro. Il suo valore approssimato è 3,14159.
+​ 
+Informatica: Usato negli algoritmi di compressione e generazione di numeri casuali.
+Finanza: Compare nella formula di Black-Scholes per il calcolo delle opzioni.
 
-## Applicazioni in Matematica e Natura
-Pi greco si trova ovunque nei calcoli geometrici che riguardano cerchi e sfere, ma compare anche in equazioni più complesse in fisica e ingegneria. Come la sezione aurea, pi greco è una costante irrazionale, con infinite cifre decimali senza schemi ripetuti.
 
-## Confronto tra Sezione Aurea e Pi Greco
-Sia la sezione aurea che pi greco sono costanti irrazionali fondamentali nella matematica. Tuttavia, mentre pi greco è legato principalmente alle forme circolari e alla geometria euclidea, la sezione aurea appare in modelli più complessi, spesso collegati alla crescita e all’organizzazione della natura.
+5. Curiosità sul Pi Greco
+Pi Greco Day: Si celebra il 14 marzo (3/14), data che ricorda le prime tre cifre di π. È anche il compleanno di Albert Einstein!
+Record di memorizzazione: Il record mondiale di cifre ricordate a memoria è di oltre 70.000 cifre!
+Infinità e casualità: Si pensa che tutte le sequenze numeriche possano apparire da qualche parte nel Pi Greco.
 
-## Esercizi
-Calcola la sezione aurea dividendo un segmento secondo la proporzione aurea.
-Trova esempi di pi greco in natura (come la forma di frutti o conchiglie).
-Esplora il legame tra la spirale aurea e la successione di Fibonacci.
-
-## Conclusione
-La sezione aurea e pi greco rappresentano due costanti che vanno oltre la matematica pura, con applicazioni profonde nel mondo naturale, nell'arte e nella scienza. Questi numeri mostrano come la matematica sia alla base delle strutture e delle forme che vediamo quotidianamente.
+6. Pi Greco nella Cultura Pop
+È protagonista del film "Vita di Pi".
+Compare in opere come il romanzo "Il teorema del pappagallo".
+La NASA utilizza π nei calcoli per le missioni spaziali.
 

@@ -25,10 +25,10 @@ Oggi: Con i computer moderni, abbiamo calcolato miliardi di cifre decimali di π
 
 ## 3. Formule Famosissime con il Pi Greco
 
-Circonferenza di un cerchio:``C = 2πr``
-Area del cerchio: ``A=πr^2``
-Volume di una sfera: ``V = (4/3)πr^3``
-Formula di Eulero: ``e^(iπ) + 1 = 0``
+- Circonferenza di un cerchio:``C = 2πr``
+- Area del cerchio: ``A=πr^2``
+- Volume di una sfera: ``V = (4/3)πr^3``
+- Formula di Eulero: ``e^(iπ) + 1 = 0``
 
 
 ## 4. Applicazioni del Pi Greco

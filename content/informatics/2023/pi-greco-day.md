@@ -12,8 +12,8 @@ Draft:
 
 1. Cos’è il Pi Greco (π)?
 Il Pi Greco (π) è una costante matematica che rappresenta il rapporto tra la circonferenza di un cerchio e il suo diametro. È un numero irrazionale e trascendente, con infinite cifre decimali non periodiche.
+``Valore approssimato:  π≈3,14159``
 
-Valore approssimato:  π≈3,14159
 
 2. La Storia del Pi Greco
 Antichità: Già 4.000 anni fa, le civiltà babilonese ed egizia stimavano il Pi Greco con una buona approssimazione.
@@ -49,9 +49,9 @@ Infinità e casualità: Si pensa che tutte le sequenze numeriche possano apparir
 
 
 7. Curiosità ed Immagini
-Simbolo π grande e stilizzato.
-Rappresentazione geometrica di cerchi e sfere con formule.
-Archimede che calcola π con poligoni.
-Rappresentazione visiva della sequenza infinita di cifre di π.
-Stilizzazione di Albert Einstein per celebrare il Pi Greco Day.
-Grafico della distribuzione normale (Gaussiana) con π nella formula.
+- Simbolo π grande e stilizzato.
+- Rappresentazione geometrica di cerchi e sfere con formule.
+- Archimede che calcola π con poligoni.
+- Rappresentazione visiva della sequenza infinita di cifre di π.
+- Stilizzazione di Albert Einstein per celebrare il Pi Greco Day.
+- Grafico della distribuzione normale (Gaussiana) con π nella formula.

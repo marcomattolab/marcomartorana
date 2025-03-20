@@ -271,11 +271,10 @@ class Gara extends JFrame implements Runnable {
 
 
 ## 🚀 Buona programmazione con i thread in Java! Ecco un aneddoto:
->[!NOTE]
->
+>[!TIP]
 > Un giorno, uno sviluppatore volle creare un'app per gestire più operazioni simultaneamente 
-> usando i thread, senza preoccuparsi troppo di come funzionassero. Dopo aver avviato il >programma, tutto sembrava filare liscio... 
-> finché non iniziò a notare che i risultati >erano strani. Il programma, anziché completare le operazioni, sembrava fare una cosa un 
+> usando i thread, senza preoccuparsi troppo di come funzionassero. Dopo aver avviato il programma, tutto sembrava filare liscio... 
+> finché non iniziò a notare che i risultati erano strani. Il programma, anziché completare le operazioni, sembrava fare una cosa un 
 > po' bizzarra: alcuni thread partivano bene, ma poi si fermavano improvvisamente, come se si fossero addormentati a metà strada. 
 >
 >Dopo ore di debugging e disperazione, lo sviluppatore si rese conto di aver dimenticato un dettaglio fondamentale: i thread erano così 

@@ -273,11 +273,18 @@ class Gara extends JFrame implements Runnable {
 ## 🚀 Buona programmazione con i thread in Java! Ecco un aneddoto:
 >[!NOTE]
 >
->Un giorno, uno sviluppatore volle creare un'app per gestire più operazioni simultaneamente >usando i thread, senza preoccuparsi troppo di come funzionassero. Dopo aver avviato il >programma, tutto sembrava filare liscio... finché non iniziò a notare che i risultati >erano strani. Il programma, anziché completare le operazioni, sembrava fare una cosa un >po' bizzarra: alcuni thread partivano bene, ma poi si fermavano improvvisamente, come se >si fossero addormentati a metà strada.
+> Un giorno, uno sviluppatore volle creare un'app per gestire più operazioni simultaneamente 
+> usando i thread, senza preoccuparsi troppo di come funzionassero. Dopo aver avviato il >programma, tutto sembrava filare liscio... 
+> finché non iniziò a notare che i risultati >erano strani. Il programma, anziché completare le operazioni, sembrava fare una cosa un 
+> po' bizzarra: alcuni thread partivano bene, ma poi si fermavano improvvisamente, come se si fossero addormentati a metà strada. 
 >
->Dopo ore di debugging e disperazione, lo sviluppatore si rese conto di aver dimenticato un >dettaglio fondamentale: i thread erano così "gentili" tra di loro che ogni volta che >dovevano accedere a una risorsa condivisa, si fermavano ad aspettare che gli altri >finissero... ma nessuno era mai libero, così tutti rimasero bloccati! 😅 Il suo programma >era finito in una deadlock, una situazione in cui i thread si bloccano aspettando che >qualcun altro si sblocchi.
+>Dopo ore di debugging e disperazione, lo sviluppatore si rese conto di aver dimenticato un dettaglio fondamentale: i thread erano così 
+>"gentili" tra di loro che ogni volta che dovevano accedere a una risorsa condivisa, si fermavano ad aspettare che gli altri 
+>finissero... ma nessuno era mai libero, così tutti rimasero bloccati! 😅 Il suo programma era finito in una deadlock, una situazione in 
+>cui i thread si bloccano aspettando che qualcun altro si sblocchi.
 >
->La soluzione fu semplice: sincronizzare i thread correttamente, evitando che si >"schiacciassero i piedi a vicenda". Ma lo sviluppatore non dimenticò mai quella volta in >cui i suoi thread rimasero gentilmente in attesa… per sempre.
+>La soluzione fu semplice: sincronizzare i thread correttamente, evitando che si "schiacciassero i piedi a vicenda". Ma lo sviluppatore 
+>non dimenticò mai quella volta in cui i suoi thread rimasero gentilmente in attesa… per sempre.
 >
 
 

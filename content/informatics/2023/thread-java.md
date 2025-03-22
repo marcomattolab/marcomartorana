@@ -146,18 +146,6 @@ class MioThread extends Thread {
 
 - join(): fa attendere il thread principale finché t1 e t2 terminano.
 
-## 📊 Stato di un Thread
-
-Un thread in Java può essere in diversi stati:
-
-| Stato             | Descrizione                           |
-|-------------------|---------------------------------------|
-| **NEW**          | Creato ma non ancora avviato          |
-| **RUNNABLE**     | In esecuzione o pronto per eseguire   |
-| **BLOCKED**      | In attesa di un lock                  |
-| **WAITING**      | In attesa indefinita di un segnale    |
-| **TIMED_WAITING**| In attesa per un periodo definito     |
-| **TERMINATED**   | Ha completato l'esecuzione   
 
 
 

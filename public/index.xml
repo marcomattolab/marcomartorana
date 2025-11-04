@@ -6,8 +6,22 @@
     <description>Recent content on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpha Arena — L’arena dove le Intelligenze Artificiali investono soldi veri</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/ai-alphaarena/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/ai-alphaarena/</guid>
+      <description>&lt;h1 id=&#34;-alpha-arena--larena-dove-le-intelligenze-artificiali-investono-soldi-veri&#34;&gt;🧠 Alpha Arena — L’arena dove le Intelligenze Artificiali investono soldi veri&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.iweaver.ai/wp-content/uploads/2025/11/ChatGPT-Image-Nov-4-2025-06_49_12-PM.png&#34; alt=&#34;Alpha Arena Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-cosè-alpha-arena&#34;&gt;🔍 Cos’è Alpha Arena&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Alpha Arena&lt;/strong&gt; è il primo &lt;em&gt;benchmark reale&lt;/em&gt; progettato per misurare le &lt;strong&gt;capacità di investimento delle Intelligenze Artificiali&lt;/strong&gt;.&lt;br&gt;&#xA;Lanciato da &lt;a href=&#34;https://nof1.ai/&#34;&gt;nof1.ai&lt;/a&gt;, l’esperimento assegna a ciascun modello &lt;strong&gt;$10.000 di capitale reale&lt;/strong&gt;, da investire in mercati veri, con &lt;strong&gt;prompt e dati identici&lt;/strong&gt; per tutti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meeting No.3</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings/</guid>
+      <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My presentation at GDG Palermo about Angular🚀</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
@@ -93,25 +107,53 @@
       <description>&lt;h1 id=&#34;10-javascript-hacks-to-speedup-development&#34;&gt;10 Javascript hacks to speedup development&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Javascript&lt;/em&gt;&lt;/strong&gt;, an omnipresent force in modern web development, empowers developers with its versatility. At the same time as developers, our perpetual quest for ingenious tips and techniques to use for amplifying our productivity and for crafting efficient code is a constant.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Automatizziamo la generazione dei documenti del PCTO</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections3/</guid>
-      <description>&lt;p&gt;🎯 Generare automaticamente documenti word su un progetto PCTO&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab&#xA;per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time&#xA;per ciscuno studente della classe composta da circa una ventina di alunni ma in modo automatizzato.&lt;/p&gt;</description>
+      <title>Run Web App with Docker on WSL</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/how-run-docker-on-wsl/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/how-run-docker-on-wsl/</guid>
+      <description>&lt;h1 id=&#34;-run-your-web-app-with-docker--roadmasters-guide&#34;&gt;🚀 Run Your Web App with Docker – RoadMasters Guide&lt;/h1&gt;&#xA;&lt;p&gt;Running your web app in Docker is now easier than ever! Here’s a quick guide to get started.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Install Docker&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows Users:&lt;/strong&gt; Install Docker Desktop and WSL with Ubuntu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers&#34;&gt;Get started with Docker containers on WSL&lt;/a&gt;&lt;br&gt;&#xA;👉 &lt;a href=&#34;https://stackoverflow.com/questions/52512026/is-it-possible-install-ubuntu-in-windows-10-wsl-without-microsoft-store&#34;&gt;Install Ubuntu on Windows 10 WSL without Microsoft Store&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Collections No.2</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</link>
+      <title>Automatizziamo la generazione dei documenti</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/automatizziamo-documenti-pcto/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections2/</guid>
-      <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/automatizziamo-documenti-pcto/</guid>
+      <description>&lt;p&gt;🎯 Generare automaticamente documenti word su un progetto PCTO con Python&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;obiettivo principale è sviluppare un script in Python che è possibile eseguirs tramite Google Colab&#xA;per documentare il progetto PCTO su un sistema di spettacoli coreografici con droni in sciame e con riconoscimento facciale real-time&#xA;per ciscuno studente della classe composta da circa una ventina di alunni ma in modo automatizzato.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calcolatore di BMI Interattivo in Python</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/calcolo-bmi-python/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/calcolo-bmi-python/</guid>
+      <description>&lt;h2 id=&#34;-calcolatore-di-bmi-interattivo-in-python&#34;&gt;🧮 Calcolatore di BMI Interattivo in Python&lt;/h2&gt;&#xA;&lt;p&gt;Vuoi sapere se il tuo peso è nella fascia ideale? Con questo calcolatore di BMI (Body Mass Index) scritto in Python, puoi ottenere il tuo indice di massa corporea, ricevere una classificazione personalizzata e suggerimenti per migliorare il tuo benessere. 💪&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gioco del Tris in Java</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</link>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/gioco-tris-java/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/collections/</guid>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/gioco-tris-java/</guid>
       <description>&lt;h1 id=&#34;-gioco-del-tris-tic-tac-toe-in-java&#34;&gt;🕹️ Gioco del Tris (Tic-Tac-Toe) in Java&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-obiettivo&#34;&gt;🎯 Obiettivo:&lt;/h2&gt;&#xA;&lt;p&gt;Creare un programma in Java che permetta a due giocatori di sfidarsi a Tris (0 X).&lt;/p&gt;&#xA;&lt;p&gt;Il gioco si svolge su una griglia 3x3 e i giocatori, a turno, inseriscono il loro simbolo (X o O). Vince chi riesce a posizionare tre simboli consecutivi in orizzontale, verticale o diagonale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pi Greco</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/pi-greco-day/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/pi-greco-day/</guid>
+      <description>&lt;h1 id=&#34;pi-greco-storia-applicazioni-e-curiosità&#34;&gt;Pi Greco: Storia, Applicazioni e Curiosità&lt;/h1&gt;&#xA;&lt;p&gt;Pi Greco! Un numero magico che da millenni affascina l&amp;rsquo;umanità. Scopriamo insieme la sua storia, le sue applicazioni e le sue curiosità!&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-cosè-il-pi-greco-π&#34;&gt;1. Cos’è il Pi Greco (π)?&lt;/h2&gt;&#xA;&lt;p&gt;Il Pi Greco (π) è una costante matematica che rappresenta il rapporto tra la circonferenza di un cerchio e il suo diametro. È un numero irrazionale e trascendente, con infinite cifre decimali non periodiche.&#xA;&lt;code&gt;Valore approssimato:  π≈3,14159&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simulazione dei Numeri del Lotto con i Thread Java</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/numeri-lotto-java/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/numeri-lotto-java/</guid>
+      <description>&lt;h1 id=&#34;-utilizzare-i-thread-in-java-simulazione-dei-numeri-del-lotto&#34;&gt;🚀 Utilizzare i Thread in Java: Simulazione dei Numeri del Lotto&lt;/h1&gt;&#xA;&lt;p&gt;In Java, i Thread permettono di eseguire più operazioni contemporaneamente (concurrency), migliorando le prestazioni delle applicazioni. In questo post vedremo come creare e gestire i Thread con un esempio pratico: la simulazione dell&amp;rsquo;estrazione dei numeri del lotto. 🎱&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thread in Java</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/thread-java/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/thread-java/</guid>
+      <description>&lt;h1 id=&#34;guida-ai-thread-in-java&#34;&gt;Guida ai Thread in Java&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-cosè-un-thread&#34;&gt;🧵 Cos&amp;rsquo;è un Thread?&lt;/h2&gt;&#xA;&lt;p&gt;Un thread è una singola unità di esecuzione di un programma che consente l&amp;rsquo;esecuzione di compiti in modo indipendente all&amp;rsquo;interno dello stesso processo. Ogni programma Java ha almeno un thread principale (chiamato main thread), che viene avviato automaticamente quando il programma parte. Questo thread esegue il metodo main() ed è responsabile dell&amp;rsquo;inizio dell&amp;rsquo;intero flusso di esecuzione.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript tips for developers</title>

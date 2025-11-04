@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="it" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/marcomattolab/marcomartorana/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=marcomattolab/marcomartorana/livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Thread in Java - Marco Martorana</title>
+<meta name="description" content="Guida ai Thread in Java - Una guida essenziale per comprendere e utilizzare i thread in Java. Impara a creare, gestire e sincronizzare i thread.">
+
+<meta name="author" content="Marco Martorana"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Marco Martorana",
+    
+    "url": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/informatics\/2023\/thread-java\/",
+          "name": "Thread in java"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Marco Martorana"
+  },
+  "headline": "Thread in Java",
+  "description" : "Guida ai Thread in Java - Una guida essenziale per comprendere e utilizzare i thread in Java. Impara a creare, gestire e sincronizzare i thread.",
+  "inLanguage" : "it",
+  "wordCount":  1493 ,
+  "datePublished" : "2023-01-01T00:00:00",
+  "dateModified" : "2023-01-01T00:00:00",
+  "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
+  "keywords" : [ "informatics" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/informatics\/2023\/thread-java\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Thread in Java" />
+<meta property="og:description" content="Guida ai Thread in Java - Una guida essenziale per comprendere e utilizzare i thread in Java. Impara a creare, gestire e sincronizzare i thread.">
+<meta property="og:image" content="http://localhost:1313/img/collections/collections3.jpg" />
+<meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/thread-java/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Marco Martorana" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/marcomattolab/marcomartorana/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.135.0">
+<link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
+<script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
+        <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YWMD18YDD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YWMD18YDD5');
+</script>
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/marcomattolab/marcomartorana/">Marco Martorana</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Home"
+                  href="/marcomattolab/marcomartorana/"> Home</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Notes"
+                  href="/marcomattolab/marcomartorana/notes/"> Notes</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="School"
+                  href="/marcomattolab/marcomartorana/tags/school/"> School</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Meetings"
+                  href="/marcomattolab/marcomartorana/meetings/"> Meetings</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Informatics"
+                  href="/marcomattolab/marcomartorana/informatics/"> Informatics</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/marcomattolab/marcomartorana/about/"> About</a>
+              </li>
+
+              
+              
+
+
+                
+            
+
+            
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden data-results-none=""
+              data-results-one=""
+              data-results-many="">
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Leggi
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="informatics-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                Thread in Java
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+
+      <div class="card-image card-image-blog p-0">
+        
+        
+          
+            <img src="/marcomattolab/marcomartorana/img/collections/collections3.jpg" alt="/img/collections/collections3.jpg" class="card-img-bottom rounded img-fluid lazyload">
+          
+        
+
+
+        
+      </div>
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <h1 id="guida-ai-thread-in-java">Guida ai Thread in Java</h1>
+<h2 id="-cosè-un-thread">🧵 Cos&rsquo;è un Thread?</h2>
+<p>Un thread è una singola unità di esecuzione di un programma che consente l&rsquo;esecuzione di compiti in modo indipendente all&rsquo;interno dello stesso processo. Ogni programma Java ha almeno un thread principale (chiamato main thread), che viene avviato automaticamente quando il programma parte. Questo thread esegue il metodo main() ed è responsabile dell&rsquo;inizio dell&rsquo;intero flusso di esecuzione.</p>
+<p>L&rsquo;uso dei thread in Java consente di implementare la programmazione concorrente, permettendo di eseguire più operazioni contemporaneamente all&rsquo;interno di uno stesso processo. Questo risulta utile in molti scenari, come:</p>
+<p><strong>Multitasking</strong>: I thread consentono a un programma di eseguire più attività simultaneamente, ad esempio scaricare un file e aggiornare un&rsquo;interfaccia utente allo stesso tempo.
+<strong>Miglioramento delle prestazioni</strong>: In presenza di più core del processore, i thread possono essere eseguiti in parallelo, migliorando l&rsquo;efficienza del programma.
+<strong>Esecuzione asincrona</strong>: Utilizzando i thread, alcune operazioni che richiedono tempo (come l&rsquo;accesso a risorse di rete o il calcolo complesso) possono essere eseguite in background senza bloccare il thread principale, mantenendo reattiva l&rsquo;interfaccia utente.</p>
+<h1 id="in-java-i-thread-possono-essere-creati-in-diversi-modi-tra-cui">In Java, i thread possono essere creati in diversi modi, tra cui:</h1>
+<ul>
+<li>Estensione della classe Thread: Creando una classe che estende Thread e sovrascrivendo il metodo run().</li>
+<li>Implementazione dell&rsquo;interfaccia Runnable: Creando una classe che implementa Runnable e definendo il metodo run().</li>
+</ul>
+<h2 id="-perché-usare-i-thread">📝 Perché usare i Thread?</h2>
+<p>Migliorare le prestazioni: eseguire più operazioni in parallelo.
+Reattività: mantenere un&rsquo;interfaccia utente fluida.
+Gestione di compiti asincroni: come il download di file o il caricamento di dati.</p>
+<h2 id="-creare-un-thread-in-java">🛠️ Creare un Thread in Java</h2>
+<p>In Java ci sono due modi principali per creare un thread:</p>
+<ol>
+<li>Estendere la classe Thread</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">class</span> MioThread <span style="font-weight:bold">extends</span> <span style="color:#900;font-weight:bold">Thread</span> {
+</span></span><span style="display:flex;"><span>    public void run() {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="color:#900;font-weight:bold">int</span> i <span style="font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="font-weight:bold">&lt;</span> <span style="color:#099">5</span>; i<span style="font-weight:bold">++</span>) {
+</span></span><span style="display:flex;"><span>            System<span style="font-weight:bold">.</span>out<span style="font-weight:bold">.</span>println(<span style="color:#b84">&#34;Esecuzione del thread: &#34;</span> <span style="font-weight:bold">+</span> i);
+</span></span><span style="display:flex;"><span>            try {
+</span></span><span style="display:flex;"><span>                <span style="color:#900;font-weight:bold">Thread</span><span style="font-weight:bold">.</span>sleep(<span style="color:#099">1000</span>); <span style="font-weight:bold">//</span> Pausa di <span style="color:#099">1</span> secondo
+</span></span><span style="display:flex;"><span>            } catch (InterruptedException e) {
+</span></span><span style="display:flex;"><span>                e<span style="font-weight:bold">.</span>printStackTrace();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void main(<span style="color:#900;font-weight:bold">String</span>[] args) {
+</span></span><span style="display:flex;"><span>        MioThread t <span style="font-weight:bold">=</span> new MioThread();
+</span></span><span style="display:flex;"><span>        t<span style="font-weight:bold">.</span>start(); <span style="font-weight:bold">//</span> Avvia il thread
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-spiegazione">👉 Spiegazione:</h2>
+<ul>
+<li>run(): contiene il codice eseguito dal thread.</li>
+<li>start(): avvia il thread, eseguendo il metodo run() .</li>
+<li>sleep(): sospende temporaneamente l&rsquo;esecuzione del thread.</li>
+</ul>
+<ol start="2">
+<li>Implementare l&rsquo;interfaccia Runnable</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>class MioRunnable implements Runnable {
+</span></span><span style="display:flex;"><span>    public void run() {
+</span></span><span style="display:flex;"><span>        for (int i = 0; i &lt; 5; i++) {
+</span></span><span style="display:flex;"><span>            System.out.println(&#34;Esecuzione Runnable: &#34; + i);
+</span></span><span style="display:flex;"><span>            try {
+</span></span><span style="display:flex;"><span>                Thread.sleep(1000);
+</span></span><span style="display:flex;"><span>            } catch (InterruptedException e) {
+</span></span><span style="display:flex;"><span>                e.printStackTrace();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public static void main(String[] args) {
+</span></span><span style="display:flex;"><span>        Thread t = new Thread(new MioRunnable());
+</span></span><span style="display:flex;"><span>        t.start();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-differenze-principali">👉 Differenze principali:</h2>
+<ul>
+<li>Estendere Thread: Più semplice ma meno flessibile (non puoi estendere altre classi).</li>
+<li>Implementare Runnable: Più modulare e compatibile con l&rsquo;ereditarietà.</li>
+</ul>
+<h2 id="-sincronizzazione-dei-thread">🔄 Sincronizzazione dei Thread</h2>
+<p>Quando più thread accedono a una risorsa condivisa, possono verificarsi condizioni di gara. Per evitarle si usa la parola chiave synchronized.</p>
+<p>Esempio con sincronizzazione</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">class</span> Contatore {
+</span></span><span style="display:flex;"><span>    private <span style="color:#900;font-weight:bold">int</span> valore <span style="font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public synchronized void incrementa() {
+</span></span><span style="display:flex;"><span>        valore<span style="font-weight:bold">++</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public <span style="color:#900;font-weight:bold">int</span> getValore() {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> valore;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">class</span> MioThread <span style="font-weight:bold">extends</span> <span style="color:#900;font-weight:bold">Thread</span> {
+</span></span><span style="display:flex;"><span>    private Contatore contatore;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public MioThread(Contatore contatore) {
+</span></span><span style="display:flex;"><span>        this<span style="font-weight:bold">.</span>contatore <span style="font-weight:bold">=</span> contatore;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public void run() {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="color:#900;font-weight:bold">int</span> i <span style="font-weight:bold">=</span> <span style="color:#099">0</span>; i <span style="font-weight:bold">&lt;</span> <span style="color:#099">1000</span>; i<span style="font-weight:bold">++</span>) {
+</span></span><span style="display:flex;"><span>            contatore<span style="font-weight:bold">.</span>incrementa();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void main(<span style="color:#900;font-weight:bold">String</span>[] args) throws InterruptedException {
+</span></span><span style="display:flex;"><span>        Contatore c <span style="font-weight:bold">=</span> new Contatore();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        MioThread t1 <span style="font-weight:bold">=</span> new MioThread(c);
+</span></span><span style="display:flex;"><span>        MioThread t2 <span style="font-weight:bold">=</span> new MioThread(c);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        t1<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>        t2<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        t1<span style="font-weight:bold">.</span>join();
+</span></span><span style="display:flex;"><span>        t2<span style="font-weight:bold">.</span>join();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        System<span style="font-weight:bold">.</span>out<span style="font-weight:bold">.</span>println(<span style="color:#b84">&#34;Valore finale: &#34;</span> <span style="font-weight:bold">+</span> c<span style="font-weight:bold">.</span>getValore());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-cosa-succede-qui">👉 Cosa succede qui?</h2>
+<ul>
+<li>
+<p>synchronized: garantisce che solo un thread alla volta esegua il metodo incrementa().</p>
+</li>
+<li>
+<p>join(): fa attendere il thread principale finché t1 e t2 terminano.</p>
+</li>
+</ul>
+<h2 id="-esempio-gara-tra-thread">🎮 Esempio: Gara tra Thread</h2>
+<p>Ecco un semplice programma che simula una corsa tra tre thread:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">class</span> Corridore <span style="font-weight:bold">extends</span> <span style="color:#900;font-weight:bold">Thread</span> {
+</span></span><span style="display:flex;"><span>    private <span style="color:#900;font-weight:bold">String</span> nome;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public Corridore(<span style="color:#900;font-weight:bold">String</span> nome) {
+</span></span><span style="display:flex;"><span>        this<span style="font-weight:bold">.</span>nome <span style="font-weight:bold">=</span> nome;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public void run() {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="color:#900;font-weight:bold">int</span> i <span style="font-weight:bold">=</span> <span style="color:#099">1</span>; i <span style="font-weight:bold">&lt;=</span> <span style="color:#099">10</span>; i<span style="font-weight:bold">++</span>) {
+</span></span><span style="display:flex;"><span>            System<span style="font-weight:bold">.</span>out<span style="font-weight:bold">.</span>println(nome <span style="font-weight:bold">+</span> <span style="color:#b84">&#34; ha percorso &#34;</span> <span style="font-weight:bold">+</span> i <span style="font-weight:bold">+</span> <span style="color:#b84">&#34; metri&#34;</span>);
+</span></span><span style="display:flex;"><span>            try {
+</span></span><span style="display:flex;"><span>                <span style="color:#900;font-weight:bold">Thread</span><span style="font-weight:bold">.</span>sleep((<span style="color:#900;font-weight:bold">int</span>) (Math<span style="font-weight:bold">.</span>random() <span style="font-weight:bold">*</span> <span style="color:#099">500</span>));
+</span></span><span style="display:flex;"><span>            } catch (InterruptedException e) {
+</span></span><span style="display:flex;"><span>                e<span style="font-weight:bold">.</span>printStackTrace();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        System<span style="font-weight:bold">.</span>out<span style="font-weight:bold">.</span>println(nome <span style="font-weight:bold">+</span> <span style="color:#b84">&#34; ha terminato la corsa!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void main(<span style="color:#900;font-weight:bold">String</span>[] args) {
+</span></span><span style="display:flex;"><span>        Corridore c1 <span style="font-weight:bold">=</span> new Corridore(<span style="color:#b84">&#34;Corridore 1&#34;</span>);
+</span></span><span style="display:flex;"><span>        Corridore c2 <span style="font-weight:bold">=</span> new Corridore(<span style="color:#b84">&#34;Corridore 2&#34;</span>);
+</span></span><span style="display:flex;"><span>        Corridore c3 <span style="font-weight:bold">=</span> new Corridore(<span style="color:#b84">&#34;Corridore 3&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        c1<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>        c2<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>        c3<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-come-funziona">👉 Come funziona?</h2>
+<p>Ogni thread rappresenta un corridore che percorre 10 metri.
+Thread.sleep() simula una pausa casuale per rappresentare la velocità variabile.
+Vince il corridore che stampa &ldquo;ha terminato la corsa!&rdquo; per primo.</p>
+<h2 id="-esempio-gara-tra-thread-con-grafica">🎮 Esempio: Gara tra Thread con Grafica</h2>
+<p>Ecco un semplice programma che simula una corsa tra tre thread con una semplice interfaccia grafica:</p>
+<p>Codice java:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import javax<span style="font-weight:bold">.</span>swing<span style="font-weight:bold">.*</span>;
+</span></span><span style="display:flex;"><span>import java<span style="font-weight:bold">.</span>awt<span style="font-weight:bold">.*</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">class</span> Gara <span style="font-weight:bold">extends</span> JFrame implements Runnable {
+</span></span><span style="display:flex;"><span>    private JPanel pista;
+</span></span><span style="display:flex;"><span>    private JLabel corridore;
+</span></span><span style="display:flex;"><span>    private <span style="color:#900;font-weight:bold">int</span> posizione <span style="font-weight:bold">=</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public Gara(<span style="color:#900;font-weight:bold">String</span> nome, <span style="color:#900;font-weight:bold">int</span> y) {
+</span></span><span style="display:flex;"><span>        setTitle(<span style="color:#b84">&#34;Gara tra Thread&#34;</span>);
+</span></span><span style="display:flex;"><span>        setSize(<span style="color:#099">600</span>, <span style="color:#099">300</span>);
+</span></span><span style="display:flex;"><span>        setDefaultCloseOperation(JFrame<span style="font-weight:bold">.</span>EXIT_ON_CLOSE);
+</span></span><span style="display:flex;"><span>        setLayout(null);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        pista <span style="font-weight:bold">=</span> new JPanel();
+</span></span><span style="display:flex;"><span>        pista<span style="font-weight:bold">.</span>setBounds(<span style="color:#099">10</span>, y, <span style="color:#099">560</span>, <span style="color:#099">50</span>);
+</span></span><span style="display:flex;"><span>        pista<span style="font-weight:bold">.</span>setBorder(BorderFactory<span style="font-weight:bold">.</span>createLineBorder(<span style="color:#900;font-weight:bold">Color</span><span style="font-weight:bold">.</span>BLACK));
+</span></span><span style="display:flex;"><span>        add(pista);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        corridore <span style="font-weight:bold">=</span> new JLabel(nome);
+</span></span><span style="display:flex;"><span>        corridore<span style="font-weight:bold">.</span>setBounds(<span style="color:#099">10</span>, <span style="color:#099">10</span>, <span style="color:#099">100</span>, <span style="color:#099">30</span>);
+</span></span><span style="display:flex;"><span>        pista<span style="font-weight:bold">.</span>add(corridore);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        setVisible(true);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public void run() {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">while</span> (posizione <span style="font-weight:bold">&lt;</span> <span style="color:#099">450</span>) {
+</span></span><span style="display:flex;"><span>            posizione <span style="font-weight:bold">+=</span> (<span style="color:#900;font-weight:bold">int</span>) (Math<span style="font-weight:bold">.</span>random() <span style="font-weight:bold">*</span> <span style="color:#099">10</span>);
+</span></span><span style="display:flex;"><span>            corridore<span style="font-weight:bold">.</span>setLocation(posizione, <span style="color:#099">10</span>);
+</span></span><span style="display:flex;"><span>            try {
+</span></span><span style="display:flex;"><span>                <span style="color:#900;font-weight:bold">Thread</span><span style="font-weight:bold">.</span>sleep((<span style="color:#900;font-weight:bold">int</span>) (Math<span style="font-weight:bold">.</span>random() <span style="font-weight:bold">*</span> <span style="color:#099">100</span>));
+</span></span><span style="display:flex;"><span>            } catch (InterruptedException e) {
+</span></span><span style="display:flex;"><span>                e<span style="font-weight:bold">.</span>printStackTrace();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        System<span style="font-weight:bold">.</span>out<span style="font-weight:bold">.</span>println(corridore<span style="font-weight:bold">.</span>getText() <span style="font-weight:bold">+</span> <span style="color:#b84">&#34; ha terminato la corsa!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void main(<span style="color:#900;font-weight:bold">String</span>[] args) {
+</span></span><span style="display:flex;"><span>        Gara g1 <span style="font-weight:bold">=</span> new Gara(<span style="color:#b84">&#34;Corridore 1&#34;</span>, <span style="color:#099">30</span>);
+</span></span><span style="display:flex;"><span>        Gara g2 <span style="font-weight:bold">=</span> new Gara(<span style="color:#b84">&#34;Corridore 2&#34;</span>, <span style="color:#099">100</span>);
+</span></span><span style="display:flex;"><span>        Gara g3 <span style="font-weight:bold">=</span> new Gara(<span style="color:#b84">&#34;Corridore 3&#34;</span>, <span style="color:#099">170</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        new <span style="color:#900;font-weight:bold">Thread</span>(g1)<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>        new <span style="color:#900;font-weight:bold">Thread</span>(g2)<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>        new <span style="color:#900;font-weight:bold">Thread</span>(g3)<span style="font-weight:bold">.</span>start();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="-consigli-pratici">📌 Consigli pratici</h2>
+<ul>
+<li>Usa ExecutorService per una gestione avanzata dei thread.</li>
+<li>Evita race condition usando synchronized, Lock o Atomic.</li>
+<li>Usa Thread.sleep() con attenzione: non blocca altri thread, ma rallenta l&rsquo;esecuzione del thread corrente.</li>
+</ul>
+<h2 id="-buona-programmazione-con-i-thread-in-java-ecco-un-aneddoto">🚀 Buona programmazione con i thread in Java! Ecco un aneddoto:</h2>
+<blockquote>
+<p>[!TIP]
+Un giorno, uno sviluppatore volle creare un&rsquo;app per gestire più operazioni simultaneamente
+usando i thread, senza preoccuparsi troppo di come funzionassero. Dopo aver avviato il programma, tutto sembrava filare liscio&hellip;
+finché non iniziò a notare che i risultati erano strani. Il programma, anziché completare le operazioni, sembrava fare una cosa un
+po&rsquo; bizzarra: alcuni thread partivano bene, ma poi si fermavano improvvisamente, come se si fossero addormentati a metà strada.</p>
+<p>Dopo ore di debugging e disperazione, lo sviluppatore si rese conto di aver dimenticato un dettaglio fondamentale: i thread erano così
+&ldquo;gentili&rdquo; tra di loro che ogni volta che dovevano accedere a una risorsa condivisa, si fermavano ad aspettare che gli altri
+finissero&hellip; ma nessuno era mai libero, così tutti rimasero bloccati! 😅 Il suo programma era finito in una deadlock, una situazione in
+cui i thread si bloccano aspettando che qualcun altro si sblocchi.</p>
+<p>La soluzione fu semplice: sincronizzare i thread correttamente, evitando che si &ldquo;schiacciassero i piedi a vicenda&rdquo;. Ma lo sviluppatore
+non dimenticò mai quella volta in cui i suoi thread rimasero gentilmente in attesa… per sempre.</p>
+</blockquote>
+<h2 id="-dimenticavo-per-gli-amanti-del-python-ecco-una-versione-rock">📌📌 Dimenticavo.. Per gli amanti del Python ecco una versione Rock</h2>
+<p>Ecco un esempio di utilizzo dei thread in Python, insieme a una simulazione grafica per illustrare l&rsquo;esecuzione concorrente di più thread. In questo caso, useremo la libreria threading per creare thread e la libreria matplotlib per rappresentare graficamente il loro comportamento.</p>
+<p>L&rsquo;esempio simula più thread che eseguono un compito semplice, rappresentato come punti che si muovono su una griglia:</p>
+<p>Creazione di più thread: Ogni thread eseguirà una funzione che rappresenta un&rsquo;operazione concorrente.
+Simulazione grafica: Ogni thread muoverà un punto sulla griglia, mostrando l&rsquo;esecuzione simultanea.</p>
+<p>Ecco il codice <strong>python</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import threading
+</span></span><span style="display:flex;"><span>import time
+</span></span><span style="display:flex;"><span>import random
+</span></span><span style="display:flex;"><span>import matplotlib.pyplot as plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Variabili globali per la grafica
+</span></span><span style="display:flex;"><span>x_values = [0, 0, 0]
+</span></span><span style="display:flex;"><span>y_values = [0, 0, 0]
+</span></span><span style="display:flex;"><span>colors = [&#39;r&#39;, &#39;g&#39;, &#39;b&#39;]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Funzione eseguita da ciascun thread
+</span></span><span style="display:flex;"><span>def move_point(thread_id, max_steps):
+</span></span><span style="display:flex;"><span>    global x_values, y_values
+</span></span><span style="display:flex;"><span>    for step in range(max_steps):
+</span></span><span style="display:flex;"><span>        x_values[thread_id] += random.randint(-1, 1)  # Movimento casuale in x
+</span></span><span style="display:flex;"><span>        y_values[thread_id] += random.randint(-1, 1)  # Movimento casuale in y
+</span></span><span style="display:flex;"><span>        time.sleep(0.2)  # Simulazione di lavoro
+</span></span><span style="display:flex;"><span>        print(f&#34;Thread {thread_id} - Step {step}: ({x_values[thread_id]}, {y_values[thread_id]})&#34;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Funzione per aggiornare la grafica
+</span></span><span style="display:flex;"><span>def update_graph():
+</span></span><span style="display:flex;"><span>    plt.ion()  # Modalità interattiva
+</span></span><span style="display:flex;"><span>    fig, ax = plt.subplots()
+</span></span><span style="display:flex;"><span>    ax.set_xlim(-10, 10)
+</span></span><span style="display:flex;"><span>    ax.set_ylim(-10, 10)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    while True:
+</span></span><span style="display:flex;"><span>        ax.clear()
+</span></span><span style="display:flex;"><span>        ax.set_xlim(-10, 10)
+</span></span><span style="display:flex;"><span>        ax.set_ylim(-10, 10)
+</span></span><span style="display:flex;"><span>        ax.scatter(x_values, y_values, c=colors)  # Disegna i punti
+</span></span><span style="display:flex;"><span>        plt.draw()
+</span></span><span style="display:flex;"><span>        plt.pause(0.5)  # Aggiorna la grafica ogni 0.5 secondi
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Creazione e avvio dei thread
+</span></span><span style="display:flex;"><span>threads = []
+</span></span><span style="display:flex;"><span>num_threads = 3
+</span></span><span style="display:flex;"><span>max_steps = 20
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>for i in range(num_threads):
+</span></span><span style="display:flex;"><span>    t = threading.Thread(target=move_point, args=(i, max_steps))
+</span></span><span style="display:flex;"><span>    threads.append(t)
+</span></span><span style="display:flex;"><span>    t.start()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Avvio del grafico in un thread separato
+</span></span><span style="display:flex;"><span>graph_thread = threading.Thread(target=update_graph)
+</span></span><span style="display:flex;"><span>graph_thread.start()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Attendere che tutti i thread finiscano
+</span></span><span style="display:flex;"><span>for t in threads:
+</span></span><span style="display:flex;"><span>    t.join()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># Chiudere la finestra grafica una volta completata l&#39;esecuzione
+</span></span><span style="display:flex;"><span>plt.ioff()
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div><h2 id="descrizione-del-codice">Descrizione del codice:</h2>
+<ul>
+<li>move_point(thread_id, max_steps): Simula il movimento di un punto in modo casuale su una griglia. Ogni thread esegue questa funzione e muove un punto in modo indipendente.</li>
+<li>update_graph(): Aggiorna la rappresentazione grafica in tempo reale, mostrando i punti muoversi sul grafico.</li>
+<li>Thread di movimento e thread di grafica: I thread vengono creati e avviati per eseguire il movimento dei punti, e un altro thread è responsabile della visualizzazione grafica in tempo reale.</li>
+</ul>
+<h2 id="cosa-vedrai">Cosa vedrai:</h2>
+<p>I punti sul grafico si muoveranno in direzioni casuali, simulando l&rsquo;esecuzione concorrente dei thread. Ogni thread è associato a un punto di colore diverso (rosso, verde e blu) e si muove in base alla sua logica interna, rappresentando il concetto di programmazione concorrente.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/marcomattolab/marcomartorana/tags/informatics/">informatics</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+      <section id="social-share">
+        <div class="list-inline footer-links">
+          
+
+<div>
+  <p>Use the share button below if you liked it.</p>
+</div>
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+    <li>
+      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2023%2fthread-java%2f" target="_blank" title="Share on Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </svg>
+      </a>
+    </li>
+    
+    <li>
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2023%2fthread-java%2f&amp;text=Thread%20in%20Java&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+        target="_blank" title="Share on Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path
+            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+        </svg>
+      </a>
+    </li>
+
+
+    
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2023%2fthread-java%2f&amp;title=Thread%20in%20Java"
+        target="_blank" title="Share on LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Thread in Java on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2023%2fthread-java%2f&title=Thread%20in%20Java">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
+          viewBox="0 0 16 16">
+          <path
+            d="M6.167 8a.831.831 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661zm1.843 3.647c.315 0 1.403-.038 1.976-.611a.232.232 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83.458 0 .83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.203.203 0 0 0-.153.028.186.186 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224c-.02.115-.029.23-.029.353 0 1.795 2.091 3.256 4.669 3.256 2.577 0 4.668-1.451 4.668-3.256 0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165z" />
+        </svg>
+      </a>
+    </li>
+
+    
+    
+
+
+    
+    <li>
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2023%2fthread-java%2f&amp;description=Thread%20in%20Java" target="_blank" rel="noopener"
+        title="Share on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<p class="text-muted">It makes me smile, when I see it.</p>
+        </div>
+      </section>
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+
+          
+          <div class="col-md-2 ">
+            <div class="card-body ">
+              
+              <img src="/marcomattolab/marcomartorana/img/author-post-img.jpg" class="img-responsive img-50 img-round" alt="">
+            </div>
+          </div>
+          
+
+
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+                 
+                
+                Marco Martorana
+                
+
+              </p>
+
+               
+                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/numeri-lotto-java/"
+            data-toggle="tooltip" data-placement="top" title="Simulazione dei Numeri del Lotto con i Thread Java">Articolo successivo
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Leggi</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/how-run-docker-on-wsl/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Run Web App with Docker on WSL</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  02 February 2023
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    How to Run Your Web App Seamlessly with Docker on Windows &amp; WSL
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/collections/collections8_hu1255369981110976238.png" alt="/img/collections/collections8.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/automatizziamo-documenti-pcto/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Automatizziamo la generazione dei documenti</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  01 January 2023
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Generare automaticamente documenti word per N alunni su un progetto PCTO con Python Colab
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/collections/collections2_hu1937589161770682882.png" alt="/img/collections/collections2.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/marcomattolab/marcomartorana/informatics/2023/calcolo-bmi-python/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Calcolatore di BMI Interattivo in Python</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  01 January 2023
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Guida Calcolatore di BMI Interattivo in Python
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Leggi <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/marcomattolab/marcomartorana/img/collections/calcolo-bmi-python_hu16650861870689404939.png" alt="/img/collections/calcolo-bmi-python.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="mailto:marcomatto@gmail.com" title="Email me" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-envelope"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100091312733657" title="Facebook" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-facebook"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/marcomattolab" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/marcomattox" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter-x"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/marcomartorana" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/marcomartorana.lab" title="Instagram" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-instagram"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@MarcoMartorana" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://paypal.me/markmartorana?country.x=IT&amp;locale.x=it_IT" title="PayPal" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-paypal"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          
+          <a href="https://marcomartorana.it">Marco Martorana</a>
+          
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+          2025
+          
+
+          
+          &nbsp;&bull;&nbsp;
+          <a href="http://localhost:1313/marcomattolab/marcomartorana/">Marco Martorana</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost:1313/marcomattolab/marcomartorana/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+
+
+    
+  </body>
+</html>
+

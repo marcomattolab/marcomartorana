@@ -6,8 +6,15 @@
     <description>Recent content in Meetings on Marco Martorana</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/meetings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meeting No.3</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings/</guid>
+      <description>&lt;p&gt;Articles about learn in public, brag document and free stuffs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;learn-in-public&#34;&gt;Learn In Public&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If there’s a golden rule, it’s this one, so I put it first. All the other rules are more or less elaborations of this rule #1.&lt;br&gt;&#xA;A habit of creating learning exhaust:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My presentation at GDG Palermo about Angular🚀</title>
       <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>

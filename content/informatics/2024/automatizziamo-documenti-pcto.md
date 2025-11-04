@@ -1,7 +1,7 @@
 ---
 Title: Automatizziamo la generazione dei documenti
 Subtitle: ""
-Date: 2023-01-01
+Date: 2024-07-01
 Tags: ["informatics"]
 image : "/img/collections/collections2.png"
 Description: "Generare automaticamente documenti word per N alunni su un progetto PCTO con Python Colab"

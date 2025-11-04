@@ -1,7 +1,7 @@
 ---
 Title: Calcolatore di BMI Interattivo in Python
 Subtitle: ""
-Date: 2023-01-01
+Date: 2024-01-01
 Tags: ["informatics"]
 image : "/img/collections/calcolo-bmi-python.png"
 Description: "Guida Calcolatore di BMI Interattivo in Python"

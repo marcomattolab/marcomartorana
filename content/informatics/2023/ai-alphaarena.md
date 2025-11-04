@@ -1,6 +1,6 @@
 ---
-Title: "Trading con Alpha Arena"
-Subtitle: "L'esperimento con intelligenza artificiale sul trading"
+Title: "Trading con AI - Alpha Arena"
+Subtitle: ""
 Date: 2025-10-04
 Tags: ["AI", "investimenti", "finanza", "benchmark", "nof1.ai","trading"]
 image: "/img/collections/alpha-arena.png"

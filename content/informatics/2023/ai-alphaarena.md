@@ -16,9 +16,9 @@ Draft: false
 ## 1. Cos’è Alpha Arena
 
 **Alpha Arena** è un esperimento **live e trasparente** ideato da **nof1.ai**, in cui diversi modelli di IA ricevono **US$ 10.000 veri ciascuno** per operare autonomamente in mercati reali, in particolare criptovalute.  
-L’obiettivo non è testare solo la “conoscenza”, bensì **misurare l’intelligenza finanziaria** — vale a dire: decisioni, rischio e capacità operative, nel caos dei mercati reali. :contentReference[oaicite:14]{index=14}  
+L’obiettivo non è testare solo la “conoscenza”, bensì **misurare l’intelligenza finanziaria** — vale a dire: decisioni, rischio e capacità operative, nel caos dei mercati reali.
 
-Tutto — transazioni, posizioni, log decisionali (“ModelChat”) — è reso pubblico dall’organizzazione, per garantire che ogni operazione sia verificabile. :contentReference[oaicite:15]{index=15}  
+Tutto — transazioni, posizioni, log decisionali (“ModelChat”) — è reso pubblico dall’organizzazione, per garantire che ogni operazione sia verificabile. 
 
 ---
 
@@ -32,7 +32,7 @@ Tutto — transazioni, posizioni, log decisionali (“ModelChat”) — è reso 
 | **Prompt & dati identici** | Ogni modello riceve lo stesso prompt e gli stessi dati storici/prezzi per garantire equità :contentReference[oaicite:19]{index=19} |
 | **Autonomia totale** | Nessuna supervisione umana durante il trading — le decisioni sono prese internamente dai modelli :contentReference[oaicite:20]{index=20} |
 | **Trasparenza** | Wallet, operazioni, dati, log decisionali (ModelChat) pubblici :contentReference[oaicite:21]{index=21} |
-| **Durata / stagioni** | La prima stagione (Season 1) va dal 17 ottobre 2025 al **3 novembre 2025** :contentReference[oaicite:22]{index=22} |
+| **Durata / stagioni** | La prima stagione (Season 1) va dal 17 ottobre 2025 al **3 novembre 2025** |
 
 ---
 
@@ -40,14 +40,14 @@ Tutto — transazioni, posizioni, log decisionali (“ModelChat”) — è reso 
 
 | Modello | Capitale attuale / ROI stimato | Note salienti |
 |---------|-------------------------------|----------------|
-| **DeepSeek V3.1** | ≈ +125 % in 9 giorni (da 10.000 a ~22.500) | Ha ottenuto uno dei rendimenti più alti, sfruttando la leva e strategia forte su altcoin. :contentReference[oaicite:23]{index=23} |
-| **Qwen3 Max** | Crescita significativa, doppio capitale in alcuni momenti | Ha superato DeepSeek in certi giorni, con ritorni superiori al 95 % nel periodo. :contentReference[oaicite:24]{index=24} |
-| **Claude Sonnet 4.5** | Difficoltà e perdite | Leva e volatilità lo hanno penalizzato. :contentReference[oaicite:25]{index=25} |
-| **Grok 4** | Performance fluttuanti, perdite significative | Sta soffrendo enormemente nei drawdown. :contentReference[oaicite:26]{index=26} |
-| **GPT-5 (ChatGPT)** | Decisamente in perdita | Il modello “popolare” è tra i peggiori performer in questa competizione. :contentReference[oaicite:27]{index=27} |
+| **DeepSeek V3.1** | ≈ +125 % in 9 giorni (da 10.000 a ~22.500) | Ha ottenuto uno dei rendimenti più alti, sfruttando la leva e strategia forte su altcoin. |
+| **Qwen3 Max** | Crescita significativa, doppio capitale in alcuni momenti | Ha superato DeepSeek in certi giorni, con ritorni superiori al 95 % nel periodo. |
+| **Claude Sonnet 4.5** | Difficoltà e perdite | Leva e volatilità lo hanno penalizzato. |
+| **Grok 4** | Performance fluttuanti, perdite significative | Sta soffrendo enormemente nei drawdown. |
+| **GPT-5 (ChatGPT)** | Decisamente in perdita | Il modello “popolare” è tra i peggiori performer in questa competizione. |
 
 > ❗ *Dati da fonti pubbliche e notizie recenti — possono cambiare man mano che la competizione evolve.*  
-> — Secondo Barron’s: GPT-5 ha perso circa il 72 % del capitale. :contentReference[oaicite:28]{index=28}  
+> — Secondo Barron’s: GPT-5 ha perso circa il 72 % del capitale.
 
 ---
 

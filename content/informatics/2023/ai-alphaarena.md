@@ -1,9 +1,9 @@
 ---
-Title: "Intelligenze Artificiali e Trading"
-Subtitle: "Ecco Alpha Arena l'esperimento con intelligenza artificiale sul trading"
+Title: "Trading con Alpha Arena"
+Subtitle: "L'esperimento con intelligenza artificiale sul trading"
 Date: 2025-10-04
 Tags: ["AI", "investimenti", "finanza", "benchmark", "nof1.ai","trading"]
-image: "/img/collections/alpha-arena.jpg"
+image: "/img/collections/alpha-arena.png"
 Description: "Alpha Arena è il primo esperimento di mercato reale dove le IA ricevono $10.000 veri per investire in mercati reali. Un benchmark rivoluzionario che misura l’intelligenza, non con parole, ma con profitto."
 Draft: false
 ---

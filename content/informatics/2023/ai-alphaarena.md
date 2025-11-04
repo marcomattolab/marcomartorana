@@ -1,6 +1,6 @@
 ---
-Title: "Alpha Arena — L’arena dove le Intelligenze Artificiali investono soldi veri"
-Subtitle: "Come nof1.ai sta ridefinendo il benchmarking dell’intelligenza artificiale"
+Title: "Intelligenze Artificiali e Trading"
+Subtitle: "Ecco Alpha Arena l'esperimento con intelligenza artificiale sul trading"
 Date: 2025-10-04
 Tags: ["AI", "investimenti", "finanza", "benchmark", "nof1.ai","trading"]
 image: "/img/collections/alpha-arena.jpg"

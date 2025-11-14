@@ -58,7 +58,7 @@ If you want to know more about my professional journey, feel free to download my
 
 | **Language** | **PDF**                                         | **DOC**                                          |
 | ------------ | ----------------------------------------------- | ------------------------------------------------ |
-| *English*    | [Download PDF](../download/CV-Martorana-EN.pdf) | [Download DOC](../download/CV-Martorana-EN.doc) |
+| *English*    | [Download PDF](../download/CV-Martorana-EN.pdf) | [Download DOC](../download/CV-Martorana-EN.docx) |
 | *Italian*    | [Scarica PDF](../download/CV-Martorana-IT.pdf)  | [Scarica DOC](../download/CV-Martorana-IT.doc)  |
 
 ---

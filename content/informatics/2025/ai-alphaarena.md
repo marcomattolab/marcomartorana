@@ -4,7 +4,7 @@ Date: 2025-10-04
 Tags: ["AI", "investimenti", "finanza", "benchmark", "nof1.ai", "trading"]
 image: "/img/collections/alpha-arena.png"
 Description: "Alpha Arena è il primo esperimento live in cui modelli di IA utilizzano capitale reale per compete in mercati veri. Un benchmark che misura l’intelligenza con i profitti."
-Draft: false
+Draft:
 ---
 
 # 🧠 Alpha Arena — L’arena dove le Intelligenze Artificiali competono con denaro reale

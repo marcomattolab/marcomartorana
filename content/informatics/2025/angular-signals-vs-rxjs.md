@@ -10,7 +10,7 @@ Draft:
 # Angular Signals
 ## How They Replace Half of Your RxJS Code
 
-Angular is entering a new reactive era. With the maturation of **Signals**, developers now have a simpler and more intuitive way to manage state and reactivity — one that significantly reduces the amount of RxJS code needed in everyday Angular applications.
+Angular is entering a new reactive era. With the maturation of ⚙️ **Signals** , developers now have a simpler and more intuitive way to manage state and reactivity — one that significantly reduces the amount of RxJS code needed in everyday Angular applications.
 
 This shift does **not** mean RxJS is disappearing. Instead, Angular Signals redefine *where RxJS should be used* and where it no longer adds value.
 
@@ -31,16 +31,20 @@ RxJS has long been the backbone of Angular’s reactivity, but it comes with tra
 
 Angular Signals address these issues by offering:
 
-- Synchronous reactive state
-- Automatic dependency tracking
-- Fine-grained change detection
-- Zero subscription management
+- 🧱 Synchronous reactive state
+- 🧩 Automatic dependency tracking
+- ⚡  Fine-grained change detection
+- 🧭 Zero subscription management
 
 
-Signals are designed to make the common cases simple, while still allowing RxJS to shine in complex asynchronous scenarios.
+> Signals are designed to make the common cases simple, 
+while still allowing RxJS to shine in complex asynchronous scenarios.
+
 ---
 
-## 1. Local State: From `BehaviorSubject` to `signal`
+
+## 1. Local State
+### From `BehaviorSubject` to `signal`
 
 Local UI state is one of the most common use cases in Angular applications. 
 Historically, developers used BehaviorSubject even when the state was purely synchronous.
@@ -138,7 +142,7 @@ Forgetting to do so can lead to memory leaks and unexpected behavior.
 
 Signals eliminate this entire category of problems by design. There are no subscriptions to manage, no takeUntil, and no ngOnDestroy boilerplate for UI-driven state.
 
-Signals eliminate manual cleanup and lifecycle management for UI state.
+💬 Signals eliminate manual cleanup and lifecycle management for UI state.
 
 ---
 
@@ -194,9 +198,7 @@ Signals are not a universal replacement. Understanding when to use each tool is 
 
 ### Signals don’t replace RxJS — they refine its role.
 
-Angular Signals don’t replace RxJS — they refine its role.
-
-RxJS remains essential for handling asynchronous streams, external events, and complex data flows. Signals, on the other hand, excel at managing synchronous state, derived values, and UI-driven reactivity.
+RxJS 🧠 remains essential for handling asynchronous streams, external events, and complex data flows. Signals, on the other hand, excel at managing synchronous state, derived values, and UI-driven reactivity.
 
 By adopting Signals for local and derived state, teams can:
 - Reduce boilerplate and cognitive overhead

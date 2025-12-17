@@ -7,7 +7,8 @@ Description: "Angular Signals introduce a new way to manage reactivity with less
 Draft:
 ---
 
-# Angular Signals: How They Replace Half of Your RxJS Code
+# Angular Signals
+## How They Replace Half of Your RxJS Code
 
 Angular is entering a new reactive era. With the maturation of **Signals**, developers now have a simpler and more intuitive way to manage state and reactivity — one that significantly reduces the amount of RxJS code needed in everyday Angular applications.
 
@@ -18,6 +19,8 @@ Many Angular teams are discovering that Signals can replace up to **50% of their
 ---
 
 ## Why Angular Introduced Signals
+
+Before diving into code comparisons, it’s important to understand why Signals exist in the first place. Angular has relied on RxJS for years, but not every reactive problem is asynchronous or stream-based.
 
 RxJS has long been the backbone of Angular’s reactivity, but it comes with trade-offs:
 
@@ -33,9 +36,17 @@ Angular Signals address these issues by offering:
 - Fine-grained change detection
 - Zero subscription management
 
+
+Signals are designed to make the common cases simple, while still allowing RxJS to shine in complex asynchronous scenarios.
 ---
 
 ## 1. Local State: From `BehaviorSubject` to `signal`
+
+Local UI state is one of the most common use cases in Angular applications. 
+Historically, developers used BehaviorSubject even when the state was purely synchronous.
+
+Signals provide a cleaner and more direct alternative for this kind of state.
+
 
 ### RxJS Pattern
 
@@ -57,9 +68,17 @@ setUser(user: User) {
 }
 ```
 
+With Signals, state updates are explicit, synchronous, and easier to reason about.
+
 ---
 
 ## 2. Derived State with `computed()` Instead of `combineLatest`
+
+A large portion of RxJS code exists just to derive state from other pieces of state. 
+While powerful, operators like combineLatest add unnecessary complexity when dealing with synchronous data.
+
+Signals offer computed() for exactly this purpose.
+
 
 ### RxJS Pattern
 
@@ -71,6 +90,8 @@ vm$ = combineLatest([
   map(([user, settings]) => ({ user, settings }))
 );
 ```
+
+The result is less code, fewer abstractions, and a more readable mental model.
 
 ### Signals Pattern
 
@@ -84,6 +105,12 @@ vm = computed(() => ({
 ---
 
 ## 3. Side Effects Without `subscribe()` Using `effect()`
+
+Side effects are another common reason developers reach for RxJS subscriptions. 
+Logging, syncing with external APIs, or reacting to state changes often required manual subscriptions.
+
+Signals introduce effect() to handle these cases safely and declaratively.
+
 
 ### RxJS Pattern
 
@@ -101,15 +128,24 @@ effect(() => {
 });
 ```
 
+Effects automatically track dependencies and clean themselves up, reducing lifecycle-related bugs.
 ---
 
 ## 4. Eliminating Manual Subscription Management
+
+One of the most error-prone aspects of RxJS is remembering to unsubscribe. 
+Forgetting to do so can lead to memory leaks and unexpected behavior.
+
+Signals eliminate this entire category of problems by design. There are no subscriptions to manage, no takeUntil, and no ngOnDestroy boilerplate for UI-driven state.
 
 Signals eliminate manual cleanup and lifecycle management for UI state.
 
 ---
 
 ## 5. Replacing Small RxJS Stores with Signal-Based Stores
+
+Many applications use RxJS to build small, local stores that manage component or feature-level state. 
+Signals allow you to implement the same pattern with far less complexity.
 
 ```ts
 class CounterStore {
@@ -126,13 +162,20 @@ class CounterStore {
 
 ## 6. Signals in Templates: No More `async` Pipe
 
+Templates are where the simplicity of Signals truly shines. Instead of piping observables through async, you can access signal values directly.
+
 ```html
 <p>{{ count() }}</p>
 ```
 
+This removes template noise and makes the data flow immediately obvious.
+
 ---
 
 ## 7. RxJS vs Signals: When to Use What
+
+Signals are not a universal replacement. Understanding when to use each tool is key to building scalable applications.
+
 
 | Use Case | RxJS | Angular Signals |
 |--------|------|-----------------|
@@ -149,4 +192,18 @@ class CounterStore {
 
 ## Conclusion
 
-Signals don’t replace RxJS — they refine its role.
+### Signals don’t replace RxJS — they refine its role.
+
+Angular Signals don’t replace RxJS — they refine its role.
+
+RxJS remains essential for handling asynchronous streams, external events, and complex data flows. Signals, on the other hand, excel at managing synchronous state, derived values, and UI-driven reactivity.
+
+By adopting Signals for local and derived state, teams can:
+- Reduce boilerplate and cognitive overhead
+- Improve readability and maintainability
+- Eliminate entire classes of subscription-related bugs
+- Make Angular code more approachable for new developers
+
+The real power comes from using both tools together, each where it fits best. Signals simplify the majority of everyday state management, while RxJS continues to power Angular’s most advanced reactive use cases.
+
+In practice, this balance leads to cleaner architecture, clearer intent, and faster development — a strong step forward for the Angular ecosystem.

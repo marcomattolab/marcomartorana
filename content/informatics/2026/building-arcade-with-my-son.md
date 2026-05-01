@@ -2,7 +2,7 @@
 Title: "More Than a Machine: Building Memories at 88mph"
 Date: 2026-05-01
 Tags: ["DIY", "Arcade", "Family", "Retrogaming", "Batocera", "Dragon Ball", "Back to the Future", "Maker"]
-image: "/img/collections/arcade-build.png"
+image: "/img/arcade/arcade-build.png"
 Description: "They say the best way to predict the future is to create it. This weekend, my 10-year-old son and I built a piece of the past — powered by the tech of today."
 Draft:
 ---

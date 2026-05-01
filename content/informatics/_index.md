@@ -2,5 +2,5 @@
 Type : "tags"
 layout : "collections"
 title: "Informatics"
-subtitle : "📚 Risorse e Materiali per la Community di Informatica"
+subtitle : "📚 Resources and Materials for Informatics community"
 ---

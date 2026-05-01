@@ -88,7 +88,7 @@ Here are 6 free courses that will take you from zero to building production-read
 
 **Learn the latest RAG (Retrieval-Augmented Generation) techniques**
 
-🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-and-evaluating-advanced-rag-applications/)
+🔗 [Start on DeepLearning.AI](https://learn.deeplearning.ai/courses/retrieval-augmented-generation/information)
 
 **What you'll learn:**
 - Advanced RAG architectures
@@ -174,22 +174,6 @@ Don't just watch lectures. For each course:
 | **Cost** | Free | Often $50-200+ |
 
 You're learning from the teams **building the tools** — not just talking about them.
-
----
-
-## 🚀 My Challenge to You
-
-**Pick one course from this list.**  
-**Commit to finishing it this week.**  
-**Start today.**
-
-Not "when I have time." Not "next Monday." Today.
-
----
-
-## 👉 Which Course Will You Start With?
-
-Drop a comment and share your learning plan. Accountability helps — tell someone what you're committing to.
 
 ---
 

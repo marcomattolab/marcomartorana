@@ -1,5 +1,5 @@
 ---
-Title: "Python Cheat Sheet for Coding Interviews (LeetCode)"
+Title: "Python Cheat Sheet for Coding Interviews"
 Date: 2026-05-01
 Tags: ["Python", "LeetCode", "Coding Interviews", "Algorithms", "Data Structures", "Cheat Sheet"]
 image: "/img/collections/python-cheat-sheet.png"

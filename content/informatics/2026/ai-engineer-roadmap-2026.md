@@ -1,5 +1,5 @@
 ---
-Title: "AI Engineer Roadmap 2026 — A Practical Guide to Becoming an AI Engineer"
+Title: "AI Engineer Roadmap 2026"
 Date: 2026-05-01
 Tags: ["AI", "Machine Learning", "LLM", "AI Agents", "Tech Career", "Roadmap"]
 image: "/img/collections/ai-engineer-roadmap-2026.png"

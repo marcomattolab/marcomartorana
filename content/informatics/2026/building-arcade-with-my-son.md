@@ -67,6 +67,7 @@ The whole project took us a few weekends. Some moments were messy. Some were fru
 ## Build Gallery 📸
 
 {{< gallery dir="img/arcade" >}}
+{{< /gallery >}}
 
 ---
 

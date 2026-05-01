@@ -1,156 +1,122 @@
 ---
-Title: "Stanford's $200,000 AI Education — Now Free Online"
+Title: "6 Free Generative AI Courses to Build Real Skills in 2026"
 Date: 2026-05-01
-Tags: ["AI", "Machine Learning", "Deep Learning", "Education", "Stanford", "Free Courses"]
+Tags: ["AI", "Generative AI", "LLM", "RAG", "LangChain", "Free Courses"]
 image: "/img/collections/free-stanford-ai-courses.png"
-Description: "The same courses that trained Silicon Valley engineers are now free online. No tuition, no gatekeeping. Here's your roadmap to truly understand AI."
+Description: "From Microsoft's 21-lesson fundamentals to advanced RAG and Agentic systems. No tuition, no gatekeeping. Just hands-on building."
 Draft:
 ---
 
-# 🚀 Open-Sourced $200,000 AI Education
+# 🚀 6 Free Generative AI Courses to Build Real Skills
 
-The same courses that trained Silicon Valley engineers are now **available for free online**.
+Stop just prompting. Start **building**.
 
-No tuition.  
-No gatekeeping.  
-Just world-class content.
-
-Here's a roadmap to stop "prompting" and start **truly understanding AI** 👇
+Here are 6 free courses that will take you from zero to building production-ready Generative AI applications 👇
 
 ---
 
-## 📚 The Foundations
+## 1️⃣ Microsoft Generative AI for Beginners
 
-### ✅ CS221 — Artificial Intelligence
+**21 lessons covering everything you need to start building**
 
-**Topics:** Search algorithms, reasoning, planning, decision-making  
-**Instructor:** Stanford AI Lab  
-**Level:** Intermediate
+🔗 [Start on GitHub](https://github.com/microsoft/generative-ai-for-beginners)
 
-This course covers the foundational concepts of AI beyond just machine learning. You'll learn how AI systems make decisions, plan actions, and reason about the world.
+**What you'll learn:**
+- Fundamentals of Generative AI
+- How Large Language Models work
+- Prompt engineering best practices
+- Building AI-powered applications
+- Ethical considerations and responsible AI
 
-- Search algorithms (BFS, DFS, A*)
-- Constraint satisfaction problems
-- Logic and reasoning
-- Planning and execution
-- Decision theory and utility
-
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
+**Best for:** Complete beginners wanting a comprehensive foundation
 
 ---
 
-### ✅ CS229 — Machine Learning (Andrew Ng)
+## 2️⃣ Function Calling and Data Extraction with LLMs
 
-**Topics:** ML algorithms, supervised & unsupervised learning  
-**Instructor:** Andrew Ng  
-**Level:** Beginner to Intermediate
+**Learn how to use LLM function calling to connect with tools and extract structured data**
 
-The legendary course that launched thousands of ML careers. Andrew Ng's teaching style makes complex concepts accessible without sacrificing depth.
+🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/function-calling-and-data-extraction-with-llms/)
 
-- Linear regression, logistic regression
-- Neural networks
-- Support vector machines
-- Clustering (K-means, GMM)
-- Dimensionality reduction (PCA)
-- Best practices in ML
+**What you'll learn:**
+- Function calling fundamentals
+- Connecting LLMs to external tools and APIs
+- Extracting structured data from unstructured text
+- Building reliable tool-use patterns
 
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rNqH7JH3sU4H4jz0jKk5r7o)
-
-> 💡 **Pro tip:** This is the best starting point if you're new to ML.
+**Best for:** Developers who want their LLMs to interact with the real world
 
 ---
 
-### ✅ CS230 — Deep Learning (Andrew Ng)
+## 3️⃣ Building Your Own Database Agent
 
-**Topics:** Neural networks, CNN, RNN, best practices  
-**Instructor:** Andrew Ng  
-**Level:** Intermediate
+**Learn how to interact with databases using natural language**
 
-The natural follow-up to CS229, focused specifically on deep learning architectures and techniques.
+🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-your-own-database-agent/)
 
-- Deep neural networks
-- Convolutional Neural Networks (CNN)
-- Recurrent Neural Networks (RNN, LSTM)
-- Practical methodologies (initialization, regularization, optimization)
-- Case studies from healthcare, autonomous driving, and more
+**What you'll learn:**
+- Building agents that query databases
+- Natural language to SQL translation
+- Safe database interaction patterns
+- Handling complex queries
 
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rPzLcXBhbCFt8ahPrQGFSmN)
+**Level:** Beginner-friendly (optional Python/SQL knowledge helpful)
 
----
-
-## 🔬 Go Deeper
-
-### ✅ CS231n — Deep Learning for Computer Vision
-
-**Topics:** Vision models, CNN, generative models  
-**Instructor:** Stanford Vision Lab  
-**Level:** Advanced
-
-The definitive course on computer vision and convolutional networks.
-
-- Image classification
-- Object detection
-- Semantic segmentation
-- Generative models (GANs, VAEs)
-- Visual recognition applications
-
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rM6wRrQ0bKp9y3hYcJ1p2dG)
+**Best for:** Anyone who wants to build natural language interfaces to data
 
 ---
 
-### ✅ CS234 — Reinforcement Learning
+## 4️⃣ LangChain for LLM Application Development
 
-**Topics:** Agents, Q-learning, policy gradients  
-**Instructor:** Stanford AI Lab  
-**Level:** Advanced
+**A beginner-friendly course on building LLM-powered apps with LangChain**
 
-Reinforcement learning is the foundation for autonomous agents, robotics, and game-playing AI.
+🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 
-- Markov Decision Processes
-- Model-free control (Q-learning, SARSA)
-- Policy gradient methods
-- Deep RL (DQN, A3C, PPO)
-- Applications in robotics and games
+**What you'll learn:**
+- LangChain fundamentals and architecture
+- Chains, agents, and memory
+- Building multi-step workflows
+- Integrating external data sources
 
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sN6w0V2rJz5l5E)
+**Level:** Beginner-friendly (basic Python knowledge helpful)
 
----
-
-### ✅ CS224U — Natural Language Understanding
-
-**Topics:** Semantics, dialogue systems, language models  
-**Instructor:** Stanford NLP Group  
-**Level:** Advanced
-
-Deep dive into how machines understand and process human language.
-
-- Word embeddings (Word2Vec, GloVe, BERT)
-- Sentence and document representations
-- Semantic parsing
-- Dialogue systems
-- Neural machine translation
-
-🔗 [Watch on YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rP2wG1J5dE2n1lX8t9Zk4oG)
+**Best for:** Developers ready to build production LLM applications
 
 ---
 
-## 🎯 Starting from Zero?
+## 5️⃣ Building and Evaluating Advanced RAG Applications
 
-If you're completely new to machine learning, start here:
+**Learn the latest RAG (Retrieval-Augmented Generation) techniques**
 
-### 📖 Coursera — Machine Learning by Andrew Ng
+🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-and-evaluating-advanced-rag-applications/)
 
-This is the more accessible, beginner-friendly version of CS229:
+**What you'll learn:**
+- Advanced RAG architectures
+- Retrieval optimization techniques
+- Evaluating RAG system performance
+- Handling edge cases and failures
 
-🔗 [Start on Coursera](https://www.coursera.org/learn/machine-learning)
+**Level:** Intermediate (basic Python knowledge recommended)
 
-**Why start here:**
-- Slower pace with more explanations
-- Hands-on programming assignments
-- Certificate upon completion
-- Community support and forums
+**Best for:** Developers building knowledge-grounded AI systems
 
-After completing this, you'll be ready for the full Stanford courses.
+---
+
+## 6️⃣ Building Agentic RAG with LlamaIndex
+
+**Learn how to quickly build agents that can reason over your documents**
+
+🔗 [Start on DeepLearning.AI](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)
+
+**What you'll learn:**
+- LlamaIndex fundamentals
+- Building agentic RAG systems
+- Multi-step reasoning over documents
+- Query engines and routing
+
+**Level:** Intermediate (basic Python knowledge recommended)
+
+**Best for:** Developers building document reasoning systems
 
 ---
 
@@ -158,33 +124,27 @@ After completing this, you'll be ready for the full Stanford courses.
 
 Here's a recommended order to tackle these courses:
 
-| Order | Course | Duration | Priority |
-|-------|--------|----------|----------|
-| 1 | CS229 (or Coursera ML) | 10 weeks | ⭐⭐⭐ |
-| 2 | CS230 — Deep Learning | 10 weeks | ⭐⭐⭐ |
-| 3 | CS221 — AI Foundations | 10 weeks | ⭐⭐ |
-| 4 | CS231n — Computer Vision | 10 weeks | ⭐⭐ |
-| 5 | CS234 — Reinforcement Learning | 10 weeks | ⭐ |
-| 6 | CS224U — NLP Understanding | 10 weeks | ⭐ |
+| Order | Course | Focus | Priority |
+|-------|--------|-------|----------|
+| 1 | Microsoft Generative AI for Beginners | Foundations | ⭐⭐⭐ |
+| 2 | Function Calling and Data Extraction | Tool Integration | ⭐⭐⭐ |
+| 3 | LangChain for LLM Application Development | Framework Basics | ⭐⭐⭐ |
+| 4 | Building Your Own Database Agent | Practical Project | ⭐⭐ |
+| 5 | Building and Evaluating Advanced RAG | Advanced Techniques | ⭐⭐ |
+| 6 | Building Agentic RAG with LlamaIndex | Agentic Systems | ⭐ |
 
-**Total time:** ~60 weeks (just over 1 year) for the complete path  
-**Minimum viable:** CS229 + CS230 (~5 months) for solid fundamentals
+**Minimum viable:** Courses 1 + 2 + 3 (~2-3 weeks) for solid fundamentals
 
 ---
 
 ## 💡 Key Insights
 
-### 1. The Barrier Is No Longer Access — It's Discipline
+### 1. These Are Short, Focused Courses
 
-Five years ago, accessing this content meant:
-- Getting admitted to Stanford
-- Paying $200,000+ in tuition
-- Relocating to California
-
-Today, everything is **one click away**. The real barrier is:
-- Consistency over months
-- Working through difficult concepts
-- Completing assignments without grades
+Unlike semester-long university courses, these are **micro-courses** designed to be completed in hours, not weeks:
+- Most are 1-3 hours
+- Hands-on coding from day one
+- No fluff, just building
 
 ### 2. Don't Hoard Courses — Complete Them
 
@@ -197,30 +157,30 @@ Pick one course. Finish it. Then pick the next.
 ### 3. Build Alongside Learning
 
 Don't just watch lectures. For each course:
-- Complete the assignments
-- Build a personal project using the concepts
-- Write about what you learn (teaching reinforces learning)
+- Complete the coding exercises
+- Build a mini-project using the concepts
+- Share what you build (GitHub, blog, social)
 
 ---
 
 ## 🎓 What Makes These Courses Special
 
-| Aspect | Stanford Courses | Typical Online Course |
-|--------|------------------|----------------------|
-| **Depth** | Rigorous, mathematical | Surface-level, intuitive |
-| **Assignments** | Challenging, real-world | Multiple choice, simple |
-| **Instructors** | Field pioneers | Variable quality |
-| **Peer Discussion** | Smart, motivated classmates | Self-paced, isolated |
-| **Credential** | Stanford name (if enrolled) | Course certificate |
+| Aspect | These Courses | Typical Tutorial |
+|--------|---------------|------------------|
+| **Instructors** | Industry experts (Microsoft, DeepLearning.AI) | Variable quality |
+| **Content** | Cutting-edge, production-ready | Often outdated |
+| **Format** | Interactive, hands-on | Passive video watching |
+| **Credential** | Recognized certificates | None or paid |
+| **Cost** | Free | Often $50-200+ |
 
-You're getting the **exact same lectures** as Stanford students. The only difference is the credential.
+You're learning from the teams **building the tools** — not just talking about them.
 
 ---
 
 ## 🚀 My Challenge to You
 
 **Pick one course from this list.**  
-**Commit to finishing it.**  
+**Commit to finishing it this week.**  
 **Start today.**
 
 Not "when I have time." Not "next Monday." Today.
@@ -233,16 +193,16 @@ Drop a comment and share your learning plan. Accountability helps — tell someo
 
 ---
 
-*The knowledge that created the AI revolution is now free. The question is: what will you build with it?*
+*The knowledge to build real AI applications is now free. The question is: what will you build with it?*
 
 ---
 
 ## 📚 Additional Resources
 
-- [Stanford Online](https://online.stanford.edu/) — Official platform
-- [Coursera Stanford Partnership](https://www.coursera.org/stanford) — More courses
-- [Stanford AI Lab](https://ai.stanford.edu/) — Research papers
-- [Papers With Code](https://paperswithcode.com/) — Implementations of research
+- [DeepLearning.AI](https://www.deeplearning.ai/) — More short courses
+- [LlamaIndex Docs](https://docs.llamaindex.ai/) — Official documentation
+- [LangChain Docs](https://python.langchain.com/) — Official documentation
+- [Hugging Face](https://huggingface.co/) — Models and datasets
 
 ---
 

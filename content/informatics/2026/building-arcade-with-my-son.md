@@ -64,6 +64,25 @@ The whole project took us a few weekends. Some moments were messy. Some were fru
 
 ---
 
+## Build Gallery 📸
+
+{{< gallery dir="img/arcade" >}}
+
+---
+
+## Video Gallery 🎥
+
+<div class="video-gallery">
+  <video controls preload="metadata" style="width:100%;max-width:600px;margin:10px 0;">
+    <source src="/img/arcade/11DE95E3-C375-4C91-8EC0-9C73C7CB568A.mp4" type="video/mp4">
+  </video>
+  <video controls preload="metadata" style="width:100%;max-width:600px;margin:10px 0;">
+    <source src="/img/arcade/3FD0E934-BFFE-46E7-9B23-5131B4032F53.mp4" type="video/mp4">
+  </video>
+</div>
+
+---
+
 ## The Real Win ❤️
 
 The best part wasn't finally seeing the "Insert Coin" screen light up.

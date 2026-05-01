@@ -1,23 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Innovazione on Marco Martorana</title><link>https://github.com/marcomattolab/marcomartorana/tags/innovazione/</link><description>Recent content in Innovazione on Marco Martorana</description><generator>Hugo</generator><language>it</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/marcomattolab/marcomartorana/tags/innovazione/index.xml" rel="self" type="application/rss+xml"/><item><title>My presentation at GDG Palermo about Angular🚀</title><link>https://github.com/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://github.com/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid><description>&lt;h1 id="frontend-development-with-angular-2024--">Frontend Development with Angular (2024) ! 🚀&lt;/h1>
-&lt;p>&lt;strong>Speaker:&lt;/strong> Marco Martorana, Senior Software Developer at ELCA&lt;br>
-&lt;strong>Event:&lt;/strong> GDG Palermo, December 4, 2024&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Overview:&lt;/strong> Retrospective of Angular framework evolution with personal recommendations and lessons learned.&lt;/li>
-&lt;li>&lt;strong>Focus:&lt;/strong> Simplifying state management with Angular Signals introduced in Angular 16.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="evolution-of-angular">&lt;strong>Evolution of Angular&lt;/strong>&lt;/h2>
-&lt;h3 id="angular-milestones">Angular Milestones&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Angular @2010&lt;/strong> - The I Revolution&lt;/p></description></item><item><title>Evento GDG a Palermo! 🚀</title><link>https://github.com/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://github.com/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid><description>&lt;h1 id="evento-gdg-a-palermo-">Evento GDG a Palermo! 🚀&lt;/h1>
-&lt;p>Il &lt;strong>4 dicembre&lt;/strong> non perderti un evento unico dedicato al futuro dello sviluppo con &lt;strong>#Angular&lt;/strong>, &lt;strong>#GenAI&lt;/strong> e &lt;strong>#Kubernetes&lt;/strong>.&lt;/p>
-&lt;h2 id="-dettagli-evento">📅 Dettagli evento&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Quando:&lt;/strong> Mercoledì 4 dicembre 2024, ore 18:00 - 21:00&lt;/li>
-&lt;li>&lt;strong>Dove:&lt;/strong> Sede BIP di Palermo&lt;/li>
-&lt;/ul>
-&lt;h2 id="-speaker-e-sessioni">🎤 Speaker e sessioni&lt;/h2>
-&lt;p>Tra i relatori, ci sarò anche io, Marco Martorana, per &lt;a href="https://www.elca.ch/en">&lt;strong>ELCA Group&lt;/strong>&lt;/a> con una sessione dal titolo:&lt;/p></description></item><item><title>Google I/O Extended (Mazzarino - Gela)</title><link>https://github.com/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link><pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate><guid>https://github.com/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid><description>&lt;h1 id="evento-gdg-gela-2024-">Evento GDG Gela 2024 🌐&lt;/h1>
-&lt;p>Siamo entusiasti di annunciare un evento straordinario organizzato da &lt;strong>Google Developer Group Gela&lt;/strong>, che si terrà il &lt;strong>2 agosto 2024&lt;/strong> presso lo storico &lt;strong>Palazzo Tortorici&lt;/strong> a Mazzarino. Una giornata dedicata a esplorare le frontiere dello sviluppo tecnologico e dell’innovazione digitale.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovazione on Marco Martorana</title>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/innovazione/</link>
+    <description>Recent content in Innovazione on Marco Martorana</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/innovazione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My presentation at GDG Palermo about Angular🚀</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/development-with-angular-and-signals/</guid>
+      <description>&lt;h1 id=&#34;frontend-development-with-angular-2024--&#34;&gt;Frontend Development with Angular (2024) ! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Marco Martorana, Senior Software Developer at ELCA&lt;br&gt;&#xA;&lt;strong&gt;Event:&lt;/strong&gt; GDG Palermo, December 4, 2024&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Overview:&lt;/strong&gt; Retrospective of Angular framework evolution with personal recommendations and lessons learned.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus:&lt;/strong&gt; Simplifying state management with Angular Signals introduced in Angular 16.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;evolution-of-angular&#34;&gt;&lt;strong&gt;Evolution of Angular&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;angular-milestones&#34;&gt;Angular Milestones&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Angular @2010&lt;/strong&gt; - The I Revolution&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evento GDG a Palermo! 🚀</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</guid>
+      <description>&lt;h1 id=&#34;evento-gdg-a-palermo-&#34;&gt;Evento GDG a Palermo! 🚀&lt;/h1&gt;&#xA;&lt;p&gt;Il &lt;strong&gt;4 dicembre&lt;/strong&gt; non perderti un evento unico dedicato al futuro dello sviluppo con &lt;strong&gt;#Angular&lt;/strong&gt;, &lt;strong&gt;#GenAI&lt;/strong&gt; e &lt;strong&gt;#Kubernetes&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-dettagli-evento&#34;&gt;📅 Dettagli evento&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quando:&lt;/strong&gt; Mercoledì 4 dicembre 2024, ore 18:00 - 21:00&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dove:&lt;/strong&gt; Sede BIP di Palermo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-speaker-e-sessioni&#34;&gt;🎤 Speaker e sessioni&lt;/h2&gt;&#xA;&lt;p&gt;Tra i relatori, ci sarò anche io, Marco Martorana, per &lt;a href=&#34;https://www.elca.ch/en&#34;&gt;&lt;strong&gt;ELCA Group&lt;/strong&gt;&lt;/a&gt; con una sessione dal titolo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google I/O Extended (Mazzarino - Gela)</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-mazzarino/</guid>
+      <description>&lt;h1 id=&#34;evento-gdg-gela-2024-&#34;&gt;Evento GDG Gela 2024 🌐&lt;/h1&gt;&#xA;&lt;p&gt;Siamo entusiasti di annunciare un evento straordinario organizzato da &lt;strong&gt;Google Developer Group Gela&lt;/strong&gt;, che si terrà il &lt;strong&gt;2 agosto 2024&lt;/strong&gt; presso lo storico &lt;strong&gt;Palazzo Tortorici&lt;/strong&gt; a Mazzarino. Una giornata dedicata a esplorare le frontiere dello sviluppo tecnologico e dell’innovazione digitale.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

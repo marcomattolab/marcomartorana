@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Back to the Future on Marco Martorana</title><link>https://github.com/marcomattolab/marcomartorana/tags/back-to-the-future/</link><description>Recent content in Back to the Future on Marco Martorana</description><generator>Hugo</generator><language>it</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/marcomattolab/marcomartorana/tags/back-to-the-future/index.xml" rel="self" type="application/rss+xml"/><item><title>More Than a Machine: Building Memories at 88mph</title><link>https://github.com/marcomattolab/marcomartorana/informatics/2026/building-arcade-with-my-son/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://github.com/marcomattolab/marcomartorana/informatics/2026/building-arcade-with-my-son/</guid><description>&lt;h1 id="-more-than-a-machine-building-memories-at-88mph-">🕹️ More Than a Machine: Building Memories at 88mph 🚀&lt;/h1>
-&lt;p>They say the best way to predict the future is to create it. Well, previous 2/3 weekends, my son and I decided to build a piece of the past, powered by the tech of today.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Back to the Future on Marco Martorana</title>
+    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/back-to-the-future/</link>
+    <description>Recent content in Back to the Future on Marco Martorana</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/back-to-the-future/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More Than a Machine: Building Memories at 88mph</title>
+      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/building-arcade-with-my-son/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/building-arcade-with-my-son/</guid>
+      <description>&lt;h1 id=&#34;-more-than-a-machine-building-memories-at-88mph-&#34;&gt;🕹️ More Than a Machine: Building Memories at 88mph 🚀&lt;/h1&gt;&#xA;&lt;p&gt;They say the best way to predict the future is to create it. Well, previous 2/3 weekends, my son and I decided to build a piece of the past, powered by the tech of today.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

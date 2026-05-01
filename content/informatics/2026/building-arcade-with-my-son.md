@@ -130,7 +130,7 @@ Here are the resources that inspired us:
 
 ---
 
-*This post is part of the Informatics series on maker projects, family builds, and the intersection of technology and memory.*
+*Grande Giove*
 
 ---
 

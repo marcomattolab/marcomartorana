@@ -1,85 +1,135 @@
 ---
-title: Java
-date: 2020-02-01 
+title: Java & Tomcat Cheatsheet
+date: 2020-02-01
 ---
 
+# Java & Tomcat Cheatsheet
 
-# 1. Java -> Set env variables	
+## Java ENV Setup
 
-## SET ENVS VARIABLES
+```bash
 cd
 vi .bashrc
+```
 
-# Insert these 3 env variables
-JAVA_HOME=/ltm/rt/java/jdk1.7.0_40
-GP_HOME=/ltm/rt/gtech/gp
-GP_MEM_OPTS='-Xmx2048m -Xms2048m -XX:MaxPermSize=512m'
+Add:
 
-# RELOAD BASH
+```bash
+export JAVA_HOME=/ltm/rt/java/jdk1.7.0_40
+export GP_HOME=/ltm/rt/gtech/gp
+export GP_MEM_OPTS='-Xmx2048m -Xms2048m -XX:MaxPermSize=512m'
+```
+
+Reload bash:
+
+```bash
 source .bashrc
+```
 
 ---
 
-# 2. Java -> Check Java Version 
+## Check Java Process
 
-# CHECK JAVA VERSION
-ps -eaf | grep java	
-
----
-
-# 3. Java -> Tomcat Commands
-
-## Tomcat commands:
+```bash
 ps -eaf | grep java
-service tomcat8 stop
-cd /storage/apache-tomcat-8.0.43/logs
-tail -Fn200 /storage/apache-tomcat-8.0.43/logs/catalina.out
-service tomcat8 start
-vi /storage/apache-tomcat-8.0.43/webapps/ossc-web/META-INF/context.xml
+```
 
 ---
 
-# 4. Linux -> Find and remove logs
+# Tomcat
 
-# Cerca e Rimuove i file con estensione .bak eseguendo il comando rm tante volte quante sono i file trovati
-find . -type f -name "*.bak" -exec rm {} ;
+## Service Commands
 
-# REMOVE LOGS FILES
-ls -larht|grep G
-find . -size +20M -ls
-find . -type f -size +1k -not -iname "*2015*"
+```bash
+service tomcat8 stop
+service tomcat8 start
+```
 
+## Logs
 
-# REMOVE TEMP FOLDERS
-rm -rf data/ tmp/ work/
+```bash
+cd /storage/apache-tomcat-8.0.43/logs
+tail -Fn200 catalina.out
+```
 
-# REMOVE THE FILE 'server.log'
-rm -f server.log
+## Edit Context
 
-# REMOVE WITH PATTERN
-sudo rm *log.201*
+```bash
+vi /storage/apache-tomcat-8.0.43/webapps/ossc-web/META-INF/context.xml
+```
 
-# FIND LOGS FILES
-find . -size +20M -ls
-find . -type f -size +1k -not -iname "*2015*"
+---
 
+## Manual Startup / Shutdown
 
-# 5. Tomcat -> start and stop
+### Configure `CATALINA_OPTS`
 
-# Edit the Tomcat/conf/bmt-web.properties file
-
-# Editare il file bashrc inserendo le seguenti righe :
+```bash
 vi .bashrc
-export CATALINA_OPTS="-Dbmt.config.file=/ltm/rt/tomcat/apache-tomcat-7.0.41/conf/bmt-web.properties -Dcom.sun.xml.ws.transport.http.client.HttpTransportPipe.dump=true -Dcom.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump=true -Dcom.sun.xml.ws.transport.http.HttpAdapter.dump=true -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dump=true"
+```
 
-# RICARICARE BASH
+Add:
+
+```bash
+export CATALINA_OPTS="-Dbmt.config.file=/ltm/rt/tomcat/apache-tomcat-7.0.41/conf/bmt-web.properties \
+-Dcom.sun.xml.ws.transport.http.client.HttpTransportPipe.dump=true \
+-Dcom.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump=true \
+-Dcom.sun.xml.ws.transport.http.HttpAdapter.dump=true \
+-Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dump=true"
+```
+
+Reload:
+
+```bash
 source .bashrc
+```
 
-# Start of Tomcat :
+### Start Tomcat
+
+```bash
 cd TOMCAT_BIN
 ./startup.sh
+```
 
-# Stop catalina
+### Stop Tomcat
+
+```bash
 ps -ef | grep catalina
 cd TOMCAT_BIN
 ./shutdown.sh
+```
+
+---
+
+# Logs & Cleanup
+
+## Remove `.bak` Files
+
+```bash
+find . -type f -name "*.bak" -exec rm {} \;
+```
+
+## Find Large Files
+
+```bash
+find . -size +20M -ls
+find . -type f -size +1k -not -iname "*2015*"
+```
+
+## Remove Temp Folders
+
+```bash
+rm -rf data/ tmp/ work/
+```
+
+## Remove Specific Log
+
+```bash
+rm -f server.log
+```
+
+## Remove Logs by Pattern
+
+```bash
+sudo rm *log.201*
+```

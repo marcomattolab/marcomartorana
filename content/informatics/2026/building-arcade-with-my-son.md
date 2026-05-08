@@ -102,6 +102,88 @@ We didn't just build an arcade cabinet. We built:
 
 ---
 
+## Customization of Audio 🎵
+# Audio Customization 🎵
+
+I've linked my cabinet to Alexa, so when I say:
+
+> "Alexa, turn on cabinet"
+
+…it starts automatically.
+
+To customize the startup audio using my favorite movie theme — *Back to the Future (BTTF)* — I downloaded two audio tracks:
+
+- `coin.mp3`
+- `bttf-track.mp3`
+
+I then moved both MP3 files into:
+
+```bash
+/userdata/music/boot/
+```
+
+The goal is to:
+
+- Play the coin sound
+- Play the *Back to the Future* soundtrack for a few seconds
+- Fade out the music smoothly
+- Continue booting Batocera
+
+---
+
+# 🎚 Create a New `custom.sh` File
+
+Create the following file in Batocera:
+
+```bash
+/userdata/system/custom.sh
+```
+
+---
+
+# 🧑‍💻 Add the Following Content
+
+```bash
+#!/bin/bash
+
+MUSIC_DIR="/userdata/music/boot"
+COIN_SOUND="$MUSIC_DIR/coin.mp3"
+SELECTED_TRACK="bttf-track.mp3"
+
+PLAY_SECONDS=25
+FADE_SECONDS=5
+
+TRACK="$MUSIC_DIR/$SELECTED_TRACK"
+
+# Play coin sound
+if [ -f "$COIN_SOUND" ]; then
+    mpv --no-video --really-quiet "$COIN_SOUND"
+fi
+
+sleep 0.5
+
+# Play soundtrack with fade out
+if [ -f "$TRACK" ]; then
+    mpv --no-video --really-quiet \
+        --length=$PLAY_SECONDS \
+        --af=afade=t=out:st=$((PLAY_SECONDS - FADE_SECONDS)):d=$FADE_SECONDS \
+        "$TRACK"
+fi
+
+exit 0
+```
+
+---
+
+# 🔒 Make the Script Executable
+
+```bash
+chmod +x /userdata/system/custom.sh
+```
+
+---
+
+
 ## What We Learned 📚
 
 **For other parents considering a similar project:**
@@ -124,9 +206,9 @@ We'll be busy fighting Frieza and trying to get back to 1985 before the clock to
 
 Here are the resources that inspired us:
 
-- [Holbrook Tech Arcade Plans](https://www.holbrooktech.com/) — The design that started it all
+- [Holbrook Tech Arcade Plans](https://holbrooktech.weebly.com/full-size-arcade-cabinet.html) — The design that started it all
 - [Batocera Linux](https://batocera.org/) — The retro gaming OS that powers our cabinet
-- [Sanwa Controls](https://www.sanwacomponents.com/) — Premium joysticks and buttons
+- [Sanwa Controls](https://www.amazon.it/Sanwa-JLF-TP-8YT-Joystick-pulsanti-OBSF-30/dp/B01FJFSGJ2?th=1) — Premium joysticks and buttons
 
 ---
 

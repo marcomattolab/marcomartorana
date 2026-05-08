@@ -1,5 +1,6 @@
 ---
 title: Docker Commands
+description: Essential Docker commands: containers, images, networking, volumes, and Dockerfile builds.
 date: 2020-02-01
 ---
 

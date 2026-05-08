@@ -1,5 +1,6 @@
 ---
 title: Git / Network
+description: Git configuration basics, network port checking commands, and SSH key generation and setup.
 date: 2020-02-01  
 ---
 

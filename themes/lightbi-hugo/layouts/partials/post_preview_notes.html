@@ -27,8 +27,8 @@
             {{ print }}
             <div class="post-entry">
 
-                {{ if .Content }}
-                {{ .Content }}
+                {{ if .Params.description }}
+                <p>{{ .Params.description }}</p>
                 {{ end }}
             </div>
         </div>

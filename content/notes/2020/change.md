@@ -1,5 +1,6 @@
 ---
 title: Java & Tomcat Cheatsheet
+description: Java environment setup, Tomcat service commands, logs management, and manual startup/shutdown procedures.
 date: 2020-02-01
 ---
 

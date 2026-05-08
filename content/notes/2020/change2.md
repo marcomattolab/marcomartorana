@@ -1,50 +1,72 @@
 ---
 title: Database
-date: 2020-02-01 
+date: 2020-02-01
 ---
-# 1. Database -> Verifica Saturazione Spazio DB
 
-## Query verifica saturazione spazio:
-select df.tablespace_name 'Tablespace', totalusedspace 'Used MB', (df.totalspace - tu.totalusedspace) 'Free MB', df.totalspace 'Total MB', round(100 * ( (df.totalspace - tu.totalusedspace)/ df.totalspace)) 'Pct. Free'
-from (select tablespace_name, round(sum(bytes) / 1048576) TotalSpace from dba_data_files group by tablespace_name) df,
-(select round(sum(bytes)/(1024*1024)) totalusedspace, tablespace_name from dba_segments
-group by tablespace_name) tu
-where df.tablespace_name = tu.tablespace_name ;
+# Database Maintenance Notes
 
-## Soluzione: 
-truncate table CORDYS_LOG
+## 1. Verifica Saturazione Spazio DB
 
+Query verifica saturazione spazio:
 
-# 2. Database -> DBMS SCRIPT GRANT	
+```sql
+select df.tablespace_name 'Tablespace',
+       totalusedspace 'Used MB',
+       (df.totalspace - tu.totalusedspace) 'Free MB',
+       df.totalspace 'Total MB',
+       round(100 * ((df.totalspace - tu.totalusedspace)/ df.totalspace)) 'Pct. Free'
+from (select tablespace_name, round(sum(bytes) / 1048576) TotalSpace
+      from dba_data_files group by tablespace_name) df,
+     (select round(sum(bytes)/(1024*1024)) totalusedspace, tablespace_name
+      from dba_segments group by tablespace_name) tu
+where df.tablespace_name = tu.tablespace_name;
+```
 
-## DBMS SCRIPT GRANT
-- grant select on dba_tablespaces to system with grant option;
-- grant select on dba_data_files to system with grant option;
- 
+**Soluzione:** `truncate table CORDYS_LOG`
 
+## 2. DBMS Script Grant
 
-# 3. Database -> Sysadmin DATABASE CLEAN OPTIONAL!
-## READ/SAVE DIRECT_PURCHASE_SEQ MAX VALUE: See into schema 'B_215159_GS'.'DIRECT_PURCHASE_SEQ'
---DROP SEQUENCE 'B_215159_GS'.'DIRECT_PURCHASE_SEQ';
---CREATE SEQUENCE 'B_215159_GS'.'DIRECT_PURCHASE_SEQ' MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 51051 CACHE 20 NOORDER NOCYCLE ;
+```sql
+grant select on dba_tablespaces to system with grant option;
+grant select on dba_data_files to system with grant option;
+```
 
-Accedi come SYS/SYS
+## 3. Sysadmin Database Clean (Optional)
 
-## DROP USER AND TABLE_SPACE: see script below:
-## DROP USERS
-select 'drop user ' || USERNAME || ' cascade;' from dba_users where username in
-(select username from dba_users where username like '%B_215159%');
+**Read/save DIRECT_PURCHASE_SEQ max value** in schema `B_215159_GS.DIRECT_PURCHASE_SEQ`.
 
+Accedi come SYS/SYS:
 
-## DROP TABLESPACES
-select 'drop tablespace ' || TABLESPACE_NAME || ' including contents and datafiles;' from dba_data_files where tablespace_name
-in ( select tablespace_name from dba_data_files where tablespace_name like '%B_215159%');
+```sql
+-- DROP SEQUENCE B_215159_GS.DIRECT_PURCHASE_SEQ;
+-- CREATE SEQUENCE B_215159_GS.DIRECT_PURCHASE_SEQ
+--   MINVALUE 1 MAXVALUE 9999999999999999999999999999
+--   INCREMENT BY 1 START WITH 51051 CACHE 20 NOORDER NOCYCLE;
+```
 
+### Drop Users
 
-# 4. Database -> Export CLOB
-Utils for EXPORT tmy_support_data:
+```sql
+select 'drop user ' || USERNAME || ' cascade;'
+from dba_users
+where username like '%B_215159%';
+```
 
+### Drop Tablespaces
+
+```sql
+select 'drop tablespace ' || TABLESPACE_NAME || ' including contents and datafiles;'
+from dba_data_files
+where tablespace_name like '%B_215159%';
+```
+
+## 4. Export CLOB
+
+Utils for exporting `tmy_support_data`:
+
+```sql
 set sqlformat insert
-spool C:Conceptual my_support_data_export_20200409.sql
+spool C:\Conceptual\my_support_data_export_20200409.sql
 select * from tmy_support_data where 1=1 order by TMY_ID;
 spool off
+```

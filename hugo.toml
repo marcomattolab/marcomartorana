@@ -42,7 +42,7 @@ previewCardImagePlacement = "bottom"
 [Params.Author]
   name = "Marco Martorana"
   website = "https://www.marcomartorana.it/"
-  authorInfo = "Software Engineer | Computer Science Teacher"
+  authorInfo = "Lead Software Engineer | Computer Science Teacher"
   authorPostImage = "/img/author-post-img.jpg"
 
 [Author]

@@ -98,7 +98,7 @@ GitHub: <https://github.com/marcomattolab/ines>
 
 Built with:
 
-- Angular 22 (PWA)
+- Angular with PWA
 - MediaPipe GenAI
 - WebGPU
 - Zero backend infrastructure
@@ -121,6 +121,6 @@ Watch the presentation on ppt below
 
 ## 💡Final thoughts
 
-A new phase where “AI apps” won’t necessarily mean “cloud services”
+### A new phase where “AI apps” won’t necessarily mean “cloud services”
 
 - 🔐 **software that runs locally — and thinks locally**

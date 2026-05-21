@@ -1,61 +1,103 @@
 ---
 title: Git / Network
 description: "Git configuration basics, network port checking commands, and SSH key generation and setup."
-date: 2020-02-01  
+date: 2020-02-01
 ---
 
-# 1. GIT
->> sudo apt install git
->> git config --global user.email "name.surname@gmail.com"
->> git config --global user.name "Name Surname"
+# Git / Network Cheat Sheet
 
+## Git Configuration
 
->> git push --set-upstream origin master --no-verify
+```bash
+# Install Git
+sudo apt install git
 
-# 2. Network
+# Configure user
+git config --global user.email "name.surname@gmail.com"
+git config --global user.name "Name Surname"
+```
 
-## Comando UNIX per vedere le porte in ascolto
->> netstat -natp | grep -i listen
+## Git Push
 
-# Unix command to verify how old wich port
->> sudo netstat -putan | grep 90
-# Installa tool di rete
->> apt update && apt install -y net-tools
->> apt-get update && apt-get install -y iputils-ping
+```bash
+# Push and set upstream branch
+git push --set-upstream origin master --no-verify
+```
 
-## Comando UNIX per vedere le porte in ascolto
->> netstat -natp | grep -i listen
-# Unix command to verify how old wich port
->> sudo netstat -putan | grep 90
+## Network Commands
 
+### Check Listening Ports
 
-# Verifica host name
->> cat /etc/hosts|grep LXRT2-MACHINE-NAME
+```bash
+# Show listening ports
+netstat -natp | grep -i listen
+```
 
-# Putty Conn
->> netstat anp | grep 1521
+### Verify Specific Port Usage
 
----
+```bash
+# Check processes using a specific port (example: 90)
+sudo netstat -putan | grep 90
 
-# 3. SSH Key 
+# Example for Oracle DB port (1521)
+netstat anp | grep 1521
+```
 
-# Generate ssh key 
+### Install Network Tools
+
+```bash
+apt update && apt install -y net-tools
+apt-get update && apt-get install -y iputils-ping
+```
+
+### Verify Hostname
+
+```bash
+cat /etc/hosts | grep LXRT2-MACHINE-NAME
+```
+
+**Note:** `net-tools` provides utilities such as `netstat`, while `iputils-ping` installs the `ping` command.
+
+## SSH Key Setup
+
+### Generate SSH Key
+
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 
-# Start ssh agent
+### Start SSH Agent
+
+```bash
 eval "$(ssh-agent -s)"
+```
 
-# Add ssh key to agent
+### Add SSH Key to Agent
+
+```bash
 ssh-add ~/.ssh/id_ed25519
+```
 
-# Show public key
+### Show Public Key
+
+```bash
 cat ~/.ssh/id_ed25519.pub
+```
 
-# Copy ssh key into home directory
+### Copy SSH Key from Windows Home Directory
+
+```bash
 cp -r /mnt/c/Users/folder/.ssh ~/
 chmod 600 ~/.ssh/id_ed25519
+```
 
-# Set env variables
+## Environment Variables
+
+```bash
+# Edit profile
 sudo vi ~/.profile
-export JAVA_HOME=/opt/jdk-17.0.8.1+1
+
+# Java environment variables
+export JAVA_HOME=/opt/jdk-21.0.1
 export PATH=$PATH:$JAVA_HOME/bin
+```

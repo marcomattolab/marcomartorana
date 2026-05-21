@@ -9,11 +9,11 @@ featured: true
 
 # 🚀 Edge AI running in your browser
 
-Think of SLMs as “cloud-only” systems: APIs, servers, tokens, latency, privacy trade-offs.
+Think about Language Model as “cloud-only” systems: APIs, servers, tokens, latency, privacy trade-offs.
 
 But what if none of that was necessary?
 
-I built **INES - Intelligent Neural Edge System**, a full SLM-powered application that runs entirely inside the browser.
+I built **INES - Intelligent Neural Edge System**, a full Small Language Model, SLM-powered application that runs entirely inside the browser.
 
 - No server.  
 - No API key.  

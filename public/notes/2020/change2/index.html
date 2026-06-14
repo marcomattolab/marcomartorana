@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Note 2 - Marco Martorana</title>
-<meta name="description" content="Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.">
+<title>Database - Marco Martorana</title>
+<meta name="description" content="Oracle Database maintenance: space monitoring, grants, user cleanup, tablespace management, and CLOB export.">
 
 <meta name="author" content="Marco Martorana"><script type="application/ld+json">
 {
@@ -46,7 +46,7 @@
         "position": 3,
         "item": {
           "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/notes\/2020\/change2\/",
-          "name": "Note 2"
+          "name": "Database"
         }
     }]
 }
@@ -57,10 +57,10 @@
   "author": {
     "name" : "Marco Martorana"
   },
-  "headline": "Note 2",
-  "description" : "Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.\n",
+  "headline": "Database",
+  "description" : "Oracle Database maintenance: space monitoring, grants, user cleanup, tablespace management, and CLOB export.",
   "inLanguage" : "it",
-  "wordCount":  37 ,
+  "wordCount":  186 ,
   "datePublished" : "2020-02-01T00:00:00",
   "dateModified" : "2020-02-01T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -79,8 +79,8 @@
 }
 </script>
 
-<meta property="og:title" content="Note 2" />
-<meta property="og:description" content="Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.">
+<meta property="og:title" content="Database" />
+<meta property="og:description" content="Oracle Database maintenance: space monitoring, grants, user cleanup, tablespace management, and CLOB export.">
 <meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Marco Martorana" />
@@ -89,7 +89,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -306,7 +306,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                Note 2
+                Database
                 
               </h1>
               
@@ -347,8 +347,45 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <p>Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.</p>
-
+        <h1 id="database-maintenance-notes">Database Maintenance Notes</h1>
+<h2 id="1-verifica-saturazione-spazio-db">1. Verifica Saturazione Spazio DB</h2>
+<p>Query verifica saturazione spazio:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span>df.tablespace_name<span style="color:#bbb"> </span><span style="color:#b84">&#39;Tablespace&#39;</span>,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">       </span>totalusedspace<span style="color:#bbb"> </span><span style="color:#b84">&#39;Used MB&#39;</span>,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">       </span>(df.totalspace<span style="color:#bbb"> </span><span style="font-weight:bold">-</span><span style="color:#bbb"> </span>tu.totalusedspace)<span style="color:#bbb"> </span><span style="color:#b84">&#39;Free MB&#39;</span>,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">       </span>df.totalspace<span style="color:#bbb"> </span><span style="color:#b84">&#39;Total MB&#39;</span>,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">       </span>round(<span style="color:#099">100</span><span style="color:#bbb"> </span><span style="font-weight:bold">*</span><span style="color:#bbb"> </span>((df.totalspace<span style="color:#bbb"> </span><span style="font-weight:bold">-</span><span style="color:#bbb"> </span>tu.totalusedspace)<span style="font-weight:bold">/</span><span style="color:#bbb"> </span>df.totalspace))<span style="color:#bbb"> </span><span style="color:#b84">&#39;Pct. Free&#39;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>(<span style="font-weight:bold">select</span><span style="color:#bbb"> </span>tablespace_name,<span style="color:#bbb"> </span>round(<span style="font-weight:bold">sum</span>(bytes)<span style="color:#bbb"> </span><span style="font-weight:bold">/</span><span style="color:#bbb"> </span><span style="color:#099">1048576</span>)<span style="color:#bbb"> </span>TotalSpace<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">      </span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>dba_data_files<span style="color:#bbb"> </span><span style="font-weight:bold">group</span><span style="color:#bbb"> </span><span style="font-weight:bold">by</span><span style="color:#bbb"> </span>tablespace_name)<span style="color:#bbb"> </span>df,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">     </span>(<span style="font-weight:bold">select</span><span style="color:#bbb"> </span>round(<span style="font-weight:bold">sum</span>(bytes)<span style="font-weight:bold">/</span>(<span style="color:#099">1024</span><span style="font-weight:bold">*</span><span style="color:#099">1024</span>))<span style="color:#bbb"> </span>totalusedspace,<span style="color:#bbb"> </span>tablespace_name<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">      </span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>dba_segments<span style="color:#bbb"> </span><span style="font-weight:bold">group</span><span style="color:#bbb"> </span><span style="font-weight:bold">by</span><span style="color:#bbb"> </span>tablespace_name)<span style="color:#bbb"> </span>tu<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">where</span><span style="color:#bbb"> </span>df.tablespace_name<span style="color:#bbb"> </span><span style="font-weight:bold">=</span><span style="color:#bbb"> </span>tu.tablespace_name;<span style="color:#bbb">
+</span></span></span></code></pre></div><p><strong>Soluzione:</strong> <code>truncate table CORDYS_LOG</code></p>
+<h2 id="2-dbms-script-grant">2. DBMS Script Grant</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold">grant</span><span style="color:#bbb"> </span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span><span style="font-weight:bold">on</span><span style="color:#bbb"> </span>dba_tablespaces<span style="color:#bbb"> </span><span style="font-weight:bold">to</span><span style="color:#bbb"> </span><span style="font-weight:bold">system</span><span style="color:#bbb"> </span><span style="font-weight:bold">with</span><span style="color:#bbb"> </span><span style="font-weight:bold">grant</span><span style="color:#bbb"> </span><span style="font-weight:bold">option</span>;<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">grant</span><span style="color:#bbb"> </span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span><span style="font-weight:bold">on</span><span style="color:#bbb"> </span>dba_data_files<span style="color:#bbb"> </span><span style="font-weight:bold">to</span><span style="color:#bbb"> </span><span style="font-weight:bold">system</span><span style="color:#bbb"> </span><span style="font-weight:bold">with</span><span style="color:#bbb"> </span><span style="font-weight:bold">grant</span><span style="color:#bbb"> </span><span style="font-weight:bold">option</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><h2 id="3-sysadmin-database-clean-optional">3. Sysadmin Database Clean (Optional)</h2>
+<p><strong>Read/save DIRECT_PURCHASE_SEQ max value</strong> in schema <code>B_215159_GS.DIRECT_PURCHASE_SEQ</code>.</p>
+<p>Accedi come SYS/SYS:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#998;font-style:italic">-- DROP SEQUENCE B_215159_GS.DIRECT_PURCHASE_SEQ;
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">-- CREATE SEQUENCE B_215159_GS.DIRECT_PURCHASE_SEQ
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">--   MINVALUE 1 MAXVALUE 9999999999999999999999999999
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic">--   INCREMENT BY 1 START WITH 51051 CACHE 20 NOORDER NOCYCLE;
+</span></span></span></code></pre></div><h3 id="drop-users">Drop Users</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span><span style="color:#b84">&#39;drop user &#39;</span><span style="color:#bbb"> </span><span style="font-weight:bold">||</span><span style="color:#bbb"> </span>USERNAME<span style="color:#bbb"> </span><span style="font-weight:bold">||</span><span style="color:#bbb"> </span><span style="color:#b84">&#39; cascade;&#39;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>dba_users<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">where</span><span style="color:#bbb"> </span>username<span style="color:#bbb"> </span><span style="font-weight:bold">like</span><span style="color:#bbb"> </span><span style="color:#b84">&#39;%B_215159%&#39;</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><h3 id="drop-tablespaces">Drop Tablespaces</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span><span style="color:#b84">&#39;drop tablespace &#39;</span><span style="color:#bbb"> </span><span style="font-weight:bold">||</span><span style="color:#bbb"> </span>TABLESPACE_NAME<span style="color:#bbb"> </span><span style="font-weight:bold">||</span><span style="color:#bbb"> </span><span style="color:#b84">&#39; including contents and datafiles;&#39;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>dba_data_files<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">where</span><span style="color:#bbb"> </span>tablespace_name<span style="color:#bbb"> </span><span style="font-weight:bold">like</span><span style="color:#bbb"> </span><span style="color:#b84">&#39;%B_215159%&#39;</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><h2 id="4-export-clob">4. Export CLOB</h2>
+<p>Utils for exporting <code>tmy_support_data</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="font-weight:bold">set</span><span style="color:#bbb"> </span>sqlformat<span style="color:#bbb"> </span><span style="font-weight:bold">insert</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span>spool<span style="color:#bbb"> </span><span style="font-weight:bold">C</span>:<span style="color:#a61717;background-color:#e3d2d2">\</span>Conceptual<span style="color:#a61717;background-color:#e3d2d2">\</span>my_support_data_export_20200409.<span style="font-weight:bold">sql</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold">select</span><span style="color:#bbb"> </span><span style="font-weight:bold">*</span><span style="color:#bbb"> </span><span style="font-weight:bold">from</span><span style="color:#bbb"> </span>tmy_support_data<span style="color:#bbb"> </span><span style="font-weight:bold">where</span><span style="color:#bbb"> </span><span style="color:#099">1</span><span style="font-weight:bold">=</span><span style="color:#099">1</span><span style="color:#bbb"> </span><span style="font-weight:bold">order</span><span style="color:#bbb"> </span><span style="font-weight:bold">by</span><span style="color:#bbb"> </span>TMY_ID;<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span>spool<span style="color:#bbb"> </span><span style="font-weight:bold">off</span><span style="color:#bbb">
+</span></span></span></code></pre></div>
       </article>
     </div>
   </div>
@@ -384,7 +421,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;text=Note%202&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;text=Database&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -396,7 +433,7 @@
 
     
     <li>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;title=Note%202"
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;title=Database"
         target="_blank" title="Share on LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -406,8 +443,8 @@
     </li>
 
     <li>
-      <a target="_blank" rel="noopener noreferrer" aria-label="share Note 2 on reddit"
-        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&title=Note%202">
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Database on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&title=Database">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
           viewBox="0 0 16 16">
           <path
@@ -424,7 +461,7 @@
 
     
     <li>
-      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;description=Note%202" target="_blank" rel="noopener"
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange2%2f&amp;description=Database" target="_blank" rel="noopener"
         title="Share on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
           <path
@@ -469,7 +506,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -484,19 +521,13 @@
         
         <li class="list-group-item b-0 p-0">
 
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change3/"
-            data-toggle="tooltip" data-placement="top" title="Note 3">&larr;
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change5/"
+            data-toggle="tooltip" data-placement="top" title="Developer Utilities">&larr;
             Articolo precedente</a>
         </li>
         
 
 
-        
-        <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change/"
-            data-toggle="tooltip" data-placement="top" title="Note 1">Articolo successivo
-            &rarr;</a>
-        </li>
         
       </ul>
       
@@ -598,7 +629,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

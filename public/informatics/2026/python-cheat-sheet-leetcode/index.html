@@ -90,7 +90,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -377,50 +377,50 @@
 <h2 id="-built-in-data-structures">🔧 Built-in Data Structures</h2>
 <h3 id="quick-reference">Quick Reference</h3>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Structure</th>
-          <th style="text-align: left">Syntax</th>
-          <th style="text-align: left">Time Complexity (Access/Search/Insert)</th>
-          <th style="text-align: left">Use Case</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">List</td>
-          <td style="text-align: left"><code>[]</code></td>
-          <td style="text-align: left">O(1)/O(n)/O(n)</td>
-          <td style="text-align: left">Ordered, mutable sequences</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Dict</td>
-          <td style="text-align: left"><code>{}</code></td>
-          <td style="text-align: left">O(1)/O(1)/O(1)</td>
-          <td style="text-align: left">Key-value mappings</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Set</td>
-          <td style="text-align: left"><code>set()</code></td>
-          <td style="text-align: left">O(1)/O(1)/O(1)</td>
-          <td style="text-align: left">Unique elements, membership</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Tuple</td>
-          <td style="text-align: left"><code>()</code></td>
-          <td style="text-align: left">O(1)/O(n)/N/A</td>
-          <td style="text-align: left">Immutable sequences</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Heap</td>
-          <td style="text-align: left"><code>heapq</code></td>
-          <td style="text-align: left">O(log n)</td>
-          <td style="text-align: left">Priority queues</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Structure</th>
+					<th>Syntax</th>
+					<th>Time Complexity (Access/Search/Insert)</th>
+					<th>Use Case</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>List</td>
+					<td><code>[]</code></td>
+					<td>O(1)/O(n)/O(n)</td>
+					<td>Ordered, mutable sequences</td>
+			</tr>
+			<tr>
+					<td>Dict</td>
+					<td><code>{}</code></td>
+					<td>O(1)/O(1)/O(1)</td>
+					<td>Key-value mappings</td>
+			</tr>
+			<tr>
+					<td>Set</td>
+					<td><code>set()</code></td>
+					<td>O(1)/O(1)/O(1)</td>
+					<td>Unique elements, membership</td>
+			</tr>
+			<tr>
+					<td>Tuple</td>
+					<td><code>()</code></td>
+					<td>O(1)/O(n)/N/A</td>
+					<td>Immutable sequences</td>
+			</tr>
+			<tr>
+					<td>Heap</td>
+					<td><code>heapq</code></td>
+					<td>O(log n)</td>
+					<td>Priority queues</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="-string-operations">🔤 String Operations</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Basic operations</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Basic operations</span>
 </span></span><span style="display:flex;"><span>s <span style="font-weight:bold">=</span> <span style="color:#b84">&#34;leetcode&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#999">len</span>(s)                    <span style="color:#998;font-style:italic"># 8</span>
 </span></span><span style="display:flex;"><span>s[<span style="color:#099">0</span>]                      <span style="color:#998;font-style:italic"># &#39;l&#39;</span>
@@ -469,7 +469,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#b84">&#34;</span><span style="color:#b84">%s</span><span style="color:#b84"> </span><span style="color:#b84">%d</span><span style="color:#b84">&#34;</span> <span style="font-weight:bold">%</span> (s, n)          <span style="color:#998;font-style:italic"># printf-style</span>
 </span></span></code></pre></div><hr>
 <h2 id="-listarray-operations">📦 List/Array Operations</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
 </span></span><span style="display:flex;"><span>arr <span style="font-weight:bold">=</span> []
 </span></span><span style="display:flex;"><span>arr <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>]
 </span></span><span style="display:flex;"><span>arr <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> n             <span style="color:#998;font-style:italic"># [0, 0, 0, ...] n times</span>
@@ -517,7 +517,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">pass</span>
 </span></span></code></pre></div><hr>
 <h2 id="-dictionaryhash-map">📖 Dictionary/Hash Map</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
 </span></span><span style="display:flex;"><span>d <span style="font-weight:bold">=</span> {}
 </span></span><span style="display:flex;"><span>d <span style="font-weight:bold">=</span> {<span style="color:#b84">&#39;a&#39;</span>: <span style="color:#099">1</span>, <span style="color:#b84">&#39;b&#39;</span>: <span style="color:#099">2</span>}
 </span></span><span style="display:flex;"><span>d <span style="font-weight:bold">=</span> <span style="color:#999">dict</span>(a<span style="font-weight:bold">=</span><span style="color:#099">1</span>, b<span style="font-weight:bold">=</span><span style="color:#099">2</span>)
@@ -559,7 +559,7 @@
 </span></span><span style="display:flex;"><span>{<span style="font-weight:bold">**</span>d1, <span style="font-weight:bold">**</span>d2}              <span style="color:#998;font-style:italic"># All versions</span>
 </span></span></code></pre></div><hr>
 <h2 id="-set-operations">🎯 Set Operations</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Creation</span>
 </span></span><span style="display:flex;"><span>s <span style="font-weight:bold">=</span> <span style="color:#999">set</span>()
 </span></span><span style="display:flex;"><span>s <span style="font-weight:bold">=</span> {<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>}
 </span></span><span style="display:flex;"><span>s <span style="font-weight:bold">=</span> {x <span style="font-weight:bold">for</span> x <span style="font-weight:bold">in</span> <span style="color:#999">range</span>(<span style="color:#099">5</span>)}
@@ -581,7 +581,7 @@
 </span></span><span style="display:flex;"><span>s1<span style="font-weight:bold">.</span>issuperset(s2)         <span style="color:#998;font-style:italic"># s1 ⊇ s2</span>
 </span></span></code></pre></div><hr>
 <h2 id="-heappriority-queue">📚 Heap/Priority Queue</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">heapq</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">import</span> <span style="color:#555">heapq</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Min heap (default)</span>
 </span></span><span style="display:flex;"><span>heap <span style="font-weight:bold">=</span> []
@@ -613,7 +613,7 @@
 </span></span><span style="display:flex;"><span>heapq<span style="font-weight:bold">.</span>heappop(heap)       <span style="color:#998;font-style:italic"># (1, &#39;task1&#39;)</span>
 </span></span></code></pre></div><hr>
 <h2 id="-stack--queue">📐 Stack &amp; Queue</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Stack (LIFO) - use list</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Stack (LIFO) - use list</span>
 </span></span><span style="display:flex;"><span>stack <span style="font-weight:bold">=</span> []
 </span></span><span style="display:flex;"><span>stack<span style="font-weight:bold">.</span>append(x)           <span style="color:#998;font-style:italic"># Push</span>
 </span></span><span style="display:flex;"><span>stack<span style="font-weight:bold">.</span>pop()               <span style="color:#998;font-style:italic"># Pop</span>
@@ -632,11 +632,11 @@
 </span></span><span style="display:flex;"><span>q<span style="font-weight:bold">.</span>pop()                   <span style="color:#998;font-style:italic"># Remove from back</span>
 </span></span></code></pre></div><hr>
 <h2 id="-linked-list">🔗 Linked List</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Definition</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Definition</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">class</span> <span style="color:#458;font-weight:bold">ListNode</span>:
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> __init__(self, val<span style="font-weight:bold">=</span><span style="color:#099">0</span>, <span style="color:#999">next</span><span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>):
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>val <span style="font-weight:bold">=</span> val
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>next <span style="font-weight:bold">=</span> <span style="color:#999">next</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">__init__</span>(<span style="color:#999">self</span>, val<span style="font-weight:bold">=</span><span style="color:#099">0</span>, <span style="color:#999">next</span><span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>val <span style="font-weight:bold">=</span> val
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>next <span style="font-weight:bold">=</span> <span style="color:#999">next</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Common patterns</span>
 </span></span><span style="display:flex;"><span>
@@ -699,12 +699,12 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> dummy<span style="font-weight:bold">.</span>next
 </span></span></code></pre></div><hr>
 <h2 id="-binary-tree">🌳 Binary Tree</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Definition</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Definition</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">class</span> <span style="color:#458;font-weight:bold">TreeNode</span>:
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> __init__(self, val<span style="font-weight:bold">=</span><span style="color:#099">0</span>, left<span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>, right<span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>):
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>val <span style="font-weight:bold">=</span> val
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>left <span style="font-weight:bold">=</span> left
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>right <span style="font-weight:bold">=</span> right
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">__init__</span>(<span style="color:#999">self</span>, val<span style="font-weight:bold">=</span><span style="color:#099">0</span>, left<span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>, right<span style="font-weight:bold">=</span><span style="font-weight:bold">None</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>val <span style="font-weight:bold">=</span> val
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>left <span style="font-weight:bold">=</span> left
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>right <span style="font-weight:bold">=</span> right
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># DFS - Preorder (Root, Left, Right)</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">preorder</span>(root):
@@ -765,7 +765,7 @@
 </span></span><span style="display:flex;"><span>            is_valid_bst(root<span style="font-weight:bold">.</span>right, root<span style="font-weight:bold">.</span>val, max_val))
 </span></span></code></pre></div><hr>
 <h2 id="-binary-search">🔍 Binary Search</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Standard binary search</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Standard binary search</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">binary_search</span>(arr, target):
 </span></span><span style="display:flex;"><span>    left, right <span style="font-weight:bold">=</span> <span style="color:#099">0</span>, <span style="color:#999">len</span>(arr) <span style="font-weight:bold">-</span> <span style="color:#099">1</span>
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">while</span> left <span style="font-weight:bold">&lt;=</span> right:
@@ -807,7 +807,7 @@
 </span></span><span style="display:flex;"><span>bisect<span style="font-weight:bold">.</span>insort(arr, target)        <span style="color:#998;font-style:italic"># Insert in sorted position</span>
 </span></span></code></pre></div><hr>
 <h2 id="-sorting--searching">📊 Sorting &amp; Searching</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Built-in sorting</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Built-in sorting</span>
 </span></span><span style="display:flex;"><span>arr<span style="font-weight:bold">.</span>sort()                        <span style="color:#998;font-style:italic"># In-place sort</span>
 </span></span><span style="display:flex;"><span>arr<span style="font-weight:bold">.</span>sort(key<span style="font-weight:bold">=</span><span style="font-weight:bold">lambda</span> x: x[<span style="color:#099">1</span>])      <span style="color:#998;font-style:italic"># Sort by custom key</span>
 </span></span><span style="display:flex;"><span>arr<span style="font-weight:bold">.</span>sort(reverse<span style="font-weight:bold">=</span><span style="font-weight:bold">True</span>)            <span style="color:#998;font-style:italic"># Descending</span>
@@ -838,7 +838,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> quick_select(right, k <span style="font-weight:bold">-</span> <span style="color:#999">len</span>(left) <span style="font-weight:bold">-</span> <span style="color:#999">len</span>(mid))
 </span></span></code></pre></div><hr>
 <h2 id="-two-pointers">👆 Two Pointers</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Pattern 1: Opposite ends (palindrome, two sum sorted)</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Pattern 1: Opposite ends (palindrome, two sum sorted)</span>
 </span></span><span style="display:flex;"><span>left, right <span style="font-weight:bold">=</span> <span style="color:#099">0</span>, <span style="color:#999">len</span>(arr) <span style="font-weight:bold">-</span> <span style="color:#099">1</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">while</span> left <span style="font-weight:bold">&lt;</span> right:
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> condition:
@@ -867,7 +867,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> slow <span style="font-weight:bold">+</span> <span style="color:#099">1</span>
 </span></span></code></pre></div><hr>
 <h2 id="-sliding-window">🪟 Sliding Window</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Fixed size window</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Fixed size window</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">fixed_window</span>(arr, k):
 </span></span><span style="display:flex;"><span>    window_sum <span style="font-weight:bold">=</span> <span style="color:#999">sum</span>(arr[:k])
 </span></span><span style="display:flex;"><span>    max_sum <span style="font-weight:bold">=</span> window_sum
@@ -918,7 +918,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> s[start:start <span style="font-weight:bold">+</span> min_len] <span style="font-weight:bold">if</span> min_len <span style="font-weight:bold">!=</span> <span style="color:#999">float</span>(<span style="color:#b84">&#39;inf&#39;</span>) <span style="font-weight:bold">else</span> <span style="color:#b84">&#34;&#34;</span>
 </span></span></code></pre></div><hr>
 <h2 id="-backtracking">🔄 Backtracking</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># General pattern</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># General pattern</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">backtrack</span>(path, choices):
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> base_case:
 </span></span><span style="display:flex;"><span>        result<span style="font-weight:bold">.</span>append(path[:])
@@ -974,7 +974,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> result
 </span></span></code></pre></div><hr>
 <h2 id="-dynamic-programming">🧠 Dynamic Programming</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 1D DP - Climbing Stairs</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 1D DP - Climbing Stairs</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">climb_stairs</span>(n):
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> n <span style="font-weight:bold">&lt;=</span> <span style="color:#099">2</span>:
 </span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> n
@@ -1026,7 +1026,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># - Edit distance: dp[i][j] = min operations to convert s1[:i] to s2[:j]</span>
 </span></span></code></pre></div><hr>
 <h2 id="-bfs--dfs">🔎 BFS &amp; DFS</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># BFS - Shortest path in unweighted graph</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># BFS - Shortest path in unweighted graph</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">collections</span> <span style="font-weight:bold">import</span> deque
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">bfs</span>(start, target, graph):
 </span></span><span style="display:flex;"><span>    queue <span style="font-weight:bold">=</span> deque([(start, <span style="color:#099">0</span>)])  <span style="color:#998;font-style:italic"># (node, distance)</span>
@@ -1083,7 +1083,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> count
 </span></span></code></pre></div><hr>
 <h2 id="-bit-manipulation">🔢 Bit Manipulation</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Basic operations</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Basic operations</span>
 </span></span><span style="display:flex;"><span>a <span style="font-weight:bold">&amp;</span> b       <span style="color:#998;font-style:italic"># AND</span>
 </span></span><span style="display:flex;"><span>a <span style="font-weight:bold">|</span> b       <span style="color:#998;font-style:italic"># OR</span>
 </span></span><span style="display:flex;"><span>a <span style="font-weight:bold">^</span> b       <span style="color:#998;font-style:italic"># XOR</span>
@@ -1128,7 +1128,7 @@
 </span></span></code></pre></div><hr>
 <h2 id="-common-patterns">🎯 Common Patterns</h2>
 <h3 id="prefix-sum">Prefix Sum</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Build prefix sum array</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Build prefix sum array</span>
 </span></span><span style="display:flex;"><span>prefix <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> (<span style="color:#999">len</span>(arr) <span style="font-weight:bold">+</span> <span style="color:#099">1</span>)
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> i <span style="font-weight:bold">in</span> <span style="color:#999">range</span>(<span style="color:#999">len</span>(arr)):
 </span></span><span style="display:flex;"><span>    prefix[i <span style="font-weight:bold">+</span> <span style="color:#099">1</span>] <span style="font-weight:bold">=</span> prefix[i] <span style="font-weight:bold">+</span> arr[i]
@@ -1136,7 +1136,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Range sum query [left, right]</span>
 </span></span><span style="display:flex;"><span>range_sum <span style="font-weight:bold">=</span> prefix[right <span style="font-weight:bold">+</span> <span style="color:#099">1</span>] <span style="font-weight:bold">-</span> prefix[left]
 </span></span></code></pre></div><h3 id="difference-array">Difference Array</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># For range update problems</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># For range update problems</span>
 </span></span><span style="display:flex;"><span>diff <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> (n <span style="font-weight:bold">+</span> <span style="color:#099">1</span>)
 </span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Add val to range [l, r]</span>
 </span></span><span style="display:flex;"><span>diff[l] <span style="font-weight:bold">+=</span> val
@@ -1148,7 +1148,7 @@
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> i <span style="font-weight:bold">in</span> <span style="color:#999">range</span>(<span style="color:#099">1</span>, n):
 </span></span><span style="display:flex;"><span>    arr[i] <span style="font-weight:bold">=</span> arr[i<span style="font-weight:bold">-</span><span style="color:#099">1</span>] <span style="font-weight:bold">+</span> diff[i]
 </span></span></code></pre></div><h3 id="monotonic-stack">Monotonic Stack</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Next greater element</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Next greater element</span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">next_greater</span>(arr):
 </span></span><span style="display:flex;"><span>    result <span style="font-weight:bold">=</span> [<span style="font-weight:bold">-</span><span style="color:#099">1</span>] <span style="font-weight:bold">*</span> <span style="color:#999">len</span>(arr)
 </span></span><span style="display:flex;"><span>    stack <span style="font-weight:bold">=</span> []
@@ -1160,28 +1160,28 @@
 </span></span><span style="display:flex;"><span>        stack<span style="font-weight:bold">.</span>append(arr[i])
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> result
 </span></span></code></pre></div><h3 id="union-find-disjoint-set-union">Union Find (Disjoint Set Union)</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">class</span> <span style="color:#458;font-weight:bold">UnionFind</span>:
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> __init__(self, n):
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>parent <span style="font-weight:bold">=</span> <span style="color:#999">list</span>(<span style="color:#999">range</span>(n))
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>rank <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> n
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">class</span> <span style="color:#458;font-weight:bold">UnionFind</span>:
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">__init__</span>(<span style="color:#999">self</span>, n):
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>parent <span style="font-weight:bold">=</span> <span style="color:#999">list</span>(<span style="color:#999">range</span>(n))
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> n
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">find</span>(self, x):
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> self<span style="font-weight:bold">.</span>parent[x] <span style="font-weight:bold">!=</span> x:
-</span></span><span style="display:flex;"><span>            self<span style="font-weight:bold">.</span>parent[x] <span style="font-weight:bold">=</span> self<span style="font-weight:bold">.</span>find(self<span style="font-weight:bold">.</span>parent[x])  <span style="color:#998;font-style:italic"># Path compression</span>
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> self<span style="font-weight:bold">.</span>parent[x]
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">find</span>(<span style="color:#999">self</span>, x):
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>parent[x] <span style="font-weight:bold">!=</span> x:
+</span></span><span style="display:flex;"><span>            <span style="color:#999">self</span><span style="font-weight:bold">.</span>parent[x] <span style="font-weight:bold">=</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>find(<span style="color:#999">self</span><span style="font-weight:bold">.</span>parent[x])  <span style="color:#998;font-style:italic"># Path compression</span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>parent[x]
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">union</span>(self, x, y):
-</span></span><span style="display:flex;"><span>        px, py <span style="font-weight:bold">=</span> self<span style="font-weight:bold">.</span>find(x), self<span style="font-weight:bold">.</span>find(y)
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">union</span>(<span style="color:#999">self</span>, x, y):
+</span></span><span style="display:flex;"><span>        px, py <span style="font-weight:bold">=</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>find(x), <span style="color:#999">self</span><span style="font-weight:bold">.</span>find(y)
 </span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> px <span style="font-weight:bold">==</span> py:
 </span></span><span style="display:flex;"><span>            <span style="font-weight:bold">return</span> <span style="font-weight:bold">False</span>
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> self<span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">&lt;</span> self<span style="font-weight:bold">.</span>rank[py]:
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">&lt;</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank[py]:
 </span></span><span style="display:flex;"><span>            px, py <span style="font-weight:bold">=</span> py, px
-</span></span><span style="display:flex;"><span>        self<span style="font-weight:bold">.</span>parent[py] <span style="font-weight:bold">=</span> px
-</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> self<span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">==</span> self<span style="font-weight:bold">.</span>rank[py]:
-</span></span><span style="display:flex;"><span>            self<span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">+=</span> <span style="color:#099">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999">self</span><span style="font-weight:bold">.</span>parent[py] <span style="font-weight:bold">=</span> px
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">==</span> <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank[py]:
+</span></span><span style="display:flex;"><span>            <span style="color:#999">self</span><span style="font-weight:bold">.</span>rank[px] <span style="font-weight:bold">+=</span> <span style="color:#099">1</span>
 </span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> <span style="font-weight:bold">True</span>
 </span></span></code></pre></div><h3 id="topological-sort">Topological Sort</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">topological_sort</span>(n, edges):
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">def</span> <span style="color:#900;font-weight:bold">topological_sort</span>(n, edges):
 </span></span><span style="display:flex;"><span>    graph <span style="font-weight:bold">=</span> [[] <span style="font-weight:bold">for</span> _ <span style="font-weight:bold">in</span> <span style="color:#999">range</span>(n)]
 </span></span><span style="display:flex;"><span>    indegree <span style="font-weight:bold">=</span> [<span style="color:#099">0</span>] <span style="font-weight:bold">*</span> n
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> u, v <span style="font-weight:bold">in</span> edges:
@@ -1202,58 +1202,58 @@
 </span></span></code></pre></div><hr>
 <h2 id="-time-complexity-quick-reference">📝 Time Complexity Quick Reference</h2>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Operation</th>
-          <th style="text-align: left">Time Complexity</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">List append/pop</td>
-          <td style="text-align: left">O(1)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">List insert/delete</td>
-          <td style="text-align: left">O(n)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Dict get/set</td>
-          <td style="text-align: left">O(1) average</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Set add/remove</td>
-          <td style="text-align: left">O(1) average</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Heap push/pop</td>
-          <td style="text-align: left">O(log n)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Binary search</td>
-          <td style="text-align: left">O(log n)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Merge sort</td>
-          <td style="text-align: left">O(n log n)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Quick sort</td>
-          <td style="text-align: left">O(n log n) average</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">BFS/DFS</td>
-          <td style="text-align: left">O(V + E)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Dijkstra</td>
-          <td style="text-align: left">O((V + E) log V)</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Operation</th>
+					<th>Time Complexity</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>List append/pop</td>
+					<td>O(1)</td>
+			</tr>
+			<tr>
+					<td>List insert/delete</td>
+					<td>O(n)</td>
+			</tr>
+			<tr>
+					<td>Dict get/set</td>
+					<td>O(1) average</td>
+			</tr>
+			<tr>
+					<td>Set add/remove</td>
+					<td>O(1) average</td>
+			</tr>
+			<tr>
+					<td>Heap push/pop</td>
+					<td>O(log n)</td>
+			</tr>
+			<tr>
+					<td>Binary search</td>
+					<td>O(log n)</td>
+			</tr>
+			<tr>
+					<td>Merge sort</td>
+					<td>O(n log n)</td>
+			</tr>
+			<tr>
+					<td>Quick sort</td>
+					<td>O(n log n) average</td>
+			</tr>
+			<tr>
+					<td>BFS/DFS</td>
+					<td>O(V + E)</td>
+			</tr>
+			<tr>
+					<td>Dijkstra</td>
+					<td>O((V + E) log V)</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="-useful-imports">🧪 Useful Imports</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">collections</span> <span style="font-weight:bold">import</span> defaultdict, Counter, deque, OrderedDict
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">collections</span> <span style="font-weight:bold">import</span> defaultdict, Counter, deque, OrderedDict
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">heapq</span> <span style="font-weight:bold">import</span> heapify, heappush, heappop, nsmallest, nlargest
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">itertools</span> <span style="font-weight:bold">import</span> combinations, permutations, product, accumulate
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">from</span> <span style="color:#555">functools</span> <span style="font-weight:bold">import</span> lru_cache, reduce, cmp_to_key
@@ -1327,7 +1327,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2026%2fpython-cheat-sheet-leetcode%2f&amp;text=Python%20Cheat%20Sheet%20for%20Coding%20Interviews&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2026%2fpython-cheat-sheet-leetcode%2f&amp;text=Python%20Cheat%20Sheet%20for%20Coding%20Interviews&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -1412,7 +1412,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -1541,7 +1541,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

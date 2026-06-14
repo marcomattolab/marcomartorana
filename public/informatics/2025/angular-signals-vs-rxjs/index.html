@@ -90,7 +90,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -381,13 +381,13 @@ while still allowing RxJS to shine in complex asynchronous scenarios.</p>
 Historically, developers used BehaviorSubject even when the state was purely synchronous.</p>
 <p>Signals provide a cleaner and more direct alternative for this kind of state.</p>
 <h3 id="rxjs-pattern">RxJS Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">private</span> user$ <span style="font-weight:bold">=</span> <span style="font-weight:bold">new</span> BehaviorSubject&lt;<span style="color:#000080">User</span> <span style="color:#a61717;background-color:#e3d2d2">|</span> <span style="color:#008080">null</span>&gt;(<span style="font-weight:bold">null</span>);
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">private</span> user$ <span style="font-weight:bold">=</span> <span style="font-weight:bold">new</span> BehaviorSubject&lt;<span style="color:#000080">User</span> <span style="color:#a61717;background-color:#e3d2d2">|</span> <span style="color:#008080">null</span>&gt;(<span style="font-weight:bold">null</span>);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>setUser(user: <span style="color:#458;font-weight:bold">User</span>) {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">this</span>.user$.next(user);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="signals-pattern">Signals Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>user <span style="font-weight:bold">=</span> signal&lt;<span style="color:#000080">User</span> <span style="color:#a61717;background-color:#e3d2d2">|</span> <span style="color:#008080">null</span>&gt;(<span style="font-weight:bold">null</span>);
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>user <span style="font-weight:bold">=</span> signal&lt;<span style="color:#000080">User</span> <span style="color:#a61717;background-color:#e3d2d2">|</span> <span style="color:#008080">null</span>&gt;(<span style="font-weight:bold">null</span>);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>setUser(user: <span style="color:#458;font-weight:bold">User</span>) {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">this</span>.user.<span style="font-weight:bold">set</span>(user);
@@ -399,7 +399,7 @@ Historically, developers used BehaviorSubject even when the state was purely syn
 While powerful, operators like combineLatest add unnecessary complexity when dealing with synchronous data.</p>
 <p>Signals offer computed() for exactly this purpose.</p>
 <h3 id="rxjs-pattern-1">RxJS Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>vm$ <span style="font-weight:bold">=</span> combineLatest([
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>vm$ <span style="font-weight:bold">=</span> combineLatest([
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">this</span>.user$,
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">this</span>.settings$
 </span></span><span style="display:flex;"><span>]).pipe(
@@ -407,7 +407,7 @@ While powerful, operators like combineLatest add unnecessary complexity when dea
 </span></span><span style="display:flex;"><span>);
 </span></span></code></pre></div><p>The result is less code, fewer abstractions, and a more readable mental model.</p>
 <h3 id="signals-pattern-1">Signals Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>vm <span style="font-weight:bold">=</span> computed(() <span style="font-weight:bold">=&gt;</span> ({
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>vm <span style="font-weight:bold">=</span> computed(() <span style="font-weight:bold">=&gt;</span> ({
 </span></span><span style="display:flex;"><span>  user: <span style="color:#458;font-weight:bold">this.user</span>(),
 </span></span><span style="display:flex;"><span>  settings: <span style="color:#458;font-weight:bold">this.settings</span>()
 </span></span><span style="display:flex;"><span>}));
@@ -417,11 +417,11 @@ While powerful, operators like combineLatest add unnecessary complexity when dea
 Logging, syncing with external APIs, or reacting to state changes often required manual subscriptions.</p>
 <p>Signals introduce effect() to handle these cases safely and declaratively.</p>
 <h3 id="rxjs-pattern-2">RxJS Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">this</span>.user$.subscribe(user <span style="font-weight:bold">=&gt;</span> {
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">this</span>.user$.subscribe(user <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>  console.log(<span style="color:#b84">&#39;User changed:&#39;</span>, user);
 </span></span><span style="display:flex;"><span>});
 </span></span></code></pre></div><h3 id="signals-pattern-2">Signals Pattern</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>effect(() <span style="font-weight:bold">=&gt;</span> {
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span>effect(() <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>  console.log(<span style="color:#b84">&#39;User changed:&#39;</span>, <span style="font-weight:bold">this</span>.user());
 </span></span><span style="display:flex;"><span>});
 </span></span></code></pre></div><h2 id="effects-automatically-track-dependencies-and-clean-themselves-up-reducing-lifecycle-related-bugs">Effects automatically track dependencies and clean themselves up, reducing lifecycle-related bugs.</h2>
@@ -434,7 +434,7 @@ Forgetting to do so can lead to memory leaks and unexpected behavior.</p>
 <h2 id="5-replacing-small-rxjs-stores-with-signal-based-stores">5. Replacing Small RxJS Stores with Signal-Based Stores</h2>
 <p>Many applications use RxJS to build small, local stores that manage component or feature-level state.
 Signals allow you to implement the same pattern with far less complexity.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">class</span> CounterStore {
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ts" data-lang="ts"><span style="display:flex;"><span><span style="font-weight:bold">class</span> CounterStore {
 </span></span><span style="display:flex;"><span>  count <span style="font-weight:bold">=</span> signal(<span style="color:#099">0</span>);
 </span></span><span style="display:flex;"><span>  isEven <span style="font-weight:bold">=</span> computed(() <span style="font-weight:bold">=&gt;</span> <span style="font-weight:bold">this</span>.count() <span style="font-weight:bold">%</span> <span style="color:#099">2</span> <span style="font-weight:bold">===</span> <span style="color:#099">0</span>);
 </span></span><span style="display:flex;"><span>
@@ -445,61 +445,61 @@ Signals allow you to implement the same pattern with far less complexity.</p>
 </span></span></code></pre></div><hr>
 <h2 id="6-signals-in-templates-no-more-async-pipe">6. Signals in Templates: No More <code>async</code> Pipe</h2>
 <p>Templates are where the simplicity of Signals truly shines. Instead of piping observables through async, you can access signal values directly.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000080">p</span>&gt;{{ count() }}&lt;/<span style="color:#000080">p</span>&gt;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000080">p</span>&gt;{{ count() }}&lt;/<span style="color:#000080">p</span>&gt;
 </span></span></code></pre></div><p>This removes template noise and makes the data flow immediately obvious.</p>
 <hr>
 <h2 id="7-rxjs-vs-signals-when-to-use-what">7. RxJS vs Signals: When to Use What</h2>
 <p>Signals are not a universal replacement. Understanding when to use each tool is key to building scalable applications.</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Use Case</th>
-          <th style="text-align: left">RxJS</th>
-          <th style="text-align: left">Angular Signals</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Local UI state</td>
-          <td style="text-align: left">❌ Overkill</td>
-          <td style="text-align: left">✅ Ideal</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Derived state</td>
-          <td style="text-align: left">❌ Verbose</td>
-          <td style="text-align: left">✅ <code>computed()</code></td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Side effects</td>
-          <td style="text-align: left">❌ <code>subscribe()</code></td>
-          <td style="text-align: left">✅ <code>effect()</code></td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Subscription management</td>
-          <td style="text-align: left">❌ Manual</td>
-          <td style="text-align: left">✅ Automatic</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">HTTP requests</td>
-          <td style="text-align: left">✅ Yes</td>
-          <td style="text-align: left">❌ No</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">WebSockets</td>
-          <td style="text-align: left">✅ Yes</td>
-          <td style="text-align: left">❌ No</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Debounce / throttle</td>
-          <td style="text-align: left">✅ Yes</td>
-          <td style="text-align: left">❌ No</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Complex async flows</td>
-          <td style="text-align: left">✅ Yes</td>
-          <td style="text-align: left">❌ No</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Use Case</th>
+					<th>RxJS</th>
+					<th>Angular Signals</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Local UI state</td>
+					<td>❌ Overkill</td>
+					<td>✅ Ideal</td>
+			</tr>
+			<tr>
+					<td>Derived state</td>
+					<td>❌ Verbose</td>
+					<td>✅ <code>computed()</code></td>
+			</tr>
+			<tr>
+					<td>Side effects</td>
+					<td>❌ <code>subscribe()</code></td>
+					<td>✅ <code>effect()</code></td>
+			</tr>
+			<tr>
+					<td>Subscription management</td>
+					<td>❌ Manual</td>
+					<td>✅ Automatic</td>
+			</tr>
+			<tr>
+					<td>HTTP requests</td>
+					<td>✅ Yes</td>
+					<td>❌ No</td>
+			</tr>
+			<tr>
+					<td>WebSockets</td>
+					<td>✅ Yes</td>
+					<td>❌ No</td>
+			</tr>
+			<tr>
+					<td>Debounce / throttle</td>
+					<td>✅ Yes</td>
+					<td>❌ No</td>
+			</tr>
+			<tr>
+					<td>Complex async flows</td>
+					<td>✅ Yes</td>
+					<td>❌ No</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="conclusion">Conclusion</h2>
@@ -566,7 +566,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2025%2fangular-signals-vs-rxjs%2f&amp;text=Angular%20Signals%20VS%20RxJS%3a%20Can%20Signals%20Replace%20the%20RxJS%20Code%20and%20How%20%3f&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2025%2fangular-signals-vs-rxjs%2f&amp;text=Angular%20Signals%20VS%20RxJS%3a%20Can%20Signals%20Replace%20the%20RxJS%20Code%20and%20How%20%3f&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -651,7 +651,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -749,7 +749,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/collections/ngconf-2025_hu4513728933261502872.png" alt="/img/collections/ngconf-2025.png"
+            <img src="/marcomattolab/marcomartorana/img/collections/ngconf-2025_hu_74256e9c8ea71600.png" alt="/img/collections/ngconf-2025.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -802,7 +802,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/meetings/meetings5_hu2863155734620542968.png" alt="/img/meetings/meetings5.png"
+            <img src="/marcomattolab/marcomartorana/img/meetings/meetings5_hu_c85e28709eb7c204.png" alt="/img/meetings/meetings5.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -855,7 +855,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/meetings/meetings1_hu4901118283414755022.png" alt="/img/meetings/meetings1.png"
+            <img src="/marcomattolab/marcomartorana/img/meetings/meetings1_hu_5b41c32e18a85725.png" alt="/img/meetings/meetings1.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -953,7 +953,7 @@ Signals allow you to implement the same pattern with far less complexity.</p>
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

@@ -90,7 +90,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -375,7 +375,7 @@
 <p><strong>What</strong>: Always use Angular CLI to create and manage your Angular projects.</p>
 <p><strong>Why</strong>: Angular CLI provides a standard and efficient way to bootstrap, develop, test, and deploy Angular applications.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># Install Angular CLI globally (if not already installed)
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># Install Angular CLI globally (if not already installed)
 </span></span><span style="display:flex;"><span>npm install -g @angular/cli
 </span></span><span style="display:flex;"><span># Create a new Angular project
 </span></span><span style="display:flex;"><span>ng new my-angular-app
@@ -389,7 +389,7 @@
 <p><strong>What</strong>: Each component, service, or module should have a single responsibility.</p>
 <p><strong>Why</strong>: SRP promotes maintainability, readability, and reusability of code. It makes your codebase easier to understand and debug.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example of a component with a single responsibility
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example of a component with a single responsibility
 </span></span><span style="display:flex;"><span>import { Component } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-user&#39;</span>,
@@ -402,7 +402,7 @@
 <p><strong>What</strong>: Use <code>ChangeDetectionStrategy.OnPush</code> to optimize change detection in components.</p>
 <p><strong>Why</strong>: OnPush change detection reduces the number of checks and enhances performance, especially in large applications.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, ChangeDetectionStrategy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, ChangeDetectionStrategy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-user&#39;</span>,
 </span></span><span style="display:flex;"><span>  template: <span style="color:#b84">&#39;&lt;div&gt;{{ user.name }}&lt;/div&gt;&#39;</span>,
@@ -415,7 +415,7 @@
 <p><strong>What</strong>: Utilize Angular Reactive Forms with form validation.</p>
 <p><strong>Why</strong>: Angular provides two different kind of forms: Template Driven Forms and Reactive forms. A Reactive Form provides a more predictable and manageable way to handle form data, including validation and asynchronous operations. Furthermore Angular framework uses RxJS library so it based on reactive programming and Reactive forms leverage this.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span>import { FormBuilder, FormGroup, Validators } from <span style="color:#b84">&#39;@angular/forms&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-registration&#39;</span>,
@@ -441,7 +441,7 @@
 <p><strong>What</strong>: Implement lazy loading for feature modules to load them on-demand.</p>
 <p><strong>Why</strong>: Lazy loading reduces the initial bundle size and speeds up the application’s initial loading time. This modularization improve performance and let to have a better application structure following a division by domain entities.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { NgModule } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { NgModule } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span>import { RouterModule, Routes } from <span style="color:#b84">&#39;@angular/router&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> routes: Routes <span style="font-weight:bold">=</span> [
 </span></span><span style="display:flex;"><span>  {
@@ -459,7 +459,7 @@
 <p><strong>What</strong>: Provide a function for trackBy in ngFor loops.</p>
 <p><strong>Why</strong>: Optimizes rendering performance for lists.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// In component
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// In component
 </span></span><span style="display:flex;"><span>trackByFn(index: number, item: any): number {
 </span></span><span style="display:flex;"><span>  return item.id;
 </span></span><span style="display:flex;"><span>}
@@ -469,7 +469,7 @@
 <p><strong>What</strong>: Add meaningful comments and document your code.</p>
 <p><strong>Why</strong>: Improves code readability and helps other developers understand your code.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/**
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/**
 </span></span><span style="display:flex;"><span> * This is an sample function that print a message in console and return length of input parameter.
 </span></span><span style="display:flex;"><span> * @param {string} param - Description of the parameter.
 </span></span><span style="display:flex;"><span> * @returns {number} Description of the return value.
@@ -486,15 +486,15 @@
 <p><strong>What</strong>: Use the async pipe to subscribe to observables in templates.</p>
 <p><strong>Why</strong>: Automatically manages subscriptions and avoids memory leaks.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// In component
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// In component
 </span></span><span style="display:flex;"><span>data$: Observable&lt;Data&gt;;
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;!-- In template --&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;!-- In template --&gt;
 </span></span><span style="display:flex;"><span>&lt;div *ngIf=&#34;data$ | async as data&#34;&gt;{{ data }}&lt;/div&gt;
 </span></span></code></pre></div><h2 id="9-follow-the-angular-style-guide">9. Follow the Angular Style Guide</h2>
 <p><strong>What</strong>: Adhere to the official Angular style guide for consistent coding standards.</p>
 <p><strong>Why</strong>: Consistency improves readability and maintainability.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Bad
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Bad
 </span></span><span style="display:flex;"><span>function myComponent() {}
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Good
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">export</span> <span style="font-weight:bold">class</span> MyComponent {}
@@ -502,7 +502,7 @@
 <p><strong>What</strong>: Place business logic in Angular services, not components.</p>
 <p><strong>Why</strong>: Separation of concerns and reusability of logic.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Injectable({
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Injectable({
 </span></span><span style="display:flex;"><span>  providedIn: <span style="color:#b84">&#39;root&#39;</span>,
 </span></span><span style="display:flex;"><span>})
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">export</span> <span style="font-weight:bold">class</span> MyService {
@@ -510,7 +510,7 @@
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">//</span> Write Service logic (business logic) here
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-my-component&#39;</span>,
 </span></span><span style="display:flex;"><span>  templateUrl: <span style="color:#b84">&#39;my-component.component.html&#39;</span>,
@@ -527,7 +527,7 @@
 <p><strong>What</strong>: Angular provides lifecycle hooks to manage component behavior at key points. Use hooks like <code>ngOnInit</code>, <code>ngOnChanges</code>, and <code>ngOnDestroy</code> and so on appropriately. See Angular <a href="https://angular.io/guide/lifecycle-hooks">lifecycle-hooks.</a></p>
 <p><strong>Why</strong>: Proper use of lifecycle hooks ensures efficient component initialization, change detection, and cleanup.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnInit, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnInit, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-example&#39;</span>,
 </span></span><span style="display:flex;"><span>  template: <span style="color:#b84">&#39;...&#39;</span>,
@@ -545,7 +545,7 @@
 <p><strong>What</strong>: Avoid memory leaks by unsubscribing from observables when components are destroyed.</p>
 <p><strong>Why</strong>: Unsubscribing prevents lingering subscriptions, which can lead to memory leaks and unexpected behavior.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span>import { Subscription } from <span style="color:#b84">&#39;rxjs&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-example&#39;</span>,
@@ -568,7 +568,7 @@
 <p><strong>What</strong>: Use interfaces to define the shape of objects rather than using the ‘any’ type.</p>
 <p><strong>Why</strong>: Interfaces provide type safety, better code readability. Writing with our preferred IDE (VSCode, IntelliJ Idea or other) we are “guided” during development. Furthermore we are using Angular, which is based on Typescript that support Object-Oriented Programming. OOP provides a way to organize code and create reusable and modular software applications. To do that we have inheritance, encapsulation and polymorphism, but first of all we have data types. So why don’t use them properly instead of use any?</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>interface User {
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>interface User {
 </span></span><span style="display:flex;"><span>  id: number;
 </span></span><span style="display:flex;"><span>  name: string;
 </span></span><span style="display:flex;"><span>}
@@ -589,7 +589,7 @@
 <p><strong>Why</strong>: Testing ensures code reliability, catches bugs early, and facilitates future code changes.</p>
 <p><strong><em>Note</em></strong><em>: About</em> <strong><em>e2e tests</em></strong> <em>we are in the border territory of the framework compared to purely</em> <strong><em>QA</em></strong> <em>territory. Furthermore, there are diverse tools such as Protractor, Cypress, Selenium and others with advantages and disadvantages and also several considerations to make (maybe in a separeted Post).</em></p>
 <p><strong>How</strong> (Unit test):</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> example<span style="font-weight:bold">.</span>component<span style="font-weight:bold">.</span>spec<span style="font-weight:bold">.</span>ts
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> example<span style="font-weight:bold">.</span>component<span style="font-weight:bold">.</span>spec<span style="font-weight:bold">.</span>ts
 </span></span><span style="display:flex;"><span>describe(<span style="color:#b84">&#39;ExampleComponent&#39;</span>, () <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>  it(<span style="color:#b84">&#39;should create&#39;</span>, () <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">const</span> component <span style="font-weight:bold">=</span> new ExampleComponent();
@@ -597,7 +597,7 @@
 </span></span><span style="display:flex;"><span>  });
 </span></span><span style="display:flex;"><span>});
 </span></span></code></pre></div><p><strong>How</strong> (e2e test):</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// example.e2e-spec.ts
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// example.e2e-spec.ts
 </span></span><span style="display:flex;"><span>describe(&#39;Example App&#39;, () =&gt; {
 </span></span><span style="display:flex;"><span>  it(&#39;should display welcome message&#39;, () =&gt; {
 </span></span><span style="display:flex;"><span>    cy.visit(&#39;/&#39;);
@@ -608,7 +608,7 @@
 <p><strong>What</strong>: RxJS operators like <code>map</code>, <code>filter</code>, and <code>mergeMap</code> transform and manipulate observables efficiently.</p>
 <p><strong>Why</strong>: Operators simplify complex asynchronous operations, making code concise and readable.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { from } from <span style="color:#b84">&#39;rxjs&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { from } from <span style="color:#b84">&#39;rxjs&#39;</span>;
 </span></span><span style="display:flex;"><span>import { map, filter } from <span style="color:#b84">&#39;rxjs/operators&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> numbers <span style="font-weight:bold">=</span> from([<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>]);
 </span></span><span style="display:flex;"><span>numbers<span style="font-weight:bold">.</span>pipe(
@@ -617,7 +617,7 @@
 </span></span><span style="display:flex;"><span>)<span style="font-weight:bold">.</span>subscribe(result <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>  console<span style="font-weight:bold">.</span>log(result); <span style="font-weight:bold">//</span> Output: <span style="color:#099">4</span>, <span style="color:#099">8</span>
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable } from &#39;rxjs&#39;;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable } from &#39;rxjs&#39;;
 </span></span><span style="display:flex;"><span>import { map, filter } from &#39;rxjs/operators&#39;;
 </span></span><span style="display:flex;"><span>// Example using map and filter operators
 </span></span><span style="display:flex;"><span>observable.pipe(
@@ -630,7 +630,7 @@
 <p><strong>What</strong>: Avoid subscribing inside another subscription to prevent callback hell and improve code readability.</p>
 <p><strong>Why</strong>: Nested subscriptions can lead to difficult-to-maintain code, known as the “pyramid of doom.” It can also cause memory leaks if not properly managed.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable } from &#39;rxjs&#39;;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable } from &#39;rxjs&#39;;
 </span></span><span style="display:flex;"><span>import { switchMap } from &#39;rxjs/operators&#39;;
 </span></span><span style="display:flex;"><span>// Bad Practice (Nested Subscriptions)
 </span></span><span style="display:flex;"><span>observable1.subscribe(data1 =&gt; {
@@ -650,7 +650,7 @@
 <p><strong>What</strong>: Create reusable components to encapsulate specific functionalities and UI elements.</p>
 <p><strong>Why</strong>: Reusing components enhances maintainability, reduces duplication, and improves the overall consistency of the application.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Reusable Component (Example)
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Reusable Component (Example)
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
 </span></span><span style="display:flex;"><span>  selector: <span style="color:#b84">&#39;app-custom-button&#39;</span>,
 </span></span><span style="display:flex;"><span>  template: <span style="color:#b84">&#39;&lt;button&gt;{{label}}&lt;/button&gt;&#39;</span>
@@ -665,7 +665,7 @@
 <p><strong>What</strong>: Use higher-order mapping operators like <code>mergeMap</code>, <code>concatMap</code>, or <code>exhaustMap</code> based on specific use cases.</p>
 <p><strong>Why</strong>: Higher-order mapping operators allow you to manage concurrency and handle observable emissions in a controlled manner, preventing issues like race conditions.</p>
 <p><strong>How</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable, from } from &#39;rxjs&#39;;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>import { Observable, from } from &#39;rxjs&#39;;
 </span></span><span style="display:flex;"><span>import { mergeMap } from &#39;rxjs/operators&#39;;
 </span></span><span style="display:flex;"><span>// Using mergeMap to handle concurrent requests
 </span></span><span style="display:flex;"><span>observable.pipe(
@@ -680,7 +680,7 @@
 <p>Use async pipe when possible (this is suggested by Angular). When you cannot use sync pipe than use the <code>takeUntil</code> operator along with a <code>Subject</code> to manually unsubscribe from observables.</p>
 <h2 id="why">Why:</h2>
 <p><code>takeUntil</code> operator allows you to unsubscribe from observables when a specific event (controlled by the Subject) occurs, preventing memory leaks.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>import { Component, OnDestroy } from <span style="color:#b84">&#39;@angular/core&#39;</span>;
 </span></span><span style="display:flex;"><span>import { Subject } from <span style="color:#b84">&#39;rxjs&#39;</span>;
 </span></span><span style="display:flex;"><span>import { takeUntil } from <span style="color:#b84">&#39;rxjs/operators&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a61717;background-color:#e3d2d2">@</span>Component({
@@ -749,7 +749,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fangular-best-practices%2f&amp;text=Angular%20Best%20Practice%202023&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2fangular-best-practices%2f&amp;text=Angular%20Best%20Practice%202023&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -834,7 +834,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -932,7 +932,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/angular-evolution_hu10694038305168894372.png" alt="/img/posts/angular-evolution.png"
+            <img src="/marcomattolab/marcomartorana/img/posts/angular-evolution_hu_a2028cc00a32e6f3.png" alt="/img/posts/angular-evolution.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -985,7 +985,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/visualize-algorithm-01_hu12205278322967255450.jpg" alt="/img/posts/visualize-algorithm-01.jpg"
+            <img src="/marcomattolab/marcomartorana/img/posts/visualize-algorithm-01_hu_f001c9b41b675ff0.jpg" alt="/img/posts/visualize-algorithm-01.jpg"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -1038,7 +1038,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/batman-01_hu13101763613019951752.jpg" alt="/img/posts/batman-01.jpg"
+            <img src="/marcomattolab/marcomartorana/img/posts/batman-01_hu_63145a57ccdb264.jpg" alt="/img/posts/batman-01.jpg"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -1136,7 +1136,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

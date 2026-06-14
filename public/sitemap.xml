@@ -1,13 +1,64 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/ai/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/browser-ai/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/edge-ai/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/presentation-edge-ai-ines/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/mediapipe/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/slm/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/webgpu/</loc>
+    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -97,22 +148,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/machine-learning/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/maker/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -143,11 +184,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/roadmap/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/tags/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -309,11 +345,6 @@
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/meetings/2024/meetings-palermo/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/marcomattolab/marcomartorana/post/</loc>
-    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -483,6 +514,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change5/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

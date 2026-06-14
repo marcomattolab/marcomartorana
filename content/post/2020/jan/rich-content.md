@@ -43,6 +43,6 @@ Shortcode:
 ```
 
 Rendered:
-{{< twitter user="binovarghese_" id="1758148486510317907" >}}
+{{< x user="binovarghese_" id="1758148486510317907" >}}
 
 <!--Photo by Dimitri Houtteman on Unsplash-->

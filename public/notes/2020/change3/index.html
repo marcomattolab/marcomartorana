@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Note 3 - Marco Martorana</title>
-<meta name="description" content="Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.">
+<title>Docker Commands - Marco Martorana</title>
+<meta name="description" content="Essential Docker commands: containers, images, networking, volumes, and Dockerfile builds.">
 
 <meta name="author" content="Marco Martorana"><script type="application/ld+json">
 {
@@ -46,7 +46,7 @@
         "position": 3,
         "item": {
           "@id": "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/notes\/2020\/change3\/",
-          "name": "Note 3"
+          "name": "Docker commands"
         }
     }]
 }
@@ -57,10 +57,10 @@
   "author": {
     "name" : "Marco Martorana"
   },
-  "headline": "Note 3",
-  "description" : "Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.\n",
+  "headline": "Docker Commands",
+  "description" : "Essential Docker commands: containers, images, networking, volumes, and Dockerfile builds.",
   "inLanguage" : "it",
-  "wordCount":  37 ,
+  "wordCount":  243 ,
   "datePublished" : "2020-02-01T00:00:00",
   "dateModified" : "2020-02-01T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -79,8 +79,8 @@
 }
 </script>
 
-<meta property="og:title" content="Note 3" />
-<meta property="og:description" content="Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.">
+<meta property="og:title" content="Docker Commands" />
+<meta property="og:description" content="Essential Docker commands: containers, images, networking, volumes, and Dockerfile builds.">
 <meta property="og:url" content="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change3/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Marco Martorana" />
@@ -89,7 +89,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -306,7 +306,7 @@
 
               
               <h1 class="fw-semibold display-5 lh-1 mb-3"> 
-                Note 3
+                Docker Commands
                 
               </h1>
               
@@ -347,8 +347,69 @@
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
-        <p>Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.</p>
-
+        <h1 id="docker-cheat-sheet">Docker Cheat Sheet</h1>
+<h2 id="basic-commands">Basic Commands</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run busybox:latest <span style="color:#999">echo</span> <span style="color:#b84">&#39;Hello Docker&#39;</span>
+</span></span><span style="display:flex;"><span>docker run -it busybox
+</span></span><span style="display:flex;"><span>docker start
+</span></span><span style="display:flex;"><span>docker rm
+</span></span></code></pre></div><p><strong>Note:</strong> <code>run</code> does a pull automatically; <code>start</code> does not.</p>
+<h2 id="running-containers">Running Containers</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Nginx</span>
+</span></span><span style="display:flex;"><span>docker run -d nginx
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Apache httpd with port/resource limits</span>
+</span></span><span style="display:flex;"><span>docker run -d -p <span style="color:#099">80</span> httpd
+</span></span><span style="display:flex;"><span>docker run -d -p 4000:80 httpd
+</span></span><span style="display:flex;"><span>docker run -d -p 4000:80 --name webserver --memory 400m --cpus 0.5 httpd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Nginx examples</span>
+</span></span><span style="display:flex;"><span>docker run --name nginx1 -d nginx
+</span></span><span style="display:flex;"><span>docker run --name nginx2 -d -p 80:80 nginx
+</span></span></code></pre></div><h2 id="images--search">Images &amp; Search</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker image ls          <span style="color:#998;font-style:italic"># same as: docker images</span>
+</span></span><span style="display:flex;"><span>docker search nginx
+</span></span><span style="display:flex;"><span>docker image save mysql &gt; /tmp/mysql.tar
+</span></span><span style="display:flex;"><span>docker image prune -af
+</span></span></code></pre></div><h2 id="container-management">Container Management</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker ps                <span style="color:#998;font-style:italic"># running containers</span>
+</span></span><span style="display:flex;"><span>docker ps -a             <span style="color:#998;font-style:italic"># all containers</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Remove all containers</span>
+</span></span><span style="display:flex;"><span>docker rm <span style="font-weight:bold">$(</span>docker ps -aq<span style="font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Inspect &amp; logs</span>
+</span></span><span style="display:flex;"><span>docker inspect webserver
+</span></span><span style="display:flex;"><span>docker logs -f webserver
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Top &amp; port</span>
+</span></span><span style="display:flex;"><span>docker top webserver
+</span></span><span style="display:flex;"><span>docker port webserver
+</span></span></code></pre></div><h2 id="exec--shell">Exec &amp; Shell</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker <span style="color:#999">exec</span> -it webserver /bin/bash
+</span></span><span style="display:flex;"><span>docker <span style="color:#999">exec</span> -it sh       <span style="color:#998;font-style:italic"># same as above</span>
+</span></span></code></pre></div><h2 id="networking">Networking</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brctl show
+</span></span><span style="display:flex;"><span>docker network ls
+</span></span><span style="display:flex;"><span>docker network inspect bridge
+</span></span><span style="display:flex;"><span>ifconfig
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Get container IP</span>
+</span></span><span style="display:flex;"><span>docker inspect &lt;container_id&gt; | grep <span style="color:#b84">&#34;IPAddress&#34;</span>
+</span></span></code></pre></div><h2 id="volumes">Volumes</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker volume create --name myvolume
+</span></span><span style="display:flex;"><span>docker volume inspect myvolume
+</span></span><span style="display:flex;"><span>docker volume ls
+</span></span><span style="display:flex;"><span>docker volume prune      <span style="color:#998;font-style:italic"># clean up unused volumes</span>
+</span></span></code></pre></div><h2 id="build--run-from-dockerfile">Build &amp; Run from Dockerfile</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t ubuntu-test:cmd .
+</span></span><span style="display:flex;"><span>docker run ubuntu-test
+</span></span><span style="display:flex;"><span>docker run ubuntu-test:cmd <span style="color:#999">echo</span> Ciao   <span style="color:#998;font-style:italic"># overrides CMD</span>
+</span></span></code></pre></div><h2 id="run-with-auto-remove">Run with Auto-Remove</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run --rm -it --name test-rm busybox
+</span></span></code></pre></div><h2 id="mysql">MySQL</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run mysql/mysql-server
+</span></span></code></pre></div>
       </article>
     </div>
   </div>
@@ -384,7 +445,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;text=Note%203&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;text=Docker%20Commands&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -396,7 +457,7 @@
 
     
     <li>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;title=Note%203"
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;title=Docker%20Commands"
         target="_blank" title="Share on LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -406,8 +467,8 @@
     </li>
 
     <li>
-      <a target="_blank" rel="noopener noreferrer" aria-label="share Note 3 on reddit"
-        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&title=Note%203">
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Docker Commands on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&title=Docker%20Commands">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
           viewBox="0 0 16 16">
           <path
@@ -424,7 +485,7 @@
 
     
     <li>
-      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;description=Note%203" target="_blank" rel="noopener"
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fnotes%2f2020%2fchange3%2f&amp;description=Docker%20Commands" target="_blank" rel="noopener"
         title="Share on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
           <path
@@ -469,7 +530,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -482,12 +543,19 @@
       
       <ul class="list-group list-group-horizontal" style="flex-direction: row">
         
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change4/"
+            data-toggle="tooltip" data-placement="top" title="Git / Network">&larr;
+            Articolo precedente</a>
+        </li>
+        
 
 
         
         <li class="list-group-item ms-auto b-0 p-0">
-          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change2/"
-            data-toggle="tooltip" data-placement="top" title="Note 2">Articolo successivo
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/marcomattolab/marcomartorana/notes/2020/change5/"
+            data-toggle="tooltip" data-placement="top" title="Developer Utilities">Articolo successivo
             &rarr;</a>
         </li>
         
@@ -591,7 +659,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

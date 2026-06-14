@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Llm on Marco Martorana</title>
-    <link>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</link>
-    <description>Recent content in Llm on Marco Martorana</description>
-    <generator>Hugo</generator>
-    <language>it</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/llm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>6 Free Generative AI Courses to Build Real Skills in 2026</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</guid>
-      <description>&lt;h1 id=&#34;-6-free-generative-ai-courses-to-build-real-skills&#34;&gt;🚀 6 Free Generative AI Courses to Build Real Skills&lt;/h1&gt;&#xA;&lt;p&gt;Stop just prompting. Start &lt;strong&gt;building&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here are 6 free courses that will take you from zero to building production-ready Generative AI applications 👇&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI Engineer Roadmap 2026</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/ai-engineer-roadmap-2026/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/ai-engineer-roadmap-2026/</guid>
-      <description>&lt;h1 id=&#34;-the-2026-ai-engineer-roadmap-agent-focused&#34;&gt;🚀 The 2026 AI Engineer Roadmap (Agent-Focused)&lt;/h1&gt;&#xA;&lt;p&gt;A practical guide for anyone looking to build a solid career in AI engineering. This roadmap is built around &lt;strong&gt;real products&lt;/strong&gt;, &lt;strong&gt;agent systems&lt;/strong&gt;, and &lt;strong&gt;product-oriented thinking&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Alternatives to ChatGPT</title>
-      <link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
-      <description>&lt;h1 id=&#34;alternatives-to-chatgpt&#34;&gt;Alternatives to ChatGPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;10-ai-tools-to-try-right-now&#34;&gt;10 AI Tools to Try Right Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Which AI chatbots are the best to replace ChatGPT?&lt;/strong&gt; Answering this question requires considering a few factors. ChatGPT is an exceptionally capable AI that can handle a wide range of tasks—from planning vacations to translating text—and is very user-friendly, a definite advantage.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>LLM on Marco Martorana</title>
+		<link>http://localhost:1313/marcomattolab/marcomartorana/tags/llm/</link>
+		<description>Recent content in LLM on Marco Martorana</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+			<managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor>
+		
+		
+			<webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>INES - Edge Edge AI Running in Your Browser</title>
+				<link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/presentation-edge-ai-ines/</link>
+				<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
+				<guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/presentation-edge-ai-ines/</guid>
+				<description>&lt;h1 id=&#34;-edge-ai-running-in-your-browser&#34;&gt;🚀 Edge AI running in your browser&lt;/h1&gt;&#xA;&lt;p&gt;Think about Language Model as “cloud-only” systems: APIs, servers, tokens, latency, privacy trade-offs.&lt;/p&gt;&#xA;&lt;p&gt;But what if none of that was necessary?&lt;/p&gt;&#xA;&lt;p&gt;I built &lt;strong&gt;INES - Intelligent Neural Edge System&lt;/strong&gt;, a full Small Language Model, SLM-powered application that runs entirely inside the browser.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>6 Free Generative AI Courses to Build Real Skills in 2026</title>
+				<link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
+				<guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/free-stanford-ai-courses/</guid>
+				<description>&lt;h1 id=&#34;-6-free-generative-ai-courses-to-build-real-skills&#34;&gt;🚀 6 Free Generative AI Courses to Build Real Skills&lt;/h1&gt;&#xA;&lt;p&gt;Stop just prompting. Start &lt;strong&gt;building&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here are 6 free courses that will take you from zero to building production-ready Generative AI applications 👇&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AI Engineer Roadmap 2026</title>
+				<link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/ai-engineer-roadmap-2026/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
+				<guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2026/ai-engineer-roadmap-2026/</guid>
+				<description>&lt;h1 id=&#34;-the-2026-ai-engineer-roadmap-agent-focused&#34;&gt;🚀 The 2026 AI Engineer Roadmap (Agent-Focused)&lt;/h1&gt;&#xA;&lt;p&gt;A practical guide for anyone looking to build a solid career in AI engineering. This roadmap is built around &lt;strong&gt;real products&lt;/strong&gt;, &lt;strong&gt;agent systems&lt;/strong&gt;, and &lt;strong&gt;product-oriented thinking&lt;/strong&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alternatives to ChatGPT</title>
+				<link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</link>
+				<pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
+				<guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/alternative-to-chatgpt/</guid>
+				<description>&lt;h1 id=&#34;alternatives-to-chatgpt&#34;&gt;Alternatives to ChatGPT&lt;/h1&gt;&#xA;&lt;h2 id=&#34;10-ai-tools-to-try-right-now&#34;&gt;10 AI Tools to Try Right Now&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Which AI chatbots are the best to replace ChatGPT?&lt;/strong&gt; Answering this question requires considering a few factors. ChatGPT is an exceptionally capable AI that can handle a wide range of tasks—from planning vacations to translating text—and is very user-friendly, a definite advantage.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -60,7 +60,7 @@
   "headline": "More Than a Machine: Building Memories at 88mph",
   "description" : "They say the best way to predict the future is to create it. This weekend, my 10-year-old son and I built a piece of the past — powered by the tech of today.",
   "inLanguage" : "it",
-  "wordCount":  701 ,
+  "wordCount":  860 ,
   "datePublished" : "2026-05-01T00:00:00",
   "dateModified" : "2026-05-01T00:00:00",
   "image" : "http:\/\/localhost:1313\/marcomattolab\/marcomartorana\/",
@@ -90,7 +90,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -359,30 +359,30 @@
 <p>We didn&rsquo;t need a massive budget to make it happen. We looked around our home and found everything we needed to give this cabinet a &ldquo;brain.&rdquo;</p>
 <p><strong>What we used:</strong></p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Component</th>
-          <th style="text-align: left">What We Chose</th>
-          <th style="text-align: left">Why</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><strong>Brain</strong></td>
-          <td style="text-align: left">Old Mini PC running Batocera</td>
-          <td style="text-align: left">Gave new life to forgotten hardware</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Display</strong></td>
-          <td style="text-align: left">Smart TV</td>
-          <td style="text-align: left">Crystal-clear, modern high-def look</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Audio</strong></td>
-          <td style="text-align: left">Repurposed stereo system</td>
-          <td style="text-align: left">Every &ldquo;Kamehameha&rdquo; sounds exactly like it should</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Component</th>
+					<th>What We Chose</th>
+					<th>Why</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Brain</strong></td>
+					<td>Old Mini PC running Batocera</td>
+					<td>Gave new life to forgotten hardware</td>
+			</tr>
+			<tr>
+					<td><strong>Display</strong></td>
+					<td>Smart TV</td>
+					<td>Crystal-clear, modern high-def look</td>
+			</tr>
+			<tr>
+					<td><strong>Audio</strong></td>
+					<td>Repurposed stereo system</td>
+					<td>Every &ldquo;Kamehameha&rdquo; sounds exactly like it should</td>
+			</tr>
+	</tbody>
 </table>
 <p>The result? A vintage arcade cabinet with modern reliability — and zero waste.</p>
 <hr>
@@ -503,6 +503,64 @@
 <li>A centerpiece for future family game nights</li>
 </ul>
 <hr>
+<h2 id="customization-of-audio-">Customization of Audio 🎵</h2>
+<h1 id="audio-customization-">Audio Customization 🎵</h1>
+<p>I&rsquo;ve linked my cabinet to Alexa, so when I say:</p>
+<blockquote>
+<p>&ldquo;Alexa, turn on cabinet&rdquo;</p>
+</blockquote>
+<p>…it starts automatically.</p>
+<p>To customize the startup audio using my favorite movie theme — <em>Back to the Future (BTTF)</em> — I downloaded two audio tracks:</p>
+<ul>
+<li><code>coin.mp3</code></li>
+<li><code>bttf-track.mp3</code></li>
+</ul>
+<p>I then moved both MP3 files into:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/userdata/music/boot/
+</span></span></code></pre></div><p>The goal is to:</p>
+<ul>
+<li>Play the coin sound</li>
+<li>Play the <em>Back to the Future</em> soundtrack for a few seconds</li>
+<li>Fade out the music smoothly</li>
+<li>Continue booting Batocera</li>
+</ul>
+<hr>
+<h1 id="-create-a-new-customsh-file">🎚 Create a New <code>custom.sh</code> File</h1>
+<p>Create the following file in Batocera:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/userdata/system/custom.sh
+</span></span></code></pre></div><hr>
+<h1 id="-add-the-following-content">🧑‍💻 Add the Following Content</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999;font-weight:bold">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">MUSIC_DIR</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;/userdata/music/boot&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">COIN_SOUND</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;</span><span style="color:#008080">$MUSIC_DIR</span><span style="color:#b84">/coin.mp3&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">SELECTED_TRACK</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;bttf-track.mp3&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">PLAY_SECONDS</span><span style="font-weight:bold">=</span><span style="color:#099">25</span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">FADE_SECONDS</span><span style="font-weight:bold">=</span><span style="color:#099">5</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#008080">TRACK</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;</span><span style="color:#008080">$MUSIC_DIR</span><span style="color:#b84">/</span><span style="color:#008080">$SELECTED_TRACK</span><span style="color:#b84">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Play coin sound</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">if</span> <span style="font-weight:bold">[</span> -f <span style="color:#b84">&#34;</span><span style="color:#008080">$COIN_SOUND</span><span style="color:#b84">&#34;</span> <span style="font-weight:bold">]</span>; <span style="font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>    mpv --no-video --really-quiet <span style="color:#b84">&#34;</span><span style="color:#008080">$COIN_SOUND</span><span style="color:#b84">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sleep 0.5
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Play soundtrack with fade out</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">if</span> <span style="font-weight:bold">[</span> -f <span style="color:#b84">&#34;</span><span style="color:#008080">$TRACK</span><span style="color:#b84">&#34;</span> <span style="font-weight:bold">]</span>; <span style="font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>    mpv --no-video --really-quiet <span style="color:#b84">\
+</span></span></span><span style="display:flex;"><span>        --length<span style="font-weight:bold">=</span><span style="color:#008080">$PLAY_SECONDS</span> <span style="color:#b84">\
+</span></span></span><span style="display:flex;"><span>        --af<span style="font-weight:bold">=</span><span style="color:#008080">afade</span><span style="font-weight:bold">=</span><span style="color:#008080">t</span><span style="font-weight:bold">=</span>out:st<span style="font-weight:bold">=</span><span style="font-weight:bold">$((</span>PLAY_SECONDS <span style="font-weight:bold">-</span> FADE_SECONDS<span style="font-weight:bold">))</span>:d<span style="font-weight:bold">=</span><span style="color:#008080">$FADE_SECONDS</span> <span style="color:#b84">\
+</span></span></span><span style="display:flex;"><span>        <span style="color:#b84">&#34;</span><span style="color:#008080">$TRACK</span><span style="color:#b84">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#999">exit</span> <span style="color:#099">0</span>
+</span></span></code></pre></div><hr>
+<h1 id="-make-the-script-executable">🔒 Make the Script Executable</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod +x /userdata/system/custom.sh
+</span></span></code></pre></div><hr>
 <h2 id="what-we-learned-">What We Learned 📚</h2>
 <p><strong>For other parents considering a similar project:</strong></p>
 <ol>
@@ -519,9 +577,9 @@
 <h2 id="-want-to-build-your-own">🎮 Want to Build Your Own?</h2>
 <p>Here are the resources that inspired us:</p>
 <ul>
-<li><a href="https://www.holbrooktech.com/">Holbrook Tech Arcade Plans</a> — The design that started it all</li>
+<li><a href="https://holbrooktech.weebly.com/full-size-arcade-cabinet.html">Holbrook Tech Arcade Plans</a> — The design that started it all</li>
 <li><a href="https://batocera.org/">Batocera Linux</a> — The retro gaming OS that powers our cabinet</li>
-<li><a href="https://www.sanwacomponents.com/">Sanwa Controls</a> — Premium joysticks and buttons</li>
+<li><a href="https://www.amazon.it/Sanwa-JLF-TP-8YT-Joystick-pulsanti-OBSF-30/dp/B01FJFSGJ2?th=1">Sanwa Controls</a> — Premium joysticks and buttons</li>
 </ul>
 <hr>
 <p><em>Grande Giove</em></p>
@@ -583,7 +641,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2026%2fbuilding-arcade-with-my-son%2f&amp;text=More%20Than%20a%20Machine%3a%20Building%20Memories%20at%2088mph&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2finformatics%2f2026%2fbuilding-arcade-with-my-son%2f&amp;text=More%20Than%20a%20Machine%3a%20Building%20Memories%20at%2088mph&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -668,7 +726,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -797,7 +855,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

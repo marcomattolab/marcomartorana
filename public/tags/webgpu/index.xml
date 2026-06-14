@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Webgpu on Marco Martorana</title>
+		<link>http://localhost:1313/marcomattolab/marcomartorana/tags/webgpu/</link>
+		<description>Recent content in Webgpu on Marco Martorana</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+			<managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor>
+		
+		
+			<webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster>
+		
+		
+		
+			<lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/webgpu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>INES - Edge Edge AI Running in Your Browser</title>
+				<link>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/presentation-edge-ai-ines/</link>
+				<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
+				<guid>http://localhost:1313/marcomattolab/marcomartorana/post/2020/jan/presentation-edge-ai-ines/</guid>
+				<description>&lt;h1 id=&#34;-edge-ai-running-in-your-browser&#34;&gt;🚀 Edge AI running in your browser&lt;/h1&gt;&#xA;&lt;p&gt;Think about Language Model as “cloud-only” systems: APIs, servers, tokens, latency, privacy trade-offs.&lt;/p&gt;&#xA;&lt;p&gt;But what if none of that was necessary?&lt;/p&gt;&#xA;&lt;p&gt;I built &lt;strong&gt;INES - Intelligent Neural Edge System&lt;/strong&gt;, a full Small Language Model, SLM-powered application that runs entirely inside the browser.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

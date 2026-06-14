@@ -90,7 +90,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/marcomattolab/marcomartorana/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.135.0">
+<meta name="generator" content="Hugo 0.162.1">
 <link rel="alternate" href="http://localhost:1313/marcomattolab/marcomartorana/index.xml" type="application/rss+xml" title="Marco Martorana">
 <script src="http://localhost:1313/marcomattolab/marcomartorana/js/dark-mode.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.stemmer.support.js"></script>
         <script src="http://localhost:1313/marcomattolab/marcomartorana/vendor/lunr/lunr.it.js"></script><script src="http://localhost:1313/marcomattolab/marcomartorana/js/lunr-search.js" data-index="/marcomattolab/marcomartorana/search.json"></script><link rel="stylesheet" href="/marcomattolab/marcomartorana/style.min.css">
@@ -374,7 +374,7 @@
 <p><strong>What:</strong> Destructuring assignment allows the extraction of values from arrays or objects with a concise syntax, fostering cleaner and more readable code.</p>
 <p><strong>Why:</strong> Enhances code clarity, particularly when handling intricate data structures.</p>
 <p><strong>How:</strong> Replaces traditional variable assignments with direct extraction of specific values.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Traditional variable assignment
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Traditional variable assignment
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> data <span style="font-weight:bold">=</span> { name: <span style="color:#b84">&#39;John&#39;</span>, age: <span style="color:#099">30</span> };
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> name <span style="font-weight:bold">=</span> data<span style="font-weight:bold">.</span>name;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> age <span style="font-weight:bold">=</span> data<span style="font-weight:bold">.</span>age;
@@ -384,20 +384,20 @@
 <p><strong>What:</strong> The spread operator (three dots: <strong>…</strong> ) enables the expansion of arrays, objects, or function arguments into separate elements. It is used also for shallow copy of an array.</p>
 <p><strong>Why:</strong> It is invaluable for tasks like array merging, object cloning, or dynamically passing multiple arguments to a function, reducing code verbosity.</p>
 <p><strong>How:</strong> These examples shows the spread syntax for creating shallow copies of arrays and objects, providing a concise and effective way to duplicate data structures and also for seamless data manipulation.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without spread syntax
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without spread syntax
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> arr1 <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>];
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> arr2 <span style="font-weight:bold">=</span> [<span style="color:#099">4</span>, <span style="color:#099">5</span>, <span style="color:#099">6</span>];
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> mergedArray <span style="font-weight:bold">=</span> arr1<span style="font-weight:bold">.</span>concat(arr2);
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> With spread syntax
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> mergedArray <span style="font-weight:bold">=</span> [<span style="font-weight:bold">...</span>arr1, <span style="font-weight:bold">...</span>arr2];
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Shallow copy of an array using spread syntax
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Shallow copy of an array using spread syntax
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> originalArray <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>];
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> copiedArray <span style="font-weight:bold">=</span> [<span style="font-weight:bold">...</span>originalArray];
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Modify the copied array without affecting the original
 </span></span><span style="display:flex;"><span>copiedArray<span style="font-weight:bold">.</span>push(<span style="color:#099">4</span>);
 </span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;Original Array:&#39;</span>, originalArray); <span style="font-weight:bold">//</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>]
 </span></span><span style="display:flex;"><span>console<span style="font-weight:bold">.</span>log(<span style="color:#b84">&#39;Copied Array:&#39;</span>, copiedArray);     <span style="font-weight:bold">//</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Shallow copy of an object using spread syntax
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Shallow copy of an object using spread syntax
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> originalObject <span style="font-weight:bold">=</span> { name: <span style="color:#b84">&#39;John&#39;</span>, age: <span style="color:#099">30</span> };
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> copiedObject <span style="font-weight:bold">=</span> { <span style="font-weight:bold">...</span>originalObject };
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> Modify the copied object without affecting the original
@@ -408,7 +408,7 @@
 <p><strong>What:</strong> Optional chaining (<strong>?.</strong>) is an operator , called also ‘elvis’ operator, gracefully handles nested property or method access, preventing errors in situations where properties or methods may be undefined or null.</p>
 <p><strong>Why:</strong> Mitigates the need for long if statements, resulting in more concise and robust code.</p>
 <p><strong>How:</strong> Employ optional chaining to navigate through object structures with ease.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without optional chaining
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without optional chaining
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> street <span style="font-weight:bold">=</span> user<span style="font-weight:bold">.</span>address <span style="font-weight:bold">&amp;&amp;</span> user<span style="font-weight:bold">.</span>address<span style="font-weight:bold">.</span>street;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> With optional chaining
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> street <span style="font-weight:bold">=</span> user<span style="font-weight:bold">.</span>address<span style="color:#a61717;background-color:#e3d2d2">?</span><span style="font-weight:bold">.</span>street;
@@ -416,7 +416,7 @@
 <p><strong>What:</strong> The nullish coalescing operator (<strong>??</strong>) offers a concise way to assign default values when a variable is null or undefined.</p>
 <p><strong>Why:</strong> Particularly useful for eliminating tedious null checks in conditional expressions or when retrieving object values.</p>
 <p><strong>How:</strong> Streamline code by incorporating the nullish coalescing operator in conditional expressions.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without nullish coalescing operator
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Without nullish coalescing operator
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> username <span style="font-weight:bold">=</span> user<span style="font-weight:bold">.</span>username <span style="font-weight:bold">||</span> <span style="color:#b84">&#39;Guest&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> With nullish coalescing operator
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> username <span style="font-weight:bold">=</span> user<span style="font-weight:bold">.</span>username <span style="color:#a61717;background-color:#e3d2d2">??</span> <span style="color:#b84">&#39;Guest&#39;</span>;
@@ -425,7 +425,7 @@
 <p><strong>Why</strong>: Promises provide a structured approach for handling asynchronous tasks, allowing developers to work with a clear chain of logic using .<strong>then()</strong> and .<strong>catch()</strong>. Async/Await, built on top of Promises, offers a more synchronous-like syntax for handling asynchronous code.</p>
 <p><strong>How:</strong> The first snippet demonstrates data fetching using Promises, while the second uses Async/Await. Both way contribute to a more structured and readable approach to handling asynchronous tasks in JavaScript.</p>
 <p><em>Example 1</em>: Using Promises</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example using Promises
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example using Promises
 </span></span><span style="display:flex;"><span>function fetchData() {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> new Promise((resolve, reject) <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">//</span> Simulating asynchronous data fetching
@@ -440,7 +440,7 @@
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">.</span>then(data <span style="font-weight:bold">=&gt;</span> console<span style="font-weight:bold">.</span>log(data))
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">.</span>catch(error <span style="font-weight:bold">=&gt;</span> console<span style="font-weight:bold">.</span>error(error));
 </span></span></code></pre></div><p>Example 2: Aync / Awair</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example using Async<span style="font-weight:bold">/</span>Await with a general callback
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Example using Async<span style="font-weight:bold">/</span>Await with a general callback
 </span></span><span style="display:flex;"><span>async function fetchDataAsync() {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> new Promise(resolve <span style="font-weight:bold">=&gt;</span> {
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">//</span> Simulating asynchronous data fetching
@@ -471,7 +471,7 @@
 <p><strong>What:</strong> Memoization involves caching function results based on input parameters to avoid redundant calculations and enhance the performance of repetitive or resource-intensive functions.</p>
 <p><strong>Why:</strong> Drastically improves performance by storing and reusing previously calculated results.</p>
 <p><strong>How:</strong> Implement caching effortlessly in Javascript by creating a Cache object and checking results before recalculating.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Memoization example with factorial calculation
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Memoization example with factorial calculation
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">const</span> factorial <span style="font-weight:bold">=</span> (function () {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">const</span> cache <span style="font-weight:bold">=</span> {};
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> function memoizedFactorial(n) {
@@ -493,7 +493,7 @@
 <p><strong>What:</strong> Event delegation optimizes handling of interactions by forwarding events through a single listener attached to a parent element, rather than attaching listeners to individual elements.</p>
 <p><strong>Why</strong>: This approach minimizes memory consumption and enhances performance, particularly in scenarios involving the creation of dynamic or numerous elements.</p>
 <p><strong>How:</strong> Embrace event delegation for efficient event handling in complex scenarios.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">//</span> example using closest() method <span style="font-weight:bold">for</span> event delegation
 </span></span><span style="display:flex;"><span>document<span style="font-weight:bold">.</span>addEventListener(<span style="color:#b84">&#39;click&#39;</span>, function(event) {
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">const</span> button <span style="font-weight:bold">=</span> event<span style="font-weight:bold">.</span>target<span style="font-weight:bold">.</span>closest(<span style="color:#b84">&#39;button&#39;</span>);
@@ -505,7 +505,7 @@
 <p><strong>What:</strong> The console object is a powerful tool for debugging, offering functions like <em>console.log()</em>, <em>console.warn()</em>, <em>console.error()</em>, and <em>console.table()</em>.</p>
 <p><strong>Why:</strong> Enhances debugging capabilities, with styling options using the %c placeholder in console.log() for visually appealing messages.</p>
 <p><strong>How:</strong> Elevate your debugging workflow with advanced console features.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// Console debugging
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>// Console debugging
 </span></span><span style="display:flex;"><span>console.log(‘This is a log message’);
 </span></span><span style="display:flex;"><span>console.warn(‘This is a warning message’);
 </span></span><span style="display:flex;"><span>console.error(‘This is an error message’);
@@ -528,7 +528,7 @@
 <p><strong>Why:</strong> Encourages code encapsulation, reuse, and enhances code maintainability.</p>
 <p><strong>How:</strong> Harness the power of import and export statements to modularize and organize your code effectively.</p>
 <p><strong>Note</strong>: I know, this specific point needs a separated post because we should discuss also about a superset of JavaScript (Typescript) and also describe its advantages in term of code reusability and maintainability and, why not, link to the Object Oriented Programming (OOP) principles.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Exporting module
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">//</span> Exporting module
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">export</span> function addNumbers(a, b) {
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> a <span style="font-weight:bold">+</span> b;
 </span></span><span style="display:flex;"><span>}
@@ -584,7 +584,7 @@
     </li>
     
     <li>
-      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ffrontend-mastery%2f&amp;text=Frontend%20Mastery&amp;via=map%5bemail%3amarcomatto%40gmail.com%20facebook%3aprofile.php%3fid%3d100091312733657%20github%3amarcomattolab%20instagram%3amarcomartorana.lab%20linkedin%3amarcomartorana%20name%3aMarco%20Martorana%20paypal%3amarkmartorana%3fcountry.x%3dIT%26locale.x%3dit_IT%20twitter%3amarcomattox%20website%3ahttps%3a%2f%2fmarcomartorana.it%20youtube%3a%40MarcoMartorana%5d"
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fmarcomattolab%2fmarcomartorana%2fpost%2f2020%2fjan%2ffrontend-mastery%2f&amp;text=Frontend%20Mastery&amp;via=marcomattox"
         target="_blank" title="Share on Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
           <path
@@ -669,7 +669,7 @@
               </p>
 
                
-                <p class="card-text fs-6  m-0">Software Engineer | Computer Science Teacher</p>
+                <p class="card-text fs-6  m-0">Lead Software Engineer | Computer Science Teacher</p>
               
             </div>
           </div>
@@ -767,7 +767,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/angular-evolution_hu10694038305168894372.png" alt="/img/posts/angular-evolution.png"
+            <img src="/marcomattolab/marcomartorana/img/posts/angular-evolution_hu_a2028cc00a32e6f3.png" alt="/img/posts/angular-evolution.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -820,7 +820,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/visualize-algorithm-01_hu12205278322967255450.jpg" alt="/img/posts/visualize-algorithm-01.jpg"
+            <img src="/marcomattolab/marcomartorana/img/posts/visualize-algorithm-01_hu_f001c9b41b675ff0.jpg" alt="/img/posts/visualize-algorithm-01.jpg"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -873,7 +873,7 @@
             </div>
 
             
-            <img src="/marcomattolab/marcomartorana/img/posts/angular-20-rules_hu11423075528300532730.png" alt="/img/posts/angular-20-rules.png"
+            <img src="/marcomattolab/marcomartorana/img/posts/angular-20-rules_hu_cde04c09850f80bc.png" alt="/img/posts/angular-20-rules.png"
                 class="card-img-bottom img-fluid lazyload">
             
 
@@ -971,7 +971,7 @@
         <p class="credits copyright text-muted">
           
           
-          <a href="https://marcomartorana.it">Marco Martorana</a>
+          <a href="https://www.marcomartorana.it/">Marco Martorana</a>
           
           
 

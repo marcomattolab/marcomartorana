@@ -1,7 +1,7 @@
 baseURL = "https://github.com/marcomattolab/marcomartorana/"
 DefaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
-languageCode = "it"
+locale = "it"
 title = "Marco Martorana"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
@@ -44,10 +44,6 @@ previewCardImagePlacement = "bottom"
   website = "https://www.marcomartorana.it/"
   authorInfo = "Lead Software Engineer | Computer Science Teacher"
   authorPostImage = "/img/author-post-img.jpg"
-
-[Author]
-  name = "Marco Martorana"
-  website = "https://marcomartorana.it"
   email = "marcomatto@gmail.com"
   facebook = "profile.php?id=100091312733657"
   instagram = "marcomartorana.lab"

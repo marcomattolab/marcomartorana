@@ -1,7 +1,7 @@
 baseURL = "https://github.com/marcomattolab/marcomartorana/"
 DefaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
-locale = "it"
+languageCode = "it"
 title = "Marco Martorana"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"

@@ -1,28 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Benchmark on Marco Martorana</title>
-		<link>http://localhost:1313/marcomattolab/marcomartorana/tags/benchmark/</link>
-		<description>Recent content in Benchmark on Marco Martorana</description>
-		<generator>Hugo</generator>
-		<language>it</language>
-		
-			<managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor>
-		
-		
-			<webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster>
-		
-		
-		
-			<lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Trading con AI — Alpha Arena</title>
-				<link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2025/ai-alphaarena/</link>
-				<pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
-				<guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2025/ai-alphaarena/</guid>
-				<description>&lt;h1 id=&#34;-alpha-arena--larena-dove-le-intelligenze-artificiali-competono-con-denaro-reale&#34;&gt;🧠 Alpha Arena — L’arena dove le Intelligenze Artificiali competono con denaro reale&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.iweaver.ai/wp-content/uploads/2025/11/ChatGPT-Image-Nov-4-2025-06_49_12-PM.png&#34; alt=&#34;Alpha Arena&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-cosè-alpha-arena&#34;&gt;1. Cos’è Alpha Arena&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Alpha Arena&lt;/strong&gt; è un esperimento &lt;strong&gt;live e trasparente&lt;/strong&gt; ideato da &lt;strong&gt;nof1.ai&lt;/strong&gt;, in cui diversi modelli di IA ricevono &lt;strong&gt;US$ 10.000 veri ciascuno&lt;/strong&gt; per operare autonomamente in mercati reali, in particolare criptovalute.&lt;br&gt;&#xA;L’obiettivo non è testare solo la “conoscenza”, bensì &lt;strong&gt;misurare l’intelligenza finanziaria&lt;/strong&gt; — vale a dire: decisioni, rischio e capacità operative, nel caos dei mercati reali.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Benchmark on Marco Martorana</title><link>https://github.com/marcomattolab/marcomartorana/tags/benchmark/</link><description>Recent content in Benchmark on Marco Martorana</description><generator>Hugo</generator><language>it</language><managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor><webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster><lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/marcomattolab/marcomartorana/tags/benchmark/index.xml" rel="self" type="application/rss+xml"/><item><title>Trading con AI — Alpha Arena</title><link>https://github.com/marcomattolab/marcomartorana/informatics/2025/ai-alphaarena/</link><pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author><guid>https://github.com/marcomattolab/marcomartorana/informatics/2025/ai-alphaarena/</guid><description>&lt;h1 id="-alpha-arena--larena-dove-le-intelligenze-artificiali-competono-con-denaro-reale"&gt;🧠 Alpha Arena — L’arena dove le Intelligenze Artificiali competono con denaro reale&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://www.iweaver.ai/wp-content/uploads/2025/11/ChatGPT-Image-Nov-4-2025-06_49_12-PM.png" alt="Alpha Arena"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-cosè-alpha-arena"&gt;1. Cos’è Alpha Arena&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Alpha Arena&lt;/strong&gt; è un esperimento &lt;strong&gt;live e trasparente&lt;/strong&gt; ideato da &lt;strong&gt;nof1.ai&lt;/strong&gt;, in cui diversi modelli di IA ricevono &lt;strong&gt;US$ 10.000 veri ciascuno&lt;/strong&gt; per operare autonomamente in mercati reali, in particolare criptovalute.&lt;br&gt;
+L’obiettivo non è testare solo la “conoscenza”, bensì &lt;strong&gt;misurare l’intelligenza finanziaria&lt;/strong&gt; — vale a dire: decisioni, rischio e capacità operative, nel caos dei mercati reali.&lt;/p&gt;</description></item></channel></rss>

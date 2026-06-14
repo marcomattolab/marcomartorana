@@ -1,28 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Typescript on Marco Martorana</title>
-		<link>http://localhost:1313/marcomattolab/marcomartorana/tags/typescript/</link>
-		<description>Recent content in Typescript on Marco Martorana</description>
-		<generator>Hugo</generator>
-		<language>it</language>
-		
-			<managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor>
-		
-		
-			<webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster>
-		
-		
-		
-			<lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/marcomattolab/marcomartorana/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Angular Signals VS RxJS: Can Signals Replace the RxJS Code and How ?</title>
-				<link>http://localhost:1313/marcomattolab/marcomartorana/informatics/2025/angular-signals-vs-rxjs/</link>
-				<pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author>
-				<guid>http://localhost:1313/marcomattolab/marcomartorana/informatics/2025/angular-signals-vs-rxjs/</guid>
-				<description>&lt;h1 id=&#34;angular-signals&#34;&gt;Angular Signals&lt;/h1&gt;&#xA;&lt;h2 id=&#34;how-they-replace-half-of-your-rxjs-code&#34;&gt;How They Replace Half of Your RxJS Code&lt;/h2&gt;&#xA;&lt;p&gt;Angular is entering a new reactive era. With the maturation of ⚙️ &lt;strong&gt;Signals&lt;/strong&gt; , developers now have a simpler and more intuitive way to manage state and reactivity — one that significantly reduces the amount of RxJS code needed in everyday Angular applications.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Typescript on Marco Martorana</title><link>https://github.com/marcomattolab/marcomartorana/tags/typescript/</link><description>Recent content in Typescript on Marco Martorana</description><generator>Hugo</generator><language>it</language><managingEditor>marcomatto@gmail.com (Marco Martorana)</managingEditor><webMaster>marcomatto@gmail.com (Marco Martorana)</webMaster><lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/marcomattolab/marcomartorana/tags/typescript/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Signals VS RxJS: Can Signals Replace the RxJS Code and How ?</title><link>https://github.com/marcomattolab/marcomartorana/informatics/2025/angular-signals-vs-rxjs/</link><pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate><author>marcomatto@gmail.com (Marco Martorana)</author><guid>https://github.com/marcomattolab/marcomartorana/informatics/2025/angular-signals-vs-rxjs/</guid><description>&lt;h1 id="angular-signals"&gt;Angular Signals&lt;/h1&gt;
+&lt;h2 id="how-they-replace-half-of-your-rxjs-code"&gt;How They Replace Half of Your RxJS Code&lt;/h2&gt;
+&lt;p&gt;Angular is entering a new reactive era. With the maturation of ⚙️ &lt;strong&gt;Signals&lt;/strong&gt; , developers now have a simpler and more intuitive way to manage state and reactivity — one that significantly reduces the amount of RxJS code needed in everyday Angular applications.&lt;/p&gt;</description></item></channel></rss>

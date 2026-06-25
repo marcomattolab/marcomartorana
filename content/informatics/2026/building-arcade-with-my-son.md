@@ -71,7 +71,7 @@ The whole project took us a few weekends. Some moments were messy. Some were fru
 
 ---
 
-<!--
+<!-- -->
 ## Video Gallery 🎥
 
 <div class="video-gallery">
@@ -82,7 +82,7 @@ The whole project took us a few weekends. Some moments were messy. Some were fru
     <source src="/img/arcade/3FD0E934-BFFE-46E7-9B23-5131B4032F53.mp4" type="video/mp4">
   </video>
 </div>
--->
+<!-- -->
 ---
 
 ## The Real Win ❤️

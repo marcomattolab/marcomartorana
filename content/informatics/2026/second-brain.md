@@ -1,7 +1,7 @@
 ---
 Title: "Building a Privacy-First Local Second Brain"
 Date: 2026-09-11
-Tags: ["Python", "LeetCode", "Coding Interviews", "Algorithms", "Data Structures", "Cheat Sheet"]
+Tags: ["Python", "LLM", "Opencode", "AI", "Ollama", "brain"]
 image: "/img/collections/python-cheat-sheet.png"
 Description: "Building a Privacy-First Local Second Brain with OpenCode, Ollama, and Quantized LLMs"
 Draft:

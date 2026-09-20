@@ -2,7 +2,7 @@
 Title: "Building a Privacy-First Local Second Brain"
 Date: 2026-09-11
 Tags: ["Python", "LLM", "Opencode", "AI", "Ollama", "brain"]
-image: "/img/collections/secondbrain.png"
+image: "/img/collections/second-brain.png"
 Description: "Building a Privacy-First Local Second Brain with OpenCode, Ollama, and Quantized LLMs"
 Draft:
 ---

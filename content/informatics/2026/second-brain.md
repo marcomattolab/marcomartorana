@@ -2,11 +2,10 @@
 Title: "Building a Privacy-First Local Second Brain"
 Date: 2026-09-11
 Tags: ["Python", "LLM", "Opencode", "AI", "Ollama", "brain"]
-image: "/img/collections/python-cheat-sheet.png"
+image: "/img/collections/secondbrain.png"
 Description: "Building a Privacy-First Local Second Brain with OpenCode, Ollama, and Quantized LLMs"
 Draft:
 ---
-
 # Building a Privacy-First Local Second Brain with OpenCode, Ollama, and Quantized LLMs
 
 In an era where personal data, research notes, and proprietary codebases are increasingly funneled into third-party cloud APIs, running a local intelligence layer is no longer just a hobbyist exercise—it is an architectural necessity.

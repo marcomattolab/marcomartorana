@@ -42,7 +42,7 @@ previewCardImagePlacement = "bottom"
 [Params.Author]
   name = "Marco Martorana"
   website = "https://www.marcomartorana.it/"
-  authorInfo = "Lead Software Engineer | Computer Science Teacher"
+  authorInfo = "Lead Software Engineer | Computer Science Teacher | Angular Expert | AI"
   authorPostImage = "/img/author-post-img.jpg"
   email = "marcomatto@gmail.com"
   facebook = "profile.php?id=100091312733657"

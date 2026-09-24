@@ -8,7 +8,7 @@ Draft:
 ---
 # A Practical Local Coding Workstation: LM Studio, Qwen2.5-Coder, and Pi
 
-In the [Local Second Brain]({{< ref "/informatics/2026/second-brain" >}}) post I described the architecture of a privacy-first local intelligence layer. That was the *why*. This is the *how*.
+In the [Local Second Brain]({{< ref "/ai/2026/second-brain" >}}) post I described the architecture of a privacy-first local intelligence layer. That was the *why*. This is the *how*.
 
 Here is a concrete, copy-paste recipe for turning a 16GB Apple Silicon Mac into a fully offline coding agent — no API keys, no telemetry, no per-token billing. Just an LLM that reasons about your codebase, edits files, and runs commands, all on your own machine.
 

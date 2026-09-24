@@ -95,14 +95,19 @@ previewCardImagePlacement = "bottom"
     weight = 4
 
 [[menu.main]]
+    name = "AI"
+    url = "/ai/"
+    weight = 5
+
+[[menu.main]]
     name = "Informatics"
     url = "/informatics/"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [markup.goldmark.renderer]
   unsafe = true

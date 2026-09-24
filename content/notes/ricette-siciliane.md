@@ -1,82 +1,82 @@
 ---
-title: "Ricette siciliane"
-description: "Due classici dello street food palermitano: la rosticceria palermitana e lo sfincione."
+title: "Sicilian recipes"
+description: "Two classics of Palermo street food: Sicilian rosticceria and sfincione."
 categories: ["cooking"]
 date: 2026-09-20
 ---
-# Ricette siciliane
+# Sicilian recipes
 
-Due ricette della tradizione di Palermo: la **rosticceria palermitana** (i rustici lievitati di pasta brioche) e la **pizza siciliana**, cioè lo **sfincione palermitano**, alta, soffice e condita con sugo di cipolle.
-
----
-
-## Rosticceria palermitana
-
-Rustici lievitati di pasta brioche in versione mignon: **rollò**, **mini calzoni**, **cornetti**, **girelle**, **pizzette** e **fagottini**. La ricetta dell'impasto è unica, poi ognuno si farcisce a piacere.
-
-### Ingredienti per l'impasto (circa 30 rustici)
-
-- 1 kg di farina 00
-- 25 g di lievito di birra fresco
-- 500 g di acqua
-- 100 g di strutto
-- 100 g di zucchero
-- 30 g di sale
-- 1 tuorlo per spennellare (facoltativo)
-
-### Ingredienti per i ripieni
-
-- 4–5 wurstel (per i rollò)
-- 1-2 fette di prosciutto cotto (a porzione)
-- 80–100 g di polpa di pomodoro
-- 100 g di mozzarella
-- olio extravergine d'oliva e sale q.b.
-
-### Procedimento
-
-1. **Impasto** — mescola le farine con il lievito (se usi quello fresco, scioglilo prima in un cucchiaino d'acqua). Aggiungi lo zucchero, poi l'acqua e impasta. Incorpora lo strutto a poco a poco fino a ottenere un impasto elastico e incordato. Aggiungi infine il sale, forma una palla e lascia lievitare a circa 28 °C per 1 ora, fino al raddoppio del volume.
-2. **Forma i rustici** — rovescia l'impasto sul piano di lavoro e dividilo in pezzi da circa 50 g.
-3. **Cornetti** — stendi il pezzo a triangolo (circa 13 cm), farcisci la parte larga con prosciutto e scamorza e arrotola.
-4. **Mini calzoni** — allarga l'impasto col matterello, farcisci a metà e richiudi a mezzaluna.
-5. **Rollò** — forma un serpentello di circa 20 cm e avvolgilo intorno a mezzo wurstel.
-6. **Pizzette** — appiattisci il pezzo tondo, condisci con un cucchiaino di pomodoro (condito con olio e sale) e un pizzico di origano.
-7. **Riposo e cottura** — sistema i rustici su una teglia foderata di carta da forno, lascia riposare 40 minuti, spennella con il tuorlo e cuoci una teglia alla volta in forno statico ben caldo a **180 °C per circa 20 minuti**.
+Two traditional recipes from Palermo: **Sicilian rosticceria** (the leavened brioche savoury pastries) and **Sicilian pizza**, that is **Palermo-style sfincione** — tall, soft and topped with onion sauce.
 
 ---
 
-## Pizza siciliana – Sfincione palermitano
+## Sicilian rosticceria
 
-Lo **sfincione** è la "pizza" classica di Palermo: una focaccia **alta e soffice**, condita con **sugo di cipolle**, **caciocavallo**, **acciughe** e **origano**.
+Mini leavened brioche savoury pastries: **rollò**, **mini calzoni**, **croissants (cornetti)**, **pinwheels (girelle)**, **pizzette** and **bundles (fagottini)**. The dough recipe is one and the same; each piece is then filled to taste.
 
-### Ingredienti per l'impasto
+### Dough ingredients (about 30 pieces)
 
-- 750 g di farina 0 (oppure 00)
-- 250 g di semola rimacinata di grano duro
-- 600 g circa di acqua
-- 25 g di lievito di birra fresco (oppure 1 cucchiaino di secco)
-- 2 cucchiaio di olio extravergine d'oliva
-- 30 g di sale
+- 1 kg "00" flour
+- 25 g fresh brewer's yeast
+- 500 g water
+- 100 g lard
+- 100 g sugar
+- 30 g salt
+- 1 egg yolk for brushing (optional)
 
-### Ingredienti per il condimento
+### Filling ingredients
 
-- 3 cipolle bianche medie
-- 500 g di pomodori pelati
-- 2 cucchiai di olio extravergine d'oliva
-- 200 g di caciocavallo siciliano semi stagionato
-- 5–6 filetti di acciughe sott'olio (per guarnire)
-- 2 cucchiai di pangrattato
-- una manciata di origano
-- sale q.b.
+- 4–5 frankfurters (for the rollò)
+- 1–2 slices of cooked ham (per portion)
+- 80–100 g tomato pulp
+- 100 g mozzarella
+- extra virgin olive oil and salt to taste
 
-### Procedimento
+### Method
 
-1. **Impasto** — mescola le farine, aggiungi il lievito sciolto nell'acqua e poi l'acqua poco alla volta, impastando fino a ottenere un impasto morbido. Incorpora l'olio a poco a poco e infine il sale: deve risultare liscio e incordato. Forma una palla e lascia lievitare almeno **3 ore** (deve quadruplicare di volume).
-2. **Sugo di cipolle** — affetta le cipolle sottili e mettile in pentola con olio e le 2 acciughe. Fai scaldare 5–6 minuti a fuoco vivace, poi aggiungi i pelati frullati e cuoci a fuoco lento con un bicchiere d'acqua calda per circa **30 minuti**, fino a ottenere un sugo corposo e denso. Regola di sale e lascia raffreddare.
-3. **Stendi e guarnisci** — riprendi l'impasto e stendilo in una teglia 40×40 unta con poco olio, allargandolo con le dita e picchiettando coi polpastrelli senza rompere le bolle. Aggiungi i filetti di acciughe.
-4. **Prima lievitazione** — copri con pellicola e lascia lievitare circa **1 ora**.
-5. **Condisci** — distribuisci prima i pezzetti di caciocavallo, poi il sugo, il caciocavallo grattugiato e l'origano. Lascia lievitare ancora **1 ora**.
-6. **Cottura** — cuoci in forno statico ben caldo a **250 °C**: 10 minuti nella parte bassa (a contatto col fondo), poi sposta nella parte medio-alta e prosegui per altri **10 minuti circa**, finché il condimento è asciutto e la base è soffice.
+1. **Dough** — mix the flour with the yeast (if using fresh yeast, dissolve it first in a teaspoon of water). Add the sugar, then the water and knead. Work in the lard a little at a time until the dough is elastic and smooth. Finally add the salt, shape into a ball and leave to rise at about 28 °C for 1 hour, until doubled in volume.
+2. **Shape the pieces** — turn the dough out onto the work surface and divide it into pieces of about 50 g.
+3. **Croissants (cornetti)** — roll the piece into a triangle (about 13 cm), fill the wide part with ham and scamorza, and roll up.
+4. **Mini calzoni** — roll the dough out with a rolling pin, fill one half and fold it over into a half-moon.
+5. **Rollò** — form a small rope of about 20 cm and wrap it around half a frankfurter.
+6. **Pizzette** — flatten the round piece, top with a teaspoon of tomato sauce (seasoned with oil and salt) and a pinch of oregano.
+7. **Rest and bake** — arrange the pieces on a baking tray lined with parchment paper, leave to rest for 40 minutes, brush with the egg yolk and bake one tray at a time in a well-heated static oven at **180 °C for about 20 minutes**.
 
 ---
 
-*Fonti: [Rosticceria siciliana – Tavolartegusto](https://www.tavolartegusto.it/ricetta/rosticceria-siciliana-ricetta-originale/) · [Sfincione palermitano – Tavolartegusto](https://www.tavolartegusto.it/ricetta/sfincione-palermitano-ricetta-originale/)*
+## Sicilian pizza – Palermo-style sfincione
+
+**Sfincione** is Palermo's classic "pizza": a **tall, soft** focaccia topped with **onion sauce**, **caciocavallo**, **anchovies** and **oregano**.
+
+### Dough ingredients
+
+- 750 g "0" flour (or "00")
+- 250 g re-milled durum wheat semolina
+- about 600 g water
+- 25 g fresh brewer's yeast (or 1 teaspoon dry yeast)
+- 2 tablespoons extra virgin olive oil
+- 30 g salt
+
+### Topping ingredients
+
+- 3 medium white onions
+- 500 g peeled tomatoes
+- 2 tablespoons extra virgin olive oil
+- 200 g semi-matured Sicilian caciocavallo
+- 5–6 anchovy fillets in oil (to garnish)
+- 2 tablespoons breadcrumbs
+- a handful of oregano
+- salt to taste
+
+### Method
+
+1. **Dough** — mix the flours, add the yeast dissolved in the water and then the water a little at a time, kneading until you have a soft dough. Work in the oil gradually and finally the salt: it should be smooth and elastic. Shape into a ball and leave to rise for at least **3 hours** (it should quadruple in volume).
+2. **Onion sauce** — slice the onions thinly and put them in a pan with the oil and the 2 anchovies. Cook for 5–6 minutes over high heat, then add the blended peeled tomatoes and cook over low heat with a glass of hot water for about **30 minutes**, until the sauce is thick and rich. Season with salt and leave to cool.
+3. **Stretch and garnish** — take the dough and stretch it into a 40×40 cm baking tray greased with a little oil, spreading it with your fingers and tapping with your fingertips without breaking the air bubbles. Add the anchovy fillets.
+4. **First rise** — cover with cling film and leave to rise for about **1 hour**.
+5. **Top** — first distribute the pieces of caciocavallo, then the sauce, the grated caciocavallo and the oregano. Leave to rise for another **1 hour**.
+6. **Bake** — bake in a well-heated static oven at **250 °C**: 10 minutes in the lower part (in contact with the bottom), then move to the middle-upper part and continue for another **about 10 minutes**, until the topping is dry and the base is soft.
+
+---
+
+*Sources: [Sicilian rosticceria – Tavolartegusto](https://www.tavolartegusto.it/ricetta/rosticceria-siciliana-ricetta-originale/) · [Palermo-style sfincione – Tavolartegusto](https://www.tavolartegusto.it/ricetta/sfincione-palermitano-ricetta-originale/)*

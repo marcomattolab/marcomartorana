@@ -6,7 +6,7 @@ title: "About Me"
 
 # Marco Martorana
 
-**Lead Software Engineer | Knowledge & Training Lead | Computer Science Teacher | Angular Expert | AI **
+**Lead Software Engineer | Knowledge & Training Lead | Computer Science Teacher | Angular Expert | AI**
 
 ---
 

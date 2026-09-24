@@ -89,6 +89,24 @@ previewCardImagePlacement = "bottom"
     weight = 2
 
 [[menu.main]]
+    name = "All Notes"
+    url = "/notes/"
+    weight = 1
+    parent = "Notes"
+
+[[menu.main]]
+    name = "Cooking"
+    url = "/categories/cooking/"
+    weight = 2
+    parent = "Notes"
+
+[[menu.main]]
+    name = "Programming"
+    url = "/categories/programming/"
+    weight = 3
+    parent = "Notes"
+
+[[menu.main]]
     name = "School"
     url = "/tags/school/"
     weight = 3

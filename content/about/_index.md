@@ -6,11 +6,11 @@ title: "About Me"
 
 # Marco Martorana
 
-**Senior Software Engineer | Computer Science Teacher | Trainer**
+**Lead Software Engineer | Knowledge & Training Lead | Computer Science Teacher | Angular Expert | AI **
 
 ---
 
-With over **20 years of experience**, I am both a **Computer Science Teacher** and a seasoned **Senior Software Engineer**. Holding degrees in **Computer Engineering** and **Clinical Engineering**, my expertise spans a diverse range of sectors.
+With over **20 years of experience**, I am both a **Computer Science Teacher** and a **Lead Software Engineer**. Holding degrees in **Computer Engineering** and **Clinical Engineering**, my expertise spans a diverse range of sectors.
 
 I have had the privilege of collaborating with reputable organizations including **Objectway**, **Reply**, **Exprivia**, **Engineering**, and **ELCA**, contributing to a variety of projects in **European R&D**, **financial accounting**, **healthcare**, **gambling**, and **energy** industries.
 

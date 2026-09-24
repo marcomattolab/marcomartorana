@@ -1,6 +1,7 @@
 ---
 title: Database
 description: "Oracle Database maintenance: space monitoring, grants, user cleanup, tablespace management, and CLOB export."
+categories: ["programming"]
 date: 2020-02-01
 ---
 

@@ -18,6 +18,10 @@ enableGitInfo = false
 pagination.pagerSize = 10
 summaryLength  = "30"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [Params]
 selfHosted = true
 mainSections = ["post","posts","ai"]

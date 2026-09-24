@@ -1,7 +1,7 @@
 ---
-type : "tags"
-layout : "notes"
+type: "notes"
+layout: "notes"
 title: "Notes"
-subtitle : "Developers notes"
+subtitle: "Developers notes"
 ---
 

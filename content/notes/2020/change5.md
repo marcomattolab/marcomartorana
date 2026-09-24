@@ -1,6 +1,7 @@
 ---
 title: Developer Utilities
 description: "Developer Utilities: git, unix, java, ssh, port, curl, and more."
+categories: ["programming"]
 date: 2020-02-01
 ---
 In the following there are a lot of Developer Utilities.

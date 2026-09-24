@@ -1,6 +1,7 @@
 ---
 title: "Ricette siciliane"
 description: "Due classici dello street food palermitano: la rosticceria palermitana e lo sfincione."
+categories: ["cooking"]
 date: 2026-09-20
 ---
 # Ricette siciliane

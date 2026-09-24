@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="container" role="main">
+  <div class="row justify-content-md-center">
+    {{ with .Content }}
+    <div class="well">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ range $category, $pages := .Site.Taxonomies.categories }}
+      {{ $notes := where $pages.Pages "Section" "notes" }}
+      {{ if len $notes }}
+        <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+          <h2 class="text-capitalize mt-4 mb-3">
+            <a href="{{ printf "/categories/%s/" ($category | urlize) | relLangURL }}">{{ $category | humanize }}</a>
+          </h2>
+        </div>
+        {{ range $notes }}
+          {{ partial "post_preview_notes.html" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+  </div>
+</div>
+
+{{ end }}

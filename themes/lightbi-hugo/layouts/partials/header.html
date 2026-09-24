@@ -31,7 +31,7 @@
             <div class="{{ .Type }}-heading">
               {{ if or ( eq .Type "tags") }}
               <h1 class="fw-semibold display-5 lh-1 mb-3">
-                {{ if .Data.Singular }}#{{ end }}{{ .Title }}
+                {{ .Title }}
               </h1>
               <!-- <hr class="small"> -->
               {{ end }}

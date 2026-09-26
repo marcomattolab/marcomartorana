@@ -2,6 +2,7 @@
 title: "Sicilian recipes"
 description: "Two classics of Palermo street food: Sicilian rosticceria and sfincione."
 categories: ["cooking"]
+image: "/img/collections/sicilian-recipes.png"
 date: 2026-09-20
 ---
 # Sicilian recipes

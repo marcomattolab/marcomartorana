@@ -36,6 +36,7 @@
                 {{ $active = or $active (and (eq .Name "Notes") (eq $current.Section "notes")) }}
                 {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
                 {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
+                {{ $active = or $active (and (eq .Name "AI") (eq $current.Title "Ai")) }}
 
                 <a class="nav-link {{ if $active }} active {{ end }}" title="{{ .Name }}"
                   href="{{ .URL  | relLangURL }}"> {{ .Name }}</a>

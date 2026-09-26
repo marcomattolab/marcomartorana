@@ -112,18 +112,18 @@ previewCardImagePlacement = "bottom"
     weight = 3
 
 [[menu.main]]
-    name = "Meetings"
-    url = "/meetings/"
+    name = "Events"
+    url = "/categories/events/"
     weight = 4
 
 [[menu.main]]
     name = "AI"
-    url = "/ai/"
+    url = "/categories/ai/"
     weight = 5
 
 [[menu.main]]
     name = "Informatics"
-    url = "/informatics/"
+    url = "/categories/informatics/"
     weight = 6
 
 [[menu.main]]

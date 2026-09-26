@@ -24,7 +24,7 @@ summaryLength  = "30"
 
 [Params]
 selfHosted = true
-mainSections = ["post","posts","ai"]
+mainSections = ["post","ai"]
 dateFormat = "02 January 2006"
 comments = false
 readingTime = false

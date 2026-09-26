@@ -2,7 +2,8 @@
 Title: "Evento GDG a Palermo! 🚀"
 Subtitle: ""
 Date: 2024-11-04
-Tags: ["newsletter", "GDGPalermo", "Innovazione", "ELCA", "Angular", "AI", "Kubernetes", "Sviluppo", "Palermo"]
+tags: ["newsletter", "gdgpalermo", "innovazione", "elca", "angular", "ai", "kubernetes", "sviluppo", "palermo"]
+categories: ["events"]
 image : "/img/meetings/meetings1.png"
 Description: "In person Event GDG in Palermo December 2024. GDG is a community-driven event that brings the latest innovations from Google I/O directly to developers worldwide."
 Draft: 

@@ -2,6 +2,7 @@
 title: Frontend Mastery
 date: 2024-03-25
 tags: ["javascript", "programming", "blog"]
+categories: ["programming"]
 image : "/img/posts/batman-01.jpg"
 Description  : "Frontend Mastery: 10 Javascript hacks to speedup development on frontend side..."
 ---

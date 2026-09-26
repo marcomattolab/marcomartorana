@@ -1,7 +1,8 @@
 ---
 Title: "AI Engineer Roadmap 2026"
 Date: 2026-05-01
-Tags: ["AI", "Machine Learning", "LLM", "AI Agents", "Tech Career", "Roadmap"]
+tags: ["ai", "machine learning", "llm", "ai agents", "tech career", "roadmap"]
+categories: ["ai"]
 image: "/img/collections/ai-engineer-roadmap-2026.png"
 Description: "A practical, no-fluff roadmap to become an AI Engineer in 2026. Focused on software engineering, agent systems, and product thinking."
 Draft:

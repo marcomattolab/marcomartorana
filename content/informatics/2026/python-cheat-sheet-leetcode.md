@@ -1,7 +1,8 @@
 ---
 Title: "Python Cheat Sheet for Coding Interviews"
 Date: 2026-05-01
-Tags: ["Python", "LeetCode", "Coding Interviews", "Algorithms", "Data Structures", "Cheat Sheet"]
+tags: ["python", "leetcode", "coding interviews", "algorithms", "data structures", "cheat sheet"]
+categories: ["programming"]
 image: "/img/collections/python-cheat-sheet.png"
 Description: "A comprehensive Python cheat sheet for LeetCode and coding interviews. Data structures, algorithms, and common patterns — all in one place."
 Draft:

@@ -2,7 +2,8 @@
 Title: Pi Greco
 Subtitle: ""
 Date: 2023-01-01
-Tags: ["informatics"]
+tags: ["informatics", "school"]
+categories: ["informatics"]
 image : "/img/collections/pi-greco.jpeg"
 Description: "Pi Greco! Un numero magico che da millenni affascina l'umanità. Scopriamo insieme la sua storia, le sue applicazioni e le sue curiosità!"
 Draft: 

@@ -1,7 +1,8 @@
 ---
 Title: "ng-conf 2025: Keynote Highlights & Developer Reflections"
 Date: 2025-11-04
-Tags: ["Angular", "frontend", "webdev", "ngconf", "AI", "developer-experience", "community"]
+tags: ["angular", "frontend", "webdev", "ngconf", "ai", "developer-experience", "community"]
+categories: ["programming"]
 image: "/img/collections/ngconf-2025.png"
 Description: "A deep dive into the Angular Team keynote from ng-conf 2025 — key takeaways, community insights, and reflections on how AI is reshaping the way developers build."
 Draft:

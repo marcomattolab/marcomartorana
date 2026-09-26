@@ -2,7 +2,8 @@
 Title: Run Web App with Docker on WSL
 Subtitle: ""
 Date: 2025-06-06
-Tags: ["informatics"]
+tags: ["informatics"]
+categories: ["programming"]
 image : "/img/collections/collections8.png"
 Description: How to Run Your Web App Seamlessly with Docker on Windows & WSL
 Draft: 

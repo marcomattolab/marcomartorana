@@ -2,7 +2,8 @@
 Title: Google I/O Extended (Mazzarino - Gela)
 Subtitle: ""
 Date: 2024-08-02
-Tags: ["newsletter", "GDG", "Innovazione", "Angular", "Sviluppo", "AI", "RealtaAumentata", "ImprenditoriaDigitale", "Mazzarino", "Gela"]
+tags: ["newsletter", "gdg", "innovazione", "angular", "sviluppo", "ai", "realtaaumentata", "imprenditoriadigitale", "mazzarino", "gela"]
+categories: ["events"]
 image : "/img/meetings/meetings2.png"
 Description: "In preson Event GDG in Mazzarino August 2024. GDG is a community-driven event that brings the latest innovations from Google I/O directly to developers worldwide."
 Draft: 

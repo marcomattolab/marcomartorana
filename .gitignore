@@ -1,1 +1,6 @@
 themes/.DS_Store
+
+# Hugo build output and generated resources
+public/
+resources/
+.hugo_build.lock

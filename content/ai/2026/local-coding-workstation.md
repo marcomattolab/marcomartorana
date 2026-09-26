@@ -1,7 +1,8 @@
 ---
 Title: "A Practical Local Coding Workstation: LM Studio, Qwen2.5-Coder, and Pi"
 Date: 2026-09-23
-Tags: ["LM Studio", "Qwen2.5-Coder", "Pi", "LLM", "Coding", "Apple Silicon", "AI"]
+tags: ["lm studio", "qwen2.5-coder", "pi", "llm", "coding", "apple silicon", "ai"]
+categories: ["ai"]
 image: "/img/collections/local-coding-workstation.png"
 Description: "A hands-on recipe for a fully local, privacy-first coding agent on a 16GB Mac: LM Studio for inference, Qwen2.5-Coder for code, n-gram speculative decoding for speed, and the Pi harness to tie it together."
 Draft:

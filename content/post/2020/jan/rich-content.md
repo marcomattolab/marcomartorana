@@ -1,7 +1,8 @@
 ---
 title: Rich Content 
 date: 2020-01-20
-tags: ["hugo","shortcodes"]
+tags: ["hugo", "shortcodes"]
+categories: ["programming"]
 image : "/img/posts/img-5.jpg"
 Description  : 'Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable.'
 featured: true
@@ -43,6 +44,6 @@ Shortcode:
 ```
 
 Rendered:
-{{< twitter user="binovarghese_" id="1758148486510317907" >}}
+[Tweet by binovarghese_](https://twitter.com/binovarghese_/status/1758148486510317907)
 
 <!--Photo by Dimitri Houtteman on Unsplash-->

@@ -2,6 +2,7 @@
 title: "Build a Local LLM Agent with pi + LM Studio and Custom Skills"
 date: 2026-09-20
 tags: ["ai", "llm", "pi", "lm-studio", "agents", "skills", "angular"]
+categories: ["ai"]
 image: "/img/posts/local-llm-pi-lmstudio.png"
 Description: "Run pi fully offline with a local model served by LM Studio, then teach it four custom skills: code review, coding, Angular 21+ and a mail agent."
 featured: true

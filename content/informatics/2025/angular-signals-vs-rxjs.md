@@ -1,7 +1,8 @@
 ---
 Title: "Angular Signals VS RxJS: Can Signals Replace the RxJS Code and How ?"
 Date: 2025-12-17
-Tags: ["Angular", "frontend", "RxJS", "Signals", "State", "typescript"]
+tags: ["angular", "frontend", "rxjs", "signals", "state", "typescript"]
+categories: ["programming"]
 image: "/img/collections/angular-signals-vs-rxjs.png"
 Description: "Angular Signals introduce a new way to manage reactivity with less complexity and more clarity. By reducing boilerplate and focusing on reactive state, Signals make it easier to build, read, and maintain Angular applications—often without the heavy use of RxJS."
 Draft:

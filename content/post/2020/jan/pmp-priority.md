@@ -2,6 +2,7 @@
 title: How to Manage Priorities in Project Management
 date: 2024-06-01
 tags: ["project-management"]
+categories: ["programming"]
 image : "/img/posts/pmp-priority-00.png"
 Description  : "How to Manage Priorities in Project Management: Essential Guidelines"
 ---

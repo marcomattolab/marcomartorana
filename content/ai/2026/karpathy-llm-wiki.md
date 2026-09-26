@@ -2,6 +2,7 @@
 title: "Karpathy's LLM Wiki: Build Your Own Knowledge Base"
 date: 2026-09-24
 tags: ["ai", "llm", "karpathy", "knowledge-base", "obsidian", "rag"]
+categories: ["ai"]
 image: "/img/posts/llm-wiki.png"
 Description: "A practical guide to Andrej Karpathy's LLM Wiki pattern: turn curated sources into a compounding Markdown wiki maintained by an LLM agent, with Obsidian and the Obsidian Web Clipper."
 featured: true

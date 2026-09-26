@@ -2,6 +2,7 @@
 title: The Evolution of Angular 
 date: 2024-06-01
 tags: ["angular", "programming"]
+categories: ["programming"]
 image : "/img/posts/angular-evolution.png"
 Description  : "Coding Chronicles: The Evolution of Angular - A Frontend Developer’s Journey from AngularJS to Modern Angular"
 ---

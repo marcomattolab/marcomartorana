@@ -2,7 +2,8 @@
 Title: Gioco del Tris in Java
 Subtitle: ""
 Date: 2023-01-01
-Tags: ["informatics"]
+tags: ["informatics", "school"]
+categories: ["informatics"]
 image : "/img/collections/collections1.jpg"
 Description: "Gioco del Tris (Tic-Tac-Toe) in Java con descrizione della soluzione. Guida passo passo per sviluppare il gioco in Java."
 Draft: 

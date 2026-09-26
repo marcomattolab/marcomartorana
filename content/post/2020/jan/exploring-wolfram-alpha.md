@@ -1,7 +1,8 @@
 ---
 title: Exploring Wolfram Alpha, A Computational Knowledge Engine
 date: 2024-10-25
-tags: ["Computer Science", "ICT", "Wolfram Alpha"]
+tags: ["computer science", "ict", "wolfram alpha", "school"]
+categories: ["informatics"]
 image : "/img/posts/wolfram-alpha-01.png"
 Description  : 'Exploring Wolfram Alpha: A Computational Knowledge Engine. Learn how Wolfram Alpha uses natural language processing to provide precise answers and insights across education, research, and software development'
 featured: true

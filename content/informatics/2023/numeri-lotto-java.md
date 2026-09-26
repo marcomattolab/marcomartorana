@@ -2,7 +2,8 @@
 Title: Simulazione dei Numeri del Lotto con i Thread Java
 Subtitle: ""
 Date: 2023-01-01
-Tags: ["informatics"]
+tags: ["informatics", "school"]
+categories: ["informatics"]
 image : "/img/collections/numeri-lotto-java.jpg"
 Description: "Utilizzare i Thread in Java: Simulazione dei Numeri del Lotto"
 Draft: 

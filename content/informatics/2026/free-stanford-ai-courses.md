@@ -1,7 +1,8 @@
 ---
 Title: "6 Free Generative AI Courses to Build Real Skills in 2026"
 Date: 2026-05-01
-Tags: ["AI", "Generative AI", "LLM", "RAG", "LangChain", "Free Courses"]
+tags: ["ai", "generative ai", "llm", "rag", "langchain", "free courses"]
+categories: ["ai"]
 image: "/img/collections/free-stanford-ai-courses.png"
 Description: "From Microsoft's 21-lesson fundamentals to advanced RAG and Agentic systems. No tuition, no gatekeeping. Just hands-on building."
 Draft:

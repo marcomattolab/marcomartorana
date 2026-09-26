@@ -2,6 +2,7 @@
 title: INES - Edge Edge AI Running in Your Browser
 date: 2026-05-21
 tags: ["ai", "llm", "edge-ai", "webgpu", "mediapipe", "browser-ai", "slm"]
+categories: ["ai"]
 image: "/img/posts/ines-edge-ai-browser.png"
 description: "Discover INES, a local-first AI system running entirely inside the browser using WebGPU, MediaPipe GenAI, and on-device SLM inference with zero backend."
 featured: true

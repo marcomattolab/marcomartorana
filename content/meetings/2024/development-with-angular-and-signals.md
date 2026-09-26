@@ -2,7 +2,8 @@
 Title: "My presentation at GDG Palermo about Angular🚀"
 Subtitle: ""
 Date: 2024-12-01
-Tags: ["newsletter", "GDGPalermo", "Innovazione", "ELCA", "Angular", "AI", "Kubernetes", "Sviluppo", "Palermo"]
+tags: ["newsletter", "gdgpalermo", "innovazione", "elca", "angular", "ai", "kubernetes", "sviluppo", "palermo"]
+categories: ["events"]
 image : "/img/meetings/meetings5.png"
 Description: "My presentation about frontend development with Angular, highlighting the powerful new Signals API. Asort of Back to the Future trip talking about the evolution of this framework during the event organized by GDG in Palermo on December 4th 2024."
 Draft: 

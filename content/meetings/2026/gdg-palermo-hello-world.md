@@ -2,7 +2,8 @@
 Title: "GDG Palermo: Hello World! 👋"
 Subtitle: ""
 Date: 2026-09-24
-Tags: ["newsletter", "GDGPalermo", "Palermo", "AI", "Cloud", "Lightning Talks", "Community", "Innovazione"]
+tags: ["newsletter", "gdgpalermo", "palermo", "ai", "cloud", "lightning talks", "community", "innovazione"]
+categories: ["events"]
 image : "/img/meetings/gdg-palermo-hello-world.jpg"
 Description: "Welcome Event del GDG Palermo il 30 settembre 2026 da Moltivolti: una serata di Lightning Talk su AI, Cloud e Software Engineering per lanciare la nuova community tech di Palermo."
 Draft:

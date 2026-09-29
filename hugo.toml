@@ -96,13 +96,13 @@ previewCardImagePlacement = "bottom"
 
 [[menu.main]]
     name = "Cooking"
-    url = "/categories/cooking/"
+    url = "/notes/#cooking"
     weight = 2
     parent = "Notes"
 
 [[menu.main]]
     name = "Programming"
-    url = "/categories/programming/"
+    url = "/notes/#programming"
     weight = 3
     parent = "Notes"
 

@@ -2,6 +2,12 @@
 If you want to include any custom html just before </head>, put it in this file.
 Or you can delete these file if you don't need it.
 -->
+<style>
+/* Offset anchor targets below the fixed-top navbar */
+h2[id] {
+  scroll-margin-top: 90px;
+}
+</style>
 <!-- for example, you could insert this custom css, which makes the bigimg not stretch:
 <style>
 .intro-header.big-img, .intro-header.big-img  .big-img-transition {

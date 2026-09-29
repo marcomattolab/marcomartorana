@@ -12,8 +12,8 @@
       {{ $notes := where $pages.Pages "Section" "notes" }}
       {{ if len $notes }}
         <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
-          <h2 class="text-capitalize mt-4 mb-3">
-            <a href="{{ printf "/categories/%s/" ($category | urlize) | relLangURL }}">{{ $category | humanize }}</a>
+          <h2 id="{{ $category | urlize }}" class="text-capitalize mt-4 mb-3">
+            {{ $category | humanize }}
           </h2>
         </div>
         {{ range $notes }}

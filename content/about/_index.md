@@ -19,7 +19,7 @@ My professional passion lies in **teaching**, **training**, and **programming** 
 <div class="gdg-banner">
   <div class="gdg-banner-text">
     <span class="gdg-banner-title"><i class="bi bi-google"></i> GDG Palermo</span>
-    <span class="gdg-banner-sub">Speaker &amp; membro attivo del Google Developers Group di Palermo</span>
+    <span class="gdg-banner-sub">Organizer del Google Developers Group di Palermo</span>
   </div>
   <a class="gdg-banner-badge" href="https://gdg.community.dev/gdg-palermo/" target="_blank" rel="noopener">Scopri la community →</a>
 </div>
@@ -51,8 +51,8 @@ My professional passion lies in **teaching**, **training**, and **programming** 
     <div class="stat-label">Stelle GitHub</div>
   </a>
   <a class="stat-card" href="https://gdg.community.dev/gdg-palermo/" target="_blank" rel="noopener">
-    <div class="stat-icon gdg"><i class="bi bi-mic"></i></div>
-    <div class="stat-number">Speaker</div>
+    <div class="stat-icon gdg"><i class="bi bi-people-fill"></i></div>
+    <div class="stat-number">Organizer</div>
     <div class="stat-label">GDG Palermo</div>
   </a>
 </div>

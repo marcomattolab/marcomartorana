@@ -162,8 +162,19 @@ h4[id] {
 }
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+.about-grid .about-card:first-child {
+  grid-column: 1 / -1;
+}
+@media (max-width: 640px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-grid .about-card:first-child {
+    grid-column: auto;
+  }
 }
 .about-card {
   background: #ffffff;
@@ -321,10 +332,11 @@ h4[id] {
 }
 .stat-number {
   display: block;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.15;
   color: #1a1a1a;
+  word-break: break-word;
 }
 .stat-label {
   display: block;

@@ -62,6 +62,120 @@ h2[id] {
 .tech-badge-dark {
   color: #1a1a1a;
 }
+
+/* Reading progress bar */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ed1b2f, #ff6b6b);
+  z-index: 99999;
+  transition: width 0.1s ease-out;
+}
+
+/* Back to top button */
+#back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: #1a1a1a;
+  color: #ffffff;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  z-index: 99999;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#back-to-top:hover {
+  background: #ed1b2f;
+}
+
+/* Card hover lift */
+.single-post-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.single-post-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.14) !important;
+}
+
+/* Consistent card image height (preview cards only) */
+.single-post-card .card-img-top,
+.single-post-card .card-img-bottom {
+  height: 190px;
+  object-fit: cover;
+}
+
+/* Tag chips */
+.blog-tags a {
+  display: inline-block;
+  margin: 0.15rem 0.1rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: #f0f0f0;
+  color: #555555;
+  font-size: 0.85rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.blog-tags a:before {
+  content: "#";
+  opacity: 0.6;
+}
+.blog-tags a:hover {
+  background: #ed1b2f;
+  color: #ffffff;
+}
+
+/* Reading experience (single post) */
+.blog-post {
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+.blog-post h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.blog-post h3 {
+  margin-top: 1.8rem;
+  font-weight: 600;
+}
+.blog-post a {
+  text-decoration: underline;
+  text-decoration-color: #ed1b2f;
+  text-underline-offset: 3px;
+}
+.blog-post a:hover {
+  color: #ed1b2f;
+}
+.blog-post img {
+  border-radius: 8px;
+}
+.blog-post blockquote {
+  border-left: 3px solid #ed1b2f;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+.blog-post table th {
+  background: #f5f5f5;
+}
 </style>
 <!-- for example, you could insert this custom css, which makes the bigimg not stretch:
 <style>

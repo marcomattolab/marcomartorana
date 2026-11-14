@@ -1,0 +1,35 @@
+{{ define "header" }}<!-- No header on 404 pages -->{{ end }}
+{{ define "main" }}
+<div role="main" class="container main-content">
+  <div class="text-center" style="padding: 3rem 1rem;">
+    <h1 class="error-emoji" style="font-size: 3rem; margin-bottom: 1rem;"></h1>
+    <p class="error-text">{{ i18n "pageNotFound" }}</p>
+    <div class="mt-4">
+      <a class="btn btn-dark rounded-pill" href="{{ "" | absLangURL }}">&larr; Home</a>
+      <a class="btn btn-outline-dark rounded-pill" href="{{ "/ai/" | absLangURL }}">🤖 AI</a>
+      <a class="btn btn-outline-dark rounded-pill" href="{{ "/informatics/" | absLangURL }}">📚 Informatics</a>
+      <a class="btn btn-outline-dark rounded-pill" href="{{ "/meetings/" | absLangURL }}">🗓️ Meetings</a>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-md-12">
+      <h5 class="text-center mb-3">Ultimi articoli</h5>
+      <div class="row">
+        {{ range first 3 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+          {{ partial "post_preview_card" . }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
+  var emojiArray = [
+    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
+    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
+  ];
+  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
+  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
+</script>
+{{ end }}

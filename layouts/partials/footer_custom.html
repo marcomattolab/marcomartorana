@@ -1,7 +1,35 @@
-<!--
-If you want to include any custom html just before </body>, put it in this file.
-Or you can delete these file if you don't need it.
--->
-<!-- for example, you could include some js libraries:
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.js" integrity="sha256-HdIuWBZj4eftihsoDCJoMYjZi6aNVaw7YlUpzKT3ZxI=" crossorigin="anonymous"></script>
--->
+<!-- Reading progress bar + back to top -->
+<div id="reading-progress"></div>
+<button id="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+<script>
+  (function () {
+    var bar = document.getElementById('reading-progress');
+    var btn = document.getElementById('back-to-top');
+
+    function onScroll() {
+      var h = document.documentElement;
+      var scrollTop = h.scrollTop || document.body.scrollTop;
+      var height = h.scrollHeight - h.clientHeight;
+
+      if (bar && height > 0) {
+        bar.style.width = (scrollTop / height * 100) + '%';
+      }
+      if (btn) {
+        if (scrollTop > 400) {
+          btn.classList.add('show');
+        } else {
+          btn.classList.remove('show');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    if (btn) {
+      btn.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+    onScroll();
+  })();
+</script>

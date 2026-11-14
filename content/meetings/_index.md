@@ -1,6 +1,6 @@
 ---
 Type : "tags"
-layout : "meetings"
+layout : "collections"
 title: "Meetings"
 subtitle : "Explore Upcoming Meetings and Events: Stay Informed and Connected!"
 ---

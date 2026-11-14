@@ -25,13 +25,24 @@ hugo --minify                       # production build → public/
 - Custom shortcode: `{{< pdfReader "/path/to/file.pdf" >}}` renders an `<embed>`.
 - Card image layout controlled by `previewCardImagePlacement` in `hugo.toml` (`"top"` / `"bottom"`).
 
+## Images
+
+Two image locations serve **different purposes** — do not confuse them:
+
+- **`assets/img/`** — referenced by the front matter `image` field. Hugo processes these with `resources.Get` (resize + fingerprint) to build the **card images** shown on the homepage and section listings. Images here are NOT served at `/img/...` directly.
+- **`static/img/`** — referenced **inline** in Markdown bodies (`![](/img/...)`), by shortcodes (e.g. the gallery), or by config (e.g. `logo` for `og:image`). Served verbatim at `/img/...`.
+
+A post that uses an image in both the card and the body needs a copy in **both** locations (e.g. `assets/img/posts/x.png` + `static/img/posts/x.png`).
+
+## Navigation
+
+Main menu defined in `hugo.toml` under `[[menu.main]]`: Home, Notes, School (`/tags/school/`), Meetings, AI, Informatics, About.
+
+Section landing pages (`ai/`, `informatics/`, `meetings/`) use the `collections` layout (`layouts/tags/collections.html`) with top-image cards. The old taxonomy URLs `/categories/ai/`, `/categories/informatics/`, `/categories/events/` redirect to those sections via `layouts/taxonomy/category.html`.
+
 ## CI / Deploy
 
 - GitHub Actions (`.github/workflows/hugo.yml`) builds on push to `main`.
 - Build step: `hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"`.
 - Hugo version: `0.128.0` (extended edition). Local version should match.
 - Custom domain: `marcomartorana.it` (set via `CNAME` and `docs/CNAME`).
-
-## Navigation
-
-Main menu defined in `hugo.toml` under `[[menu.main]]`: Home, Notes, School (`/tags/school/`), Meetings, Informatics, About.

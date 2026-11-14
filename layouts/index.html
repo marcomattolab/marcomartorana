@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="home-hero">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8 col-xl-7">
+        <h1 class="home-hero-title">{{ .Site.Title }}</h1>
+        {{ with .Site.Params.Author.authorInfo }}
+        <p class="home-hero-subtitle">{{ . }}</p>
+        {{ end }}
+        <div class="home-hero-cta">
+          <a class="btn btn-dark rounded-pill" href="{{ "/ai/" | relLangURL }}">🤖 AI</a>
+          <a class="btn btn-dark rounded-pill" href="{{ "/informatics/" | relLangURL }}">📚 Informatics</a>
+          <a class="btn btn-dark rounded-pill" href="{{ "/meetings/" | relLangURL }}">🗓️ Meetings</a>
+          <a class="btn btn-dark rounded-pill" href="{{ "/notes/" | relLangURL }}">📝 Notes</a>
+          <a class="btn btn-dark rounded-pill" href="{{ "/about/" | relLangURL }}">👤 About</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ $featured := where site.RegularPages "Params.featured" "eq" true }}
+{{ if $featured }}
+<!-- Featured -->
+<section class="featured-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-heading">⭐ In evidenza</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range first 6 $featured.ByDate.Reverse }}
+        {{ partial "post_preview_card" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Latest posts -->
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="section-heading">🆕 Ultimi articoli</h2>
+    </div>
+    {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) 9 }}
+    {{ range $pag.Pages }}
+    {{ partial "post_preview_card" . }}
+    {{ end }}
+  </div>
+
+  <div class="row font-sans">
+    <div class="col-md-12 mt-10">
+      <nav aria-label="Page navigation">
+        <div class="pagination justify-content-end">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+{{ end }}

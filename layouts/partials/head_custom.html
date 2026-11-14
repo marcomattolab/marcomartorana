@@ -2,10 +2,65 @@
 If you want to include any custom html just before </head>, put it in this file.
 Or you can delete these file if you don't need it.
 -->
+{{ $canonical := .Permalink }}
+{{ if eq .Data.Term "ai" }}{{ $canonical = "/ai/" | absURL }}{{ end }}
+{{ if eq .Data.Term "informatics" }}{{ $canonical = "/informatics/" | absURL }}{{ end }}
+{{ if eq .Data.Term "events" }}{{ $canonical = "/meetings/" | absURL }}{{ end }}
+<link rel="canonical" href="{{ $canonical }}">
+
 <style>
 /* Offset anchor targets below the fixed-top navbar */
 h2[id] {
   scroll-margin-top: 90px;
+}
+
+/* Homepage hero */
+.home-hero {
+  margin-top: 130px;
+  padding: 3rem 1rem 2.5rem;
+  background: linear-gradient(180deg, #f6f4f1 0%, #ffffff 100%);
+  border-bottom: 1px solid #eeeeee;
+}
+.home-hero-title {
+  font-weight: 700;
+  font-size: clamp(2.1rem, 5vw, 3.4rem);
+  letter-spacing: -0.02em;
+}
+.home-hero-subtitle {
+  font-size: 1.15rem;
+  color: #4b4f56;
+  margin: 0.75rem auto 0;
+  max-width: 680px;
+}
+.home-hero-cta {
+  margin-top: 1.5rem;
+}
+.home-hero-cta .btn {
+  margin: 0.3rem 0.25rem;
+}
+.section-heading {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 1.5rem 0 0.75rem;
+}
+.featured-section {
+  padding: 0.5rem 0 0;
+}
+
+/* Tech badges (About page) */
+.tech-badge {
+  display: inline-block;
+  padding: 0.35em 0.8em;
+  border-radius: 0.4em;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1;
+  margin: 0.15rem;
+  white-space: nowrap;
+}
+.tech-badge-dark {
+  color: #1a1a1a;
 }
 </style>
 <!-- for example, you could insert this custom css, which makes the bigimg not stretch:

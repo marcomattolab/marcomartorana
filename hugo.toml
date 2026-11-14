@@ -27,8 +27,8 @@ selfHosted = true
 mainSections = ["post","ai"]
 dateFormat = "02 January 2006"
 comments = false
-readingTime = false
-wordCount = false
+readingTime = true
+wordCount = true
 useHLJS = true
 socialShare = true
 delayDisqus = true
@@ -36,11 +36,12 @@ showRelatedPosts = true
 summaryLength  = "9"
 lunrSearch = true
 gcse = false
-lastmod = false
+lastmod = true
 rss = false
 pagination = "10"
 hideAuthor = false
-description="Your can add your website description here."
+description="Marco Martorana — Lead Software Engineer, Computer Science Teacher, Angular expert e appassionato di AI. Note, tutorial e risorse su sviluppo software, informatica e intelligenza artificiale."
+logo = "/img/author-about.jpg"
 previewCardImagePlacement = "bottom"
 
 [Params.Author]
@@ -89,12 +90,6 @@ previewCardImagePlacement = "bottom"
     weight = 2
 
 [[menu.main]]
-    name = "All Notes"
-    url = "/notes/"
-    weight = 1
-    parent = "Notes"
-
-[[menu.main]]
     name = "Cooking"
     url = "/notes/#cooking"
     weight = 2
@@ -112,18 +107,18 @@ previewCardImagePlacement = "bottom"
     weight = 3
 
 [[menu.main]]
-    name = "Events"
-    url = "/categories/events/"
+    name = "Meetings"
+    url = "/meetings/"
     weight = 4
 
 [[menu.main]]
     name = "AI"
-    url = "/categories/ai/"
+    url = "/ai/"
     weight = 5
 
 [[menu.main]]
     name = "Informatics"
-    url = "/categories/informatics/"
+    url = "/informatics/"
     weight = 6
 
 [[menu.main]]

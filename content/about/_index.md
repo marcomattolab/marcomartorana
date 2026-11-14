@@ -26,9 +26,9 @@ I specialize in development, teaching, and **agile methodologies** like SCRUM. M
 - **Methodologies**: Agile, SCRUM, DevOps
 - **Sectors**: Healthcare, Finance, Gambling, Energy, Research & Development
 
-| ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)   | ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) | ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=white)       |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)             | ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)          | ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) |
+| <span class="tech-badge" style="background:#ED8B00">Java</span> | <span class="tech-badge tech-badge-dark" style="background:#F7DF1E">JavaScript</span> | <span class="tech-badge" style="background:#007ACC">TypeScript</span> | <span class="tech-badge" style="background:#00618A">SQL</span> |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="tech-badge" style="background:#E34F26">HTML5</span> | <span class="tech-badge" style="background:#6DB33F">Spring</span> | <span class="tech-badge" style="background:#DD0031">Angular</span> | <span class="tech-badge" style="background:#0db7ed">Docker</span> |
 
 ---
 
@@ -67,7 +67,7 @@ If you want to know more about my professional journey, feel free to download my
 
 Connect with me on social media for updates on my professional work and insights into the tech world:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marcomartorana)
+[<span class="tech-badge" style="background:#0A66C2">LinkedIn</span>](https://linkedin.com/in/marcomartorana)
 
 ---
 

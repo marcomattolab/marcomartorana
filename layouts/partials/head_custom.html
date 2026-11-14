@@ -184,35 +184,40 @@ h4[id] {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  background: #1c1f24;
 }
 .featured-slide {
-  position: relative;
-  min-height: 340px;
   display: flex;
-  align-items: flex-end;
-  background: #111418;
+  flex-direction: column;
+  background: #1c1f24;
 }
-.featured-slide img {
-  position: absolute;
-  inset: 0;
+.featured-slide-media {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.featured-slide-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+  display: block;
 }
-.featured-slide-overlay {
-  position: relative;
-  width: 100%;
-  padding: 2.5rem 2rem 2rem;
+.featured-slide-body {
+  flex: 1;
+  padding: 1.5rem 1.75rem 2rem;
   color: #ffffff;
-  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.88) 75%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .featured-slide-title {
   font-weight: 700;
-  font-size: 1.6rem;
-  margin: 0.5rem 0 0.5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
 .featured-slide-desc {
-  max-width: 640px;
   opacity: 0.9;
   margin-bottom: 0.75rem;
 }
@@ -229,6 +234,22 @@ h4[id] {
 .featured-carousel .carousel-control-prev,
 .featured-carousel .carousel-control-next {
   width: 8%;
+}
+
+@media (min-width: 768px) {
+  .featured-slide {
+    flex-direction: row;
+    min-height: 400px;
+  }
+  .featured-slide-media {
+    width: 55%;
+    flex: 0 0 55%;
+    height: auto;
+    min-height: 400px;
+  }
+  .featured-slide-body {
+    padding: 2rem 2.25rem;
+  }
 }
 
 /* Table of contents (single post) */
@@ -456,6 +477,9 @@ h4[id] {
 }
 :root[data-theme="dark"] #back-to-top:hover {
   background: #ed1b2f;
+}
+:root[data-theme="dark"] .featured-carousel {
+  border: 1px solid #2a2e34;
 }
 </style>
 <!-- for example, you could insert this custom css, which makes the bigimg not stretch:

@@ -11,12 +11,14 @@
     <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
       <a href="{{ $p.Permalink }}" class="text-decoration-none">
         <div class="featured-slide">
-          {{ with partial "get_image" $p }}
-          {{ $img := . }}
-          {{ if gt .Width 1200 }}{{ $img = .Resize "1200x" }}{{ end }}
-          <img src="{{ $img.RelPermalink }}" alt="{{ $p.Title }}">
-          {{ end }}
-          <div class="featured-slide-overlay">
+          <div class="featured-slide-media">
+            {{ with partial "get_image" $p }}
+            {{ $img := . }}
+            {{ if gt .Width 1200 }}{{ $img = .Resize "1200x" }}{{ end }}
+            <img src="{{ $img.RelPermalink }}" alt="{{ $p.Title }}">
+            {{ end }}
+          </div>
+          <div class="featured-slide-body">
             <span class="badge rounded-pill bg-danger mb-2">⭐ Featured</span>
             <h3 class="featured-slide-title">{{ $p.Title }}</h3>
             {{ with $p.Description }}<p class="featured-slide-desc">{{ . }}</p>{{ end }}

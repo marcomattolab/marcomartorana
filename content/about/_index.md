@@ -33,6 +33,41 @@ My professional passion lies in **teaching**, **training**, and **programming** 
 
 ---
 
+## 🌍 Community &amp; Numeri
+
+<div class="gdg-banner">
+  <div class="gdg-banner-text">
+    <span class="gdg-banner-title"><i class="bi bi-google"></i> GDG Palermo</span>
+    <span class="gdg-banner-sub">Speaker &amp; membro attivo del Google Developers Group di Palermo</span>
+  </div>
+  <a class="gdg-banner-badge" href="https://gdg.community.dev/gdg-palermo/" target="_blank" rel="noopener">Scopri la community →</a>
+</div>
+
+<div class="stats-row">
+  <a class="stat-card" href="https://www.youtube.com/@MarcoMartoranaAI" target="_blank" rel="noopener">
+    <div class="stat-icon yt"><i class="bi bi-youtube"></i></div>
+    <div class="stat-number">237</div>
+    <div class="stat-label">Iscritti YouTube</div>
+  </a>
+  <a class="stat-card" href="https://www.youtube.com/@MarcoMartoranaAI" target="_blank" rel="noopener">
+    <div class="stat-icon yt"><i class="bi bi-collection-play"></i></div>
+    <div class="stat-number">14</div>
+    <div class="stat-label">Video pubblicati</div>
+  </a>
+  <a class="stat-card" href="https://linkedin.com/in/marcomartorana" target="_blank" rel="noopener">
+    <div class="stat-icon linkedin"><i class="bi bi-linkedin"></i></div>
+    <div class="stat-number">500+</div>
+    <div class="stat-label">Collegamenti LinkedIn</div>
+  </a>
+  <a class="stat-card" href="https://gdg.community.dev/gdg-palermo/" target="_blank" rel="noopener">
+    <div class="stat-icon gdg"><i class="bi bi-mic"></i></div>
+    <div class="stat-number">Speaker</div>
+    <div class="stat-label">GDG Palermo</div>
+  </a>
+</div>
+
+---
+
 ## 🛠️ Competenze tecniche
 
 <div class="skill-group">

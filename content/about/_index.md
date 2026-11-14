@@ -4,25 +4,6 @@ layout: "about"
 title: "About Me"
 ---
 
-<div class="about-headline">Lead Software Engineer · Knowledge & Training Lead · Computer Science Teacher · Angular Expert · AI</div>
-
-<div class="about-meta">
-  <span class="about-meta-item"><i class="bi bi-geo-alt-fill"></i> Capaci, Sicilia</span>
-  <span class="about-meta-item"><i class="bi bi-briefcase-fill"></i> ELCA Group</span>
-  <span class="about-meta-item"><i class="bi bi-mortarboard-fill"></i> Università degli Studi di Palermo</span>
-  <span class="about-meta-item"><i class="bi bi-award-fill"></i> 20+ anni di esperienza</span>
-</div>
-
-<div class="about-social">
-  <a class="about-social-btn" href="https://linkedin.com/in/marcomartorana" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
-  <a class="about-social-btn" href="https://github.com/marcomattolab" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
-  <a class="about-social-btn" href="https://www.youtube.com/@MarcoMartoranaAI" target="_blank" rel="noopener"><i class="bi bi-youtube"></i> YouTube</a>
-  <a class="about-social-btn" href="https://www.instagram.com/marcomartorana.lab" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> Instagram</a>
-  <a class="about-social-btn" href="mailto:marcomatto@gmail.com"><i class="bi bi-envelope-fill"></i> Email</a>
-</div>
-
----
-
 ## 👋 Chi sono
 
 With over **20 years of experience** in software engineering and education, I bridge the gap between **theory and practice**. I am a **Computer Science Teacher** and a **Lead Software Engineer**, currently working at **ELCA Group**.
@@ -58,6 +39,16 @@ My professional passion lies in **teaching**, **training**, and **programming** 
     <div class="stat-icon linkedin"><i class="bi bi-linkedin"></i></div>
     <div class="stat-number">500+</div>
     <div class="stat-label">Collegamenti LinkedIn</div>
+  </a>
+  <a class="stat-card" href="https://github.com/marcomattolab" target="_blank" rel="noopener">
+    <div class="stat-icon github"><i class="bi bi-github"></i></div>
+    <div class="stat-number">22</div>
+    <div class="stat-label">Repository GitHub</div>
+  </a>
+  <a class="stat-card" href="https://github.com/marcomattolab?tab=repositories" target="_blank" rel="noopener">
+    <div class="stat-icon github"><i class="bi bi-star-fill"></i></div>
+    <div class="stat-number">3</div>
+    <div class="stat-label">Stelle GitHub</div>
   </a>
   <a class="stat-card" href="https://gdg.community.dev/gdg-palermo/" target="_blank" rel="noopener">
     <div class="stat-icon gdg"><i class="bi bi-mic"></i></div>

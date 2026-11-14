@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="about-section">
+  <div class="container">
+    <div class="about-hero text-center">
+      {{ $image := resources.Get "/img/author-about.jpg" }}
+      <img src="{{ $image.RelPermalink }}" alt="Marco Martorana" class="about-hero-photo">
+      <h1 class="about-hero-name">Marco Martorana</h1>
+      <div class="about-headline">Lead Software Engineer · Knowledge &amp; Training Lead · Computer Science Teacher · Angular Expert · AI</div>
+
+      <div class="about-meta about-meta-center">
+        <span class="about-meta-item"><i class="bi bi-geo-alt-fill"></i> Capaci, Sicilia</span>
+        <span class="about-meta-item"><i class="bi bi-briefcase-fill"></i> ELCA Group</span>
+        <span class="about-meta-item"><i class="bi bi-mortarboard-fill"></i> Università degli Studi di Palermo</span>
+        <span class="about-meta-item"><i class="bi bi-award-fill"></i> 20+ anni di esperienza</span>
+      </div>
+
+      <div class="about-social about-social-center">
+        <a class="about-social-btn" href="https://linkedin.com/in/marcomartorana" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+        <a class="about-social-btn" href="https://github.com/marcomattolab" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+        <a class="about-social-btn" href="https://www.youtube.com/@MarcoMartoranaAI" target="_blank" rel="noopener"><i class="bi bi-youtube"></i> YouTube</a>
+        <a class="about-social-btn" href="https://www.instagram.com/marcomartorana.lab" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> Instagram</a>
+        <a class="about-social-btn" href="mailto:marcomatto@gmail.com"><i class="bi bi-envelope-fill"></i> Email</a>
+      </div>
+    </div>
+
+    <div class="about-content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+{{ end }}

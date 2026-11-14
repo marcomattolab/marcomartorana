@@ -110,13 +110,13 @@ Built with:
 
 Watch the POC demonstration on video below
 
-<a href="https://htmlpreview.github.io/?https://github.com/marcomattolab/ines/blob/main/resources/video-poc-ines.html" target="_blank">play-video-ines</a>
+<a href="https://htmlpreview.github.io/?https://github.com/marcomattolab/ines/blob/main/resources/video-poc-ines.html" target="_blank" rel="noopener noreferrer">play-video-ines</a>
 
 # Presentation
 
 Watch the presentation on ppt below
 
-<a href="https://htmlpreview.github.io/?https://github.com/marcomattolab/ines/blob/main/resources/presentation-poc-ines.html" target="_blank">play-presentation-ines</a>
+<a href="https://htmlpreview.github.io/?https://github.com/marcomattolab/ines/blob/main/resources/presentation-poc-ines.html" target="_blank" rel="noopener noreferrer">play-presentation-ines</a>
 
 ---
 

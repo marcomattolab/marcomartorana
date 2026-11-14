@@ -21,6 +21,11 @@
     </div>
 
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <div class="tts-bar mb-3">
+        <button id="tts-toggle" class="btn btn-dark rounded-pill btn-sm" type="button" aria-label="Ascolta l'articolo">
+          <i class="bi bi-headphones"></i> <span id="tts-label">Ascolta</span>
+        </button>
+      </div>
       {{ if and (gt .WordCount 400) .TableOfContents }}
       <details class="post-toc" open>
         <summary class="post-toc-summary">{{ i18n "tocLabel" }}</summary>

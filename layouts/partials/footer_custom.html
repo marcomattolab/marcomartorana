@@ -33,3 +33,75 @@
     onScroll();
   })();
 </script>
+
+<script>
+  // Text-to-speech: "Ascolta" button on single posts (Web Speech API)
+  (function () {
+    var btn = document.getElementById('tts-toggle');
+    if (!btn || !('speechSynthesis' in window)) return;
+
+    var article = document.querySelector('.blog-post');
+    var label = document.getElementById('tts-label');
+    if (!article || !label) return;
+
+    var text = article.innerText.trim();
+    if (!text) return;
+
+    var speaking = false;
+    var paused = false;
+    var voicesReady = false;
+
+    function pickVoice() {
+      var voices = window.speechSynthesis.getVoices();
+      if (!voices || !voices.length) return null;
+      return voices.find(function (v) { return v.lang && v.lang.toLowerCase().indexOf('it') === 0; }) ||
+             voices.find(function (v) { return v.lang && v.lang.toLowerCase().indexOf('en') === 0; }) ||
+             null;
+    }
+
+    function reset() {
+      speaking = false;
+      paused = false;
+      label.textContent = 'Ascolta';
+      btn.classList.remove('btn-danger');
+      btn.classList.add('btn-dark');
+    }
+
+    function start() {
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'it-IT';
+      var v = pickVoice();
+      if (v) u.voice = v;
+      u.rate = 1;
+      u.onend = reset;
+      u.onerror = reset;
+      window.speechSynthesis.speak(u);
+      speaking = true;
+      paused = false;
+      label.textContent = 'Pausa';
+      btn.classList.remove('btn-dark');
+      btn.classList.add('btn-danger');
+    }
+
+    btn.addEventListener('click', function () {
+      if (!speaking) {
+        start();
+      } else if (!paused) {
+        window.speechSynthesis.pause();
+        paused = true;
+        label.textContent = 'Riprendi';
+      } else {
+        window.speechSynthesis.resume();
+        paused = false;
+        label.textContent = 'Pausa';
+      }
+    });
+
+    // Voices load asynchronously in some browsers
+    if ('onvoiceschanged' in window.speechSynthesis) {
+      window.speechSynthesis.onvoiceschanged = function () { voicesReady = true; };
+    }
+  })();
+</script>
+
+<script src="{{ "js/site-assistant.js" | absURL }}" defer></script>

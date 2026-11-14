@@ -32,9 +32,9 @@
       </div>
     </div>
     <div class="row">
-      {{ range first 6 $featured.ByDate.Reverse }}
-        {{ partial "post_preview_card" . }}
-      {{ end }}
+      <div class="col-12">
+        {{ partial "featured_carousel.html" . }}
+      </div>
     </div>
   </div>
 </section>

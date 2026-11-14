@@ -10,7 +10,9 @@ Or you can delete these file if you don't need it.
 
 <style>
 /* Offset anchor targets below the fixed-top navbar */
-h2[id] {
+h2[id],
+h3[id],
+h4[id] {
   scroll-margin-top: 90px;
 }
 
@@ -175,6 +177,285 @@ h2[id] {
 }
 .blog-post table th {
   background: #f5f5f5;
+}
+
+/* Featured carousel */
+.featured-carousel {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.featured-slide {
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  background: #111418;
+}
+.featured-slide img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.featured-slide-overlay {
+  position: relative;
+  width: 100%;
+  padding: 2.5rem 2rem 2rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.88) 75%);
+}
+.featured-slide-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 0.5rem 0 0.5rem;
+}
+.featured-slide-desc {
+  max-width: 640px;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+.featured-slide-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.featured-slide-link i {
+  transition: transform 0.2s ease;
+}
+.featured-slide:hover .featured-slide-link i {
+  transform: translateX(4px);
+}
+.featured-carousel .carousel-control-prev,
+.featured-carousel .carousel-control-next {
+  width: 8%;
+}
+
+/* Table of contents (single post) */
+.post-toc {
+  background: #f8f9fa;
+  border: 1px solid #eeeeee;
+  border-left: 4px solid #ed1b2f;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.post-toc-summary {
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+  list-style-position: outside;
+}
+.post-toc-body {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+.post-toc-body ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.post-toc-body li {
+  margin: 0.3rem 0;
+}
+.post-toc-body a {
+  color: #4b4f56;
+  text-decoration: none;
+}
+.post-toc-body a:hover {
+  color: #ed1b2f;
+}
+.post-toc-body ul ul {
+  padding-left: 1.1rem;
+}
+</style>
+
+<style id="dark-mode-overrides">
+/* Curated dark mode (replaces the theme's invert filter) */
+:root[data-theme="dark"] {
+  filter: none !important;
+  -webkit-filter: none !important;
+  background-color: #111418 !important;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] body {
+  background-color: #111418 !important;
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] img,
+:root[data-theme="dark"] video,
+:root[data-theme="dark"] iframe,
+:root[data-theme="dark"] body [style*="background-image"] {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* Typography */
+:root[data-theme="dark"] .post-title,
+:root[data-theme="dark"] .post-preview a,
+:root[data-theme="dark"] a {
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .post-title:hover,
+:root[data-theme="dark"] .post-preview a:hover,
+:root[data-theme="dark"] a:hover {
+  color: #ff6b6b;
+}
+:root[data-theme="dark"] .post-meta,
+:root[data-theme="dark"] .page-meta,
+:root[data-theme="dark"] blockquote,
+:root[data-theme="dark"] .text-muted {
+  color: #9aa0a6 !important;
+}
+:root[data-theme="dark"] .post-preview .post-meta a,
+:root[data-theme="dark"] .post-heading .post-meta a {
+  color: #9aa0a6;
+}
+
+/* Navbar */
+:root[data-theme="dark"] .navbar,
+:root[data-theme="dark"] .nav-link {
+  background-color: rgba(17, 20, 24, 0.98) !important;
+}
+:root[data-theme="dark"] .navbar-brand,
+:root[data-theme="dark"] .navbar .nav-link {
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .navbar .nav-link:hover,
+:root[data-theme="dark"] .navbar .nav-link.active {
+  color: #ff6b6b;
+}
+:root[data-theme="dark"] .dropdown-menu {
+  background-color: #1c1f24;
+  border-color: #2a2e34;
+}
+:root[data-theme="dark"] .dropdown-item {
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .dropdown-item:hover {
+  background-color: #2a2e34;
+  color: #ffffff;
+}
+
+/* Cards & surfaces */
+:root[data-theme="dark"] .single-post-card,
+:root[data-theme="dark"] .single-post-card-haiku,
+:root[data-theme="dark"] .bg-faded-light,
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .well {
+  background-color: #1c1f24;
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .bg-black {
+  background-color: #171a1e;
+}
+:root[data-theme="dark"] .single-post-card {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.35);
+}
+:root[data-theme="dark"] .single-post-card:hover {
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.5) !important;
+}
+:root[data-theme="dark"] .home-intro-section {
+  background-color: #1c1f24;
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .header-section.has-img .no-img {
+  background: #171a1e;
+}
+
+/* Hero */
+:root[data-theme="dark"] .home-hero {
+  background: linear-gradient(180deg, #171a1e 0%, #111418 100%);
+  border-bottom-color: #2a2e34;
+}
+:root[data-theme="dark"] .home-hero-subtitle {
+  color: #9aa0a6;
+}
+
+/* Tables */
+:root[data-theme="dark"] table tr {
+  background-color: #1c1f24;
+  border-top-color: #2a2e34;
+}
+:root[data-theme="dark"] table tr:nth-child(2n) {
+  background-color: #171a1e;
+}
+:root[data-theme="dark"] table tr th,
+:root[data-theme="dark"] table tr td {
+  border-color: #2a2e34;
+}
+:root[data-theme="dark"] .blog-post table th {
+  background: #24282e;
+}
+
+/* Tags */
+:root[data-theme="dark"] .blog-tags a {
+  background: #24282e;
+  color: #c5c9cf;
+}
+:root[data-theme="dark"] .blog-tags a:hover {
+  background: #ed1b2f;
+  color: #ffffff;
+}
+
+/* TOC */
+:root[data-theme="dark"] .post-toc {
+  background: #1c1f24;
+  border-color: #2a2e34;
+  border-left-color: #ed1b2f;
+}
+:root[data-theme="dark"] .post-toc-body a {
+  color: #c5c9cf;
+}
+:root[data-theme="dark"] .post-toc-body a:hover {
+  color: #ff6b6b;
+}
+
+/* Pagination & buttons */
+:root[data-theme="dark"] .page-link {
+  color: #e6e8eb;
+  background-color: #1c1f24;
+  border-color: #2a2e34;
+}
+:root[data-theme="dark"] .page-item.active .page-link {
+  background-color: #ed1b2f;
+  border-color: #ed1b2f;
+  color: #ffffff;
+}
+:root[data-theme="dark"] .btn-dark {
+  background-color: #e6e8eb;
+  border-color: #e6e8eb;
+  color: #111418;
+}
+:root[data-theme="dark"] .btn-outline-dark {
+  border-color: #e6e8eb;
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] .btn-outline-dark:hover {
+  background-color: #e6e8eb;
+  color: #111418;
+}
+
+/* Footer */
+:root[data-theme="dark"] footer .footer-links a {
+  color: #e6e8eb;
+}
+:root[data-theme="dark"] footer .credits a {
+  color: #c5c9cf;
+}
+
+/* Search */
+:root[data-theme="dark"] .search-input {
+  color: #e6e8eb;
+}
+
+/* Back to top */
+:root[data-theme="dark"] #back-to-top {
+  background: #2a2e34;
+  color: #ffffff;
+}
+:root[data-theme="dark"] #back-to-top:hover {
+  background: #ed1b2f;
 }
 </style>
 <!-- for example, you could insert this custom css, which makes the bigimg not stretch:

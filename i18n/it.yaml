@@ -1,2 +1,4 @@
 - id: readingTime
   translation: "Tempo di lettura: "
+- id: tocLabel
+  translation: "Indice"

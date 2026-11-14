@@ -1,2 +1,4 @@
 - id: readingTime
   translation: "Reading time: "
+- id: tocLabel
+  translation: "Contents"
